@@ -48,15 +48,31 @@ public class DoubleLinkedList {
 
     }
 
+    // 删除节点
+    public void delete(DoubleLinkedList node){
+
+        // 用node来表示this.next
+        node.pre.next = node.next;
+        // 用node来表示this
+        node.next.pre = node.pre;
+    }
+
     // 获取节点数据
     public int getData(){
 
         return this.data;
     }
 
+    // 获取下一个节点
     public DoubleLinkedList next(){
 
         return this.next;
+    }
+
+    // 获取上一个节点
+    public DoubleLinkedList pre(){
+
+        return this.pre;
     }
 
 }
