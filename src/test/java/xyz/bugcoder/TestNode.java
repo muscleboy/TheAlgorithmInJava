@@ -25,5 +25,7 @@ public class TestNode {
         n1.show();
         n1.next().insert(new Node(10));
         n1.show();
+        n1.next().insert(new Node(22));
+        n1.show();
     }
 }

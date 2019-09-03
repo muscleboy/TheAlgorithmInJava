@@ -58,12 +58,18 @@ public class Node {
     **/
     public void insert(Node insertNode){
 
-        // 取出下个节点，作为下下个节点
-        Node nextNext = next;
-        // 当前节点的next为insertNode
-        next = insertNode;
-        // insertNode的下一个为下下个节点
-        insertNode.next = nextNext;
+        // 这个不够明白
+//        // 取出下个节点，作为下下个节点
+//        Node nextNext = next;
+//        // 当前节点的next为insertNode
+//        next = insertNode;
+//        // insertNode的下一个为下下个节点
+//        insertNode.next = nextNext;
+
+        // 将要当前节点的下一个设置为 插入的节点的下一个
+        insertNode.next = this.next;
+        // 将要插入的节点设置为 当前节点的下一个
+        this.next = insertNode;
     }
 
     /**

@@ -17,4 +17,16 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    @Test
+    public void test(){
+
+//        for (int i = 4; i >=2 ; i--) {
+//
+//            System.out.println(i);
+//        }
+
+        System.out.println(5/2);
+    }
+
 }
