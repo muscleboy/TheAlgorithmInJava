@@ -7,7 +7,7 @@ import java.util.List;
  * Create with IDEA.
  *
  * @Package: xyz.bugcoder.offer
- * @Description: 统计数组中重复数字
+ * @Description: 统计数组中重复数字O(n²)
  * @Date: 2019/9/12 17:29
  * @Author: Wyj
  */
@@ -32,6 +32,7 @@ public class CountRepeatNum {
             System.out.print(i + " ");
         }
         System.out.println();
+
     }
 
     public static void main(String[] args) {

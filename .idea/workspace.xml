@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/ReplaceSpaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/ReplaceSpaces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/SingleMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/SingleMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/CountRepeatNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/CountRepeatNum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,24 +47,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="java" value="31" />
+          <entry key="java" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="32" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="9" />
-          <entry key="java" value="7477" />
+          <entry key="java" value="8104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7477" />
+          <entry key="JAVA" value="8104" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -85,6 +84,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/GetElemIn2DSortedArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/ReplaceSpaces.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -94,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/CountRepeatNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="104">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/SingleMode.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/ReplaceSpaces.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/CountRepeatNum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/GetElemIn2DSortedArray.java" />
       </list>
     </option>
   </component>
@@ -330,7 +339,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568284366228" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568289114807" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -358,13 +367,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountRepeatNum">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.sort.BubbleSort" />
+  <component name="RunManager" selected="Application.GetElemIn2DSortedArray">
+    <configuration name="CountRepeatNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.offer.CountRepeatNum" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.sort.*" />
+          <option name="PATTERN" value="xyz.bugcoder.offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -372,8 +381,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountRepeatNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.offer.CountRepeatNum" />
+    <configuration name="GetElemIn2DSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.offer.GetElemIn2DSortedArray" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
@@ -425,19 +434,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.SelectSort" />
       <item itemvalue="Application.ReplaceSpaces" />
       <item itemvalue="Application.CountRepeatNum" />
+      <item itemvalue="Application.GetElemIn2DSortedArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetElemIn2DSortedArray" />
         <item itemvalue="Application.CountRepeatNum" />
         <item itemvalue="Application.ReplaceSpaces" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.SelectSort" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -470,7 +479,7 @@
       <workItem from="1567858230186" duration="2855000" />
       <workItem from="1567948437077" duration="626000" />
       <workItem from="1568188077745" duration="8640000" />
-      <workItem from="1568277456146" duration="3835000" />
+      <workItem from="1568277456146" duration="8302000" />
     </task>
     <servers />
   </component>
@@ -507,11 +516,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70420000" />
+    <option name="totallyTimeSpent" value="74887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="944" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49817517" visible="true" weight="0.16584766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -821,13 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/SingleMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/ReplaceSpaces.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -837,11 +838,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/CountRepeatNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="104">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/SingleMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/GetElemIn2DSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
