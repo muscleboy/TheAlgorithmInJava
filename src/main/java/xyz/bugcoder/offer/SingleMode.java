@@ -4,7 +4,7 @@ package xyz.bugcoder.offer;
  * Create with IDEA.
  *
  * @Package: xyz.bugcoder.offer
- * @Description: 单例模式
+ * @Description: 单例模式-02
  * @Date: 2019/9/12 17:05
  * @Author: Wyj
  */
