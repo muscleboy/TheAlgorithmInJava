@@ -54,27 +54,47 @@ public class App {
 //        }
 //    }
 
-    public static void selectSort(int[] arr){
+//    public static void selectSort(int[] arr){
+//
+//        for (int i = 0; i < arr.length - 1; i++) {
+//
+//            // 假设一个最小值，来找到真正的最小值
+//            int min = i;
+//            for (int j = i + 1; j < arr.length; j++) {
+//
+//                if (arr[j] < arr[min])
+//                    // 得到最小值的下标
+//                    min = j;
+//            }
+//
+//            // 如果 i != 最小值，则交换位置，就达到排序的效果了
+//            if (i != min){
+//
+//                int temp = arr[min];
+//                arr[min] = arr[i];
+//                arr[i] = temp;
+//            }
+//        }
+    // 插入排序
+    public static void insertSort(int[] arr){
 
-        for (int i = 0; i < arr.length - 1; i++) {
+        // 从下标为1的开始排序
+        for (int i = 1; i < arr.length; i++) {
 
-            // 假设一个最小值，来找到真正的最小值
-            int min = i;
-            for (int j = i + 1; j < arr.length; j++) {
+            // 存储当前值
+            int temp = arr[i];
+            int j = i;
+            // 从j向前遍历，遇到比前一位还小的，就错位交换
+            while (j > 0 && temp < arr[j - 1]){
 
-                if (arr[j] < arr[min])
-                    // 得到最小值的下标
-                    min = j;
+                arr[j] = arr[j - 1];
+                j --;
             }
 
-            // 如果 i != 最小值，则交换位置，就达到排序的效果了
-            if (i != min){
-
-                int temp = arr[min];
-                arr[min] = arr[i];
-                arr[i] = temp;
-            }
+            //
+            arr[j] = temp;
         }
+
     }
 
     public static void main( String[] args ) {
@@ -82,7 +102,8 @@ public class App {
         int[] arr = new int[]{1,43,645,86,7,4,53,2,76};
 //        bubbleSort(arr);
 //        quickSort(arr, 0, arr.length - 1);
-        selectSort(arr);
+//        selectSort(arr);
+        insertSort(arr);
         System.out.println(Arrays.toString(arr));
         System.out.println( "Hello World!" );
     }

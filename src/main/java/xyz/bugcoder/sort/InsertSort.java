@@ -45,7 +45,6 @@ public class InsertSort {
                 j --;
             }
 
-            // 此时j为0，
             arr[j] = temp;
         }
     }
