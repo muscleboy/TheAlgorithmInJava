@@ -11,7 +11,8 @@ public class App {
     // 冒泡排序
 //    public static void bubbleSort(int[] arr){
 //
-//        for (int i = 0; i < arr.length - 1; i++) {
+//        for (int i = 0; i < arr.length; i++) {
+//
 //            for (int j = 0; j < arr.length - 1 - i; j++) {
 //
 //                if (arr[j] > arr[j + 1]){
@@ -22,37 +23,39 @@ public class App {
 //                }
 //            }
 //        }
-//
-//        for (Integer i : arr) {
-//            System.out.print(i + " ");
-//        }
-//        System.out.println();
 //    }
 
     // 快速排序
-//    public static void quickSort(int[] arr, int left, int right){
-//
-//        if (left < right){
-//
-//            int low = left;
-//            int high = right;
-//            int standard = arr[left];
-//
-//            while (low != high){
-//
-//                if (arr[high] >= standard && low < high)
-//                    high --;
-//                arr[low] = arr[high];
-//                if (arr[low] <= standard && low < high)
-//                    low ++;
-//                arr[high] = arr[low];
-//            }
-//
-//            arr[low] = standard;
-//            quickSort(arr, left, low);
-//            quickSort(arr, low + 1, right);
-//        }
-//    }
+    public static void quickSort(int[] arr, int left, int right){
+
+        if (left < right){
+
+            // 左右指针
+           int low = left;
+           int high = right;
+           // 基准值
+           int pivot = arr[left];
+           while (low != high){
+
+               // 右往左，如果 >= pivot，前移
+               while (arr[high] >= pivot && low < high)
+                   high --;
+               // 遇到小于pivot的时候，high替换掉low的值
+               arr[low] = arr[high];
+               // 左往右，如果 <= pivot，后移
+               while (arr[low] <= pivot && low < high)
+                   low ++;
+               // 遇到大于pivot的时候，low替换掉high的值
+               arr[high] = arr[low];
+           }
+           // low位置为 pivot
+           arr[low] = pivot;
+           // 递归小于pivot的部分
+           quickSort(arr, left, low);
+           // 递归大于pivot的部分
+           quickSort(arr, low + 1, right);
+        }
+    }
 
 //    public static void selectSort(int[] arr){
 //
@@ -76,35 +79,56 @@ public class App {
 //            }
 //        }
     // 插入排序
-    public static void insertSort(int[] arr){
+//    public static void insertSort(int[] arr){
+//
+//        // 从下标为1的开始排序
+//        for (int i = 1; i < arr.length; i++) {
+//
+//            // 存储当前值
+//            int temp = arr[i];
+//            int j = i;
+//            // 从j向前遍历，遇到比前一位还小的，就错位交换
+//            while (j > 0 && temp < arr[j - 1]){
+//
+//                arr[j] = arr[j - 1];
+//                j --;
+//            }
+//
+//            //
+//            arr[j] = temp;
+//        }
+//
+//    }
 
-        // 从下标为1的开始排序
-        for (int i = 1; i < arr.length; i++) {
-
-            // 存储当前值
-            int temp = arr[i];
-            int j = i;
-            // 从j向前遍历，遇到比前一位还小的，就错位交换
-            while (j > 0 && temp < arr[j - 1]){
-
-                arr[j] = arr[j - 1];
-                j --;
-            }
-
-            //
-            arr[j] = temp;
-        }
-
-    }
+    // 希尔排序
+//    public static void shellSort(int[] arr){
+//
+//        int gap = arr.length/2;
+//        while (gap > 0){
+//
+//            for (int i = gap; i < arr.length; i++) {
+//                for (int j = i - gap; j >= 0 ; j -= gap) {
+//                    if (arr[j] > arr[gap + j]){
+//
+//                        int temp = arr[j];
+//                        arr[j] = arr[gap + j];
+//                        arr[gap + j] = temp;
+//                    }
+//                }
+//            }
+//
+//            gap /= 2;
+//        }
+//    }
 
     public static void main( String[] args ) {
 
         int[] arr = new int[]{1,43,645,86,7,4,53,2,76};
-//        bubbleSort(arr);
-//        quickSort(arr, 0, arr.length - 1);
-//        selectSort(arr);
-        insertSort(arr);
         System.out.println(Arrays.toString(arr));
-        System.out.println( "Hello World!" );
+//        bubbleSort(arr);
+        quickSort(arr, 0, arr.length - 1);
+//        selectSort(arr);
+//        insertSort(arr);
+        System.out.println(Arrays.toString(arr));
     }
 }
