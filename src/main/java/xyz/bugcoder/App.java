@@ -1,6 +1,8 @@
 package xyz.bugcoder;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * Hello world!
@@ -26,36 +28,36 @@ public class App {
 //    }
 
     // 快速排序
-    public static void quickSort(int[] arr, int left, int right){
-
-        if (left < right){
-
-            // 左右指针
-           int low = left;
-           int high = right;
-           // 基准值
-           int pivot = arr[left];
-           while (low != high){
-
-               // 右往左，如果 >= pivot，前移
-               while (arr[high] >= pivot && low < high)
-                   high --;
-               // 遇到小于pivot的时候，high替换掉low的值
-               arr[low] = arr[high];
-               // 左往右，如果 <= pivot，后移
-               while (arr[low] <= pivot && low < high)
-                   low ++;
-               // 遇到大于pivot的时候，low替换掉high的值
-               arr[high] = arr[low];
-           }
-           // low位置为 pivot
-           arr[low] = pivot;
-           // 递归小于pivot的部分
-           quickSort(arr, left, low);
-           // 递归大于pivot的部分
-           quickSort(arr, low + 1, right);
-        }
-    }
+//    public static void quickSort(int[] arr, int left, int right){
+//
+//        if (left < right){
+//
+//            // 左右指针
+//           int low = left;
+//           int high = right;
+//           // 基准值
+//           int pivot = arr[left];
+//           while (low != high){
+//
+//               // 右往左，如果 >= pivot，前移
+//               while (arr[high] >= pivot && low < high)
+//                   high --;
+//               // 遇到小于pivot的时候，high替换掉low的值
+//               arr[low] = arr[high];
+//               // 左往右，如果 <= pivot，后移
+//               while (arr[low] <= pivot && low < high)
+//                   low ++;
+//               // 遇到大于pivot的时候，low替换掉high的值
+//               arr[high] = arr[low];
+//           }
+//           // low位置为 pivot
+//           arr[low] = pivot;
+//           // 递归小于pivot的部分
+//           quickSort(arr, left, low);
+//           // 递归大于pivot的部分
+//           quickSort(arr, low + 1, right);
+//        }
+//    }
 
 //    public static void selectSort(int[] arr){
 //
@@ -121,14 +123,98 @@ public class App {
 //        }
 //    }
 
-    public static void main( String[] args ) {
+    // 剑指offer，替换空格
+//    public static String replaceSpaces(String str){
+//
+//        // 字符串转化成空格
+//        char[] str2char = str.toCharArray();
+//        // 空格数
+//        int spaces = 0;
+//        for (char c : str2char) {
+//            if (c == ' ')
+//                spaces ++;
+//        }
+//
+//        // 新数组的长度：原数组.length + spaces*2
+//        char[] result = new char[str2char.length + spaces*2];
+//        // 新旧数组的下边 i, j
+//        int i = str2char.length - 1;
+//        int j = result.length - 1;
+//        // 新数组从后往前遍历
+//        while (j >= 0){
+//
+//            // 没遇到空格，照常复制
+//            result[j] = str2char[i];
+//            // 遇到空格，j='0'，j-1='2',j-2='5'
+//            if (str2char[i] == ' '){
+//
+//                result[j] = '0';
+//                result[j - 1] = '2';
+//                result[j- 2] = '%';
+//                // -2是多出2位
+//                j -= 2;
+//            }
+//            // 依次向前
+//            j --;
+//            i --;
+//        }
+//
+//        return new String(result);
+//    }
 
-        int[] arr = new int[]{1,43,645,86,7,4,53,2,76};
-        System.out.println(Arrays.toString(arr));
+    // 统计数组中重复的数字
+//    public static void countRepeatNum(int[] arr){
+//
+//        List<Integer> repeateNums = new ArrayList<>();
+//        // 每一位与它的下一位比较
+//        for (int i = 0; i < arr.length - 1; i++) {
+//            // j = i，表示：当到达第j位的时候，不需要往前比较了，已经比过了
+//            for (int j = i; j < arr.length - 1; j++) {
+//
+//                if (arr[i] == arr[j + 1])
+//                    repeateNums.add(arr[i]);
+//            }
+//        }
+//
+//        for (Integer i : repeateNums) {
+//            System.out.print(i + " ");
+//        }
+//        System.out.println();
+//    }
+
+//  饿汉式单例模式
+//    private App() {
+//    }
+//
+//    public static App instance = new App();
+//    public static App getInstance(){
+//
+//        return instance;
+//    }
+
+//    懒汉式单例模式
+//    private App(){
+//    }
+//
+//    public static App instance = new App();
+//    public static App getInstance(){
+//
+//        if (instance == null)
+//            return new App();
+//        return instance;
+//    }
+
+    public static void main(String[] args ) {
+
+        int[] arr = new int[]{1,43,645,86,7,4,53,2,76,43,1,4};
+//        countRepeatNum(arr);
+//        String str = "we are happy ! ";
+//        System.out.println(replaceSpaces(str));
+//        System.out.println(Arrays.toString(arr));
 //        bubbleSort(arr);
-        quickSort(arr, 0, arr.length - 1);
+//        quickSort(arr, 0, arr.length - 1);
 //        selectSort(arr);
 //        insertSort(arr);
-        System.out.println(Arrays.toString(arr));
+//        System.out.println(Arrays.toString(arr));
     }
 }
