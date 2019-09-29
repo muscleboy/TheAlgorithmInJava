@@ -25,13 +25,23 @@ public class BinaryTree {
         root.frontShow();
     }
 
+    public void frontSearch(int i){
+
+        root.frontSearch(i);
+    }
+
     public void midShow(){
         root.midShow();
     }
 
-//    public void afterShow(){
-//        root.afterShow();
-//    }
+    public void midSearch(int i){
+
+        root.midSearch(i);
+    }
+
+    public void afterShow(){
+        root.afterShow();
+    }
 
     public static void main(String[] args) {
 
@@ -47,17 +57,25 @@ public class BinaryTree {
         root.setRightNode(rightNode);
 
         // 为第二层的节点再添加左右节点
-        leftNode.setLeftNode(new TreeNode(4));
-        leftNode.setRightNode(new TreeNode(5));
-        rightNode.setLeftNode(new TreeNode(6));
-        rightNode.setRightNode(new TreeNode(7));
+        TreeNode ll = new TreeNode(4);
+        TreeNode lr = new TreeNode(5);
+        TreeNode rl = new TreeNode(6);
+        TreeNode rr = new TreeNode(7);
+
+        leftNode.setLeftNode(ll);
+        leftNode.setRightNode(lr);
+        rightNode.setLeftNode(rl);
+        rightNode.setRightNode(rr);
 
         // 先序遍历
-        root.frontShow();
-        System.out.println("=========");
-        root.midShow();
-        System.out.println("=========");
-        root.afterShow();
+//        root.frontShow();
+//        System.out.println("=========");
+//        root.midShow();
+//        System.out.println("=========");
+//        root.afterShow();
+//        System.out.println(root.frontSearch(8));
+        System.out.println(root.midSearch(7));
+        System.out.println(lr);
     }
 
 }

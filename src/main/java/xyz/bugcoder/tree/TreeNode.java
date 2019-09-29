@@ -58,6 +58,27 @@ public class TreeNode {
         }
     }
 
+    // 前序查找
+    public TreeNode frontSearch(int i){
+
+        TreeNode target = null;
+        if (this.value == i)
+            return this;
+        else {
+
+            if (leftNode != null)
+                target = leftNode.frontSearch(i);
+
+            if (target != null)
+                return target;
+
+            if (rightNode != null)
+                target = rightNode.frontSearch(i);
+        }
+
+        return target;
+    }
+
     // 中序遍历
     public void midShow(){
 
@@ -70,6 +91,26 @@ public class TreeNode {
 
             rightNode.midShow();
         }
+    }
+
+    // 中序查找
+    public TreeNode midSearch(int i){
+
+        TreeNode target = null;
+
+        if (leftNode != null){
+
+            target = leftNode.midSearch(i);
+        }else {
+
+            if (this.value == i)
+                return this;
+
+            if (rightNode != null)
+                target = rightNode.midSearch(i);
+        }
+
+        return target;
     }
 
     // 后序遍历
@@ -85,5 +126,27 @@ public class TreeNode {
         }
         System.out.println(value);
     }
+
+    // 后序查找
+//    public TreeNode afterSearch(int i){
+//
+//        TreeNode target = null;
+//        if (leftNode.value == i){
+//
+//            return this;
+//        }else {
+//
+//            if (rightNode != null)
+//                target = rightNode.afterSearch(i);
+//
+//            if (target != null)
+//                return target;
+//
+//            if (this != null)
+//                target = this.afterSearch(i);
+//        }
+//
+//        return target;
+//    }
 
 }
