@@ -14,12 +14,12 @@ package xyz.bugcoder.offer;
  */
 public class FindNumIn2DArray_04 {
 
-    // 普通解法，时间复杂度O(n²)
-    public static boolean findNum(int[][] arr, int a){
+    // 普通解法，时间复杂度O(MxN)
+    public static boolean findNum(int[][] arr, int target){
 
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
-                if (arr[i][j] == a)
+                if (arr[i][j] == target)
                     return true;
             }
         }
@@ -33,7 +33,7 @@ public class FindNumIn2DArray_04 {
                        {2,4,9,12},
                        {4,7,10,13},
                        {6,8,11,15}};
-        System.out.println(findNum(arr, 0));
+        System.out.println(findNum(arr, 10));
     }
 
 }
