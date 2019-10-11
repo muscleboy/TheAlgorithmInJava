@@ -14,26 +14,37 @@ package xyz.bugcoder.offer;
  */
 public class FindNumIn2DArray_04 {
 
-    // 普通解法，时间复杂度O(MxN)
-    public static boolean findNum(int[][] arr, int target){
+    // 时间复杂度O(MxN)
+    public static boolean findNum(int[][] matrix, int target){
 
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[i].length; j++) {
-                if (arr[i][j] == target)
-                    return true;
-            }
+        // 总的行，列
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+        // 从右上角(0, col-1)开始查找
+        int r = 0;
+        int c = cols - 1;
+        while (r <= rows - 1 && c >= 0){
+
+            if (target == matrix[r][c])
+                return true;
+            else if (target > matrix[r][c])
+                r ++;
+            else
+                c --;
         }
-
         return false;
     }
 
     public static void main(String[] args) {
 
-        int arr[][] = {{1,2,8,9},
-                       {2,4,9,12},
-                       {4,7,10,13},
-                       {6,8,11,15}};
-        System.out.println(findNum(arr, 10));
+        int arr[][] = {
+                {1, 4, 7, 11, 15},
+                {2, 5, 8, 12, 19},
+                {3, 6, 9, 16, 22},
+                {10, 13, 14, 17, 24},
+                {18, 21, 23, 26, 30}
+        };
+        System.out.println(findNum(arr, 15));
     }
 
 }

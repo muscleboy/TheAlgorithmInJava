@@ -8,21 +8,54 @@ package xyz.bugcoder.test;
  * @Date: 2019-10-09 14:51
  * @Author: Wyj
  */
-public class Test {
+public abstract class Test {
 
-    public static void test(StringBuffer str){
+    public abstract void fun();
 
-        String s = String.valueOf(str);
-        char[] chs = s.toCharArray();
-        for (char c : chs) {
-            System.out.print(c + " ");
+    private static class Dog{
+        String name;
+
+        public Dog(String name) {
+            this.name = name;
         }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+         String getObjectAddress(){
+            return super.toString();
+        }
+
     }
 
     public static void main(String[] args) {
 
-        StringBuffer sb = new StringBuffer("We are happy!");
-        Test.test(sb);
+        Dog d = new Test.Dog("1");
+        double a = 11 * 15;
+        if (d instanceof Dog)
+            System.out.println("a");
+    }
+
+
+    // String
+    @org.junit.Test
+    public void test(){
+
+        String s1 = new String("asdf");
+        String s2 = new String("asdf");
+        System.out.println(s1 == s2);  // false
+        // intern()将a1引用的字符串添加到String Pool，并返回这个字符串的引用
+        String s3 = s1.intern();
+        String s4 = s2.intern();
+        System.out.println(s3 == s4); // true
+
+        short s = 1;
+        byte b = 1;
+        System.out.println(s);
     }
 
 }
