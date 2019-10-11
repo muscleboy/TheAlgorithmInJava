@@ -1,6 +1,7 @@
 package xyz.bugcoder.offer;
 
 import java.util.ArrayList;
+import java.util.Stack;
 
 /**
  * Create with IDEA.
@@ -24,29 +25,48 @@ class Node{
 
 public class PrintListFromTail2Head_06 {
 
-    public static ArrayList<Integer> printListFromTail2Head(Node node){
+    // 常规写法
+//    public static ArrayList<Integer> printListFromTail2Head(Node node){
+//
+//        // 临时变量
+//        ArrayList<Integer> temp = new ArrayList<>();
+//        ArrayList<Integer> result = new ArrayList<>();
+//        // 循环遍历链表的值，放入temp中
+//        while (node != null){
+//
+//            temp.add(node.val);
+//            node = node.next;
+//        }
+//        // 倒序循环，放入result
+//        for (int i = temp.size() - 1; i >= 0 ; i --) {
+//
+//            result.add(temp.get(i));
+//        }
+//
+//        for (Integer i : result) {
+//            System.out.print(i + " ");
+//        }
+//        System.out.println();
+//
+//        return result;
+//    }
 
-        // 临时变量
-        ArrayList<Integer> temp = new ArrayList<>();
-        ArrayList<Integer> result = new ArrayList<>();
-        // 循环遍历链表的值，放入temp中
+    // 基于栈实现
+    public static void printListFromTail2Head(Node node){
+
+        // new一个栈
+        Stack s = new Stack();
+        // 遍历链表的值，添加到栈中
         while (node != null){
 
-            temp.add(node.val);
+            s.push(node.val);
             node = node.next;
         }
-        // 倒序循环，放入result
-        for (int i = temp.size() - 1; i >= 0 ; i --) {
+        // 出栈
+        while (!s.isEmpty()){
 
-            result.add(temp.get(i));
+            System.out.print(s.pop() + " ");
         }
-
-        for (Integer i : result) {
-            System.out.print(i + " ");
-        }
-        System.out.println();
-
-        return result;
     }
 
     public static void main(String[] args) {
