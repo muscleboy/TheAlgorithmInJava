@@ -35,13 +35,13 @@ public class ReplaceSpaces_05 {
 
             // 没遇到空格，照常复制
             result[j] = str2char[i];
-            // 遇到空格，j='0'，j-1='2',j-2='5'
+            // 遇到空格，j='0'，j-1='2',j-2='%'
             if (str2char[i] == ' '){
 
                 result[j] = '0';
                 result[j - 1] = '2';
                 result[j- 2] = '%';
-                // -2是多出2位
+                // -2是多出的d2位
                 j -= 2;
             }
             // 依次向前

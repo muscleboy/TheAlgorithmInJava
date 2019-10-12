@@ -12,14 +12,6 @@ import java.util.Arrays;
  */
 public class TestInsertSort {
 
-    public static void main(String[] args) {
-        int[] arr = {1,4,6,54,3,7,8,5};
-        System.out.println(Arrays.toString(arr));
-//        insertSort(arr);
-        quickSort(arr, 0, arr.length);
-        System.out.println(Arrays.toString(arr));
-    }
-
     // 插入排序
     public static void insertSort(int[] arr){
 
@@ -58,9 +50,30 @@ public class TestInsertSort {
     }
 
     // 希尔排序
-    public static void ShellSort(int[] arr){
+    public static void shellSort(int[] arr){
 
+        int gap = arr.length/2;
+        while (gap > 0){
+            // i (gap ~ arr.length)
+            for (int i = gap; i < arr.length; i++) {
+                // 只循环一次
+                for (int j = i - gap; j >= 0 ; j -= gap) {
+                    if (arr[j] > arr[j + gap]){
+                        int temp = arr[j];
+                        arr[j] = arr[gap + j];
+                        arr[gap + j] = temp;
+                    }
+                }
+            }
+            gap/=2;
+        }
+    }
 
+    public static void main(String[] args) {
+        int[] arr = {6,4,1,3,2,5,3,7,62,4,6,78,5,4,4,2,13,54};
+        insertSort(arr);
+        quickSort(arr, 0, arr.length);
+        shellSort(arr);
     }
 
 }
