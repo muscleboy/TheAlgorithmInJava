@@ -12,6 +12,7 @@ public class Example {
 
     public int id;
     public String name;
+    private int MAX_LENGTH = 18;
 
     @Override
     public String toString() {

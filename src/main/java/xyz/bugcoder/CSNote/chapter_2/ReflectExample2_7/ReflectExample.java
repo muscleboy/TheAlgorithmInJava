@@ -15,7 +15,7 @@ import java.lang.reflect.Method;
  */
 public class ReflectExample {
 
-    public static void main(String[] args) throws IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
+    public static void main(String[] args) throws IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException, NoSuchFieldException {
 
         // 获取到Class对象
         Class<Example> exampleClass = Example.class;
@@ -51,11 +51,18 @@ public class ReflectExample {
         // 通过newInstance()创建一个对象，会执行空的构造函数
 //        Example example = exampleClass.newInstance();
 
-        // 通过反射获取成员变量，只能获取到Public修饰的
-        Field[] fields = exampleClass.getFields();
-        for (Field f : fields) {
-            System.out.println(f);
-        }
+        // 通过反射获取成员变量，这样只能获取到Public修饰的
+//        Field[] fields = exampleClass.getFields();
+//        for (Field f : fields) {
+//            System.out.println(f);
+//        }
+
+        // 通过反射访问private
+        Field f = exampleClass.getDeclaredField("MAX_LENGTH");
+        f.setAccessible(true);
+        System.out.println(f);
+//        f.set(Integer.class, 20);
+//        System.out.println(f);
     }
 
 }

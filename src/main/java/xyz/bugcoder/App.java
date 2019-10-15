@@ -204,9 +204,39 @@ public class App {
 //        return instance;
 //    }
 
+    // 二分查找
+//    public static int binarySearch(int[] arr, int target){
+//
+//        int left = 0;
+//        int right = arr.length - 1;
+//        while (left <= right){
+//            int mid = (left + right)/2;
+//            if (arr[mid] == target){
+//                return mid;
+//            }
+//            if (arr[mid] > target)
+//                right = mid - 1;
+//            if (arr[mid] < target)
+//                left = mid + 1;
+//        }
+//        return -1;
+//    }
+
+//    public static void nine(){
+//        for (int i = 1; i < 10; i++) {
+//            for (int j = i; j < 10; j++) {
+//                System.out.print(i + "*" + j + "=" + i*j + " ");
+//            }
+//            System.out.println();
+//        }
+//    }
+
     public static void main(String[] args ) {
 
-        int[] arr = new int[]{1,43,645,86,7,4,53,2,76,43,1,4};
+//        int[] arr = new int[]{1,43,645,86,7,4,53,2,76,43,1,4};
+        int[] arr = new int[]{1,2,3,4,5,6,7,8,9};
+//        nine();
+//        System.out.println(binarySearch(arr, 9));
 //        countRepeatNum(arr);
 //        String str = "we are happy ! ";
 //        System.out.println(replaceSpaces(str));
