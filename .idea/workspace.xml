@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/InterfaceClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/InterfaceClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/InterfaceClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/InterfaceClassExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,125 +43,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/InterfaceClass.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/InterfaceClassExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-              <folding>
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/App.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/InterfaceExtendTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="238" column="17" selection-start-line="238" selection-start-column="17" selection-end-line="238" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1571104506014" expanded="true" signature="3110:4097" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
-              <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/GeDeBaHeCaiXiang.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-              <folding>
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="250">
+              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/IsPowerOfTwo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/InterfaceClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="518">
+              <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
               <folding>
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/CountRepeatNum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="39" column="36" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/MyThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-              <folding>
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/AbstractExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-              <folding>
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/AbstractClassExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/Base.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -191,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/SelectSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/ReplaceStr.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/GetElemIn2DSortedArray.java" />
@@ -235,13 +143,14 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ReflectExample2_7/ReflectExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/Base.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/AbstractExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/InterfaceClassExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/AbstractClassExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/InterfaceClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/MyThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/GeDeBaHeCaiXiang.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/IsPowerOfTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/InterfaceExtendTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/InterfaceClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/InterfaceClassExample.java" />
       </list>
     </option>
   </component>
@@ -438,7 +347,20 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="CSNote" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="CSNote" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_2" type="462c0819:PsiDirectoryNode" />
+              <item name="ExtendExample2_4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -452,7 +374,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571224881911" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571226114715" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -480,13 +402,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IsPowerOfTwo">
-    <configuration name="Base" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.Base" />
+  <component name="RunManager" selected="Application.InterfaceClass">
+    <configuration name="GeDeBaHeCaiXiang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.interview.GeDeBaHeCaiXiang" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.*" />
+          <option name="PATTERN" value="xyz.bugcoder.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -494,12 +416,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeDeBaHeCaiXiang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.interview.GeDeBaHeCaiXiang" />
+    <configuration name="InterfaceClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.CSNote.chapter_2.ExtendExample2_4.InterfaceClass" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.interview.*" />
+          <option name="PATTERN" value="xyz.bugcoder.CSNote.chapter_2.ExtendExample2_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -548,18 +470,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Base" />
       <item itemvalue="Application.MyThread" />
       <item itemvalue="Application.GeDeBaHeCaiXiang" />
       <item itemvalue="Application.IsPowerOfTwo" />
+      <item itemvalue="Application.InterfaceClass" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterfaceClass" />
         <item itemvalue="Application.IsPowerOfTwo" />
         <item itemvalue="Application.GeDeBaHeCaiXiang" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.MyThread" />
-        <item itemvalue="Application.Base" />
       </list>
     </recent_temporary>
   </component>
@@ -616,7 +538,7 @@
       <workItem from="1571101260998" duration="3153000" />
       <workItem from="1571127654813" duration="13322000" />
       <workItem from="1571191299177" duration="1303000" />
-      <workItem from="1571219021776" duration="5783000" />
+      <workItem from="1571219021776" duration="7106000" />
     </task>
     <servers />
   </component>
@@ -653,10 +575,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192151000" />
+    <option name="totallyTimeSpent" value="193474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="944" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49636805" visible="true" weight="0.1431204" />
       <window_info id="Structure" order="1" sideWeight="0.50363195" side_tool="true" weight="0.14987715" />
@@ -669,7 +592,7 @@
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="3" weight="0.32992327" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.7372881" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.27602905" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.3292978" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.3292978" />
@@ -742,7 +665,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/GetElemIn2DSortedArray.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/SelectSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
@@ -1026,17 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/RegularExpressionMatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ReflectExample2_7/Example.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -1050,24 +961,6 @@
           <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/InterfaceClassExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/InterfaceClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1094,13 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -1112,13 +998,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/CountRepeatNum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/RegularExpressionMatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="39" column="36" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="519">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1129,6 +1019,16 @@
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1571104506014" expanded="true" signature="3110:4097" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1144,23 +1044,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/IsPowerOfTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+        <state relative-caret-position="243">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/CountRepeatNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/IsPowerOfTwo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/InterfaceExtendTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="250">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/InterfaceClassExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ExtendExample2_4/InterfaceClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
           <folding>
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
           </folding>
         </state>
       </provider>
