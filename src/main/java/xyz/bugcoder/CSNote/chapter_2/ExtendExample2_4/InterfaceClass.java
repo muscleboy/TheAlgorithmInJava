@@ -10,6 +10,10 @@ package xyz.bugcoder.CSNote.chapter_2.ExtendExample2_4;
  */
 public class InterfaceClass implements InterfaceClassExample {
 
+    public static void fun3(){
+        System.out.println("接口中的fun3()");
+    }
+
     @Override
     public void fun1() {
 
