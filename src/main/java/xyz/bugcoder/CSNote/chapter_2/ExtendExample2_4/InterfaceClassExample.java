@@ -14,8 +14,15 @@ public interface InterfaceClassExample{
 //    protected int x = 0;
 //    private void fun();
     String name1 = "接口子类";
-    // 接口中的方法默认为 public, 但可以修改为default
-    void son1();
+    // 接口中字段默认public,static, final
+    public static final int MAX = 10;
+    // 接口中的方法默认为 public,abstract. 但可以修改为default
+    public abstract void son1();
     void son2();
-
+//    static void s3(){
+//        System.out.println("s3()");
+//    }
+//    default void s4(){
+//        System.out.println("s4()");
+//    }
 }

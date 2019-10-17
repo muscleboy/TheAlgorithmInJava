@@ -82,44 +82,58 @@ public class App {
 //        }
     // 插入排序
 //    public static void insertSort(int[] arr){
-//
-//        // 从下标为1的开始排序
+//        // 从第一位开始
 //        for (int i = 1; i < arr.length; i++) {
-//
-//            // 存储当前值
+//            // 记录当前位置的值
 //            int temp = arr[i];
 //            int j = i;
-//            // 从j向前遍历，遇到比前一位还小的，就错位交换
+//            // 当前位<当前位-1，就替换
 //            while (j > 0 && temp < arr[j - 1]){
-//
 //                arr[j] = arr[j - 1];
 //                j --;
 //            }
-//
-//            //
 //            arr[j] = temp;
 //        }
-//
 //    }
 
     // 希尔排序
-//    public static void shellSort(int[] arr){
-//
-//        int gap = arr.length/2;
-//        while (gap > 0){
-//
-//            for (int i = gap; i < arr.length; i++) {
-//                for (int j = i - gap; j >= 0 ; j -= gap) {
-//                    if (arr[j] > arr[gap + j]){
-//
-//                        int temp = arr[j];
-//                        arr[j] = arr[gap + j];
-//                        arr[gap + j] = temp;
-//                    }
-//                }
+//      public static void shellSort(int[] arr){
+//          int gap = arr.length/2;
+//          while (gap > 0){
+//              // 从gap开始，arr.length-gap次
+//              for (int i = gap; i < arr.length; i++) {
+//                  // i=gap，使得J从0开始，由外层控制次数
+//                  for (int j = i - gap; j > 0 ; j -= gap) {
+//                      // 交换
+//                      if (arr[j] > arr[j + gap]){
+//                          int temp = arr[j];
+//                          arr[j] = arr[j + gap];
+//                          arr[j + gap] = temp;
+//                      }
+//                  }
+//              }
+//              // 每次间隔/2减半
+//              gap /= 2;
+//          }
+//      }
+
+    // 选择排序
+//    public static void selectSort(int[] arr){
+//        // 需要比较n-1次
+//        for (int i = 0; i < arr.length; i++) {
+//            // 假设一个最小值
+//            int min = i;
+//            // 从i+1位开始，找到新的最小值
+//            for (int j = i + 1; j < arr.length; j++) {
+//                if (arr[j] < arr[min])
+//                    min = j;
 //            }
-//
-//            gap /= 2;
+//            // 交换位置，第一次将第一小的放到了第一位....
+//            if (i != min){
+//                int temp = arr[i];
+//                arr[i] = arr[min];
+//                arr[min] = temp;
+//            }
 //        }
 //    }
 
@@ -233,8 +247,8 @@ public class App {
 
     public static void main(String[] args ) {
 
-//        int[] arr = new int[]{1,43,645,86,7,4,53,2,76,43,1,4};
-        int[] arr = new int[]{1,2,3,4,5,6,7,8,9};
+        int[] arr = new int[]{1,43,645,86,7,4,53,2,76,43,1,4};
+//        int[] arr = new int[]{1,2,3,4,5,6,7,8,9};
 //        nine();
 //        System.out.println(binarySearch(arr, 9));
 //        countRepeatNum(arr);
@@ -245,6 +259,9 @@ public class App {
 //        quickSort(arr, 0, arr.length - 1);
 //        selectSort(arr);
 //        insertSort(arr);
-//        System.out.println(Arrays.toString(arr));
+//        shellSort(arr);
+        String s = new String("asdf");
+        StringBuffer sb = new StringBuffer();
+        System.out.println(Arrays.toString(arr));
     }
 }

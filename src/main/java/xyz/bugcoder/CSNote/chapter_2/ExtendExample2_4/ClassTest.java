@@ -11,19 +11,22 @@ package xyz.bugcoder.CSNote.chapter_2.ExtendExample2_4;
 public class ClassTest {
 
     public static void main(String[] args) {
-        A a = new A();
-        B b = new B();
-        C c = new C();
-        D d = new D();
-        a.show(a);
-        a.show(b);
-        a.show(c);
-        a.show(d);
-        System.out.println("=======");
-        b.show(a);
-        b.show(b);
-        b.show(c);
-        b.show(d);
+//        A a = new A();
+//        B b = new B();
+//        C c = new C();
+//        D d = new D();
+//        a.show(a);
+//        a.show(b);
+//        a.show(c);
+//        a.show(d);
+//        System.out.println("=======");
+//        b.show(a);
+//        b.show(b);
+//        b.show(c);
+//        b.show(d);
+        // a.show(A), a.show(C)
+        A a = new B();
+        C c = new D();
     }
 
 }

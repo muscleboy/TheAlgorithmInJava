@@ -39,6 +39,11 @@ public class BinaryTree {
         root.midSearch(i);
     }
 
+    public void delete(int i){
+        if (root != null)
+            root.delete(i);
+    }
+
     public void afterShow(){
         root.afterShow();
     }
@@ -73,9 +78,8 @@ public class BinaryTree {
 //        root.midShow();
 //        System.out.println("=========");
 //        root.afterShow();
-//        System.out.println(root.frontSearch(8));
-        System.out.println(root.midSearch(7));
-        System.out.println(lr);
+        System.out.println(root.frontSearch(3));
+//        System.out.println(root.midSearch(3));
     }
 
 }

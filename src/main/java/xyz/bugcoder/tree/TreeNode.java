@@ -93,13 +93,17 @@ public class TreeNode {
         }
     }
 
+    @Override
+    public String toString() {
+        return ""+this.value;
+    }
+
     // 中序查找
     public TreeNode midSearch(int i){
 
         TreeNode target = null;
 
         if (leftNode != null){
-
             target = leftNode.midSearch(i);
         }else {
 
@@ -125,6 +129,10 @@ public class TreeNode {
             rightNode.afterShow();
         }
         System.out.println(value);
+    }
+
+    public void delete(int i) {
+
     }
 
     // 后序查找
