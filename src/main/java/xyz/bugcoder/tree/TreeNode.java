@@ -1,5 +1,8 @@
 package xyz.bugcoder.tree;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * Create with IDEA.
  *
@@ -132,6 +135,29 @@ public class TreeNode {
     }
 
     public void delete(int i) {
+
+    }
+
+    // 层序遍历二叉树;
+    public void levelTraverse(TreeNode root){
+
+        // 将LinkedList用作队列，利用队列的先进先出遍历
+        LinkedList<TreeNode> list = new LinkedList<>();
+        // 将根结点入队
+        list.offer(root);
+        // 记录当前节点
+        TreeNode current;
+        while (!list.isEmpty()) {
+            // 先进先出
+            current = list.poll();
+            System.out.print(current.value + " ");
+            if (current.leftNode != null)
+                // 左节点入队
+                list.offer(current.leftNode);
+            if (current.rightNode != null)
+                // 右节点入队
+                list.offer(current.rightNode);
+        }
 
     }
 

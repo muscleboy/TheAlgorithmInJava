@@ -1,9 +1,9 @@
-package xyz.bugcoder.CSNote.chapter_2.ExtendExample2_4;
+package xyz.bugcoder.CSNote.chapter2_1.ExtendExample2_4;
 
 /**
  * Create with IDEA.
  *
- * @Package: xyz.bugcoder.CSNote.chapter_2.ExtendExample2_4
+ * @Package: xyz.bugcoder.CSNote.chapter2_1.ExtendExample2_4
  * @Description: 接口继承接口
  * @Date: 2019-10-16 19:33
  * @Author: Wyj

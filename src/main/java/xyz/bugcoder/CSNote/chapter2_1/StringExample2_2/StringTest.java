@@ -1,9 +1,9 @@
-package xyz.bugcoder.CSNote.chapter_2.StringExample2_2;
+package xyz.bugcoder.CSNote.chapter2_1.StringExample2_2;
 
 /**
  * Create with IDEA.
  *
- * @Package: xyz.bugcoder.CSNote.chapter_2.StringExample2_2
+ * @Package: xyz.bugcoder.CSNote.chapter2_1.StringExample2_2
  * @Description:
  * String: java9之后，private final byte value[]实现，使用coder来标识编码
  *                  由于使用final来实现的，所以是不可变的(线程安全)

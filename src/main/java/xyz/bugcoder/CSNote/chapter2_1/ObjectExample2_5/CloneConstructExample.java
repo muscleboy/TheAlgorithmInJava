@@ -1,9 +1,9 @@
-package xyz.bugcoder.CSNote.chapter_2.ObjectExample2_5;
+package xyz.bugcoder.CSNote.chapter2_1.ObjectExample2_5;
 
 /**
  * Create with IDEA.
  *
- * @Package: xyz.bugcoder.CSNote.chapter_2.ObjectExample2_5
+ * @Package: xyz.bugcoder.CSNote.chapter2_1.ObjectExample2_5
  * @Description: 使用clone()复制对象，需要类型转换，还会抛出异常，代价太高
  * @Date: 2019-10-12 15:54
  * @Author: Wyj

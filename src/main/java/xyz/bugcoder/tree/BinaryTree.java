@@ -78,8 +78,9 @@ public class BinaryTree {
 //        root.midShow();
 //        System.out.println("=========");
 //        root.afterShow();
-        System.out.println(root.frontSearch(3));
+//        System.out.println(root.frontSearch(3));
 //        System.out.println(root.midSearch(3));
+        root.levelTraverse(root);
     }
 
 }

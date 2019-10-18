@@ -1,9 +1,9 @@
-package xyz.bugcoder.CSNote.chapter_2.ObjectExample2_5;
+package xyz.bugcoder.CSNote.chapter2_1.ObjectExample2_5;
 
 /**
  * Create with IDEA.
  *
- * @Package: xyz.bugcoder.CSNote.chapter_2.ObjectExample2_5
+ * @Package: xyz.bugcoder.CSNote.chapter2_1.ObjectExample2_5
  * @Description: 浅复制，同一对象
  * @Date: 2019-10-12 11:43
  * @Author: Wyj

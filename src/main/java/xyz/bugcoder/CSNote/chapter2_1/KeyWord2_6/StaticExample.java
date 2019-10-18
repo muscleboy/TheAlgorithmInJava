@@ -1,9 +1,9 @@
-package xyz.bugcoder.CSNote.chapter_2.KeyWord2_6;
+package xyz.bugcoder.CSNote.chapter2_1.KeyWord2_6;
 
 /**
  * Create with IDEA.
  *
- * @Package: xyz.bugcoder.CSNote.chapter_2.KeyWord2_6
+ * @Package: xyz.bugcoder.CSNote.chapter2_1.KeyWord2_6
  * @Description:  存在继承的情况下，初始化顺序：静态优先构造，父类优先子类
  * @Date: 2019-10-12 16:22
  * @Author: Wyj

@@ -1,11 +1,11 @@
-package xyz.bugcoder.CSNote.chapter_2.ObjectExample2_5;
+package xyz.bugcoder.CSNote.chapter2_1.ObjectExample2_5;
 
 import java.util.HashSet;
 
 /**
  * Create with IDEA.
  *
- * @Package: xyz.bugcoder.CSNote.chapter_2.ObjectExample2_5
+ * @Package: xyz.bugcoder.CSNote.chapter2_1.ObjectExample2_5
  * @Description: equals的实现
  * @Date: 2019-10-12 10:36
  * @Author: Wyj

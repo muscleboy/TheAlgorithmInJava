@@ -1,4 +1,4 @@
-package xyz.bugcoder.CSNote.chapter_2.ReflectExample2_7;
+package xyz.bugcoder.CSNote.chapter2_1.ReflectExample2_7;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -8,7 +8,7 @@ import java.lang.reflect.Method;
 /**
  * Create with IDEA.
  *
- * @Package: xyz.bugcoder.CSNote.chapter_2.ReflectExample2_7
+ * @Package: xyz.bugcoder.CSNote.chapter2_1.ReflectExample2_7
  * @Description: Java反射
  * @Date: 2019-10-12 17:09
  * @Author: Wyj

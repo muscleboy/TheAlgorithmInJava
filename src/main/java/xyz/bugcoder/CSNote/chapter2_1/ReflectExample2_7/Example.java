@@ -1,9 +1,9 @@
-package xyz.bugcoder.CSNote.chapter_2.ReflectExample2_7;
+package xyz.bugcoder.CSNote.chapter2_1.ReflectExample2_7;
 
 /**
  * Create with IDEA.
  *
- * @Package: xyz.bugcoder.CSNote.chapter_2.ReflectExample2_7
+ * @Package: xyz.bugcoder.CSNote.chapter2_1.ReflectExample2_7
  * @Description:
  * @Date: 2019-10-14 10:22
  * @Author: Wyj
