@@ -1,7 +1,6 @@
 package xyz.bugcoder.tree;
 
 import java.util.LinkedList;
-import java.util.Queue;
 
 /**
  * Create with IDEA.
@@ -50,7 +49,7 @@ public class TreeNode {
     // 先序遍历
     public void frontShow() {
 
-        System.out.println(value);
+        System.out.print(value + " ");
         if (leftNode != null){
 
             leftNode.frontShow();
@@ -89,7 +88,7 @@ public class TreeNode {
 
             leftNode.midShow();
         }
-        System.out.println(value);
+        System.out.print(value + " ");
         if (rightNode != null) {
 
             rightNode.midShow();
@@ -131,11 +130,34 @@ public class TreeNode {
 
             rightNode.afterShow();
         }
-        System.out.println(value);
+        System.out.print(value + " ");
     }
 
+    // 删除一个节点
     public void delete(int i) {
+        TreeNode parent = this;
+        //判断左儿子
+        if(parent.leftNode!=null&&parent.leftNode.value==i) {
+            parent.leftNode=null;
+            return;
+        }
+        //判断右儿子
+        if(parent.rightNode!=null&&parent.rightNode.value==i) {
+            parent.rightNode=null;
+            return;
+        }
 
+        //递归检查并删除左儿子
+        parent=leftNode;
+        if(parent!=null) {
+            parent.delete(i);
+        }
+
+        //递归检查并删除右儿子
+        parent=rightNode;
+        if(parent!=null) {
+            parent.delete(i);
+        }
     }
 
     // 层序遍历二叉树;
