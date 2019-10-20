@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="" />
+    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/HeapSort.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/tree/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
+            <state relative-caret-position="3025">
               <caret line="137" column="16" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
               <folding>
                 <element signature="e#330#331#0" expanded="true" />
@@ -69,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/tree/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="1150">
               <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="e#246#247#0" expanded="true" />
@@ -84,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/tree/TestBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
+            <state relative-caret-position="1150">
               <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
             </state>
           </provider>
@@ -93,16 +96,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/tree/Array2BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="400">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding>
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#1249#1250#0" expanded="true" />
-                <element signature="e#1275#1276#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="1953">
+              <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -244,6 +241,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -301,14 +299,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571497167505" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571537684137" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -408,9 +405,9 @@
     <list>
       <item itemvalue="Application.BinaryTree" />
       <item itemvalue="Application.TestBinaryTree" />
-      <item itemvalue="JUnit.Array2BinaryTree.test" />
       <item itemvalue="Application.TestArray2BinaryTree" />
       <item itemvalue="Application.HeapSort" />
+      <item itemvalue="JUnit.Array2BinaryTree.test" />
     </list>
     <recent_temporary>
       <list>
@@ -479,7 +476,8 @@
       <workItem from="1571280570910" duration="5809000" />
       <workItem from="1571303770250" duration="6189000" />
       <workItem from="1571361630256" duration="4344000" />
-      <workItem from="1571459377665" duration="11729000" />
+      <workItem from="1571459377665" duration="12550000" />
+      <workItem from="1571533374285" duration="4275000" />
     </task>
     <servers />
   </component>
@@ -516,13 +514,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227284000" />
+    <option name="totallyTimeSpent" value="232380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="944" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49636805" visible="true" weight="0.15970516" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49636805" visible="true" weight="0.16216215" />
       <window_info id="Structure" order="1" sideWeight="0.50363195" side_tool="true" weight="0.14987715" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -540,7 +538,7 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.2905569" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.37893462" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.24455206" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
@@ -984,7 +982,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/tree/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
+        <state relative-caret-position="3025">
           <caret line="137" column="16" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
           <folding>
             <element signature="e#330#331#0" expanded="true" />
@@ -1009,7 +1007,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/tree/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="1150">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="e#246#247#0" expanded="true" />
@@ -1022,8 +1020,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/tree/TestBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
+        <state relative-caret-position="1150">
           <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/tree/Array2BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1034,26 +1042,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/tree/Array2BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="1953">
+          <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
         </state>
       </provider>
     </entry>
