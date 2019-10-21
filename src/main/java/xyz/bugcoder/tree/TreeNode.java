@@ -105,15 +105,15 @@ public class TreeNode {
 
         TreeNode target = null;
 
-        if (leftNode != null){
-            target = leftNode.midSearch(i);
+        if (this.leftNode != null){
+            target = this.leftNode.midSearch(i);
         }else {
 
             if (this.value == i)
                 return this;
 
-            if (rightNode != null)
-                target = rightNode.midSearch(i);
+            if (this.rightNode != null)
+                target = this.rightNode.midSearch(i);
         }
 
         return target;
@@ -137,25 +137,25 @@ public class TreeNode {
     public void delete(int i) {
         TreeNode parent = this;
         //判断左儿子
-        if(parent.leftNode!=null&&parent.leftNode.value==i) {
-            parent.leftNode=null;
+        if(parent.leftNode != null&&parent.leftNode.value == i) {
+            parent.leftNode = null;
             return;
         }
         //判断右儿子
-        if(parent.rightNode!=null&&parent.rightNode.value==i) {
-            parent.rightNode=null;
+        if(parent.rightNode != null&&parent.rightNode.value == i) {
+            parent.rightNode =  null;
             return;
         }
 
         //递归检查并删除左儿子
-        parent=leftNode;
-        if(parent!=null) {
+        parent = leftNode;
+        if(parent != null) {
             parent.delete(i);
         }
 
         //递归检查并删除右儿子
-        parent=rightNode;
-        if(parent!=null) {
+        parent = rightNode;
+        if(parent != null) {
             parent.delete(i);
         }
     }

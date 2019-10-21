@@ -43,11 +43,12 @@ public class TestBinaryTree {
 //        System.out.println(root.frontSearch(3));
 //        System.out.println(root.midSearch(3));
 //        root.levelTraverse(root);
-        root.midShow();
-        // 是二叉树的删除，不是root删除。。
-        binaryTree.delete(1);
-        System.out.println();
-        binaryTree.midShow();
+//        root.midShow();
+//        // 是二叉树的删除，不是root删除。。
+//        binaryTree.delete(1);
+//        System.out.println();
+//        binaryTree.midShow();
+        System.out.println(binaryTree.frontSearch(5));
     }
 
 }

@@ -29,9 +29,9 @@ public class BinaryTree {
         System.out.println("空");
     }
 
-    public void frontSearch(int i){
+    public TreeNode frontSearch(int i){
 
-        root.frontSearch(i);
+        return root.frontSearch(i);
     }
 
     public void midShow(){
@@ -42,9 +42,9 @@ public class BinaryTree {
         System.out.println("空");
     }
 
-    public void midSearch(int i){
+    public TreeNode midSearch(int i){
 
-        root.midSearch(i);
+        return root.midSearch(i);
     }
 
     public void delete(int i) {
