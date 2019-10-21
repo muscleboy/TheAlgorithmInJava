@@ -24,6 +24,11 @@ public class HuffmanTree implements Comparable<HuffmanTree>{
         this.value = value;
     }
 
+    /**
+    * @Description: 创建哈夫曼树
+    * @Param: [arr]
+    * @return: xyz.bugcoder.tree.HuffmanTree
+    */
     // 给定一个数组，创建一颗哈夫曼树
     public static HuffmanTree createHuffmanTree(int[] arr){
 
@@ -55,7 +60,11 @@ public class HuffmanTree implements Comparable<HuffmanTree>{
         return nodes.get(0);
     }
 
-    // 先序遍历
+    /**
+    * @Description: 先序遍历
+    * @Param: []
+    * @return: void
+    */
     public void frontShow(){
 
         System.out.print(value + " ");
