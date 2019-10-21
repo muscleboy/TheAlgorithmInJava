@@ -60,10 +60,37 @@ public class BinarySortTree {
             midShow(node.right);
         }
 
+        public Node search(int i) {
+
+            if (this.value == i){
+
+                return this;
+            }
+            // 要查找的值<当前值的时候，还需要判断当前节点的左二子是否为空
+            else if (i < this.value){
+                if (this.left == null)
+                    return null;
+                else
+                    return this.left.search(i);
+            }
+            else {
+                if (this.right == null)
+                    return null;
+                else
+                    return this.right.search(i);
+            }
+
+        }
+
+        @Override
+        public String toString() {
+            return this.value + " ";
+        }
     }
 
     Node root;
 
+    // 二叉排序树的添加
     public void add(Node node){
 
         if (root == null)
@@ -73,11 +100,22 @@ public class BinarySortTree {
 
     }
 
+    // 中序遍历
     public void midShow(){
 
         if (root != null){
             root.midShow(root);
         }
+    }
+
+    // 二叉排序树的查找
+    public Node search(int i){
+
+        if (root == null)
+            return null;
+        else
+            return root.search(i);
+
     }
 
     public static void main(String[] args) {
@@ -87,6 +125,9 @@ public class BinarySortTree {
             bst.add(new Node(i));
         }
         bst.midShow();
+        System.out.println();
+        System.out.println(bst.search(11));
+
     }
 
 }
