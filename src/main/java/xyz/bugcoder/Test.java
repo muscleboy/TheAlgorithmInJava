@@ -1,8 +1,9 @@
 package xyz.bugcoder;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Create with IDEA.
@@ -13,6 +14,8 @@ import java.util.List;
  * @Author: Wyj
  */
 public class Test {
+
+    private String s;
 
     public void test(){
         try {
@@ -37,7 +40,7 @@ public class Test {
         }
     }
 
-    public static boolean test3(int n){
+    public static boolean test3(int n, int a){
         if (n < 2)
             return false;
         else {
@@ -65,6 +68,7 @@ public class Test {
             }
         }
     }
+
 
     public static int isPrime(int n){
         if (n == 2)
@@ -95,6 +99,21 @@ public class Test {
 //        System.out.println(s.length());
 //        System.out.println(test3(8));
 //        System.out.println(isPrime(7));
-        test4(100);
+//        test4(100);
+//        int n = 5;
+//        n |= n >>> 1;
+//        n |= n >>> 2;
+//        n |= n >>> 4;
+//        n |= n >>> 8;
+//        n |= n >>> 16;
+//        Map<String, String> map = new HashMap<>();
+//        map.put("g", "2");
+//        map.put(null, null);
+////        map.put(null, 111);
+//        System.out.println(map.get("g").hashCode());
+        Map<String, Integer> table = new Hashtable<>();
+        table.put("g", null);
+//        table.put(null, null);
+        System.out.println(table);
     }
 }

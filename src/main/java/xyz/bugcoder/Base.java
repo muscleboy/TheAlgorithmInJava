@@ -1,6 +1,8 @@
 package xyz.bugcoder;
 
 import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
 
 /**
  * Create with IDEA.
@@ -12,19 +14,21 @@ import java.io.InputStream;
  */
 public class Base {
 
-    int x;
-    static int a;
-
-    public void fun2(){
-        a = 4;
+    static class Counter
+    {
+        private static int count = 0;
+        public int increment()
+        {
+            return count++;
+        }
+        public int anotherIncrement()
+        {
+            return ++count;
+        }
     }
+    public static void main(String[] args) throws MalformedURLException {
 
-    public static void fun(){
-        System.out.println("静态方法" );
-    }
-
-    public static void main(String[] args) {
-
+        
     }
 
 }
