@@ -49,6 +49,9 @@ public class IsCycleLinkedList {
     **/
     public static int getCycleLength(Node head){
 
+        if (head == null || !isCycleLinkedList(head))
+            return 0;
+
         Node n1 = head;
         Node n2 = head.next;
         int count = 1;
@@ -70,14 +73,21 @@ public class IsCycleLinkedList {
     * @Returns: Node
     **/
     public static Node getEntryNode(Node head, Node meetNode){
+
+        if (head == null || meetNode == null)
+            return null;
+
         Node result = null;
         Node h = head;
         Node m = meetNode;
-        while (h != m) {
-            h = h.next;
-            m = m.next;
+        if (isCycleLinkedList(head)) {
+            while (h != m) {
+                h = h.next;
+                m = m.next;
+            }
+            result = h;
         }
-        result = h;
+
         return result;
     }
 
