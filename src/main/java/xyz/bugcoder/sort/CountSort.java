@@ -34,9 +34,12 @@ public class CountSort {
         int index = 0;
         int[] result = new int[arr.length];
         for (int i = 0; i < countArr.length; i++) {
-            while (countArr[i] > 0){
+//            while (countArr[i] > 0){
+//                result[index++] = i;
+//                countArr[i] --;
+//            }
+            for (int j = 0; j < countArr[i]; j++) {
                 result[index++] = i;
-                countArr[i] --;
             }
         }
 //        for (int i = 0; i < result.length; i++) {
@@ -48,7 +51,7 @@ public class CountSort {
 
     public static void main(String[] args) {
         // todo  缺少最后一位
-        int[] arr = {4, 4, 6, 5, 3, 2, 8, 1, 7, 5, 6, 0, 10};
+        int[] arr = {4, 0, 6, 5, 3, 2};
         countSort(arr);
     }
 
