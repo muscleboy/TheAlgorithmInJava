@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/my/hashmap/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/my/hashmap/MyHashMap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,11 +41,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/FindNearestNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="55" column="38" lean-forward="true" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+            <state relative-caret-position="1300">
+              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMinAfterDelKNums.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -92,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/Hanoi.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/JumpFloor.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ReflectExample2_7/Example.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter_2/ReflectExample2_7/ReflectExample.java" />
@@ -143,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/QueueImplByStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/my/hashmap/MyHashMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/FindNearestNum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMinAfterDelKNums.java" />
       </list>
     </option>
   </component>
@@ -180,8 +188,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,7 +284,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599695304833" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599752385093" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -304,13 +312,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindNearestNum">
-    <configuration name="CountSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.sort.CountSort" />
+  <component name="RunManager" selected="Application.GetMinAfterDelKNums">
+    <configuration name="FindNearestNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.CartoonAlgorithm.chapter_5.FindNearestNum" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.sort.*" />
+          <option name="PATTERN" value="xyz.bugcoder.CartoonAlgorithm.chapter_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,8 +326,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindNearestNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.CartoonAlgorithm.chapter_5.FindNearestNum" />
+    <configuration name="GetMinAfterDelKNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.CartoonAlgorithm.chapter_5.GetMinAfterDelKNums" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
@@ -371,19 +379,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CountSort" />
       <item itemvalue="Application.IsCycleLinkedList" />
       <item itemvalue="Application.QueueImplByStack" />
       <item itemvalue="Application.MyHashMap" />
       <item itemvalue="Application.FindNearestNum" />
+      <item itemvalue="Application.GetMinAfterDelKNums" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetMinAfterDelKNums" />
         <item itemvalue="Application.FindNearestNum" />
         <item itemvalue="Application.MyHashMap" />
         <item itemvalue="Application.QueueImplByStack" />
         <item itemvalue="Application.IsCycleLinkedList" />
-        <item itemvalue="Application.CountSort" />
       </list>
     </recent_temporary>
   </component>
@@ -497,7 +505,8 @@
       <workItem from="1599577665926" duration="3742000" />
       <workItem from="1599606657885" duration="5836000" />
       <workItem from="1599664495917" duration="721000" />
-      <workItem from="1599692560518" duration="3016000" />
+      <workItem from="1599692560518" duration="6525000" />
+      <workItem from="1599751311398" duration="1130000" />
     </task>
     <servers />
   </component>
@@ -534,7 +543,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="364429000" />
+    <option name="totallyTimeSpent" value="369068000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,14 +558,14 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48960498" visible="true" weight="0.1769437" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48960498" visible="true" weight="0.17962466" />
       <window_info id="Structure" order="1" sideWeight="0.510395" side_tool="true" weight="0.21823056" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5038168" side_tool="true" weight="0.13941018" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32808718" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32744282" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.3292978" />
       <window_info anchor="bottom" id="Database Changes" order="3" weight="0.3292978" />
@@ -567,7 +576,7 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.36902288" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.27234927" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.27130976" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3292978" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
@@ -722,6 +731,30 @@
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMinAfterDelKNums.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMinAfterDelKNums.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMinAfterDelKNums.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMinAfterDelKNums.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/FindNearestNum.java</url>
           <line>14</line>
@@ -738,17 +771,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/RegularExpressionMatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding>
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/GetMaxMoney.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1178,8 +1200,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/FindNearestNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="55" column="38" lean-forward="true" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+        <state relative-caret-position="1300">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMinAfterDelKNums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
         </state>
       </provider>
     </entry>
