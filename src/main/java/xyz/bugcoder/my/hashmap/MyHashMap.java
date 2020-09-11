@@ -46,7 +46,11 @@ public class MyHashMap<K, V> {
     }
 
     // 返回一个 >= 当前数(cap)的2的次方数
+    // cap = 8-1=7  1110
+    // 1110 >>> 1
     static final int tableSizeFor(int cap){
+        // -1: 会得到 >= cap
+        // 不减: 2*cap
         int h = cap - 1;
         h |= h >>> 1;
         h |= h >>> 2;
@@ -107,7 +111,17 @@ public class MyHashMap<K, V> {
     }
 
     public static void main(String[] args) {
-        System.out.println(tableSizeFor(1200000000));
+//        System.out.println(tableSizeFor(1200000000));
+//        System.out.println(tableSizeFor(8));
+        int n = 7;
+        n |= n >>> 1;
+        System.out.println(n);
+        n |= n >>> 2;
+        System.out.println(n);
+        n |= n >>> 4;
+        System.out.println(n);
+        n |= n >>> 8;
+        System.out.println(n);
     }
 
 }
