@@ -1,6 +1,7 @@
 package xyz.bugcoder.my.hashmap;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Objects;
 
 /**
@@ -27,8 +28,10 @@ public class MyHashMap<K, V> {
     float loadFactor;
 
     // 数组
-    private Node<K, V>[] tables;
+    private Entry<K, V>[] tables;
 
+    int size;
+    
     // 构造函数
     public MyHashMap(int initialCapacity, float loadFactor) {
         // 检验参数是否合法
@@ -45,10 +48,19 @@ public class MyHashMap<K, V> {
         this.threshold = tableSizeFor(initialCapacity);
     }
 
+    public MyHashMap(int cap) {
+        this(cap, LOAD_FACTOR);
+    }
+
+    public MyHashMap() {
+        this.threshold = DEFAULT_INITIAL_CAPACITY;
+        this.loadFactor = LOAD_FACTOR;
+    }
+
     // 返回一个 >= 当前数(cap)的2的次方数
     // cap = 8-1=7  1110
     // 1110 >>> 1
-    static final int tableSizeFor(int cap){
+    private static int tableSizeFor(int cap){
         // -1: 会得到 >= cap
         // 不减: 2*cap
         int h = cap - 1;
@@ -60,15 +72,15 @@ public class MyHashMap<K, V> {
         return (h < 0) ? 1 : (h >= MAX_CAPACITY) ? MAX_CAPACITY : h + 1;
     }
 
-    static class Node<K, V> implements MyEntry<K, V> {
+    static class Entry<K, V> implements MyEntry<K, V> {
 
         int hash;
         K key;
         V value;
         // 链表
-        Node<K, V> next;
+        Entry<K, V> next;
 
-        public Node(int hash, K key, V value, Node<K, V> next) {
+        public Entry(int hash, K key, V value, Entry<K, V> next) {
             this.hash = hash;
             this.key = key;
             this.value = value;
@@ -110,18 +122,88 @@ public class MyHashMap<K, V> {
         }
     }
 
+    public V put(K key, V value){
+
+        if (key == null){
+            return putForNullKey(value);
+        }
+
+        int hash = hash(key.hashCode());
+        System.out.println("k: " + key + ", v: " + value);
+        System.out.println("hash: " + hash);
+        int index = indexFor(hash, tables.length);
+        System.out.println("index: " + index);
+        // 遍历链表
+        for (Entry<K, V> e = tables[index]; e != null; e = e.next) {
+            Object k;
+            if (e.hash == hash && ((k = e.key) == key || k.equals(key))){
+                V oldValue = e.value;
+                e.value = value;
+                return oldValue;
+            }
+        }
+        addEntry(hash, key, value, index);
+
+        return null;
+    }
+
+    // 求余
+    private static int indexFor(int hash, int length) {
+        return hash & (length - 1);
+    }
+
+    // 处理空Key
+    private V putForNullKey(V value) {
+        for (Entry<K, V> e = tables[0]; e != null ; e = e.next) {
+            if (e.key == null) {
+                V oldValue = e.value;
+                e.value = value;
+                return oldValue;
+            }
+        }
+        addEntry(0, null, value, 0);
+        return null;
+    }
+
+    private void addEntry(int hash, K k, V v, int bucketIndex) {
+        Entry<K, V> e = tables[bucketIndex];
+        tables[bucketIndex] = new Entry<>(hash, k, v, e);
+        
+        if (size ++ > threshold)
+            resize(tables.length << 1);
+        
+    }
+
+    // 数组部分扩容
+    private void resize(int cap) {
+
+        Entry[] oldTable = tables;
+        int oldCap = tables.length;
+        if (oldCap == MAX_CAPACITY){
+            threshold = Integer.MAX_VALUE;
+            return;
+        }
+
+        // todo resize
+        // todo transfer
+
+    }
+
+    // 计算hash值
+    private int hash(Object key){
+        int h;
+        return key == null ? 0 : (h = key.hashCode()) ^ h >>> 16;
+    }
+
+
+
     public static void main(String[] args) {
-//        System.out.println(tableSizeFor(1200000000));
-//        System.out.println(tableSizeFor(8));
-        int n = 7;
-        n |= n >>> 1;
-        System.out.println(n);
-        n |= n >>> 2;
-        System.out.println(n);
-        n |= n >>> 4;
-        System.out.println(n);
-        n |= n >>> 8;
-        System.out.println(n);
+        MyHashMap<String, Integer> m = new MyHashMap();
+        m.put("a", 1);
+        m.put("b", 2);
+        m.put("c", 3);
+        m.put("d", 4);
+        System.out.println(m.hash("b"));
     }
 
 }
