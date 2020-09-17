@@ -63,12 +63,18 @@ public class MyHashMap<K, V> {
     private static int tableSizeFor(int cap){
         // -1: 会得到 >= cap
         // 不减: 2*cap
-        int h = cap - 1;
+        int h = cap;
+        System.out.println(Integer.toBinaryString(h));
         h |= h >>> 1;
+        System.out.println(Integer.toBinaryString(h));
         h |= h >>> 2;
+        System.out.println(Integer.toBinaryString(h));
         h |= h >>> 4;
+        System.out.println(Integer.toBinaryString(h));
         h |= h >>> 8;
+        System.out.println(Integer.toBinaryString(h));
         h |= h >>> 16;
+        System.out.println(Integer.toBinaryString(h));
         return (h < 0) ? 1 : (h >= MAX_CAPACITY) ? MAX_CAPACITY : h + 1;
     }
 
@@ -198,12 +204,13 @@ public class MyHashMap<K, V> {
 
 
     public static void main(String[] args) {
-        MyHashMap<String, Integer> m = new MyHashMap();
-        m.put("a", 1);
-        m.put("b", 2);
-        m.put("c", 3);
-        m.put("d", 4);
-        System.out.println(m.hash("b"));
+//        MyHashMap<String, Integer> m = new MyHashMap();
+//        m.put("a", 1);
+//        m.put("b", 2);
+//        m.put("c", 3);
+//        m.put("d", 4);
+//        System.out.println(m.hash("b"));
+        tableSizeFor(16);
     }
 
 }
