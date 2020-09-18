@@ -21,15 +21,18 @@ public class MyHashMap<K, V> {
     // 负载因子
     static final float LOAD_FACTOR = 0.75f;
 
-    // 扩容阈值
+    // 扩容阈值: 数组长度 * 负载因子
+    // 当HashMap中元素个数(size)超过这个threshold，进行扩容
     int threshold;
 
     // 负载因子
+    // 计算HashMap的实时负载因子 size/capacity
     float loadFactor;
 
     // 数组
     private Entry<K, V>[] tables;
 
+    // 节点(Node)或者叫Entry(键值对)的数量
     int size;
     
     // 构造函数
@@ -64,17 +67,12 @@ public class MyHashMap<K, V> {
         // -1: 会得到 >= cap
         // 不减: 2*cap
         int h = cap;
-        System.out.println(Integer.toBinaryString(h));
+//        System.out.println(Integer.toBinaryString(h));
         h |= h >>> 1;
-        System.out.println(Integer.toBinaryString(h));
         h |= h >>> 2;
-        System.out.println(Integer.toBinaryString(h));
         h |= h >>> 4;
-        System.out.println(Integer.toBinaryString(h));
         h |= h >>> 8;
-        System.out.println(Integer.toBinaryString(h));
         h |= h >>> 16;
-        System.out.println(Integer.toBinaryString(h));
         return (h < 0) ? 1 : (h >= MAX_CAPACITY) ? MAX_CAPACITY : h + 1;
     }
 
@@ -204,7 +202,10 @@ public class MyHashMap<K, V> {
 
 
     public static void main(String[] args) {
-//        MyHashMap<String, Integer> m = new MyHashMap();
+        MyHashMap<String, Integer> m = new MyHashMap();
+        System.out.println(m.threshold);
+        System.out.println(m.loadFactor);
+        System.out.println(m.size);
 //        m.put("a", 1);
 //        m.put("b", 2);
 //        m.put("c", 3);
