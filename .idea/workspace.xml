@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMissingNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMissingNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/my/hashmap/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/my/hashmap/MyHashMap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,10 +46,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMissingNum.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/my/hashmap/MyHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="85" column="39" lean-forward="true" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
+            <state relative-caret-position="334">
+              <caret line="139" selection-start-line="139" selection-end-line="139" />
+              <folding>
+                <element signature="e#1364#1365#0" expanded="true" />
+                <element signature="e#1402#1403#0" expanded="true" />
+                <element signature="class#Entry#0;class#MyHashMap#0" />
+                <element signature="method#putForNullKey#0;class#MyHashMap#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+              <folding>
+                <element signature="e#12147#13475#0" />
+                <element signature="e#12846#12847#0" expanded="true" />
+                <element signature="e#12924#12925#0" expanded="true" />
+                <element signature="e#19103#19104#0" expanded="true" />
+                <element signature="e#19161#19162#0" expanded="true" />
+                <element signature="e#19327#19328#0" expanded="true" />
+                <element signature="e#19410#19411#0" expanded="true" />
+                <element signature="e#21107#21108#0" expanded="true" />
+                <element signature="e#21134#21135#0" expanded="true" />
+                <element signature="e#24329#24330#0" expanded="true" />
+                <element signature="e#24394#24395#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,10 +118,14 @@
       <find>put(</find>
       <find>index</find>
       <find>put</find>
+      <find>n</find>
+      <find>putval</find>
+      <find>trans</find>
     </findStrings>
     <replaceStrings>
       <replace>standar</replace>
       <replace>TreeNode</replace>
+      <replace>arr</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -149,11 +180,11 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/FindNearestNum.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMinAfterDelKNums.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMaxDistance.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/my/hashmap/MyHashMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/BigIntAdd.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetBestGoldMining.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/QueueImplByStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMissingNum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/my/hashmap/MyHashMap.java" />
       </list>
     </option>
   </component>
@@ -251,8 +282,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="CartoonAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter_5" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
+              <item name="hashmap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,7 +307,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600389722320" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600706443168" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -294,20 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GetMissingNum">
-    <configuration name="BigIntAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.CartoonAlgorithm.chapter_5.BigIntAdd" />
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.CartoonAlgorithm.chapter_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MyHashMap">
     <configuration name="FindNearestNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.CartoonAlgorithm.chapter_5.FindNearestNum" />
       <module name="TheAlgorithmInJava" />
@@ -347,6 +375,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.my.hashmap.MyHashMap" />
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.my.hashmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QueueImplByStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.CartoonAlgorithm.chapter_5.QueueImplByStack" />
       <module name="TheAlgorithmInJava" />
@@ -361,19 +402,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BigIntAdd" />
       <item itemvalue="Application.GetBestGoldMining" />
       <item itemvalue="Application.FindNearestNum" />
       <item itemvalue="Application.QueueImplByStack" />
       <item itemvalue="Application.GetMissingNum" />
+      <item itemvalue="Application.MyHashMap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyHashMap" />
         <item itemvalue="Application.GetMissingNum" />
         <item itemvalue="Application.QueueImplByStack" />
         <item itemvalue="Application.GetBestGoldMining" />
         <item itemvalue="Application.FindNearestNum" />
-        <item itemvalue="Application.BigIntAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -500,7 +541,8 @@
       <workItem from="1600297467495" duration="6789000" />
       <workItem from="1600354878999" duration="835000" />
       <workItem from="1600356155991" duration="1960000" />
-      <workItem from="1600383830355" duration="5907000" />
+      <workItem from="1600383830355" duration="6501000" />
+      <workItem from="1600702174221" duration="2799000" />
     </task>
     <servers />
   </component>
@@ -537,7 +579,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="419444000" />
+    <option name="totallyTimeSpent" value="422837000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -552,7 +594,7 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4864865" visible="true" weight="0.17426273" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4864865" visible="true" weight="0.1769437" />
       <window_info id="Structure" order="1" sideWeight="0.5129803" side_tool="true" weight="0.18498659" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -570,7 +612,7 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.495842" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.2006237" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.2006237" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32952183" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
@@ -1197,46 +1239,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="113" column="60" selection-start-line="113" selection-start-column="55" selection-end-line="113" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/my/hashmap/MyHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="209" column="24" lean-forward="true" selection-start-line="209" selection-start-column="24" selection-end-line="209" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#MyHashMap#0;class#MyHashMap#0" />
-            <element signature="class#Entry#0;class#MyHashMap#0" />
-            <element signature="method#putForNullKey#0;class#MyHashMap#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="637" column="19" selection-start-line="637" selection-start-column="19" selection-end-line="637" selection-end-column="19" />
-          <folding>
-            <element signature="e#12147#13475#0" />
-            <element signature="e#12846#12847#0" expanded="true" />
-            <element signature="e#12924#12925#0" expanded="true" />
-            <element signature="e#19103#19104#0" expanded="true" />
-            <element signature="e#19161#19162#0" expanded="true" />
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-            <element signature="e#21107#21108#0" expanded="true" />
-            <element signature="e#21134#21135#0" expanded="true" />
-            <element signature="e#24329#24330#0" expanded="true" />
-            <element signature="e#24394#24395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetBestGoldMining.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="574">
@@ -1285,8 +1287,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMissingNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="85" column="39" lean-forward="true" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
+        <state relative-caret-position="579">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+          <folding>
+            <element signature="e#12147#13475#0" />
+            <element signature="e#12846#12847#0" expanded="true" />
+            <element signature="e#12924#12925#0" expanded="true" />
+            <element signature="e#19103#19104#0" expanded="true" />
+            <element signature="e#19161#19162#0" expanded="true" />
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+            <element signature="e#21107#21108#0" expanded="true" />
+            <element signature="e#21134#21135#0" expanded="true" />
+            <element signature="e#24329#24330#0" expanded="true" />
+            <element signature="e#24394#24395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/my/hashmap/MyHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+          <folding>
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="class#Entry#0;class#MyHashMap#0" />
+            <element signature="method#putForNullKey#0;class#MyHashMap#0" />
+          </folding>
         </state>
       </provider>
     </entry>

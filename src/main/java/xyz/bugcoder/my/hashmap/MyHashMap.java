@@ -1,7 +1,5 @@
 package xyz.bugcoder.my.hashmap;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Objects;
 
 /**
@@ -30,7 +28,7 @@ public class MyHashMap<K, V> {
     float loadFactor;
 
     // 数组
-    private Entry<K, V>[] tables;
+    private Entry<K, V>[] table;
 
     // 节点(Node)或者叫Entry(键值对)的数量
     int size;
@@ -49,6 +47,7 @@ public class MyHashMap<K, V> {
         }
         this.loadFactor = loadFactor;
         this.threshold = tableSizeFor(initialCapacity);
+        table = new Entry[threshold];
     }
 
     public MyHashMap(int cap) {
@@ -128,17 +127,19 @@ public class MyHashMap<K, V> {
 
     public V put(K key, V value){
 
+        if (table == null || table.length == 0) {
+            new MyHashMap<>();
+        }
+
         if (key == null){
             return putForNullKey(value);
         }
 
+        System.out.println("hash: " + hash(key.hashCode()));
         int hash = hash(key.hashCode());
-        System.out.println("k: " + key + ", v: " + value);
-        System.out.println("hash: " + hash);
-        int index = indexFor(hash, tables.length);
-        System.out.println("index: " + index);
+        int index = indexFor(hash, table.length);
         // 遍历链表
-        for (Entry<K, V> e = tables[index]; e != null; e = e.next) {
+        for (Entry<K, V> e = table[index]; e != null; e = e.next) {
             Object k;
             if (e.hash == hash && ((k = e.key) == key || k.equals(key))){
                 V oldValue = e.value;
@@ -158,7 +159,7 @@ public class MyHashMap<K, V> {
 
     // 处理空Key
     private V putForNullKey(V value) {
-        for (Entry<K, V> e = tables[0]; e != null ; e = e.next) {
+        for (Entry<K, V> e = table[0]; e != null ; e = e.next) {
             if (e.key == null) {
                 V oldValue = e.value;
                 e.value = value;
@@ -170,27 +171,56 @@ public class MyHashMap<K, V> {
     }
 
     private void addEntry(int hash, K k, V v, int bucketIndex) {
-        Entry<K, V> e = tables[bucketIndex];
-        tables[bucketIndex] = new Entry<>(hash, k, v, e);
-        
-        if (size ++ > threshold)
-            resize(tables.length << 1);
+
+        if (size >= threshold && (table[bucketIndex] != null)){
+            // 扩容
+            resize(2 * table.length);
+            hash = (k == null) ? 0 : hash(k);
+            bucketIndex = indexFor(hash, table.length);
+        }
+
+        createEntry(hash, k, v, bucketIndex);
         
     }
 
-    // 数组部分扩容
-    private void resize(int cap) {
+    private void createEntry(int hash, K k, V v, int index){
+        Entry<K, V> e = table[index];
+        table[index] = new Entry<>(hash, k, v, e);
+        size ++;
+    }
 
-        Entry[] oldTable = tables;
-        int oldCap = tables.length;
+    // 数组部分扩容
+    private void resize(int newCap) {
+
+        Entry[] oldTable = table;
+        int oldCap = table.length;
         if (oldCap == MAX_CAPACITY){
             threshold = Integer.MAX_VALUE;
             return;
         }
 
-        // todo resize
-        // todo transfer
+        Entry[] newTable = new Entry[newCap];
+        transfer(newTable);
 
+    }
+
+
+    private void transfer(Entry[] newTable){
+        // 新容量
+        int newCap = newTable.length;
+        // 遍历原来的是数组
+        for (Entry<K, V> e : table) {
+            while (e != null){
+                Entry<K, V> next = e.next;
+                // 新数组hash值
+                e.hash = e.key == null ? 0 : hash(e.key);
+                // 新数组中的下标
+                int index = indexFor(e.hash, newCap);
+                e.next = newTable[index];
+                newTable[index] = e;
+                e = next;
+            }
+        }
     }
 
     // 计算hash值
@@ -203,14 +233,11 @@ public class MyHashMap<K, V> {
 
     public static void main(String[] args) {
         MyHashMap<String, Integer> m = new MyHashMap();
-        System.out.println(m.threshold);
-        System.out.println(m.loadFactor);
-        System.out.println(m.size);
-//        m.put("a", 1);
-//        m.put("b", 2);
-//        m.put("c", 3);
-//        m.put("d", 4);
-//        System.out.println(m.hash("b"));
+        m.put("a", 1);
+        m.put("b", 2);
+        m.put("c", 3);
+        m.put("d", 4);
+        System.out.println(m.hash("b"));
         tableSizeFor(16);
     }
 
