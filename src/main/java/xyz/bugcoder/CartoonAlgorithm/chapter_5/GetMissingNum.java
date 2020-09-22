@@ -1,5 +1,7 @@
 package xyz.bugcoder.CartoonAlgorithm.chapter_5;
 
+import java.util.Arrays;
+
 /**
  * @Package: xyz.bugcoder.CartoonAlgorithm.chapter_5
  * @author: Weiyj
@@ -61,20 +63,39 @@ public class GetMissingNum {
     * @Desc: 一个无序数组里有若干个正整数，范围是1~100，其中98个整数都出现了偶数次，有2个出现了奇数次，如何找出这两出现奇数次的数？
      * @param arr :
     * @Returns: int
+    * O(n)
     **/
-    public static int getMissingNum3(int[] arr){
+    public static int[] getMissingNum3(int[] arr){
 
         if (arr == null || arr.length == 0)
-            return -1;
+            return null;
 
-        int result = 0;
+        // 存放2位 两出现奇数次的数
+        int[] result = new int[2];
+        // 异或运算结果
+        int xorResult = 0;
         for (int i : arr) {
-            result ^= i;
+            xorResult ^= i;
         }
 
         // 说明没有出现奇数次的数
-        if (result == 0){
-            return -2;
+        if (xorResult == 0){
+            return null;
+        }
+
+        int separator = 1;
+        while (0 == (xorResult & separator)){
+            // 1 <<1 = 2(倒数第二位)
+            separator <<= 1;
+        }
+
+        for (int i = 0; i < arr.length; i++) {
+            // 按倒数第二位为0，1分组
+            if (0 == (arr[i] & separator)){
+                result[0] ^= arr[i];
+            }else {
+                result[1] ^= arr[i];
+            }
         }
 
         return result;
@@ -86,7 +107,7 @@ public class GetMissingNum {
         int[] arr3 = {4,1,2,2,5,1,4,3};
         System.out.println(getMissingNum(arr));
         System.out.println(getMissingNum2(arr2));
-        System.out.println(getMissingNum3(arr3));
+        System.out.println(Arrays.toString(getMissingNum3(arr3)));
     }
 
 }
