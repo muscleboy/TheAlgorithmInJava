@@ -1,5 +1,6 @@
 package xyz.bugcoder.my.hashmap;
 
+import java.util.Arrays;
 import java.util.Objects;
 
 /**
@@ -57,6 +58,7 @@ public class MyHashMap<K, V> {
     public MyHashMap() {
         this.threshold = DEFAULT_INITIAL_CAPACITY;
         this.loadFactor = LOAD_FACTOR;
+        table = new Entry[threshold];
     }
 
     // 返回一个 >= 当前数(cap)的2的次方数
@@ -65,7 +67,7 @@ public class MyHashMap<K, V> {
     private static int tableSizeFor(int cap){
         // -1: 会得到 >= cap
         // 不减: 2*cap
-        int h = cap;
+        int h = cap - 1;
 //        System.out.println(Integer.toBinaryString(h));
         h |= h >>> 1;
         h |= h >>> 2;
@@ -123,19 +125,31 @@ public class MyHashMap<K, V> {
         public int hashcode() {
             return Objects.hashCode(key) ^ Objects.hashCode(value);
         }
+
+        @Override
+        public String toString() {
+            return "Entry{" +
+                    "hash=" + hash +
+                    ", key=" + key +
+                    ", value=" + value +
+                    ", next=" + next +
+                    '}';
+        }
+
     }
 
     public V put(K key, V value){
 
+        // 初始化
         if (table == null || table.length == 0) {
             new MyHashMap<>();
         }
 
+        // 处理null key，放在table[0]
         if (key == null){
             return putForNullKey(value);
         }
 
-        System.out.println("hash: " + hash(key.hashCode()));
         int hash = hash(key.hashCode());
         int index = indexFor(hash, table.length);
         // 遍历链表
@@ -189,7 +203,7 @@ public class MyHashMap<K, V> {
         size ++;
     }
 
-    // 数组部分扩容
+    // 数组扩容
     private void resize(int newCap) {
 
         Entry[] oldTable = table;
@@ -223,22 +237,65 @@ public class MyHashMap<K, V> {
         }
     }
 
+    // get
+    private V get(K key){
+
+        // Entry个数
+        if (size == 0){
+            return null;
+        }
+
+        int hash = key == null ? 0 : hash(key);
+        // 遍历table数组
+        for (Entry<K, V> e = table[indexFor(hash, table.length)]; e != null; e = e.next) {
+            Object k;
+            if (e.hash == hash && ((k = key) == e.key || key != null)){
+                return e.value;
+            }
+        }
+
+        return null;
+
+    }
+
     // 计算hash值
     private int hash(Object key){
         int h;
         return key == null ? 0 : (h = key.hashCode()) ^ h >>> 16;
     }
 
-
+    @Override
+    public String toString() {
+        return "MyHashMap{" +
+                "threshold=" + threshold +
+                ", loadFactor=" + loadFactor +
+                ", table=" + Arrays.toString(table) +
+                ", size=" + size +
+                '}';
+    }
 
     public static void main(String[] args) {
-        MyHashMap<String, Integer> m = new MyHashMap();
+        MyHashMap<String, Integer> m = new MyHashMap(4);
         m.put("a", 1);
         m.put("b", 2);
         m.put("c", 3);
         m.put("d", 4);
-        System.out.println(m.hash("b"));
-        tableSizeFor(16);
+        m.put("e", 5);
+        m.put("f", 6);
+        m.put("g", 7);
+        m.put("h", 8);
+        m.put("i", 9);
+        m.put("k", 10);
+        m.put("kk", 11);
+        m.put("kk", 11);
+        System.out.println(m);
+        System.out.println(m.table.length);
+        System.out.println(m.size);
+//        MyHashMap<String, String> m2 = new MyHashMap(4);
+//        m2.put("K1", "V1");
+//        m2.put("K2", "V2");
+//        m2.put("K3", "V3");
+//        System.out.println(m2);
     }
 
 }

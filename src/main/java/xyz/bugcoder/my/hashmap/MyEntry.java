@@ -13,5 +13,6 @@ public interface MyEntry<K, V> {
     V setValue(V value);
     boolean equal(Object o);
     int hashcode();
+    String toString();
 
 }
