@@ -48,7 +48,7 @@ public class MyHashMap<K, V> {
         }
         this.loadFactor = loadFactor;
         this.threshold = tableSizeFor(initialCapacity);
-        table = new Entry[threshold];
+        table = new Entry[initialCapacity];
     }
 
     public MyHashMap(int cap) {
@@ -58,7 +58,7 @@ public class MyHashMap<K, V> {
     public MyHashMap() {
         this.threshold = DEFAULT_INITIAL_CAPACITY;
         this.loadFactor = LOAD_FACTOR;
-        table = new Entry[threshold];
+        table = new Entry[DEFAULT_INITIAL_CAPACITY];
     }
 
     // 返回一个 >= 当前数(cap)的2的次方数
@@ -154,8 +154,7 @@ public class MyHashMap<K, V> {
         int index = indexFor(hash, table.length);
         // 遍历链表
         for (Entry<K, V> e = table[index]; e != null; e = e.next) {
-            Object k;
-            if (e.hash == hash && ((k = e.key) == key || k.equals(key))){
+            if (e.hash == hash && (e.key == key || e.key.equals(key))){
                 V oldValue = e.value;
                 e.value = value;
                 return oldValue;
@@ -215,6 +214,8 @@ public class MyHashMap<K, V> {
 
         Entry[] newTable = new Entry[newCap];
         transfer(newTable);
+        table = newTable;
+        threshold = (int) Math.min(newCap * LOAD_FACTOR, MAX_CAPACITY + 1);
 
     }
 
@@ -248,8 +249,7 @@ public class MyHashMap<K, V> {
         int hash = key == null ? 0 : hash(key);
         // 遍历table数组
         for (Entry<K, V> e = table[indexFor(hash, table.length)]; e != null; e = e.next) {
-            Object k;
-            if (e.hash == hash && ((k = key) == e.key || key != null)){
+            if (e.hash == hash && (e.key == key || key != null)){
                 return e.value;
             }
         }
