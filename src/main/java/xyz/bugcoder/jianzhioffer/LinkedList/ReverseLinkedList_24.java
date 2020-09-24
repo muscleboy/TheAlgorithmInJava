@@ -26,7 +26,7 @@ package xyz.bugcoder.jianzhioffer.LinkedList;
  * @Description: 反转 链表
  * @createTime 2020-08-07 01:40
  */
-public class ReverseList_24 {
+public class ReverseLinkedList_24 {
 
     // 解题思路：循环列表，当前节点的下一节点和当前节点的上一节点 交换
     public static Node reverseList(Node head) {
@@ -53,6 +53,6 @@ public class ReverseList_24 {
         node2.next = node3;
         node3.next = node4;
         node4.next = node5;
-        System.out.println(reverseList(node1).data);
+        System.out.println(reverseList(node1));
     }
 }

@@ -15,4 +15,11 @@ public class Node {
         this.data = data;
     }
 
+    @Override
+    public String toString() {
+        return "Node{" +
+                "data=" + data +
+                ", next=" + next +
+                '}';
+    }
 }

@@ -49,7 +49,7 @@ public class GetKthNodeFromEnd_22 {
         node2.next = node3;
         node3.next = node4;
         node4.next = node5;
-        System.out.println(getKthFromEnd(node1, 5).data);
+        System.out.println(getKthFromEnd(node1, 5));
     }
 
 }

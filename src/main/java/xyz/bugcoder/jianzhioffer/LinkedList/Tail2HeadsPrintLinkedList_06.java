@@ -1,6 +1,7 @@
 package xyz.bugcoder.jianzhioffer.LinkedList;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Stack;
 
@@ -74,8 +75,8 @@ public class Tail2HeadsPrintLinkedList_06 {
         n1.next = n2;
         n2.next = n3;
         n3.next = n4;
-//        reversePrint(n1);
-        reversePrint2(n1);
+        System.out.println(Arrays.toString(reversePrint(n1)));
+        System.out.println(Arrays.toString(reversePrint2(n1)));
     }
 
 }
