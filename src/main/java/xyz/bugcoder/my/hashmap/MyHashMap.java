@@ -151,8 +151,9 @@ public class MyHashMap<K, V> {
         }
 
         int hash = hash(key.hashCode());
+        // 确定下标
         int index = indexFor(hash, table.length);
-        // 遍历链表
+        // 遍历链表, 有值则更新
         for (Entry<K, V> e = table[index]; e != null; e = e.next) {
             if (e.hash == hash && (e.key == key || e.key.equals(key))){
                 V oldValue = e.value;
@@ -172,6 +173,7 @@ public class MyHashMap<K, V> {
 
     // 处理空Key
     private V putForNullKey(V value) {
+        // 循环table[0]的链表，有值就更新
         for (Entry<K, V> e = table[0]; e != null ; e = e.next) {
             if (e.key == null) {
                 V oldValue = e.value;
@@ -192,14 +194,13 @@ public class MyHashMap<K, V> {
             bucketIndex = indexFor(hash, table.length);
         }
 
-        createEntry(hash, k, v, bucketIndex);
-        
-    }
-
-    private void createEntry(int hash, K k, V v, int index){
-        Entry<K, V> e = table[index];
-        table[index] = new Entry<>(hash, k, v, e);
+        Entry<K, V> e = table[bucketIndex];
+        // 头插法
+        table[bucketIndex] = new Entry<>(hash, k, v, e);
         size ++;
+
+        System.out.println("Entry e: " + e + ", table: " + Arrays.toString(table) + ", index: " + bucketIndex + ", size: " + size);
+        
     }
 
     // 数组扩容
@@ -207,6 +208,7 @@ public class MyHashMap<K, V> {
 
         Entry[] oldTable = table;
         int oldCap = table.length;
+        System.out.println("oldTable.length: " + oldCap);
         if (oldCap == MAX_CAPACITY){
             threshold = Integer.MAX_VALUE;
             return;
@@ -216,6 +218,7 @@ public class MyHashMap<K, V> {
         transfer(newTable);
         table = newTable;
         threshold = (int) Math.min(newCap * LOAD_FACTOR, MAX_CAPACITY + 1);
+        System.out.println("newTable.length: " + newTable.length  + ", threshold: " + threshold);
 
     }
 
@@ -280,17 +283,21 @@ public class MyHashMap<K, V> {
         m.put("b", 2);
         m.put("c", 3);
         m.put("d", 4);
-        m.put("e", 5);
-        m.put("f", 6);
-        m.put("g", 7);
-        m.put("h", 8);
-        m.put("i", 9);
-        m.put("k", 10);
-        m.put("kk", 11);
-        m.put("kk", 11);
-        System.out.println(m);
-        System.out.println(m.table.length);
-        System.out.println(m.size);
+//        m.put("e", 5);
+//        m.put("f", 6);
+//        m.put("g", 7);
+//        m.put("h", 8);
+//        m.put("i", 9);
+//        m.put("k", 10);
+//        m.put("l", 11);
+//        m.put("m", 12);
+//        m.put("n", 13);
+//        m.put("o", 14);
+//        m.put("p", 15);
+//        m.put("q", 16);
+//        System.out.println(m);
+//        System.out.println(m.table.length);
+//        System.out.println(m.size);
 //        MyHashMap<String, String> m2 = new MyHashMap(4);
 //        m2.put("K1", "V1");
 //        m2.put("K2", "V2");
