@@ -1,9 +1,9 @@
-package xyz.bugcoder.offer;
+package xyz.bugcoder.jianzhioffer;
 
 /**
  * Create with IDEA.
  *
- * @Package: xyz.bugcoder.offer
+ * @Package: xyz.bugcoder.jianzhioffer
  * @Description:
  * 面试题4：二维数组中的查找
  * // 题目：在一个二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按

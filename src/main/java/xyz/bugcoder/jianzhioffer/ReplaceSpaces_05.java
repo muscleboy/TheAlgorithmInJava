@@ -1,8 +1,8 @@
-package xyz.bugcoder.offer;
+package xyz.bugcoder.jianzhioffer;
 /**
  * Create with IDEA.
  *
- * @Package: xyz.bugcoder.offer
+ * @Package: xyz.bugcoder.jianzhioffer
  * @Description: 替换空格-05
  * @Date: 2019/9/12 16:39
  * @Author: Wyj

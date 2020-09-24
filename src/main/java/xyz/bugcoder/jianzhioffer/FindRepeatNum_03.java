@@ -1,11 +1,11 @@
-package xyz.bugcoder.offer;
+package xyz.bugcoder.jianzhioffer;
 
 import java.util.Arrays;
 
 /**
  * Create with IDEA.
  *
- * @Package: xyz.bugcoder.offer
+ * @Package: xyz.bugcoder.jianzhioffer
  * @Description:
      * 面试题3（一）：找出数组中重复的数字
      * 题目：在一个长度为n的数组里的所有数字都在0到n-1的范围内。数组中某些数字是重复的，

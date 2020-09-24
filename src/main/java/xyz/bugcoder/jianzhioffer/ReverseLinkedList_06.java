@@ -1,13 +1,11 @@
-package xyz.bugcoder.offer;
+package xyz.bugcoder.jianzhioffer;
 
-import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Stack;
 
 /**
  * Create with IDEA.
  *
- * @Package: xyz.bugcoder.offer
+ * @Package: xyz.bugcoder.jianzhioffer
  * @Description: 输入一个链表，按链表从尾到头的顺序返回一个ArrayList。
  * @Date: 2019-10-09 15:38
  * @Author: Wyj
@@ -24,7 +22,7 @@ class Node{
     }
 }
 
-public class PrintListFromTail2Head_06 {
+public class ReverseLinkedList_06 {
 
     // 常规写法
 //    public static ArrayList<Integer> printListFromTail2Head(Node node){

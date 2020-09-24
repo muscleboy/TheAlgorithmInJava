@@ -1,9 +1,9 @@
-package xyz.bugcoder.offer;
+package xyz.bugcoder.jianzhioffer;
 
 /**
  * Create with IDEA.
  *
- * @Package: xyz.bugcoder.offer
+ * @Package: xyz.bugcoder.jianzhioffer
  * @Description: 单例模式-02
  *              设计一个类，我们只能生成该类的一个实例。
  * @Date: 2019/9/12 17:05
