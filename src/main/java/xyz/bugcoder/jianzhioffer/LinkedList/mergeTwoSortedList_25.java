@@ -24,7 +24,43 @@ package xyz.bugcoder.jianzhioffer.LinkedList;
  * @Author: Wyj
  */
 public class mergeTwoSortedList_25 {
-//    public Node mergeTwoLists(Node l1, Node l2) {
-//
-//    }
+
+    public static Node mergeTwoLists(Node n1, Node n2) {
+
+        // 两个空链表合并还是空
+        if (n1 == null && n2 == null){
+            return null;
+        }
+
+        // 其中一个为空，合并后为另一个
+        if (n1 == null){
+            return n2;
+        }
+        else if (n2 == null){
+            return n1;
+        }
+        else if (n1.data < n2.data){
+            n1.next = mergeTwoLists(n1.next, n2);
+            return n1;
+        }
+        else {
+            n2.next = mergeTwoLists(n1, n2.next);
+            return n2;
+        }
+    }
+
+    public static void main(String[] args) {
+        Node n1 = new Node(1);
+        Node n2 = new Node(2);
+        Node n4 = new Node(4);
+        n1.next = n2;
+        n2.next = n4;
+        Node m1 = new Node(1);
+        Node m3 = new Node(3);
+        Node m4 = new Node(4);
+        m1.next = m3;
+        m3.next = m4;
+        System.out.println(mergeTwoLists(n1, m1));
+    }
+
 }
