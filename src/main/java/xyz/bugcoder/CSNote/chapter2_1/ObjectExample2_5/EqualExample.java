@@ -41,6 +41,17 @@ public class EqualExample {
             return that.z == z;
     }
 
+//    @Override
+//    public int hashCode() {
+//
+//        int result = 17;
+//        result = 31 * result + x;
+//        result = 31 * result + y;
+//        result = 31 * result + z;
+//
+//        return result;
+//    }
+
     public int getCustomHashcode(){
 
         int result = 17;
@@ -61,7 +72,7 @@ public class EqualExample {
         set.add(ee2);
         System.out.println(ee.equals(e));
         System.out.println(ee.equals(ee2));
-//        System.out.println(set.size());
+        System.out.println(set.size());
 //        System.out.println(ee.hashCode());
         System.out.println(Integer.toHexString(ee.getCustomHashcode()));
         System.out.println(Integer.toHexString(ee2.getCustomHashcode()));
