@@ -20,6 +20,8 @@ public class MyHashMap<K, V> {
     // 负载因子
     static final float LOAD_FACTOR = 0.75f;
 
+    static final Entry<?, ?>[] EMPTY_TABLE = {};
+
     // 扩容阈值: 数组长度 * 负载因子
     // 当HashMap中元素个数(size)超过这个threshold，进行扩容
     int threshold;
@@ -56,7 +58,7 @@ public class MyHashMap<K, V> {
     }
 
     public MyHashMap() {
-        this.threshold = DEFAULT_INITIAL_CAPACITY;
+        this.threshold = (int) (DEFAULT_INITIAL_CAPACITY * LOAD_FACTOR);
         this.loadFactor = LOAD_FACTOR;
         table = new Entry[DEFAULT_INITIAL_CAPACITY];
     }
@@ -141,8 +143,8 @@ public class MyHashMap<K, V> {
     public V put(K key, V value){
 
         // 初始化
-        if (table == null || table.length == 0) {
-            new MyHashMap<>();
+        if (table == EMPTY_TABLE) {
+            initTable(threshold);
         }
 
         // 处理null key，放在table[0]
@@ -164,6 +166,13 @@ public class MyHashMap<K, V> {
         addEntry(hash, key, value, index);
 
         return null;
+    }
+
+    //初始化Table
+    private void initTable(int size){
+        int cap = tableSizeFor(size);
+        table = new Entry[cap];
+        threshold = (int) Math.min(cap * LOAD_FACTOR, MAX_CAPACITY + 1);
     }
 
     // 求余
@@ -217,7 +226,7 @@ public class MyHashMap<K, V> {
         Entry[] newTable = new Entry[newCap];
         transfer(newTable);
         table = newTable;
-        threshold = (int) Math.min(newCap * LOAD_FACTOR, MAX_CAPACITY + 1);
+        threshold = (int) (newCap * LOAD_FACTOR);
         System.out.println("newTable.length: " + newTable.length  + ", threshold: " + threshold);
 
     }
@@ -278,11 +287,15 @@ public class MyHashMap<K, V> {
     }
 
     public static void main(String[] args) {
-        MyHashMap<String, Integer> m = new MyHashMap(4);
+        MyHashMap<String, Integer> m = new MyHashMap(3);
+        System.out.println(m.table.length);
         m.put("a", 1);
         m.put("b", 2);
         m.put("c", 3);
         m.put("d", 4);
+        System.out.println(m);
+//        System.out.println(10 >> 1);
+//        System.out.println(10 >>> 1);
 //        m.put("e", 5);
 //        m.put("f", 6);
 //        m.put("g", 7);
