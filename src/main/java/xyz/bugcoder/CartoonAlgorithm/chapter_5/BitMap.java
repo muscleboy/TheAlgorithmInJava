@@ -42,9 +42,9 @@ public class BitMap {
     public static void main(String[] args) {
         BitMap bitMap = new BitMap(128);
         bitMap.setBit(126);
-        bitMap.setBit(75);
-        System.out.println(bitMap.getWordIndex(126));
-        System.out.println(bitMap.getWordIndex(70));
+        bitMap.setBit(76);
+        System.out.println(bitMap.getBit(126));
+        System.out.println(bitMap.getBit(70));
     }
 
 }
