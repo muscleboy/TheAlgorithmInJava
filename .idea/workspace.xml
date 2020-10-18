@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/BitMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/BitMap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,28 +45,48 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/BigIntAdd.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/SingleResponsibility/SingleResponsibility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="240">
+              <caret line="10" selection-start-line="10" selection-end-line="25" selection-end-column="1" />
+              <folding>
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetBestGoldMining.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/SingleResponsibility/SingleResponsibility2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="801">
-              <caret line="86" column="59" lean-forward="true" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="59" />
+            <state relative-caret-position="-44">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="34" />
+              <folding>
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#764#765#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/BitMap.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/SingleResponsibility/SingleResponsibility3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+            <state relative-caret-position="312">
+              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+              <folding>
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,9 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/tree/TestBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/tree/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/tree/ThreadNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/tree/HuffmanTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/tree/HuffmanEncodeAndDecode.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/tree/BinarySortTree.java" />
@@ -177,6 +193,9 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMinAfterDelKNums.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetBestGoldMining.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/BitMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/SingleResponsibility/SingleResponsibility.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/SingleResponsibility/SingleResponsibility2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/SingleResponsibility/SingleResponsibility3.java" />
       </list>
     </option>
   </component>
@@ -204,7 +223,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
@@ -213,6 +232,9 @@
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
       <showMembers ProjectPane="false" />
+      <showExcludedFiles Scope="false" ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -268,7 +290,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="CartoonAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -278,29 +300,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="CartoonAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter_5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="my" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="my" type="462c0819:PsiDirectoryNode" />
-              <item name="hashmap" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="SingleResponsibility" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,7 +313,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602993071135" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603007694993" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -328,6 +329,7 @@
       <recent name="xyz.bugcoder" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/SingleResponsibility" />
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer" />
     </key>
   </component>
@@ -343,20 +345,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BitMap">
-    <configuration name="BigIntAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.CartoonAlgorithm.chapter_5.BigIntAdd" />
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.CartoonAlgorithm.chapter_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SingleResponsibility3">
     <configuration name="BitMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.CartoonAlgorithm.chapter_5.BitMap" />
       <module name="TheAlgorithmInJava" />
@@ -370,8 +359,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindNearestNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.CartoonAlgorithm.chapter_5.FindNearestNum" />
+    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.CartoonAlgorithm.chapter_5.LRUCache" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
@@ -383,12 +372,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetBestGoldMining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.CartoonAlgorithm.chapter_5.GetBestGoldMining" />
+    <configuration name="SingleResponsibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.SingleResponsibility.SingleResponsibility" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.CartoonAlgorithm.chapter_5.*" />
+          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.SingleResponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -396,12 +385,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetMinAfterDelKNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.CartoonAlgorithm.chapter_5.GetMinAfterDelKNums" />
+    <configuration name="SingleResponsibility2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.SingleResponsibility.SingleResponsibility2" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.CartoonAlgorithm.chapter_5.*" />
+          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.SingleResponsibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleResponsibility3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.SingleResponsibility.SingleResponsibility3" />
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.SingleResponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -410,19 +412,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindNearestNum" />
-      <item itemvalue="Application.GetMinAfterDelKNums" />
-      <item itemvalue="Application.BigIntAdd" />
-      <item itemvalue="Application.GetBestGoldMining" />
       <item itemvalue="Application.BitMap" />
+      <item itemvalue="Application.LRUCache" />
+      <item itemvalue="Application.SingleResponsibility" />
+      <item itemvalue="Application.SingleResponsibility2" />
+      <item itemvalue="Application.SingleResponsibility3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleResponsibility3" />
+        <item itemvalue="Application.SingleResponsibility2" />
+        <item itemvalue="Application.SingleResponsibility" />
+        <item itemvalue="Application.LRUCache" />
         <item itemvalue="Application.BitMap" />
-        <item itemvalue="Application.GetBestGoldMining" />
-        <item itemvalue="Application.BigIntAdd" />
-        <item itemvalue="Application.GetMinAfterDelKNums" />
-        <item itemvalue="Application.FindNearestNum" />
       </list>
     </recent_temporary>
   </component>
@@ -564,7 +566,7 @@
       <workItem from="1601305432849" duration="3098000" />
       <workItem from="1602904204229" duration="2919000" />
       <workItem from="1602913806209" duration="1984000" />
-      <workItem from="1602987112052" duration="5842000" />
+      <workItem from="1602987112052" duration="9261000" />
     </task>
     <servers />
   </component>
@@ -601,7 +603,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="474334000" />
+    <option name="totallyTimeSpent" value="477753000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -613,7 +615,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48440748" visible="true" weight="0.17684631" />
@@ -634,7 +636,7 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.34493193" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.2730711" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.2730711" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32952183" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
@@ -1051,32 +1053,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="1250" column="22" selection-start-line="1250" selection-start-column="22" selection-end-line="1250" selection-end-column="22" />
-          <folding>
-            <element signature="e#49043#49044#0" expanded="true" />
-            <element signature="e#49082#49083#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2477">
-          <caret line="131" column="48" selection-start-line="131" selection-start-column="48" selection-end-line="131" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer/CountRepeatNum.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/Base.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/MyThread.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/SourceCodeAnalyze/ArrayListCompare.java">
@@ -1475,24 +1451,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/BigIntAdd.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/BitMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="1120">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetBestGoldMining.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
+        <state relative-caret-position="976">
           <caret line="86" column="59" lean-forward="true" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/BitMap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/BigIntAdd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+        <state relative-caret-position="952">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/SingleResponsibility/SingleResponsibility2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/SingleResponsibility/SingleResponsibility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/SingleResponsibility/SingleResponsibility3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+          <folding>
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
