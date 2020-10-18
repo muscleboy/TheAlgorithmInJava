@@ -1,5 +1,7 @@
 package xyz.bugcoder.CartoonAlgorithm.chapter_5;
 
+import java.util.Arrays;
+
 /**
  * @Package: xyz.bugcoder.CartoonAlgorithm.chapter_5
  * @author: Weiyj
@@ -9,8 +11,16 @@ package xyz.bugcoder.CartoonAlgorithm.chapter_5;
 public class GetMaxDistance {
 
     private static class Bucket {
-        Integer max;
         Integer min;
+        Integer max;
+
+        @Override
+        public String toString() {
+            return "Bucket{" +
+                    "min=" + min +
+                    ", max=" + max +
+                    '}';
+        }
     }
 
     public static int getMaxDistance(int[] arr){
@@ -46,10 +56,11 @@ public class GetMaxDistance {
             int index = ((arr[i] - min) * (bucketNum - 1)/d);
             if (buckets[index].min == null || buckets[index].min > arr[i])
                 buckets[index].min = arr[i];
-            if (buckets[index].max == null || buckets[index].max > arr[i])
+            if (buckets[index].max == null || buckets[index].max < arr[i])
                 buckets[index].max = arr[i];
         }
 
+        System.out.println(Arrays.toString(buckets));
         // 4.遍历捅，找出最大差值
         // leftMax: 左边捅(上一个)的最大值
         int leftMax = buckets[0].max;
