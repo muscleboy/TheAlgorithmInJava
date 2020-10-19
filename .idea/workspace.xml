@@ -4,7 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="" />
+    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/DependencyInversion/DependencyInversion2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+            <state relative-caret-position="120">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="23" />
               <folding>
                 <element signature="e#1969#1970#0" expanded="true" />
                 <element signature="e#1999#2000#0" expanded="true" />
@@ -69,14 +71,87 @@
                 <element signature="e#2066#2067#0" expanded="true" />
                 <element signature="e#2138#2139#0" expanded="true" />
                 <element signature="e#2191#2192#0" expanded="true" />
-                <marker date="1603093193303" expanded="true" signature="646:781" ph="..." />
-                <marker date="1603093193303" expanded="false" signature="664:781" ph="..." />
-                <marker date="1603093193303" expanded="true" signature="665:781" ph="..." />
-                <marker date="1603093193303" expanded="true" signature="675:781" ph="..." />
-                <marker date="1603093193303" expanded="false" signature="831:937" ph="..." />
-                <marker date="1603093193303" expanded="false" signature="1178:1714" ph="..." />
-                <marker date="1603093193303" expanded="true" signature="1733:2187" ph="..." />
+                <marker date="1603093228703" expanded="true" signature="658:793" ph="..." />
+                <marker date="1603093228703" expanded="false" signature="676:793" ph="..." />
+                <marker date="1603093228703" expanded="true" signature="677:793" ph="..." />
+                <marker date="1603093228703" expanded="true" signature="687:793" ph="..." />
+                <marker date="1603093228703" expanded="false" signature="843:949" ph="..." />
+                <marker date="1603093228703" expanded="false" signature="1190:1726" ph="..." />
+                <marker date="1603093228703" expanded="true" signature="1745:2199" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/LiskovSubstitution/LiskovSubstitution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+              <folding>
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/LiskovSubstitution/LiskovSubstitution2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+              <folding>
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#748#749#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/xyz.bugcoder.DesignPattern.LiskovSubstitution.Base">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>xyz.bugcoder.DesignPattern.LiskovSubstitution.Base</OriginalElement>
+              <nodes>
+                <node x="167.75" y="0.0">xyz.bugcoder.DesignPattern.LiskovSubstitution.Base</node>
+                <node x="226.0" y="85.0">xyz.bugcoder.DesignPattern.LiskovSubstitution.B2</node>
+                <node x="0.0" y="111.0">xyz.bugcoder.DesignPattern.LiskovSubstitution.A2</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="xyz.bugcoder.DesignPattern.LiskovSubstitution.B2" target="xyz.bugcoder.DesignPattern.LiskovSubstitution.Base">
+                  <point x="0.0" y="-56.5" />
+                  <point x="330.5" y="60.0" />
+                  <point x="241.25" y="60.0" />
+                  <point x="24.5" y="17.5" />
+                </edge>
+                <edge source="xyz.bugcoder.DesignPattern.LiskovSubstitution.A2" target="xyz.bugcoder.DesignPattern.LiskovSubstitution.Base">
+                  <point x="0.0" y="-30.5" />
+                  <point x="103.0" y="60.0" />
+                  <point x="192.25" y="60.0" />
+                  <point x="-24.5" y="17.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="217.4999999999999" y="52.99999999999994" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -87,6 +162,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -137,9 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/GetMaxMoney.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/GetAllSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/HeapSort.java" />
@@ -188,6 +261,9 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/DeleteNode_18.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/DependencyInversion/DependencyInversion.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/DependencyInversion/DependencyInversion2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/xyz/bugcoder/DesignPattern/LiskovSubstitution/BTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/LiskovSubstitution/LiskovSubstitution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/LiskovSubstitution/LiskovSubstitution2.java" />
       </list>
     </option>
   </component>
@@ -293,7 +369,19 @@
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="DependencyInversion" type="462c0819:PsiDirectoryNode" />
+              <item name="LiskovSubstitution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="LiskovSubstitution" type="462c0819:PsiDirectoryNode" />
+              <item name="LiskovSubstitution2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -305,7 +393,9 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603093228739" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603095568051" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -317,13 +407,20 @@
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="xyz.bugcoder.DesignPattern.LiskovSubstitution" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="xyz.bugcoder" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="xyz.bugcoder.DesignPattern.InterfaceSegregation" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/LiskovSubstitution" />
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/DependencyInversion" />
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/InterfaceSegregation" />
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/SingleResponsibility" />
@@ -342,7 +439,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DependencyInversion2">
+  <component name="RunManager" selected="Application.LiskovSubstitution2">
     <configuration name="DeleteNode_18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.LinkedList.DeleteNode_18" />
       <module name="TheAlgorithmInJava" />
@@ -382,12 +479,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tail2HeadsPrintLinkedList_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.LinkedList.Tail2HeadsPrintLinkedList_06" />
+    <configuration name="LiskovSubstitution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.LiskovSubstitution.LiskovSubstitution" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.LinkedList.*" />
+          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.LiskovSubstitution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -395,12 +492,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mergeTwoSortedList_25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.LinkedList.mergeTwoSortedList_25" />
+    <configuration name="LiskovSubstitution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.LiskovSubstitution.LiskovSubstitution2" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.LinkedList.*" />
+          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.LiskovSubstitution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -409,19 +506,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.mergeTwoSortedList_25" />
-      <item itemvalue="Application.Tail2HeadsPrintLinkedList_06" />
       <item itemvalue="Application.DeleteNode_18" />
       <item itemvalue="Application.DependencyInversion" />
       <item itemvalue="Application.DependencyInversion2" />
+      <item itemvalue="Application.LiskovSubstitution" />
+      <item itemvalue="Application.LiskovSubstitution2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LiskovSubstitution2" />
+        <item itemvalue="Application.LiskovSubstitution" />
         <item itemvalue="Application.DependencyInversion2" />
         <item itemvalue="Application.DependencyInversion" />
         <item itemvalue="Application.DeleteNode_18" />
-        <item itemvalue="Application.Tail2HeadsPrintLinkedList_06" />
-        <item itemvalue="Application.mergeTwoSortedList_25" />
       </list>
     </recent_temporary>
   </component>
@@ -563,7 +660,7 @@
       <workItem from="1601305432849" duration="3098000" />
       <workItem from="1602904204229" duration="2919000" />
       <workItem from="1602913806209" duration="1984000" />
-      <workItem from="1602987112052" duration="23835000" />
+      <workItem from="1602987112052" duration="25650000" />
     </task>
     <servers />
   </component>
@@ -600,7 +697,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="492327000" />
+    <option name="totallyTimeSpent" value="494142000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -615,7 +712,7 @@
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48440748" visible="true" weight="0.14051896" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48440748" visible="true" weight="0.14051896" />
       <window_info id="Structure" order="1" sideWeight="0.5155925" side_tool="true" weight="0.1994638" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -633,7 +730,7 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.34493193" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.24357034" />
+      <window_info anchor="bottom" id="Run" order="11" visible="true" weight="0.24357034" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32952183" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
@@ -1128,144 +1225,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/xyz.bugcoder.my.hashmap.MyEntry">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>xyz.bugcoder.my.hashmap.MyEntry</OriginalElement>
-          <nodes>
-            <node x="" y="">xyz.bugcoder.my.hashmap.MyEntry</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="62.0" y="18.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/xyz.bugcoder.my.hashmap.MyHashMap">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>xyz.bugcoder.my.hashmap.MyHashMap</OriginalElement>
-          <nodes>
-            <node x="12.0" y="346.0">xyz.bugcoder.my.hashmap.MyHashMap.Entry</node>
-            <node x="0.0" y="0.0">xyz.bugcoder.my.hashmap.MyHashMap</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="xyz.bugcoder.my.hashmap.MyHashMap.Entry" target="xyz.bugcoder.my.hashmap.MyHashMap">
-              <point x="0.0" y="-83.0" />
-              <point x="0.0" y="148.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-341.0" y="47.0" />
-          <SelectedNodes>
-            <node>xyz.bugcoder.my.hashmap.MyHashMap</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.HashMap">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.HashMap</OriginalElement>
-          <nodes>
-            <node x="348.0" y="85.0">java.lang.Cloneable</node>
-            <node x="0.0" y="85.0">java.util.AbstractMap</node>
-            <node x="71.54166666666666" y="0.0">java.util.Map</node>
-            <node x="145.25" y="170.0">java.util.HashMap</node>
-            <node x="180.0" y="85.0">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.util.HashMap" target="java.util.Map">
-              <point x="-16.625" y="-17.5" />
-              <point x="195.125" y="145.0" />
-              <point x="169.5" y="145.0" />
-              <point x="169.5" y="60.0" />
-              <point x="142.04166666666666" y="60.0" />
-              <point x="23.5" y="17.5" />
-            </edge>
-            <edge source="java.util.HashMap" target="java.lang.Cloneable">
-              <point x="49.875" y="-17.5" />
-              <point x="261.625" y="145.0" />
-              <point x="415.5" y="145.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="java.util.HashMap" target="java.util.AbstractMap">
-              <point x="-49.875" y="-17.5" />
-              <point x="161.875" y="145.0" />
-              <point x="79.5" y="145.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="java.util.AbstractMap" target="java.util.Map">
-              <point x="0.0" y="-17.5" />
-              <point x="79.5" y="60.0" />
-              <point x="95.04166666666666" y="60.0" />
-              <point x="-23.5" y="17.5" />
-            </edge>
-            <edge source="java.util.HashMap" target="java.io.Serializable">
-              <point x="16.625" y="-17.5" />
-              <point x="228.375" y="145.0" />
-              <point x="254.0" y="145.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.6000000000000005" x="-72.0" y="-28.0" />
-          <SelectedNodes>
-            <node>java.io.Serializable</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/my/hashmap/MyEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="388" selection-start-line="388" selection-end-line="388" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#12846#12847#0" expanded="true" />
-            <element signature="e#12924#12925#0" expanded="true" />
-            <element signature="e#19103#19104#0" expanded="true" />
-            <element signature="e#19161#19162#0" expanded="true" />
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-            <element signature="e#21107#21108#0" expanded="true" />
-            <element signature="e#21134#21135#0" expanded="true" />
-            <element signature="e#24329#24330#0" expanded="true" />
-            <element signature="e#24394#24395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1216">
@@ -1656,8 +1615,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/DependencyInversion/DependencyInversion2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="120">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="23" />
           <folding>
             <element signature="e#1969#1970#0" expanded="true" />
             <element signature="e#1999#2000#0" expanded="true" />
@@ -1665,14 +1624,105 @@
             <element signature="e#2066#2067#0" expanded="true" />
             <element signature="e#2138#2139#0" expanded="true" />
             <element signature="e#2191#2192#0" expanded="true" />
-            <marker date="1603093193303" expanded="true" signature="646:781" ph="..." />
-            <marker date="1603093193303" expanded="false" signature="664:781" ph="..." />
-            <marker date="1603093193303" expanded="true" signature="665:781" ph="..." />
-            <marker date="1603093193303" expanded="true" signature="675:781" ph="..." />
-            <marker date="1603093193303" expanded="false" signature="831:937" ph="..." />
-            <marker date="1603093193303" expanded="false" signature="1178:1714" ph="..." />
-            <marker date="1603093193303" expanded="true" signature="1733:2187" ph="..." />
+            <marker date="1603093228703" expanded="true" signature="658:793" ph="..." />
+            <marker date="1603093228703" expanded="false" signature="676:793" ph="..." />
+            <marker date="1603093228703" expanded="true" signature="677:793" ph="..." />
+            <marker date="1603093228703" expanded="true" signature="687:793" ph="..." />
+            <marker date="1603093228703" expanded="false" signature="843:949" ph="..." />
+            <marker date="1603093228703" expanded="false" signature="1190:1726" ph="..." />
+            <marker date="1603093228703" expanded="true" signature="1745:2199" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/xyz/bugcoder/DesignPattern/LiskovSubstitution/BTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/LiskovSubstitution/LiskovSubstitution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/xyz.bugcoder.DesignPattern.LiskovSubstitution.LiskovSubstitution2">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>xyz.bugcoder.DesignPattern.LiskovSubstitution.LiskovSubstitution2</OriginalElement>
+          <nodes>
+            <node x="" y="">xyz.bugcoder.DesignPattern.LiskovSubstitution.LiskovSubstitution2</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="104.5" y="17.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/LiskovSubstitution/LiskovSubstitution2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding>
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/xyz.bugcoder.DesignPattern.LiskovSubstitution.Base">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>xyz.bugcoder.DesignPattern.LiskovSubstitution.Base</OriginalElement>
+          <nodes>
+            <node x="167.75" y="0.0">xyz.bugcoder.DesignPattern.LiskovSubstitution.Base</node>
+            <node x="226.0" y="85.0">xyz.bugcoder.DesignPattern.LiskovSubstitution.B2</node>
+            <node x="0.0" y="111.0">xyz.bugcoder.DesignPattern.LiskovSubstitution.A2</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="xyz.bugcoder.DesignPattern.LiskovSubstitution.B2" target="xyz.bugcoder.DesignPattern.LiskovSubstitution.Base">
+              <point x="0.0" y="-56.5" />
+              <point x="330.5" y="60.0" />
+              <point x="241.25" y="60.0" />
+              <point x="24.5" y="17.5" />
+            </edge>
+            <edge source="xyz.bugcoder.DesignPattern.LiskovSubstitution.A2" target="xyz.bugcoder.DesignPattern.LiskovSubstitution.Base">
+              <point x="0.0" y="-30.5" />
+              <point x="103.0" y="60.0" />
+              <point x="192.25" y="60.0" />
+              <point x="-24.5" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="217.4999999999999" y="52.99999999999994" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

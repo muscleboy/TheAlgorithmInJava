@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>xyz.bugcoder.DesignPattern.LiskovSubstitution.Base</OriginalElement>
+  <nodes>
+    <node x="169.25" y="0.0">xyz.bugcoder.DesignPattern.LiskovSubstitution.Base</node>
+    <node x="0.0" y="85.0">xyz.bugcoder.DesignPattern.LiskovSubstitution.B2</node>
+    <node x="229.0" y="111.0">xyz.bugcoder.DesignPattern.LiskovSubstitution.A2</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="xyz.bugcoder.DesignPattern.LiskovSubstitution.B2" target="xyz.bugcoder.DesignPattern.LiskovSubstitution.Base">
+      <point x="0.0" y="-56.5" />
+      <point x="104.5" y="60.0" />
+      <point x="193.75" y="60.0" />
+      <point x="-24.5" y="17.5" />
+    </edge>
+    <edge source="xyz.bugcoder.DesignPattern.LiskovSubstitution.A2" target="xyz.bugcoder.DesignPattern.LiskovSubstitution.Base">
+      <point x="0.0" y="-30.5" />
+      <point x="332.0" y="60.0" />
+      <point x="242.75" y="60.0" />
+      <point x="24.5" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="217.0" y="53.0" />
+  <SelectedNodes>
+    <node>xyz.bugcoder.DesignPattern.LiskovSubstitution.Base</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
