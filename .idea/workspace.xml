@@ -4,10 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,40 +43,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/DependencyInversion/DependencyInversion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/Tail2HeadsPrintLinkedList_06.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="53" column="42" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///var/folders/pb/5r0dbpdd3v9_k72rjqpj0z4m0000gn/T/leetcode/editor/cn/[剑指 Offer 18]删除链表的节点.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="32" selection-end-column="66" />
+            <state relative-caret-position="360">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="32" />
               <folding>
-                <element signature="e#0#826#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/DeleteNode_18.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/DependencyInversion/DependencyInversion2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+            <state relative-caret-position="480">
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <folding>
+                <element signature="e#1969#1970#0" expanded="true" />
+                <element signature="e#1999#2000#0" expanded="true" />
+                <element signature="e#2040#2041#0" expanded="true" />
+                <element signature="e#2066#2067#0" expanded="true" />
+                <element signature="e#2138#2139#0" expanded="true" />
+                <element signature="e#2191#2192#0" expanded="true" />
+                <marker date="1603093193303" expanded="true" signature="646:781" ph="..." />
+                <marker date="1603093193303" expanded="false" signature="664:781" ph="..." />
+                <marker date="1603093193303" expanded="true" signature="665:781" ph="..." />
+                <marker date="1603093193303" expanded="true" signature="675:781" ph="..." />
+                <marker date="1603093193303" expanded="false" signature="831:937" ph="..." />
+                <marker date="1603093193303" expanded="false" signature="1178:1714" ph="..." />
+                <marker date="1603093193303" expanded="true" signature="1733:2187" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,8 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/chapter2_1/ExtendExample2_4/InterfaceClassExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/Base.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/GetMaxMoney.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/GetAllSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/Node.java" />
@@ -191,6 +186,8 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/Tail2HeadsPrintLinkedList_06.java" />
         <option value="/var/folders/pb/5r0dbpdd3v9_k72rjqpj0z4m0000gn/T/leetcode/editor/cn/[剑指 Offer 18]删除链表的节点.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/DeleteNode_18.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/DependencyInversion/DependencyInversion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/DependencyInversion/DependencyInversion2.java" />
       </list>
     </option>
   </component>
@@ -285,7 +282,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="jianzhioffer" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -295,8 +292,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="jianzhioffer" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="DependencyInversion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,7 +305,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603078235912" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603093228739" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -327,6 +324,7 @@
       <recent name="xyz.bugcoder.DesignPattern.InterfaceSegregation" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/DependencyInversion" />
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/InterfaceSegregation" />
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/SingleResponsibility" />
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer" />
@@ -344,7 +342,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeleteNode_18">
+  <component name="RunManager" selected="Application.DependencyInversion2">
     <configuration name="DeleteNode_18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.LinkedList.DeleteNode_18" />
       <module name="TheAlgorithmInJava" />
@@ -358,12 +356,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetKthNodeFromEnd_22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.LinkedList.GetKthNodeFromEnd_22" />
+    <configuration name="DependencyInversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.DependencyInversion.DependencyInversion" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.LinkedList.*" />
+          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.DependencyInversion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,12 +369,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList_24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.LinkedList.ReverseLinkedList_24" />
+    <configuration name="DependencyInversion2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.DependencyInversion.DependencyInversion2" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.LinkedList.*" />
+          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.DependencyInversion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -411,19 +409,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseLinkedList_24" />
-      <item itemvalue="Application.GetKthNodeFromEnd_22" />
       <item itemvalue="Application.mergeTwoSortedList_25" />
       <item itemvalue="Application.Tail2HeadsPrintLinkedList_06" />
       <item itemvalue="Application.DeleteNode_18" />
+      <item itemvalue="Application.DependencyInversion" />
+      <item itemvalue="Application.DependencyInversion2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DependencyInversion2" />
+        <item itemvalue="Application.DependencyInversion" />
         <item itemvalue="Application.DeleteNode_18" />
         <item itemvalue="Application.Tail2HeadsPrintLinkedList_06" />
         <item itemvalue="Application.mergeTwoSortedList_25" />
-        <item itemvalue="Application.GetKthNodeFromEnd_22" />
-        <item itemvalue="Application.ReverseLinkedList_24" />
       </list>
     </recent_temporary>
   </component>
@@ -565,7 +563,7 @@
       <workItem from="1601305432849" duration="3098000" />
       <workItem from="1602904204229" duration="2919000" />
       <workItem from="1602913806209" duration="1984000" />
-      <workItem from="1602987112052" duration="20550000" />
+      <workItem from="1602987112052" duration="23835000" />
     </task>
     <servers />
   </component>
@@ -602,7 +600,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="489042000" />
+    <option name="totallyTimeSpent" value="492327000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -632,10 +630,10 @@
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5006142" side_tool="true" weight="0.3292978" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32829046" />
-      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.34493193" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.34493193" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.25718608" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.24357034" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32952183" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
@@ -651,7 +649,7 @@
       <window_info anchor="right" x="0" y="0" width="350" height="700" id="Documentation" order="9" side_tool="true" weight="0.32945737" />
       <window_info anchor="right" id="Maven Projects" order="10" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32985258" />
-      <window_info anchor="right" id="leetcode" order="12" side_tool="true" visible="true" weight="0.19720559" />
+      <window_info anchor="right" id="leetcode" order="12" side_tool="true" weight="0.19720559" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1130,20 +1128,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/FindRepeatNum_03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/Serializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3190">
-          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/xyz.bugcoder.my.hashmap.MyEntry">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1626,10 +1610,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java">
+    <entry file="file:///var/folders/pb/5r0dbpdd3v9_k72rjqpj0z4m0000gn/T/leetcode/editor/cn/[剑指 Offer 18]删除链表的节点.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        <state relative-caret-position="960">
+          <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#826#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/DeleteNode_18.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1640,20 +1634,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///var/folders/pb/5r0dbpdd3v9_k72rjqpj0z4m0000gn/T/leetcode/editor/cn/[剑指 Offer 18]删除链表的节点.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="32" selection-end-column="66" />
+        <state relative-caret-position="496">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/DependencyInversion/DependencyInversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="32" />
           <folding>
-            <element signature="e#0#826#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/DeleteNode_18.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/DependencyInversion/DependencyInversion2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        <state relative-caret-position="480">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#1969#1970#0" expanded="true" />
+            <element signature="e#1999#2000#0" expanded="true" />
+            <element signature="e#2040#2041#0" expanded="true" />
+            <element signature="e#2066#2067#0" expanded="true" />
+            <element signature="e#2138#2139#0" expanded="true" />
+            <element signature="e#2191#2192#0" expanded="true" />
+            <marker date="1603093193303" expanded="true" signature="646:781" ph="..." />
+            <marker date="1603093193303" expanded="false" signature="664:781" ph="..." />
+            <marker date="1603093193303" expanded="true" signature="665:781" ph="..." />
+            <marker date="1603093193303" expanded="true" signature="675:781" ph="..." />
+            <marker date="1603093193303" expanded="false" signature="831:937" ph="..." />
+            <marker date="1603093193303" expanded="false" signature="1178:1714" ph="..." />
+            <marker date="1603093193303" expanded="true" signature="1733:2187" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
