@@ -6,6 +6,11 @@ package xyz.bugcoder.DesignPattern.LiskovSubstitution;
  * @Description: 里氏替换原则
  * @createTime 2020-10-19 15:43
  */
+// 里氏替换原则
+// 1.所有用到父类的地方，替换成子类后，代码仍能正常运行
+// 2.在子类中尽量不要重写父类的方法
+// 3.继承增强了两个类之间的耦合度，可以通过组合、聚合、依赖的方式来解决问题
+// 4.用到父类的地方换成子类，出现错误，则该子类不应该继承自该父类，或者说 应该重新设计它们之间的关系
 public class LiskovSubstitution2 {
 
     public static void main(String[] args) {
