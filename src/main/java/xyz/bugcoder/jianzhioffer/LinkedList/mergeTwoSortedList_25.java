@@ -15,6 +15,8 @@ package xyz.bugcoder.jianzhioffer.LinkedList;
 // Related Topics 分治算法
 // 👍 39 👎 0
 
+import java.util.List;
+
 /**
  * Create with IDEA.
  *
@@ -25,6 +27,7 @@ package xyz.bugcoder.jianzhioffer.LinkedList;
  */
 public class mergeTwoSortedList_25 {
 
+    // 递归法
     public static ListNode mergeTwoLists(ListNode n1, ListNode n2) {
 
         // 两个空链表合并还是空
@@ -49,6 +52,31 @@ public class mergeTwoSortedList_25 {
         }
     }
 
+    // 伪头结点法
+    public static ListNode mergeTwoLists2(ListNode l1, ListNode l2) {
+
+        // 伪头结点
+        ListNode dummy = new ListNode(0);
+        ListNode cur = dummy;
+        while(l1 != null && l2 != null) {
+            // < : cur的下一节点为l1, l1走向下一个
+            if(l1.val < l2.val) {
+                cur.next = l1;
+                l1 = l1.next;
+            }
+            // >= : cur的下一节点为l2, l2走向下一个
+            else {
+                cur.next = l2;
+                l2 = l2.next;
+            }
+            // cur走向下一个
+            cur = cur.next;
+        }
+        // l1 或 l2为空，这是追加到cur后面
+        cur.next = l1 != null ? l1 : l2;
+        return dummy.next;
+    }
+
     public static void main(String[] args) {
         ListNode n1 = new ListNode(1);
         ListNode n2 = new ListNode(2);
@@ -60,7 +88,8 @@ public class mergeTwoSortedList_25 {
         ListNode m4 = new ListNode(4);
         m1.next = m3;
         m3.next = m4;
-        System.out.println(mergeTwoLists(n1, m1));
+//        System.out.println(mergeTwoLists(n1, m1));
+        System.out.println(mergeTwoLists2(n1, m1));
     }
 
 }
