@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,38 +44,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/OpenClose/OpenClose.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+              <folding>
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#897#898#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/OpenClose/OpenClose2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 52]两个链表的第一个公共节点.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/ReverseLinkedList_24.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/DeleteNode_18.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1306">
-              <caret line="91" column="44" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
+            <state relative-caret-position="240">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <folding>
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#909#910#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,8 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/SourceCodeAnalyze/ArrayListCompare.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CSNote/SourceCodeAnalyze/HashMapSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/MinStack.java" />
@@ -189,6 +191,8 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/DeleteNode_18.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/ReverseLinkedList_24.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/OpenClose/OpenClose.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/OpenClose/OpenClose2.java" />
       </list>
     </option>
   </component>
@@ -216,7 +220,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
@@ -282,7 +286,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="jianzhioffer" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -292,8 +296,20 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="jianzhioffer" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenClose" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenClose" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenClose2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -306,7 +322,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603341665084" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603352197934" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -326,18 +342,18 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="xyz.bugcoder" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="xyz.bugcoder.DesignPattern.InterfaceSegregation" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/OpenClose" />
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/LiskovSubstitution" />
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/DependencyInversion" />
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/InterfaceSegregation" />
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/SingleResponsibility" />
-      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/offer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -352,7 +368,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.mergeTwoSortedList_25">
+  <component name="RunManager" selected="Application.OpenClose2">
     <configuration name="DeleteNode_18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.LinkedList.DeleteNode_18" />
       <module name="TheAlgorithmInJava" />
@@ -366,12 +382,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetIntersectionNode_52" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.LinkedList.GetIntersectionNode_52" />
+    <configuration name="OpenClose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.OpenClose.OpenClose" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.LinkedList.*" />
+          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.OpenClose.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,12 +395,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiskovSubstitution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.LiskovSubstitution.LiskovSubstitution2" />
+    <configuration name="OpenClose2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.OpenClose.OpenClose2" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.LiskovSubstitution.*" />
+          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.OpenClose.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -419,19 +435,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LiskovSubstitution2" />
-      <item itemvalue="Application.GetIntersectionNode_52" />
       <item itemvalue="Application.ReverseLinkedList_24" />
       <item itemvalue="Application.DeleteNode_18" />
       <item itemvalue="Application.mergeTwoSortedList_25" />
+      <item itemvalue="Application.OpenClose" />
+      <item itemvalue="Application.OpenClose2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OpenClose2" />
+        <item itemvalue="Application.OpenClose" />
         <item itemvalue="Application.mergeTwoSortedList_25" />
         <item itemvalue="Application.DeleteNode_18" />
         <item itemvalue="Application.ReverseLinkedList_24" />
-        <item itemvalue="Application.GetIntersectionNode_52" />
-        <item itemvalue="Application.LiskovSubstitution2" />
       </list>
     </recent_temporary>
   </component>
@@ -578,6 +594,7 @@
       <workItem from="1603329810453" duration="28000" />
       <workItem from="1603329849476" duration="17000" />
       <workItem from="1603329878424" duration="2762000" />
+      <workItem from="1603348655286" duration="1648000" />
     </task>
     <servers />
   </component>
@@ -614,7 +631,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="505245000" />
+    <option name="totallyTimeSpent" value="507177000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -629,7 +646,7 @@
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48440748" visible="true" weight="0.015169661" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48440748" visible="true" weight="0.19001997" />
       <window_info id="Structure" order="1" sideWeight="0.5155925" side_tool="true" weight="0.1994638" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -644,10 +661,10 @@
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5006142" side_tool="true" weight="0.3292978" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32829046" />
-      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.29954615" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.29954615" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.2118003" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.2118003" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32952183" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
@@ -1214,20 +1231,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/util/LoopNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="795" column="53" lean-forward="true" selection-start-line="795" selection-start-column="53" selection-end-line="795" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/IsCycleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="976">
@@ -1615,13 +1618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 52]两个链表的第一个公共节点.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/GetIntersectionNode_52.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
@@ -1657,6 +1653,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="49" column="49" lean-forward="true" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 52]两个链表的第一个公共节点.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/ReverseLinkedList_24.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -1666,15 +1676,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/DeleteNode_18.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1306">
+        <state relative-caret-position="1216">
           <caret line="91" column="44" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/OpenClose/OpenClose.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="792">
+          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/OpenClose/OpenClose2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
