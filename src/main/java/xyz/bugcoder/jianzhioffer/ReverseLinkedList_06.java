@@ -25,7 +25,7 @@ class Node{
 public class ReverseLinkedList_06 {
 
     // 常规写法
-//    public static ArrayList<Integer> printListFromTail2Head(Node node){
+//    public static ArrayList<Integer> printListFromTail2Head(ListNode node){
 //
 //        // 临时变量
 //        ArrayList<Integer> temp = new ArrayList<>();

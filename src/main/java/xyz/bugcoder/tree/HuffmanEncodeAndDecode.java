@@ -27,7 +27,7 @@ public class HuffmanEncodeAndDecode {
 
         @Override
         public String toString() {
-            return "Node{" +
+            return "ListNode{" +
                     "data=" + data +
                     ", weight=" + weight +
                     '}';
@@ -44,7 +44,7 @@ public class HuffmanEncodeAndDecode {
     /** 
     * @Description: 创建哈夫曼树 
     * @Param: [nodes] 
-    * @return: xyz.bugcoder.tree.HuffmanEncodeAndDecode.Node
+    * @return: xyz.bugcoder.tree.HuffmanEncodeAndDecode.ListNode
     */ 
     public static Node createHuffmanTree(List<Node> nodes){
         
@@ -145,9 +145,9 @@ public class HuffmanEncodeAndDecode {
     }
 
     /**
-    * @Description: 将byte数组转换成List<Node>
+    * @Description: 将byte数组转换成List<ListNode>
     * @Param: [bytes]
-    * @return: java.util.List<xyz.bugcoder.tree.HuffmanEncodeAndDecode.Node>
+    * @return: java.util.List<xyz.bugcoder.tree.HuffmanEncodeAndDecode.ListNode>
     */
     private static List<Node> getNodes(byte[] bytes) {
 

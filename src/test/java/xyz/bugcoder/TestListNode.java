@@ -9,7 +9,7 @@ import xyz.bugcoder.util.Node;
  * @Description: TODO
  * @createTime 2019-07-20 11:04
  */
-public class TestNode {
+public class TestListNode {
 
     @Test
     public void test(){

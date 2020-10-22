@@ -31,11 +31,11 @@ import java.util.Stack;
 public class Tail2HeadsPrintLinkedList_06 {
 
     // 基础写法，用到栈，List，内存和用时 高
-    public static int[] reversePrint(Node head) {
+    public static int[] reversePrint(ListNode head) {
         List<Integer> result = new ArrayList<>();
         Stack<Integer> stack = new Stack<>();
         while (head != null) {
-            stack.push(head.data);
+            stack.push(head.val);
             head = head.next;
         }
         while (!stack.isEmpty()){
@@ -51,27 +51,27 @@ public class Tail2HeadsPrintLinkedList_06 {
     }
 
     // 循环链表，得到链表的长度，for倒序循环
-    public static int[] reversePrint2(Node node){
+    public static int[] reversePrint2(ListNode listNode){
         int len = 0;
-        Node currentNode = node;
-        while (currentNode != null){
+        ListNode currentListNode = listNode;
+        while (currentListNode != null){
             len ++;
-            currentNode = currentNode.next;
+            currentListNode = currentListNode.next;
         }
         int[] result = new int[len];
         for (int i = len - 1; i >= 0; i--) {
-            result[i] = node.data;
-            node = node.next;
+            result[i] = listNode.val;
+            listNode = listNode.next;
         }
 
         return result;
     }
 
     public static void main(String[] args) {
-        Node n1 = new Node(1);
-        Node n2 = new Node(2);
-        Node n3 = new Node(3);
-        Node n4 = new Node(4);
+        ListNode n1 = new ListNode(1);
+        ListNode n2 = new ListNode(2);
+        ListNode n3 = new ListNode(3);
+        ListNode n4 = new ListNode(4);
         n1.next = n2;
         n2.next = n3;
         n3.next = n4;

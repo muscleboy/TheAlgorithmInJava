@@ -73,34 +73,34 @@ public class GetIntersectionNode_52 {
     // node1走了L1, C为公共部分，走到头，走node2的路，总路程为：L1 + C + L2
     // node2走了L2, C为公共部分，走到头，走node1的路，总路程为：L2 + C + L1
     // 所以它们相遇了
-    public static Node getIntersectionNode(Node head1, Node head2){
+    public static ListNode getIntersectionNode(ListNode head1, ListNode head2){
 
 
-        Node node1 = head1;
-        Node node2 = head2;
+        ListNode listNode1 = head1;
+        ListNode listNode2 = head2;
 
-        while (node1 != node2){
-            node1 = node1 != null ? node1.next : head2;
-            node2 = node2 != null ? node2.next : head1;
+        while (listNode1 != listNode2){
+            listNode1 = listNode1 != null ? listNode1.next : head2;
+            listNode2 = listNode2 != null ? listNode2.next : head1;
         }
 
-        return node1;
+        return listNode1;
     }
 
     public static void main(String[] args) {
-        Node head1 = new Node(4);
-        Node n2 = new Node(1);
-        Node n3 = new Node(8);
-        Node n4 = new Node(4);
-        Node n5 = new Node(5);
+        ListNode head1 = new ListNode(4);
+        ListNode n2 = new ListNode(1);
+        ListNode n3 = new ListNode(8);
+        ListNode n4 = new ListNode(4);
+        ListNode n5 = new ListNode(5);
         head1.next = n2;
         n2.next = n3;
         n3.next = n4;
         n4.next = n5;
 
-        Node head2 = new Node(5);
-        Node n6 = new Node(0);
-        Node n7 = new Node(1);
+        ListNode head2 = new ListNode(5);
+        ListNode n6 = new ListNode(0);
+        ListNode n7 = new ListNode(1);
         head2.next = n6;
         n6.next = n7;
         n7.next = n3;

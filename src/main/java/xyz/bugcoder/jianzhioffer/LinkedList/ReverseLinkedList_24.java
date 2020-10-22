@@ -29,30 +29,30 @@ package xyz.bugcoder.jianzhioffer.LinkedList;
 public class ReverseLinkedList_24 {
 
     // 解题思路：循环列表，当前节点的下一节点和当前节点的上一节点 交换
-    public static Node reverseList(Node head) {
+    public static ListNode reverseList(ListNode head) {
         if (head == null)
             return null;
-        Node last = null;
+        ListNode newHead = null;
         while (head != null) {
-            Node temp = head.next;
-            head.next = last;
-            last = head;
+            ListNode temp = head.next;
+            head.next = newHead;
+            newHead = head;
             head = temp;
         }
 
-        return last;
+        return newHead;
     }
 
     public static void main(String[] args) {
-        Node node1 = new Node(1);
-        Node node2 = new Node(2);
-        Node node3 = new Node(3);
-        Node node4 = new Node(4);
-        Node node5 = new Node(5);
-        node1.next = node2;
-        node2.next = node3;
-        node3.next = node4;
-        node4.next = node5;
-        System.out.println(reverseList(node1));
+        ListNode listNode1 = new ListNode(1);
+        ListNode listNode2 = new ListNode(2);
+        ListNode listNode3 = new ListNode(3);
+        ListNode listNode4 = new ListNode(4);
+        ListNode listNode5 = new ListNode(5);
+        listNode1.next = listNode2;
+        listNode2.next = listNode3;
+        listNode3.next = listNode4;
+        listNode4.next = listNode5;
+        System.out.println(reverseList(listNode1));
     }
 }

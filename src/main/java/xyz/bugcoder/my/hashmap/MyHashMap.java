@@ -33,7 +33,7 @@ public class MyHashMap<K, V> {
     // 数组
     private Entry<K, V>[] table;
 
-    // 节点(Node)或者叫Entry(键值对)的数量
+    // 节点(ListNode)或者叫Entry(键值对)的数量
     int size;
     
     // 构造函数

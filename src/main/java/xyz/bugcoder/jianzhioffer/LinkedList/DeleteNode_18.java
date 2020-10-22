@@ -42,7 +42,7 @@ package xyz.bugcoder.jianzhioffer.LinkedList;
  */
 public class DeleteNode_18 {
 
-    public static Node deleteNode(Node head, int data){
+    public static ListNode deleteNode(ListNode head, int val){
 
         // 常规判空
         if (head == null){
@@ -50,27 +50,46 @@ public class DeleteNode_18 {
         }
 
         // 保存头结点
-        Node result = head;
+        ListNode result = head;
         // 如果删除的节点刚好是 头结点
-        if (head.data == data){
+        if (head.val == val){
             head = head.next;
             return head;
         }else {
-            Node node = deleteNode(head.next, data);
-            result.next = node;
+            ListNode listNode = deleteNode(head.next, val);
+            result.next = listNode;
             return result;
         }
     }
 
+    public static ListNode deleteNode2(ListNode head, int val){
+
+        // 如果删除的是 头结点
+        if (head.val == val){
+            return head.next;
+        }
+
+        ListNode cur = head;
+        ListNode next = head.next;
+        while (next != null && next.val != val){
+            cur = next;
+            next = next.next;
+        }
+        cur.next = next.next;
+
+        return head;
+    }
+
     public static void main(String[] args) {
-        Node n1 = new Node(1);
-        Node n2 = new Node(2);
-        Node n3 = new Node(3);
-        Node n4 = new Node(4);
+        ListNode n1 = new ListNode(4);
+        ListNode n2 = new ListNode(5);
+        ListNode n3 = new ListNode(1);
+        ListNode n4 = new ListNode(9);
         n1.next = n2;
         n2.next = n3;
         n3.next = n4;
-        System.out.println(deleteNode(n1, 2));
+//        System.out.println(deleteNode(n1, 2));
+        System.out.println(deleteNode2(n1, 5));
     }
 
 }

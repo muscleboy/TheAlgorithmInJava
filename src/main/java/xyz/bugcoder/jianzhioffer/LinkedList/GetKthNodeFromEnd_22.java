@@ -23,11 +23,11 @@ package xyz.bugcoder.jianzhioffer.LinkedList;
 public class GetKthNodeFromEnd_22 {
 
     // 双指针，pre比end多走 k 步
-    public static Node getKthFromEnd(Node head, int k) {
+    public static ListNode getKthFromEnd(ListNode head, int k) {
         if (head == null || k == 0)
             return null;
-        Node pre = head;
-        Node end = head;
+        ListNode pre = head;
+        ListNode end = head;
         for (int i = 0; i < k; i++) {
             pre = pre.next;
         }
@@ -40,16 +40,16 @@ public class GetKthNodeFromEnd_22 {
     }
 
     public static void main(String[] args) {
-        Node node1 = new Node(1);
-        Node node2 = new Node(2);
-        Node node3 = new Node(3);
-        Node node4 = new Node(4);
-        Node node5 = new Node(5);
-        node1.next = node2;
-        node2.next = node3;
-        node3.next = node4;
-        node4.next = node5;
-        System.out.println(getKthFromEnd(node1, 5));
+        ListNode listNode1 = new ListNode(1);
+        ListNode listNode2 = new ListNode(2);
+        ListNode listNode3 = new ListNode(3);
+        ListNode listNode4 = new ListNode(4);
+        ListNode listNode5 = new ListNode(5);
+        listNode1.next = listNode2;
+        listNode2.next = listNode3;
+        listNode3.next = listNode4;
+        listNode4.next = listNode5;
+        System.out.println(getKthFromEnd(listNode1, 5));
     }
 
 }

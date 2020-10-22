@@ -70,7 +70,7 @@ public class IsCycleLinkedList {
     * @Desc: 获取入环节点，头结点到入环节点的距离 = 首次相遇点到入环点的距离
      * @param head : 头结点
      * @param meetNode : 相遇节点
-    * @Returns: Node
+    * @Returns: ListNode
     **/
     public static Node getEntryNode(Node head, Node meetNode){
 

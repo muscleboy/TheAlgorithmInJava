@@ -25,7 +25,7 @@ package xyz.bugcoder.jianzhioffer.LinkedList;
  */
 public class mergeTwoSortedList_25 {
 
-    public static Node mergeTwoLists(Node n1, Node n2) {
+    public static ListNode mergeTwoLists(ListNode n1, ListNode n2) {
 
         // 两个空链表合并还是空
         if (n1 == null && n2 == null){
@@ -39,7 +39,7 @@ public class mergeTwoSortedList_25 {
         else if (n2 == null){
             return n1;
         }
-        else if (n1.data < n2.data){
+        else if (n1.val < n2.val){
             n1.next = mergeTwoLists(n1.next, n2);
             return n1;
         }
@@ -50,14 +50,14 @@ public class mergeTwoSortedList_25 {
     }
 
     public static void main(String[] args) {
-        Node n1 = new Node(1);
-        Node n2 = new Node(2);
-        Node n4 = new Node(4);
+        ListNode n1 = new ListNode(1);
+        ListNode n2 = new ListNode(2);
+        ListNode n4 = new ListNode(4);
         n1.next = n2;
         n2.next = n4;
-        Node m1 = new Node(1);
-        Node m3 = new Node(3);
-        Node m4 = new Node(4);
+        ListNode m1 = new ListNode(1);
+        ListNode m3 = new ListNode(3);
+        ListNode m4 = new ListNode(4);
         m1.next = m3;
         m3.next = m4;
         System.out.println(mergeTwoLists(n1, m1));

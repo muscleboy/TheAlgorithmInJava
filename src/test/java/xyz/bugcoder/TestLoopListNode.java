@@ -9,7 +9,7 @@ import xyz.bugcoder.util.LoopNode;
  * @Description: TODO
  * @createTime 2019-07-20 13:21
  */
-public class TestLoopNode {
+public class TestLoopListNode {
 
     @Test
     public void test(){

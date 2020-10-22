@@ -6,19 +6,19 @@ package xyz.bugcoder.jianzhioffer.LinkedList;
  * @Description: TODO
  * @createTime 2020-08-05 01:53
  */
-public class Node {
+public class ListNode {
 
-    int data;
-    Node next;
+    int val;
+    ListNode next;
 
-    public Node(int data) {
-        this.data = data;
+    public ListNode(int val) {
+        this.val = val;
     }
 
     @Override
     public String toString() {
-        return "Node{" +
-                "data=" + data +
+        return "ListNode{" +
+                "val=" + val +
                 ", next=" + next +
                 '}';
     }

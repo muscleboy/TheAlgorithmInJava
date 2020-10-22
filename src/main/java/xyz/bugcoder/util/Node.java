@@ -60,7 +60,7 @@ public class Node {
 
         // 这个不够明白
 //        // 取出下个节点，作为下下个节点
-//        Node nextNext = next;
+//        ListNode nextNext = next;
 //        // 当前节点的next为insertNode
 //        next = insertNode;
 //        // insertNode的下一个为下下个节点
