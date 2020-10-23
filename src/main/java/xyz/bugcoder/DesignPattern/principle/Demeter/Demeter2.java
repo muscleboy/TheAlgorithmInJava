@@ -1,10 +1,10 @@
-package xyz.bugcoder.DesignPattern.Demeter;
+package xyz.bugcoder.DesignPattern.principle.Demeter;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Package: xyz.bugcoder.DesignPattern.Demeter
+ * @Package: xyz.bugcoder.DesignPattern.principle.Demeter
  * @author: Weiyj
  * @Description: 迪米特法则
  * @createTime 2020-10-23 15:17
@@ -18,6 +18,8 @@ import java.util.List;
 // 5.直接朋友：每个对象都会与其他对象耦合，只要两个对象之间有耦合关系，这两个对象就是 直接朋友关系
 //   耦合的方式：依赖，关联，组合，聚合等; 我们称出现在 成员变量、方法参数、方法返回值中为类的直接朋友
 //   出现在局部变量中不是直接朋友关系， 陌生的类最好不要以局部变量的形式出现在类的内部
+
+// 核心：降低对象之间的耦合，而不是要求完全没有依赖关系
 public class Demeter2 {
 
     public static void main(String[] args) {

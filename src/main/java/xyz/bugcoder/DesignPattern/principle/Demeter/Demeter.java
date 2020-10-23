@@ -1,10 +1,10 @@
-package xyz.bugcoder.DesignPattern.Demeter;
+package xyz.bugcoder.DesignPattern.principle.Demeter;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Package: xyz.bugcoder.DesignPattern.Demeter
+ * @Package: xyz.bugcoder.DesignPattern.principle.Demeter
  * @author: Weiyj
  * @Description: 迪米特法则
  * @createTime 2020-10-23 15:17

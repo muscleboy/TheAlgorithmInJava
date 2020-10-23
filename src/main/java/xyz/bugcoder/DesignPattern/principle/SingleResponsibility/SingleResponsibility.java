@@ -1,7 +1,7 @@
-package xyz.bugcoder.DesignPattern.SingleResponsibility;
+package xyz.bugcoder.DesignPattern.principle.SingleResponsibility;
 
 /**
- * @Package: xyz.bugcoder.DesignPattern.SingleResponsibility
+ * @Package: xyz.bugcoder.DesignPattern.principle.SingleResponsibility
  * @author: Weiyj
  * @Description: 设计原则-单一职责原则(一个类只干一件事)
  * @createTime 2020-10-18 15:28

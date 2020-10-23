@@ -1,7 +1,7 @@
-package xyz.bugcoder.DesignPattern.DependencyInversion;
+package xyz.bugcoder.DesignPattern.principle.DependencyInversion;
 
 /**
- * @Package: xyz.bugcoder.DesignPattern.DependencyInversion
+ * @Package: xyz.bugcoder.DesignPattern.principle.DependencyInversion
  * @author: Weiyj
  * @Description: 依赖倒置原则
  * @createTime 2020-10-19 14:41

@@ -1,7 +1,7 @@
-package xyz.bugcoder.DesignPattern.LiskovSubstitution;
+package xyz.bugcoder.DesignPattern.principle.LiskovSubstitution;
 
 /**
- * @Package: xyz.bugcoder.DesignPattern.LiskovSubstitution
+ * @Package: xyz.bugcoder.DesignPattern.principle.LiskovSubstitution
  * @author: Weiyj
  * @Description: 里氏替换原则
  * @createTime 2020-10-19 15:43

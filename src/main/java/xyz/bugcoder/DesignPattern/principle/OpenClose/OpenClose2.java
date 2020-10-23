@@ -1,7 +1,7 @@
-package xyz.bugcoder.DesignPattern.OpenClose;
+package xyz.bugcoder.DesignPattern.principle.OpenClose;
 
 /**
- * @Package: xyz.bugcoder.DesignPattern.OpenClose
+ * @Package: xyz.bugcoder.DesignPattern.principle.OpenClose
  * @author: Weiyj
  * @Description: 开闭原则
  * @createTime 2020-10-22 15:06

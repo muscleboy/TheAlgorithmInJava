@@ -1,7 +1,7 @@
-package xyz.bugcoder.DesignPattern.InterfaceSegregation;
+package xyz.bugcoder.DesignPattern.principle.InterfaceSegregation;
 
 /**
- * @Package: xyz.bugcoder.DesignPattern.InterfaceSegregation
+ * @Package: xyz.bugcoder.DesignPattern.principle.InterfaceSegregation
  * @author: Weiyj
  * @Description: 设计原则-接口隔离原则
  * @createTime 2020-10-18 16:10
