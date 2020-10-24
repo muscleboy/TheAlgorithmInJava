@@ -12,7 +12,7 @@ public class DeleteRepeatNode_18 {
     // 链表1->2->3->3->4->4->5 处理后为 1->2->3->4->5
     public static ListNode deleteRepeatNode(ListNode head){
 
-        if (head == null || head.next == null){
+        if (head == null){
             return null;
         }
 
@@ -32,7 +32,7 @@ public class DeleteRepeatNode_18 {
     // 链表1->2->3->3->4->4->5 处理后为 1->2->5
     public static ListNode deleteRepeatNode2(ListNode head){
 
-        if (head == null || head.next == null){
+        if (head == null){
             return null;
         }
 
@@ -77,8 +77,8 @@ public class DeleteRepeatNode_18 {
         listNode4.next = listNode5;
         listNode5.next = listNode6;
         listNode6.next = listNode7;
-        System.out.println(deleteRepeatNode(listNode1));
-//        System.out.println(deleteRepeatNode2(listNode1));
+//        System.out.println(deleteRepeatNode(listNode1));
+        System.out.println(deleteRepeatNode2(listNode1));
     }
 
 }
