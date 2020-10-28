@@ -46,10 +46,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/MajorityElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="235">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 39]数组中出现次数超过一半的数字.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="25" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#525#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/SingleResponsibility/SingleResponsibility.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/SingleResponsibility/SingleResponsibility2.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/SingleResponsibility/SingleResponsibility3.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -163,6 +174,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/SingleNumbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/SingleNumbers_56.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/MajorityElement.java" />
       </list>
     </option>
   </component>
@@ -282,15 +294,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603771761644" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603896204217" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -341,20 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindNumKFromSortArray">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.pattern.factory.Client" />
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.pattern.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MajorityElement">
     <configuration name="FindNumKFromSortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.array.FindNumKFromSortArray" />
       <module name="TheAlgorithmInJava" />
@@ -374,6 +373,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.array.MajorityElement" />
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -410,19 +422,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client" />
       <item itemvalue="Application.SingleNumbers_56" />
       <item itemvalue="Application.FindRepeatNum_03" />
-      <item itemvalue="JUnit.SimpleFactory" />
       <item itemvalue="Application.FindNumKFromSortArray" />
+      <item itemvalue="JUnit.SimpleFactory" />
+      <item itemvalue="Application.MajorityElement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MajorityElement" />
         <item itemvalue="Application.FindNumKFromSortArray" />
         <item itemvalue="Application.FindRepeatNum_03" />
         <item itemvalue="Application.SingleNumbers_56" />
         <item itemvalue="JUnit.SimpleFactory" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -576,7 +588,9 @@
       <workItem from="1603612718223" duration="2871000" />
       <workItem from="1603633950964" duration="478000" />
       <workItem from="1603677430424" duration="11565000" />
-      <workItem from="1603762300884" duration="7315000" />
+      <workItem from="1603762300884" duration="7638000" />
+      <workItem from="1603850276517" duration="336000" />
+      <workItem from="1603875961917" duration="794000" />
     </task>
     <servers />
   </component>
@@ -613,7 +627,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="558044000" />
+    <option name="totallyTimeSpent" value="559497000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -628,7 +642,7 @@
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48336253" visible="true" weight="0.15608783" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48336253" visible="true" weight="0.15928143" />
       <window_info id="Structure" order="1" sideWeight="0.5166375" side_tool="true" weight="0.15608783" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1141,39 +1155,45 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray.java</url>
-          <line>53</line>
+          <line>54</line>
           <properties />
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray.java</url>
-          <line>45</line>
+          <line>46</line>
           <properties />
           <option name="timeStamp" value="147" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray.java</url>
-          <line>47</line>
+          <line>48</line>
           <properties />
           <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray.java</url>
-          <line>48</line>
+          <line>49</line>
           <properties />
           <option name="timeStamp" value="149" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray.java</url>
-          <line>50</line>
+          <line>51</line>
           <properties />
           <option name="timeStamp" value="152" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray.java</url>
-          <line>46</line>
+          <line>47</line>
           <properties />
           <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="154" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/FindNearestNum.java</url>
@@ -1255,31 +1275,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 52]两个链表的第一个公共节点.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/xyz.bugcoder.DesignPattern.UmlRelation.A">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>xyz.bugcoder.DesignPattern.UmlRelation.A</OriginalElement>
-          <nodes>
-            <node x="" y="">xyz.bugcoder.DesignPattern.UmlRelation.A</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="36.0" y="18.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/xyz.bugcoder.DesignPattern.UmlRelation.Dependence">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1699,8 +1694,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="976">
+          <caret line="64" column="44" lean-forward="true" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 39]数组中出现次数超过一半的数字.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/MajorityElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
         </state>
       </provider>
     </entry>
