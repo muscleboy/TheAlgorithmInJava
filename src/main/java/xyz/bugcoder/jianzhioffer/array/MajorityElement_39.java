@@ -33,7 +33,7 @@ package xyz.bugcoder.jianzhioffer.array;
  * @Description: TODO
  * @createTime 2020-10-28 22:29
  */
-public class MajorityElement {
+public class MajorityElement_39 {
 
     // 时间 O(n)
     // 空间 O(1)
