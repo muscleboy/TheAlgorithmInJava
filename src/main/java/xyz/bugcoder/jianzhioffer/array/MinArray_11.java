@@ -26,7 +26,7 @@ package xyz.bugcoder.jianzhioffer.array;
  * @Description: TODO
  * @createTime 2020-10-29 11:58
  */
-public class MinArray {
+public class MinArray_11 {
 
     public static int minArray(int[] nums){
 
