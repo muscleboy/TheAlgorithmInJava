@@ -7,58 +7,6 @@
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/UmlRelation/Aggregation/Aggregation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/UmlRelation/Aggregation/Aggregation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/UmlRelation/Association/Association.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/UmlRelation/Association/Association.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/UmlRelation/Composition/Composition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/UmlRelation/Composition/Composition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/UmlRelation/Dependence/Dependence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/UmlRelation/Dependence/Dependence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/UmlRelation/Generalization/Generalization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/UmlRelation/Generalization/Generalization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/UmlRelation/Implementation/Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/UmlRelation/Implementation/Implementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/BuilderPattern/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/pattern/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/BuilderPattern/DecorationPackageMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/pattern/DecorationPackageMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/BuilderPattern/IMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/pattern/IMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/ifelse/DecorationPackageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/normal/DecorationPackageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/ifelse/Matter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/normal/Matter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/ifelse/ceiling/LevelOneCeiling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/normal/ceiling/LevelOneCeiling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/ifelse/ceiling/LevelTwoCeiling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/normal/ceiling/LevelTwoCeiling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/ifelse/coat/DuluxCoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/normal/coat/DuluxCoat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/ifelse/coat/LiBangCoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/normal/coat/LiBangCoat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/ifelse/floor/DerFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/normal/floor/DerFloor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/ifelse/floor/ShengXiangFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/normal/floor/ShengXiangFloor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/ifelse/tile/DongPengTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/normal/tile/DongPengTile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/ifelse/tile/MarcoPoloTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/normal/tile/MarcoPoloTile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/factory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/factory/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/factory/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/factory/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/factory/ProductA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/factory/ProductA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/factory/ProductB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/factory/ProductB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/factory/ProductC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/factory/ProductC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/factory/SimpleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/factory/SimpleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/factorymethod/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/factorymethod/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/factorymethod/Factory1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/factorymethod/Factory1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/factorymethod/Factory2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/factorymethod/Factory2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/factorymethod/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/factorymethod/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/factorymethod/Product1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/factorymethod/Product1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/factorymethod/Product2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/factorymethod/Product2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/singleton/Singleton2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/singleton/Singleton2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/singleton/Singleton3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/singleton/Singleton3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/singleton/Singleton4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/singleton/Singleton4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/singleton/Singleton5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/singleton/Singleton5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/principle/Demeter/Demeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/principle/Demeter/Demeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/principle/Demeter/Demeter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/principle/Demeter/Demeter2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/principle/DependencyInversion/DependencyInversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/principle/DependencyInversion/DependencyInversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/principle/DependencyInversion/DependencyInversion2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/principle/DependencyInversion/DependencyInversion2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/principle/InterfaceSegregation/Segregation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/principle/InterfaceSegregation/Segregation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/principle/InterfaceSegregation/SegregationImprove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/principle/InterfaceSegregation/SegregationImprove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/principle/InterfaceSegregation/interface-segregation.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/principle/InterfaceSegregation/interface-segregation.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/principle/LiskovSubstitution/Base.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/principle/LiskovSubstitution/Base.uml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/principle/LiskovSubstitution/LiskovSubstitution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/principle/LiskovSubstitution/LiskovSubstitution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/principle/LiskovSubstitution/LiskovSubstitution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/principle/LiskovSubstitution/LiskovSubstitution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/principle/OpenClose/OpenClose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/principle/OpenClose/OpenClose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/principle/OpenClose/OpenClose2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/principle/OpenClose/OpenClose2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/principle/SingleResponsibility/SingleResponsibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/principle/SingleResponsibility/SingleResponsibility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/principle/SingleResponsibility/SingleResponsibility2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/principle/SingleResponsibility/SingleResponsibility2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/principle/SingleResponsibility/SingleResponsibility3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/principle/SingleResponsibility/SingleResponsibility3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -97,36 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/prototype/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/prototype/pattern/QuestionController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-              <folding>
-                <element signature="e#624#640#0" expanded="true" />
-                <element signature="e#874#890#0" expanded="true" />
-                <element signature="e#1146#1162#0" expanded="true" />
-                <element signature="e#1392#1408#0" expanded="true" />
-                <element signature="e#1590#1606#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/prototype/normal/QuestionController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="1421">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,7 +70,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tran</find>
       <find>node</find>
       <find>table</find>
       <find>resize</find>
@@ -177,6 +99,7 @@
       <find>depen</find>
       <find>getDateInstance</find>
       <find>getInstance</find>
+      <find>new Date()</find>
     </findStrings>
     <replaceStrings>
       <replace>standar</replace>
@@ -184,6 +107,7 @@
       <replace>arr</replace>
       <replace>B</replace>
       <replace>depend</replace>
+      <replace>parse</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -192,25 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/MajorityElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/OldBeforeEven.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/MajorityElement_39.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray_53.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/MinArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/pattern/factorymethod/Factory1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/pattern/factorymethod/Factory2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/pattern/factorymethod/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/pattern/factorymethod/Product2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/pattern/factorymethod/Product1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/pattern/factory/SimpleFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/pattern/factorymethod/Factory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/NumberOf1Bit_15.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/MinArray_11.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/KMinNumbers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/Fib.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/Fib_10.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/factorymethod/Factory.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/Matter.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/ceiling/LevelOneCeiling.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/ceiling/LevelTwoCeiling.java" />
@@ -243,6 +148,25 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/prototype/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/prototype/pattern/QuestionBank.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/prototype/pattern/QuestionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/prototype/normal/QuestionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/service/POPOrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/CreateAccountMqService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/OrderMqService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/POPOrderDeliveredMqService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/OrderAdapterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/impl/InsideOrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/impl/POPOrderAdapterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/mq/CreateAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/mq/OrderMq.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/mq/POPOrderDelivered.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/RebateInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/MQAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/impl/InsideOrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/pattern/MQAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/normal/service/POPOrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/normal/POPOrderDeliveredMqService.java" />
       </list>
     </option>
   </component>
@@ -270,7 +194,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
@@ -348,7 +272,7 @@
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="create" type="462c0819:PsiDirectoryNode" />
+              <item name="structure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -359,32 +283,7 @@
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="create" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="create" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="create" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="structure" type="462c0819:PsiDirectoryNode" />
               <item name="normal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -396,9 +295,9 @@
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="create" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="structure" type="462c0819:PsiDirectoryNode" />
+              <item name="normal" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -410,7 +309,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604129803666" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604139675047" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -465,13 +364,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test.test2 (1)">
-    <configuration name="MaxSubArray_42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.array.MaxSubArray_42" />
+  <component name="RunManager" selected="JUnit.Test.test_MQAdapter">
+    <configuration name="Singleton5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.create.singleton.Singleton5" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.array.*" />
+          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.create.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -479,28 +378,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintNums_17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.array.PrintNums_17" />
+    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.array.*" />
+          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.structure.pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSum_57" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.array.TwoSum_57" />
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.DesignPattern.structure" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.structure.Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -509,48 +397,64 @@
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.create.prototype.normal.*" />
+          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.structure.pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xyz.bugcoder.DesignPattern.create.prototype" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.create.prototype.Test" />
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.DesignPattern.structure" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.structure.Test" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.test2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.test_MQAdapter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.create.prototype.*" />
+          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.structure.pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xyz.bugcoder.DesignPattern.create.prototype" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.create.prototype.Test" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.DesignPattern.structure" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.structure.Test" />
+      <option name="METHOD_NAME" value="test_MQAdapter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test_itfAdapter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.structure.pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.DesignPattern.structure" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.structure.Test" />
+      <option name="METHOD_NAME" value="test_itfAdapter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MaxSubArray_42" />
-      <item itemvalue="Application.TwoSum_57" />
-      <item itemvalue="Application.PrintNums_17" />
-      <item itemvalue="JUnit.Test.test" />
-      <item itemvalue="JUnit.Test.test2 (1)" />
+      <item itemvalue="Application.Singleton5" />
+      <item itemvalue="JUnit.Test.test (1)" />
+      <item itemvalue="JUnit.Test.test_itfAdapter" />
+      <item itemvalue="JUnit.Test.test_MQAdapter" />
+      <item itemvalue="JUnit.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test.test2 (1)" />
-        <item itemvalue="JUnit.Test.test" />
-        <item itemvalue="Application.PrintNums_17" />
-        <item itemvalue="Application.TwoSum_57" />
-        <item itemvalue="Application.MaxSubArray_42" />
+        <item itemvalue="JUnit.Test.test_MQAdapter" />
+        <item itemvalue="JUnit.Test.test_itfAdapter" />
+        <item itemvalue="JUnit.Test" />
+        <item itemvalue="JUnit.Test.test (1)" />
+        <item itemvalue="Application.Singleton5" />
       </list>
     </recent_temporary>
   </component>
@@ -709,44 +613,44 @@
       <workItem from="1603875961917" duration="2284000" />
       <workItem from="1603933758676" duration="7149000" />
       <workItem from="1604019847080" duration="11729000" />
-      <workItem from="1604105250644" duration="5921000" />
+      <workItem from="1604105250644" duration="12694000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_testDog - 2019.10.10 at 09h 52m 59s.xml">
-      <configuration name="Test.testDog" configurationId="JUnit" />
+    <history-entry file="Test_test_MQAdapter - 2020.10.31 at 18h 03m 28s.xml">
+      <configuration name="Test.test_MQAdapter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Array2BinaryTree_test - 2019.10.19 at 20h 28m 37s.xml">
-      <configuration name="Array2BinaryTree.test" configurationId="JUnit" />
+    <history-entry file="Test_test_MQAdapter - 2020.10.31 at 18h 06m 40s.xml">
+      <configuration name="Test.test_MQAdapter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Array2BinaryTree_test - 2019.10.19 at 20h 29m 32s.xml">
-      <configuration name="Array2BinaryTree.test" configurationId="JUnit" />
+    <history-entry file="Test_test_MQAdapter - 2020.10.31 at 18h 10m 45s.xml">
+      <configuration name="Test.test_MQAdapter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleFactory - 2020.10.25 at 21h 56m 55s.xml">
-      <configuration name="SimpleFactory" configurationId="JUnit" />
+    <history-entry file="Test_test_itfAdapter - 2020.10.31 at 18h 11m 11s.xml">
+      <configuration name="Test.test_itfAdapter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Test1 - 2020.10.30 at 17h 31m 35s.xml">
-      <configuration name="Test.Test1" configurationId="JUnit" />
+    <history-entry file="Test_test_itfAdapter - 2020.10.31 at 18h 11m 59s.xml">
+      <configuration name="Test.test_itfAdapter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test2 - 2020.10.30 at 17h 33m 06s.xml">
-      <configuration name="Test.test2" configurationId="JUnit" />
+    <history-entry file="Test - 2020.10.31 at 18h 13m 17s.xml">
+      <configuration name="Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test2 - 2020.10.30 at 17h 37m 24s.xml">
-      <configuration name="Test.test2" configurationId="JUnit" />
+    <history-entry file="Test - 2020.10.31 at 18h 13m 30s.xml">
+      <configuration name="Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2020.10.31 at 15h 07m 08s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="Test_test_MQAdapter - 2020.10.31 at 18h 13m 36s.xml">
+      <configuration name="Test.test_MQAdapter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test2_(1) - 2020.10.31 at 15h 22m 26s.xml">
-      <configuration name="Test.test2 (1)" configurationId="JUnit" />
+    <history-entry file="Test_test_itfAdapter - 2020.10.31 at 18h 13m 39s.xml">
+      <configuration name="Test.test_itfAdapter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test2_(1) - 2020.10.31 at 15h 25m 33s.xml">
-      <configuration name="Test.test2 (1)" configurationId="JUnit" />
+    <history-entry file="Test_test_itfAdapter - 2020.10.31 at 18h 14m 35s.xml">
+      <configuration name="Test.test_itfAdapter" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="585786000" />
+    <option name="totallyTimeSpent" value="592559000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -779,7 +683,7 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.29954615" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.5839637" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.3419062" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32952183" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
@@ -1394,152 +1298,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/factorymethod/Product2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/factorymethod/Product1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding>
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/ConstructArr_66.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray_53.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="104" column="5" lean-forward="true" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/MajorityElement_39.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/OldBeforeEven_21.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/MinArray_11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/NumberOf1Bit_15.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 15]二进制中1的个数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="27" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#843#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/SingleNumbers_56.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="161" column="44" lean-forward="true" selection-start-line="161" selection-start-column="44" selection-end-line="161" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/JumpFloor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/Hanoi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/Count5WordsFromText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/GeDeBaHeCaiXiang.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/GetAllSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/GetMaxMoney.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/IsPowerOfTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 10- II]青蛙跳台阶问题.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 40]最小的k个数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#543#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 10- I]斐波那契数列.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -1869,27 +1627,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/prototype/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/prototype/pattern/QuestionBank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/prototype/normal/QuestionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="544">
+          <caret line="58" column="41" lean-forward="true" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1898,14 +1639,207 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/prototype/pattern/QuestionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="1024">
+          <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
           <folding>
             <element signature="e#624#640#0" expanded="true" />
             <element signature="e#874#890#0" expanded="true" />
             <element signature="e#1146#1162#0" expanded="true" />
             <element signature="e#1392#1408#0" expanded="true" />
             <element signature="e#1590#1606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/prototype/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/prototype/normal/QuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/singleton/Singleton5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/singleton/Singleton4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/singleton/Singleton3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/singleton/Singleton2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/singleton/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/mq/POPOrderDelivered.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/mq/OrderMq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/mq/CreateAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/normal/impl/POPOrderAdapterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/normal/impl/InsideOrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/normal/service/POPOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/normal/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/normal/CreateAccountMqService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/normal/OrderAdapterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/normal/OrderMqService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/normal/POPOrderDeliveredMqService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/pattern/MQAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/pattern/RebateInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1421">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
