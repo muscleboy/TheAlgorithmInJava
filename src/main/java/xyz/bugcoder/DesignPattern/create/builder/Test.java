@@ -1,10 +1,10 @@
 package xyz.bugcoder.DesignPattern.create.builder;
 
-import xyz.bugcoder.DesignPattern.create.builder.BuilderPattern.Builder;
+import xyz.bugcoder.DesignPattern.create.builder.pattern.Builder;
 
 import java.math.BigDecimal;
 
-import static xyz.bugcoder.DesignPattern.create.builder.ifelse.DecorationPackageController.getMatterList;
+import static xyz.bugcoder.DesignPattern.create.builder.normal.DecorationPackageController.getMatterList;
 
 /**
  * @Package: xyz.bugcoder.DesignPattern.create.builder
