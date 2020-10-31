@@ -45,19 +45,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 57]和为s的两个数字.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/PrintNums.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="24" selection-end-column="11" />
+            <state relative-caret-position="744">
+              <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+              <folding>
+                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/TwoSum.java">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 17]打印从1到最大的n位数.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="16" />
+            <state>
+              <caret selection-end-line="17" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -120,8 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/pattern/singleton/Singleton4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/pattern/singleton/Singleton5.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/ConstructArr.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/ConstructArr_66.java" />
@@ -171,6 +173,8 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/builder/BuilderPattern/Builder.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/MaxSubArray_42.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/TwoSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/TwoSum_57.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/PrintNums.java" />
       </list>
     </option>
   </component>
@@ -288,7 +292,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604113233037" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604126394218" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -341,20 +345,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwoSum">
-    <configuration name="DecorationPackageController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.create.builder.ifelse.DecorationPackageController" />
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.create.builder.ifelse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PrintNums">
     <configuration name="MaxSubArray_42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.array.MaxSubArray_42" />
       <module name="TheAlgorithmInJava" />
@@ -368,8 +359,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.array.TwoSum" />
+    <configuration name="PrintNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.array.PrintNums" />
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSum_57" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.array.TwoSum_57" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
@@ -414,19 +418,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DecorationPackageController" />
       <item itemvalue="JUnit.Test.Test1" />
       <item itemvalue="JUnit.Test.test2" />
       <item itemvalue="Application.MaxSubArray_42" />
-      <item itemvalue="Application.TwoSum" />
+      <item itemvalue="Application.TwoSum_57" />
+      <item itemvalue="Application.PrintNums" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.PrintNums" />
+        <item itemvalue="Application.TwoSum_57" />
         <item itemvalue="Application.MaxSubArray_42" />
         <item itemvalue="JUnit.Test.test2" />
         <item itemvalue="JUnit.Test.Test1" />
-        <item itemvalue="Application.DecorationPackageController" />
       </list>
     </recent_temporary>
   </component>
@@ -585,7 +589,7 @@
       <workItem from="1603875961917" duration="2284000" />
       <workItem from="1603933758676" duration="7149000" />
       <workItem from="1604019847080" duration="11729000" />
-      <workItem from="1604105250644" duration="2332000" />
+      <workItem from="1604105250644" duration="3067000" />
     </task>
     <servers />
   </component>
@@ -622,7 +626,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="582197000" />
+    <option name="totallyTimeSpent" value="582932000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1270,23 +1274,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 11]旋转数组的最小数字.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="18" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#548#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/factory/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/pattern/factory/ProductA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1763,10 +1750,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/TwoSum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/TwoSum_57.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="16" />
+        <state relative-caret-position="448">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/PrintNums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding>
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 17]打印从1到最大的n位数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="17" selection-end-column="11" />
         </state>
       </provider>
     </entry>
