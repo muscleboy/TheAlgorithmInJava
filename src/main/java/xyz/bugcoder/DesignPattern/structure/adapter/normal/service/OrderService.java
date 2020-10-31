@@ -1,10 +1,10 @@
-package xyz.bugcoder.DesignPattern.structure.normal.service;
+package xyz.bugcoder.DesignPattern.structure.adapter.normal.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @Package: xyz.bugcoder.DesignPattern.structure.normal.service
+ * @Package: xyz.bugcoder.DesignPattern.structure.adapter.normal.service
  * @author: Weiyj
  * @Description: TODO
  * @createTime 2020-10-31 16:07

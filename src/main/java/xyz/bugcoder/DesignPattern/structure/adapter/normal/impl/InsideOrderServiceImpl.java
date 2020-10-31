@@ -1,10 +1,10 @@
-package xyz.bugcoder.DesignPattern.structure.normal.impl;
+package xyz.bugcoder.DesignPattern.structure.adapter.normal.impl;
 
-import xyz.bugcoder.DesignPattern.structure.normal.OrderAdapterService;
-import xyz.bugcoder.DesignPattern.structure.normal.service.OrderService;
+import xyz.bugcoder.DesignPattern.structure.adapter.normal.OrderAdapterService;
+import xyz.bugcoder.DesignPattern.structure.adapter.normal.service.OrderService;
 
 /**
- * @Package: xyz.bugcoder.DesignPattern.structure.normal.impl
+ * @Package: xyz.bugcoder.DesignPattern.structure.adapter.normal.impl
  * @author: Weiyj
  * @Description: TODO
  * @createTime 2020-10-31 17:15

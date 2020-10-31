@@ -1,4 +1,4 @@
-package xyz.bugcoder.DesignPattern.structure.pattern;
+package xyz.bugcoder.DesignPattern.structure.adapter.pattern;
 
 import com.alibaba.fastjson.JSON;
 import lombok.Data;

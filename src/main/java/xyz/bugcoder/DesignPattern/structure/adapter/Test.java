@@ -1,12 +1,12 @@
-package xyz.bugcoder.DesignPattern.structure;
+package xyz.bugcoder.DesignPattern.structure.adapter;
 
 import com.alibaba.fastjson.JSON;
-import xyz.bugcoder.DesignPattern.structure.normal.impl.InsideOrderServiceImpl;
-import xyz.bugcoder.DesignPattern.structure.normal.impl.POPOrderAdapterServiceImpl;
-import xyz.bugcoder.DesignPattern.structure.mq.CreateAccount;
-import xyz.bugcoder.DesignPattern.structure.mq.OrderMq;
-import xyz.bugcoder.DesignPattern.structure.pattern.MQAdapter;
-import xyz.bugcoder.DesignPattern.structure.pattern.RebateInfo;
+import xyz.bugcoder.DesignPattern.structure.adapter.normal.impl.InsideOrderServiceImpl;
+import xyz.bugcoder.DesignPattern.structure.adapter.normal.impl.POPOrderAdapterServiceImpl;
+import xyz.bugcoder.DesignPattern.structure.adapter.mq.CreateAccount;
+import xyz.bugcoder.DesignPattern.structure.adapter.mq.OrderMq;
+import xyz.bugcoder.DesignPattern.structure.adapter.pattern.MQAdapter;
+import xyz.bugcoder.DesignPattern.structure.adapter.pattern.RebateInfo;
 
 import java.lang.reflect.InvocationTargetException;
 import java.text.ParseException;

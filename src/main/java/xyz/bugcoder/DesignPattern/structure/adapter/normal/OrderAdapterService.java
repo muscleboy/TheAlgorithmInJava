@@ -1,4 +1,4 @@
-package xyz.bugcoder.DesignPattern.structure.normal;
+package xyz.bugcoder.DesignPattern.structure.adapter.normal;
 
 /**
  * @Package: xyz.bugcoder.DesignPattern.structure

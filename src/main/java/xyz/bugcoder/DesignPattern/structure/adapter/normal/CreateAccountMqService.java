@@ -1,7 +1,7 @@
-package xyz.bugcoder.DesignPattern.structure.normal;
+package xyz.bugcoder.DesignPattern.structure.adapter.normal;
 
 import com.alibaba.fastjson.JSON;
-import xyz.bugcoder.DesignPattern.structure.mq.CreateAccount;
+import xyz.bugcoder.DesignPattern.structure.adapter.mq.CreateAccount;
 /**
  * @Package: xyz.bugcoder.DesignPattern.structure
  * @author: Weiyj

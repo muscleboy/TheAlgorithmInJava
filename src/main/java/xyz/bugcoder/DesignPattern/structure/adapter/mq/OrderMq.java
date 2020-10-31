@@ -1,4 +1,4 @@
-package xyz.bugcoder.DesignPattern.structure.mq;
+package xyz.bugcoder.DesignPattern.structure.adapter.mq;
 
 import com.alibaba.fastjson.JSON;
 import lombok.Data;
@@ -6,7 +6,7 @@ import lombok.Data;
 import java.util.Date;
 
 /**
- * @Package: xyz.bugcoder.DesignPattern.structure.mq
+ * @Package: xyz.bugcoder.DesignPattern.structure.adapter.mq
  * @author: Weiyj
  * @Description: TODO
  * @createTime 2020-10-31 16:05
