@@ -5,6 +5,7 @@ import xyz.bugcoder.DesignPattern.structure.bridge.pattern.channel.Pay;
 import xyz.bugcoder.DesignPattern.structure.bridge.pattern.channel.WxPay;
 import xyz.bugcoder.DesignPattern.structure.bridge.pattern.channel.ZfbPay;
 import xyz.bugcoder.DesignPattern.structure.bridge.pattern.mode.PayFaceMode;
+import xyz.bugcoder.DesignPattern.structure.bridge.pattern.mode.PayFingerprintMode;
 
 import java.math.BigDecimal;
 
@@ -39,7 +40,7 @@ public class Test {
         System.out.println("=============================");
 
         System.out.println("\r\n模拟测试场景；支付宝⽀付、指纹⽅式。");
-        Pay zfbPay = new ZfbPay(new PayFaceMode());
+        Pay zfbPay = new ZfbPay(new PayFingerprintMode());
         zfbPay.transfer("jlu19dlxo111", "100000109894", new BigDecimal(1001));
 
     }
