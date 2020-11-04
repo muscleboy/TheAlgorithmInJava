@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--接下来在配置⽂件中添加我们的bean配置，在mybatis的使⽤中⼀般会配置扫描的dao层包，这样 就可以减少这部分的配置。-->
+    <bean id="userDao" class="xyz.bugcoder.DesignPattern.structure.proxy.agent.RegisterBeanFactory"/>
+
+</beans>
