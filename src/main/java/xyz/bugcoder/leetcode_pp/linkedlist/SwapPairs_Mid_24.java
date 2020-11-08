@@ -50,32 +50,7 @@ import org.junit.Test;
  * @createTime 2020-11-07 09:52
  */
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-
-    @Override
-    public String toString() {
-        return "ListNode{" +
-                "val=" + val +
-                ", next=" + next +
-                '}';
-    }
-}
-
-public class SwapPairs {
+public class SwapPairs_Mid_24 {
 
     // 思路：
     //   递归，每次向后走两步，两两交换

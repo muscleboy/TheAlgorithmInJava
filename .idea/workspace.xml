@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/SwapPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/SwapPairs_Mid_24.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,25 +47,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/command/pattern/XiaoEr.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/RotationLinkedList_Mid_61.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="473">
+              <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/command/pattern/Test.java">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[61]旋转链表.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="778">
+              <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -129,11 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/StringDecoded_Easy_394.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/StringDecoded_Mid_394.java" />
-        <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[394]字符串解码.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/bridge/pattern/channel/ZfbPay.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/bridge/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/flyweight/Activity.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/flyweight/normal/ActivityController.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/flyweight/Stock.java" />
@@ -180,6 +171,11 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/command/pattern/cuisine/impl/SiChuanCuisine.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/command/pattern/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/command/pattern/XiaoEr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/RotationLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/SwapPairs_Mid_24.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/ListNode.java" />
+        <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[61]旋转链表.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/RotationLinkedList_Mid_61.java" />
       </list>
     </option>
   </component>
@@ -224,8 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,7 +270,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -286,8 +280,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="behavior" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -297,22 +291,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="behavior" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="behavior" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -325,13 +305,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604743746093" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604806400919" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -390,8 +372,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test.test (1)">
-    <configuration name="SwapPairs.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RotationLinkedList_Mid_61.test">
+    <configuration name="RotationLinkedList_Mid_61.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
@@ -400,7 +382,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.linkedlist.SwapPairs" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.linkedlist.RotationLinkedList_Mid_61" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -489,18 +471,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Test.test" />
-      <item itemvalue="JUnit.SwapPairs.test" />
       <item itemvalue="JUnit.Test.test (2)" />
       <item itemvalue="JUnit.Test.test2" />
       <item itemvalue="JUnit.Test.test (1)" />
+      <item itemvalue="JUnit.RotationLinkedList_Mid_61.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RotationLinkedList_Mid_61.test" />
         <item itemvalue="JUnit.Test.test (1)" />
         <item itemvalue="JUnit.Test.test2" />
         <item itemvalue="JUnit.Test.test (2)" />
         <item itemvalue="JUnit.Test.test" />
-        <item itemvalue="JUnit.SwapPairs.test" />
       </list>
     </recent_temporary>
   </component>
@@ -678,39 +660,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_test_(2) - 2020.11.07 at 16h 30m 28s.xml">
-      <configuration name="Test.test (2)" configurationId="JUnit" />
+    <history-entry file="RotationLinkedList_Mid_61_test - 2020.11.08 at 10h 31m 29s.xml">
+      <configuration name="RotationLinkedList_Mid_61.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test2 - 2020.11.07 at 16h 31m 14s.xml">
-      <configuration name="Test.test2" configurationId="JUnit" />
+    <history-entry file="RotationLinkedList_Mid_61_test - 2020.11.08 at 10h 32m 02s.xml">
+      <configuration name="RotationLinkedList_Mid_61.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test2 - 2020.11.07 at 16h 34m 11s.xml">
-      <configuration name="Test.test2" configurationId="JUnit" />
+    <history-entry file="RotationLinkedList_Mid_61_test - 2020.11.08 at 10h 33m 37s.xml">
+      <configuration name="RotationLinkedList_Mid_61.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test2 - 2020.11.07 at 16h 34m 45s.xml">
-      <configuration name="Test.test2" configurationId="JUnit" />
+    <history-entry file="RotationLinkedList_Mid_61_test - 2020.11.08 at 10h 34m 03s.xml">
+      <configuration name="RotationLinkedList_Mid_61.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test2 - 2020.11.07 at 16h 36m 10s.xml">
-      <configuration name="Test.test2" configurationId="JUnit" />
+    <history-entry file="RotationLinkedList_Mid_61_test - 2020.11.08 at 10h 41m 25s.xml">
+      <configuration name="RotationLinkedList_Mid_61.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test2 - 2020.11.07 at 16h 36m 59s.xml">
-      <configuration name="Test.test2" configurationId="JUnit" />
+    <history-entry file="RotationLinkedList_Mid_61_test - 2020.11.08 at 10h 41m 36s.xml">
+      <configuration name="RotationLinkedList_Mid_61.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test2 - 2020.11.07 at 16h 41m 41s.xml">
-      <configuration name="Test.test2" configurationId="JUnit" />
+    <history-entry file="RotationLinkedList_Mid_61_test - 2020.11.08 at 10h 43m 22s.xml">
+      <configuration name="RotationLinkedList_Mid_61.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test2 - 2020.11.07 at 16h 41m 45s.xml">
-      <configuration name="Test.test2" configurationId="JUnit" />
+    <history-entry file="RotationLinkedList_Mid_61_test - 2020.11.08 at 11h 22m 18s.xml">
+      <configuration name="RotationLinkedList_Mid_61.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test2 - 2020.11.07 at 16h 42m 00s.xml">
-      <configuration name="Test.test2" configurationId="JUnit" />
+    <history-entry file="RotationLinkedList_Mid_61_test - 2020.11.08 at 11h 22m 37s.xml">
+      <configuration name="RotationLinkedList_Mid_61.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_(1) - 2020.11.07 at 17h 43m 53s.xml">
-      <configuration name="Test.test (1)" configurationId="JUnit" />
+    <history-entry file="RotationLinkedList_Mid_61_test - 2020.11.08 at 11h 23m 35s.xml">
+      <configuration name="RotationLinkedList_Mid_61.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="660044000" />
+    <option name="totallyTimeSpent" value="667587000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -723,8 +705,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48336253" visible="true" weight="0.26387227" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48336253" visible="true" weight="0.2035928" />
       <window_info id="Structure" order="1" sideWeight="0.5166375" side_tool="true" weight="0.15608783" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -742,7 +725,7 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.29954615" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.4978044" weight="0.3464448" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.4978044" weight="0.29425114" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32952183" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
@@ -1504,44 +1487,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/adapter/mq/CreateAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/adapter/pattern/RebateInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/adapter/pattern/MQAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/bridge/pattern/structure.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/bridge/pattern/mode/PayCypher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/bridge/pattern/mode/IPayMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/bridge/pattern/mode/PayFaceMode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1942,6 +1887,52 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/ReverseLinkedList_24.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/Fib_10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="61" column="36" lean-forward="true" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/SwapPairs_Mid_24.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="111" column="21" lean-forward="true" selection-start-line="102" selection-start-column="8" selection-end-line="111" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[61]旋转链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/RotationLinkedList_Mid_61.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
         </state>
       </provider>
     </entry>
