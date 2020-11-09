@@ -27,6 +27,7 @@ package xyz.bugcoder.leetcode_pp.linkedlist;
 //leetcode submit region begin(Prohibit modification and deletion)
 
 import org.junit.Test;
+import xyz.bugcoder.leetcode_pp.ListNode;
 
 /**
  * @Package: xyz.bugcoder.leetcode_pp.linkedlist

@@ -1,6 +1,4 @@
-package xyz.bugcoder.leetcode_pp.linkedlist;
-
-import lombok.Data;
+package xyz.bugcoder.leetcode_pp;
 
 /**
  * @Package: xyz.bugcoder.leetcode_pp.linkedlist
@@ -9,10 +7,10 @@ import lombok.Data;
  * @createTime 2020-11-08 09:18
  */
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
-    ListNode(int x) {
+    public ListNode(int x) {
         val = x;
     }
 
