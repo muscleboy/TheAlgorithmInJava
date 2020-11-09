@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/RotationLinkedList_Mid_61.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/RotationLinkedList_Mid_61.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/SwapPairs_Mid_24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/SwapPairs_Mid_24.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,11 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/SortedList2BST_Mid_109.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/IsBalanced_EC_110.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1004">
-              <caret line="83" column="20" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="83" selection-end-column="20" />
+            <state relative-caret-position="275">
+              <caret line="62" column="68" selection-start-line="62" selection-start-column="68" selection-end-line="62" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,23 +57,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/TreeNode.java">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[110]平衡二叉树.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state>
+              <caret selection-end-line="40" selection-end-column="12" />
               <folding>
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#0#999#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[109]有序链表转换二叉搜索树.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -143,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/spring-conﬁg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/proxy/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/QueueImplByStack_Easy_323.java" />
         <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[232]用栈实现队列.java" />
@@ -192,8 +177,9 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/SortedList2BST_Mid_109.java" />
         <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[109]有序链表转换二叉搜索树.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/SortedList2BST_Mid_109.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/IsBalanced_EC_110.java" />
       </list>
     </option>
   </component>
@@ -320,7 +306,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604889179935" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604896436285" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -379,16 +365,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SortedList2BST_Mid_109.test">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.Test" />
+  <component name="RunManager" selected="JUnit.IsBalanced_EC_110.test">
+    <configuration name="IsBalanced_EC_110" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.concurrent.*" />
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.linkedlist.IsBalanced_EC_110" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsBalanced_EC_110.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.linkedlist.IsBalanced_EC_110" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -420,21 +424,6 @@
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.linkedlist.SortedList2BST_Mid_109" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.iterator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.bugcoder.DesignPattern.iterator" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.iterator.Test" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -472,19 +461,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="JUnit.Test" />
       <item itemvalue="JUnit.Test.test" />
       <item itemvalue="JUnit.SortedList2BST_Mid_109.test" />
       <item itemvalue="JUnit.SortedList2BST_Mid_109" />
+      <item itemvalue="JUnit.IsBalanced_EC_110.test" />
+      <item itemvalue="JUnit.IsBalanced_EC_110" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IsBalanced_EC_110.test" />
+        <item itemvalue="JUnit.IsBalanced_EC_110" />
         <item itemvalue="JUnit.SortedList2BST_Mid_109.test" />
         <item itemvalue="JUnit.SortedList2BST_Mid_109" />
         <item itemvalue="JUnit.Test.test" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -658,44 +647,44 @@
       <workItem from="1604738163841" duration="3583000" />
       <workItem from="1604742174384" duration="1076000" />
       <workItem from="1604743267900" duration="288000" />
-      <workItem from="1604882716428" duration="2926000" />
+      <workItem from="1604882716428" duration="7799000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_test - 2020.11.08 at 18h 42m 31s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="IsBalanced_EC_110_test - 2020.11.09 at 12h 29m 09s.xml">
+      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2020.11.08 at 18h 42m 33s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="IsBalanced_EC_110_test - 2020.11.09 at 12h 29m 36s.xml">
+      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2020.11.08 at 18h 42m 35s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="IsBalanced_EC_110_test - 2020.11.09 at 12h 29m 45s.xml">
+      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2020.11.08 at 18h 42m 37s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="IsBalanced_EC_110_test - 2020.11.09 at 12h 30m 02s.xml">
+      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2020.11.08 at 18h 42m 39s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="IsBalanced_EC_110_test - 2020.11.09 at 12h 30m 24s.xml">
+      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedList2BST_Mid_109_test - 2020.11.09 at 10h 08m 58s.xml">
-      <configuration name="SortedList2BST_Mid_109.test" configurationId="JUnit" />
+    <history-entry file="IsBalanced_EC_110_test - 2020.11.09 at 12h 30m 49s.xml">
+      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedList2BST_Mid_109_test - 2020.11.09 at 10h 09m 28s.xml">
-      <configuration name="SortedList2BST_Mid_109.test" configurationId="JUnit" />
+    <history-entry file="IsBalanced_EC_110_test - 2020.11.09 at 12h 31m 55s.xml">
+      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedList2BST_Mid_109 - 2020.11.09 at 10h 12m 36s.xml">
-      <configuration name="SortedList2BST_Mid_109" configurationId="JUnit" />
+    <history-entry file="IsBalanced_EC_110_test - 2020.11.09 at 12h 32m 06s.xml">
+      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedList2BST_Mid_109_test - 2020.11.09 at 10h 12m 43s.xml">
-      <configuration name="SortedList2BST_Mid_109.test" configurationId="JUnit" />
+    <history-entry file="IsBalanced_EC_110_test - 2020.11.09 at 12h 32m 19s.xml">
+      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedList2BST_Mid_109_test - 2020.11.09 at 10h 16m 59s.xml">
-      <configuration name="SortedList2BST_Mid_109.test" configurationId="JUnit" />
+    <history-entry file="IsBalanced_EC_110_test - 2020.11.09 at 12h 32m 36s.xml">
+      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="680645000" />
+    <option name="totallyTimeSpent" value="685518000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -708,6 +697,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48336253" visible="true" weight="0.1988024" />
       <window_info id="Structure" order="1" sideWeight="0.5166375" side_tool="true" weight="0.15608783" />
@@ -720,14 +710,14 @@
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3292978" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.499002" weight="0.2730711" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5021956" side_tool="true" visible="true" weight="0.25642964" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.4986028" weight="0.2730711" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5013972" side_tool="true" weight="0.2730711" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32829046" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.29954615" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.4978044" weight="0.23298033" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" sideWeight="0.4978044" visible="true" weight="0.18910742" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32952183" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
@@ -746,7 +736,7 @@
       <window_info anchor="right" x="0" y="0" width="350" height="700" id="Documentation" order="9" side_tool="true" weight="0.32945737" />
       <window_info anchor="right" id="Maven Projects" order="10" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32985258" />
-      <window_info active="true" anchor="right" id="leetcode" order="12" side_tool="true" visible="true" weight="0.14530939" />
+      <window_info anchor="right" id="leetcode" order="12" side_tool="true" weight="0.14530939" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1489,45 +1479,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/command/normal/XiaoEr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#364#381#0" expanded="true" />
-            <element signature="e#1033#1034#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/ChainOfResponsibility/pattern/AuthLink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/ChainOfResponsibility/normal/AuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/ChainOfResponsibility/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="582">
@@ -1905,10 +1856,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[109]有序链表转换二叉搜索树.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#1860#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/SortedList2BST_Mid_109.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1004">
-          <caret line="83" column="20" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="83" selection-end-column="20" />
+        <state relative-caret-position="1292">
+          <caret line="99" column="21" lean-forward="true" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1926,10 +1887,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[109]有序链表转换二叉搜索树.java">
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[110]平衡二叉树.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+        <state>
+          <caret selection-end-line="40" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/IsBalanced_EC_110.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="62" column="68" selection-start-line="62" selection-start-column="68" selection-end-line="62" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
