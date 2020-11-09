@@ -1,14 +1,14 @@
-package xyz.bugcoder.DesignPattern.iterator;
+package xyz.bugcoder.DesignPattern.behavior.iterator;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import xyz.bugcoder.DesignPattern.iterator.group.Employee;
-import xyz.bugcoder.DesignPattern.iterator.group.GroupStructure;
-import xyz.bugcoder.DesignPattern.iterator.group.Link;
-import xyz.bugcoder.DesignPattern.iterator.lang.Iterator;
+import xyz.bugcoder.DesignPattern.behavior.iterator.group.Employee;
+import xyz.bugcoder.DesignPattern.behavior.iterator.group.GroupStructure;
+import xyz.bugcoder.DesignPattern.behavior.iterator.group.Link;
+import xyz.bugcoder.DesignPattern.behavior.iterator.lang.Iterator;
 
 /**
- * @Package: xyz.bugcoder.DesignPattern.iterator
+ * @Package: xyz.bugcoder.DesignPattern.behavior.iterator
  * @author: Weiyj
  * @Description: TODO
  * @createTime 2020-11-08 15:46

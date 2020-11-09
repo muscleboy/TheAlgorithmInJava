@@ -1,7 +1,7 @@
-package xyz.bugcoder.DesignPattern.iterator.group;
+package xyz.bugcoder.DesignPattern.behavior.iterator.group;
 
-import xyz.bugcoder.DesignPattern.iterator.lang.Collection;
-import xyz.bugcoder.DesignPattern.iterator.lang.Iterator;
+import xyz.bugcoder.DesignPattern.behavior.iterator.lang.Collection;
+import xyz.bugcoder.DesignPattern.behavior.iterator.lang.Iterator;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @Package: xyz.bugcoder.DesignPattern.iterator.group
+ * @Package: xyz.bugcoder.DesignPattern.behavior.iterator.group
  * @author: Weiyj
  * @Description: TODO
  * @createTime 2020-11-08 15:17

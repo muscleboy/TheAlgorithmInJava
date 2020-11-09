@@ -1,9 +1,9 @@
-package xyz.bugcoder.DesignPattern.iterator.group;
+package xyz.bugcoder.DesignPattern.behavior.iterator.group;
 
 import lombok.Data;
 
 /**
- * @Package: xyz.bugcoder.DesignPattern.iterator.group
+ * @Package: xyz.bugcoder.DesignPattern.behavior.iterator.group
  * @author: Weiyj
  * @Description: TODO
  * @createTime 2020-11-08 15:09
