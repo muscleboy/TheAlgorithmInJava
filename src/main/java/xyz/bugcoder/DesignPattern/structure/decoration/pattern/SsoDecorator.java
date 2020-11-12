@@ -9,12 +9,6 @@ import xyz.bugcoder.DesignPattern.structure.decoration.HandlerInterceptor;
  * @createTime 2020-11-02 17:31
  */
 
-// 在装饰类中有两个重点的地⽅是；
-//  1)继承了处理接⼝、
-//  2)提供了构造函数、
-//  3)覆盖了⽅法 preHandle 。
-// 以上三个点是装饰器模式的核⼼处理部分，这样可以踢掉对⼦类继承的⽅式实现逻辑功能扩展。
-
 // 在装饰器模式中有四个⽐较重要点抽象出来的点；
 // 1.抽象构件⻆角⾊(Component) - 定义抽象接⼝                        (HandlerInterceptor)
 // 2.具体构件⻆角⾊(ConcreteComponent) - 实现抽象接⼝，可以是⼀组      (SsoInterceptor)
