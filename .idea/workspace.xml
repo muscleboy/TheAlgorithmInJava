@@ -4,11 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/LRUCache.java" afterDir="false" />
-    </list>
+    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,10 +43,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/DetectCycle_Mid_142.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/template/NetMall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="787">
-              <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+            <state relative-caret-position="770">
+              <caret line="35" column="35" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,19 +55,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/LRUCache.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/template/group/DDNetMall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="115" column="44" lean-forward="true" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="44" />
+            <state relative-caret-position="325">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/LRUCache_Mid_146.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/template/group/TBNetMall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="638">
+              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/template/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="545">
+              <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,12 +90,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[146]LRU缓存机制.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/template/HttpClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1051">
-              <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+            <state relative-caret-position="814">
+              <caret line="37" column="53" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/template/group/JDNetMall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+              <folding>
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,12 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/observer/pattern/EventListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/observer/LotteryResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/observer/pattern/MQEventListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/observer/pattern/MessageEventListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/observer/normal/LotteryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/observer/pattern/LotteryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/observer/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/observer/pattern/LotteryService.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/observer/pattern/EventManager.java" />
@@ -204,6 +221,12 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/LRUCache.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/LRUCache_Mid_146.java" />
         <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[146]LRU缓存机制.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/template/NetMall.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/template/group/DDNetMall.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/template/group/TBNetMall.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/template/group/JDNetMall.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/template/HttpClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/template/Test.java" />
       </list>
     </option>
   </component>
@@ -300,7 +323,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="CartoonAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -310,8 +333,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="CartoonAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter_5" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="structure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -321,7 +344,9 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="structure" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -331,8 +356,10 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="structure" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="group" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -351,7 +378,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605152995249" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605167193379" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -365,6 +392,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="xyz.bugcoder.DesignPattern.UmlRelation.Aggregation" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="xyz.bugcoder.DesignPattern.LiskovSubstitution" />
     </key>
@@ -376,10 +406,6 @@
       <recent name="xyz.bugcoder.DesignPattern.create" />
       <recent name="xyz.bugcoder" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/decoration" />
-      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/bridge/pattern" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/status" />
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/status/impl" />
@@ -388,14 +414,15 @@
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/OpenClose" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xyz.bugcoder.DesignPattern.structure.template.group" />
       <recent name="xyz.bugcoder.DesignPattern.structure.strategy.impl" />
       <recent name="xyz.bugcoder.leetcode_pp.linkedlist" />
       <recent name="xyz.bugcoder.DesignPattern.behavior.observer.listener" />
       <recent name="xyz.bugcoder.DesignPattern.behavior.observer.pattern" />
-      <recent name="xyz.bugcoder.DesignPattern.behavior.command.pattern.cook.impl" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="xyz.bugcoder.DesignPattern.UmlRelation.Aggregation" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/decoration" />
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/bridge/pattern" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -410,20 +437,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LRUCache_Mid_146">
-    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.CartoonAlgorithm.chapter_5.LRUCache" />
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.CartoonAlgorithm.chapter_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Test.test3">
     <configuration name="LRUCache_Mid_146" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.linkedlist.LRUCache_Mid_146" />
       <module name="TheAlgorithmInJava" />
@@ -437,68 +451,83 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LRUCache_Mid_146.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.linkedlist.*" />
+          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.structure.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.linkedlist.LRUCache_Mid_146" />
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.DesignPattern.structure.template" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.structure.template.Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.structure.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.DesignPattern.structure.template" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.structure.template.Test" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.structure.strategy.*" />
+          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.structure.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xyz.bugcoder.DesignPattern.structure.strategy" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.structure.strategy.Test" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.DesignPattern.structure.template" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.structure.template.Test" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.test_plus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.structure.strategy.*" />
+          <option name="PATTERN" value="xyz.bugcoder.DesignPattern.structure.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xyz.bugcoder.DesignPattern.structure.strategy" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.structure.strategy.Test" />
-      <option name="METHOD_NAME" value="test_plus" />
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.DesignPattern.structure.template" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.DesignPattern.structure.template.Test" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Test.test (1)" />
-      <item itemvalue="JUnit.Test.test_plus" />
-      <item itemvalue="JUnit.LRUCache_Mid_146.test" />
       <item itemvalue="Application.LRUCache_Mid_146" />
-      <item itemvalue="Application.LRUCache" />
+      <item itemvalue="JUnit.Test.test" />
+      <item itemvalue="JUnit.Test.test2" />
+      <item itemvalue="JUnit.Test.test3" />
+      <item itemvalue="JUnit.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test.test3" />
+        <item itemvalue="JUnit.Test" />
+        <item itemvalue="JUnit.Test.test2" />
+        <item itemvalue="JUnit.Test.test" />
         <item itemvalue="Application.LRUCache_Mid_146" />
-        <item itemvalue="Application.LRUCache" />
-        <item itemvalue="JUnit.LRUCache_Mid_146.test" />
-        <item itemvalue="JUnit.Test.test_plus" />
-        <item itemvalue="JUnit.Test.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -678,44 +707,44 @@
       <workItem from="1604915218378" duration="3211000" />
       <workItem from="1604969527454" duration="13434000" />
       <workItem from="1605055299670" duration="1600000" />
-      <workItem from="1605141968635" duration="10298000" />
+      <workItem from="1605141968635" duration="13621000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_test_Pass2Close - 2020.11.10 at 16h 18m 28s.xml">
-      <configuration name="Test.test_Pass2Close" configurationId="JUnit" />
+    <history-entry file="Test_test - 2020.11.12 at 15h 30m 44s.xml">
+      <configuration name="Test.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_(1) - 2020.11.10 at 17h 08m 43s.xml">
-      <configuration name="Test.test (1)" configurationId="JUnit" />
+    <history-entry file="Test_test3 - 2020.11.12 at 15h 30m 51s.xml">
+      <configuration name="Test.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_(1) - 2020.11.10 at 17h 10m 45s.xml">
-      <configuration name="Test.test (1)" configurationId="JUnit" />
+    <history-entry file="Test_test2 - 2020.11.12 at 15h 32m 10s.xml">
+      <configuration name="Test.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_mj - 2020.11.10 at 17h 11m 16s.xml">
-      <configuration name="Test.test_mj" configurationId="JUnit" />
+    <history-entry file="Test_test2 - 2020.11.12 at 15h 34m 14s.xml">
+      <configuration name="Test.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_mj - 2020.11.10 at 17h 11m 50s.xml">
-      <configuration name="Test.test_mj" configurationId="JUnit" />
+    <history-entry file="Test_test2 - 2020.11.12 at 15h 34m 48s.xml">
+      <configuration name="Test.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_mj - 2020.11.10 at 17h 13m 31s.xml">
-      <configuration name="Test.test_mj" configurationId="JUnit" />
+    <history-entry file="Test - 2020.11.12 at 15h 35m 11s.xml">
+      <configuration name="Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_(1) - 2020.11.10 at 17h 13m 34s.xml">
-      <configuration name="Test.test (1)" configurationId="JUnit" />
+    <history-entry file="Test - 2020.11.12 at 15h 36m 35s.xml">
+      <configuration name="Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_plus - 2020.11.10 at 17h 31m 19s.xml">
-      <configuration name="Test.test_plus" configurationId="JUnit" />
+    <history-entry file="Test_test3 - 2020.11.12 at 15h 36m 46s.xml">
+      <configuration name="Test.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_plus - 2020.11.10 at 17h 31m 42s.xml">
-      <configuration name="Test.test_plus" configurationId="JUnit" />
+    <history-entry file="Test_test3 - 2020.11.12 at 15h 39m 39s.xml">
+      <configuration name="Test.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LRUCache_Mid_146_test - 2020.11.12 at 10h 20m 42s.xml">
-      <configuration name="LRUCache_Mid_146.test" configurationId="JUnit" />
+    <history-entry file="Test_test3 - 2020.11.12 at 15h 41m 44s.xml">
+      <configuration name="Test.test3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="721373000" />
+    <option name="totallyTimeSpent" value="724696000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -748,7 +777,7 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.29954615" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.4962076" weight="0.22314675" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.4962076" weight="0.32753405" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.3290469" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
@@ -1510,39 +1539,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/observer/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/observer/pattern/LotteryServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/observer/LotteryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/observer/LotteryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/observer/pattern/listener/EventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/observer/LotteryResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/observer/pattern/listener/MessageEventListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1928,16 +1924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/DetectCycle_Mid_142.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="787">
-          <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
@@ -1945,10 +1931,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/LRUCache.java">
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[146]LRU缓存机制.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="115" column="44" lean-forward="true" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="44" />
+        <state relative-caret-position="853">
+          <caret line="102" column="46" lean-forward="true" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1962,10 +1951,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[146]LRU缓存机制.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1051">
-          <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+        <state relative-caret-position="780">
+          <caret line="115" column="44" lean-forward="true" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/DetectCycle_Mid_142.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/template/group/TBNetMall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/template/group/DDNetMall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/template/NetMall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/template/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/template/group/JDNetMall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/template/HttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="53" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
