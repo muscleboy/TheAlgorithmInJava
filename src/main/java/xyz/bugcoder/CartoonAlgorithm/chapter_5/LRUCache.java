@@ -64,12 +64,6 @@ public class LRUCache {
         }
     }
 
-    public void remove(String key){
-        Node node = hashMap.get(key);
-        removeNode(node);
-        hashMap.remove(node);
-    }
-
     public void refreshNode(Node node){
         // 如果删除的是尾部，则不用删除
         if (node == end){
