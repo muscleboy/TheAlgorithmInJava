@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,24 +45,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[104]二叉树的最大深度.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="913">
-              <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#796#0" expanded="true" />
-                <element signature="e#248#314#0" expanded="true" />
-                <element signature="e#731#795#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="54" column="21" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="54" selection-end-column="21" />
+            <state relative-caret-position="496">
+              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,8 +167,8 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/Join.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/ThreadLocalDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/NoneLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java" />
         <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[104]二叉树的最大深度.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java" />
       </list>
     </option>
   </component>
@@ -292,7 +277,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605232457789" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605232493524" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -611,7 +596,7 @@
       <workItem from="1604969527454" duration="13434000" />
       <workItem from="1605055299670" duration="1600000" />
       <workItem from="1605141968635" duration="21167000" />
-      <workItem from="1605227388875" duration="4136000" />
+      <workItem from="1605227388875" duration="4405000" />
     </task>
     <servers />
   </component>
@@ -648,7 +633,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="736378000" />
+    <option name="totallyTimeSpent" value="736647000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -661,6 +646,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4825647" visible="true" weight="0.19161677" />
       <window_info id="Structure" order="1" sideWeight="0.5174353" side_tool="true" weight="0.18962076" />
@@ -680,7 +666,7 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.29954615" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" sideWeight="0.4958084" visible="true" weight="0.2322239" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.4958084" weight="0.2322239" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.3290469" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
@@ -1362,66 +1348,6 @@
           <properties />
           <option name="timeStamp" value="184" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="185" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="186" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="187" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="188" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="189" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="190" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="191" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="192" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="193" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="194" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/FindNearestNum.java</url>
           <line>14</line>
@@ -1493,14 +1419,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="86" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java</url>
-          <line>57</line>
-          <properties class="xyz.bugcoder.leetcode_pp.tree.GetMaxDepth_EC_104" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="195" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1892,24 +1810,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="54" column="21" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="54" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[104]二叉树的最大深度.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="913">
-          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        <state relative-caret-position="433">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
           <folding>
             <element signature="e#0#796#0" expanded="true" />
             <element signature="e#248#314#0" expanded="true" />
             <element signature="e#731#795#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -30,6 +30,11 @@ public class GetMaxDepth_EC_104 {
         return Math.max(l, r);
     }
 
+    // 思路
+    //   二叉树的层序遍历，层数即为最大深度，拿上一层的size去遍历下一层
+    // 复杂度
+    //   时间：O(N)
+    //   空间：O(N)
     public static int bfs(TreeNode root){
 
         if (root == null){
