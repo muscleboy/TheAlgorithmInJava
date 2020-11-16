@@ -17,10 +17,12 @@ public class WaitNotifyInterupt {
                 try {
                     System.out.println("---begin---");
                     synchronized (obj){
+                        // 挂起当前线程，其他线程中断我，我抛异常
                         obj.wait();
                     }
                     System.out.println("---end---");
                 } catch (InterruptedException e) {
+                    System.out.println("我被其他线程中断了");
                     e.printStackTrace();
                 }
             }
