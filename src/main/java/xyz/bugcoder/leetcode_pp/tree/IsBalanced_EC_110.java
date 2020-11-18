@@ -1,4 +1,4 @@
-package xyz.bugcoder.leetcode_pp.linkedlist;
+package xyz.bugcoder.leetcode_pp.tree;
 
 //给定一个二叉树，判断它是否是高度平衡的二叉树。
 //
