@@ -66,7 +66,8 @@ public class ZigzagLevelOrder_Mid_103 {
                 if (node.right != null){
                     queue.offer(node.right);
                 }
-                // 奇偶
+                // 奇偶性  偶：add 加都队尾
+                //        奇：push 加到队头
                 if ((depth & 1) == 0)
                     temp.add(node.val);
                 else
