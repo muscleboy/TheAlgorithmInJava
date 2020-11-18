@@ -4,11 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/ZigzagLevelOrder_Mid_103.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/ZigzagLevelOrder_Mid_103.java" afterDir="false" />
-    </list>
+    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,19 +43,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerifyPostOrder_Mid_1718.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/ThreadSecurityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 33]二叉搜索树的后序遍历序列.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="264">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -129,7 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[86]分隔链表.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/PartitionList_Mid_86.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/ListNode.java" />
         <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[92]反转链表 II.java" />
@@ -180,6 +166,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/IsBalanced_EC_110.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/ZigzagLevelOrder_Mid_103.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerifyPostOrder_Mid_1718.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/ThreadSecurityTest.java" />
       </list>
     </option>
   </component>
@@ -275,7 +262,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -285,8 +272,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,7 +286,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605695744126" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605715097297" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -358,7 +345,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VerifyPostOrder_Mid_1718">
+  <component name="RunManager" selected="Application.ThreadSecurityTest">
     <configuration name="LevelOrder_Mid_102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.tree.LevelOrder_Mid_102" />
       <module name="TheAlgorithmInJava" />
@@ -372,12 +359,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyPostOrder_Mid_1718" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.tree.VerifyPostOrder_Mid_1718" />
+    <configuration name="ThreadSecurityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.chapter_1.ThreadSecurityTest" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.tree.*" />
+          <option name="PATTERN" value="xyz.bugcoder.concurrent.chapter_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -385,8 +372,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerticalTraversal_Mid_987" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.tree.VerticalTraversal_Mid_987" />
+    <configuration name="VerifyPostOrder_Mid_1718" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.tree.VerifyPostOrder_Mid_1718" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
@@ -428,19 +415,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.VerticalTraversal_Mid_987" />
       <item itemvalue="Application.LevelOrder_Mid_102" />
       <item itemvalue="JUnit.IsBalanced_EC_110.test" />
       <item itemvalue="Application.ZigzagLevelOrder_Mid_103" />
       <item itemvalue="Application.VerifyPostOrder_Mid_1718" />
+      <item itemvalue="Application.ThreadSecurityTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadSecurityTest" />
         <item itemvalue="Application.VerifyPostOrder_Mid_1718" />
         <item itemvalue="Application.ZigzagLevelOrder_Mid_103" />
         <item itemvalue="JUnit.IsBalanced_EC_110.test" />
         <item itemvalue="Application.LevelOrder_Mid_102" />
-        <item itemvalue="Application.VerticalTraversal_Mid_987" />
       </list>
     </recent_temporary>
   </component>
@@ -626,7 +613,7 @@
       <workItem from="1605400861737" duration="12917000" />
       <workItem from="1605489699485" duration="19371000" />
       <workItem from="1605575968422" duration="12109000" />
-      <workItem from="1605660762186" duration="14247000" />
+      <workItem from="1605660762186" duration="16212000" />
     </task>
     <servers />
   </component>
@@ -663,7 +650,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="824204000" />
+    <option name="totallyTimeSpent" value="826169000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -676,7 +663,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4825647" visible="true" weight="0.12774451" />
       <window_info id="Structure" order="1" sideWeight="0.5174353" side_tool="true" weight="0.18962076" />
@@ -696,7 +682,7 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.33055976" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" sideWeight="0.42914173" visible="true" weight="0.19364598" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" sideWeight="0.42914173" visible="true" weight="0.19288956" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.3290469" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
@@ -1518,26 +1504,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/StreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/CyclicBarrierDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/ProducerConsumerModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="670">
@@ -1688,20 +1654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/InterruptTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/InterruptTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/NotifyAndAll.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
@@ -1775,16 +1727,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1104#1105#0" expanded="true" />
             <element signature="e#1139#1140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/InterruptedCompare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="40" column="23" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="40" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1953,10 +1895,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/InterruptedCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/InterruptTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/InterruptTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerifyPostOrder_Mid_1718.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        <state relative-caret-position="296">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/ThreadSecurityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
         </state>
       </provider>
     </entry>
