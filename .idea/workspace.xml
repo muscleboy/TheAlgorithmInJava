@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,13 +44,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/Practice.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[987]二叉树的垂序遍历.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="536">
+              <caret line="78" column="37" lean-forward="true" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerticalTraversal_Mid_987.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="86" column="25" lean-forward="true" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1605682177417" expanded="false" signature="40:791" ph="..." />
               </folding>
             </state>
           </provider>
@@ -121,8 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/ThreadLocalDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/NoneLock.java" />
         <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[104]二叉树的最大深度.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java" />
         <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[86]分隔链表.java" />
@@ -172,6 +183,8 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/FileReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/BlockStatusTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/Practice.java" />
+        <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[987]二叉树的垂序遍历.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerticalTraversal_Mid_987.java" />
       </list>
     </option>
   </component>
@@ -267,7 +280,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -277,8 +290,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter_1" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,7 +304,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605609632386" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605681916962" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -350,7 +363,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Practice">
+  <component name="RunManager" selected="Application.VerticalTraversal_Mid_987">
     <configuration name="BlockStatusTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.chapter_1.BlockStatusTest" />
       <module name="TheAlgorithmInJava" />
@@ -403,12 +416,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.chapter_1.Test" />
+    <configuration name="VerticalTraversal_Mid_987" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.tree.VerticalTraversal_Mid_987" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.concurrent.chapter_1.*" />
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -417,19 +430,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.InterruptedCompare" />
       <item itemvalue="Application.DaemonTest" />
       <item itemvalue="Application.BlockStatusTest" />
       <item itemvalue="Application.Practice" />
+      <item itemvalue="Application.VerticalTraversal_Mid_987" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VerticalTraversal_Mid_987" />
         <item itemvalue="Application.Practice" />
         <item itemvalue="Application.BlockStatusTest" />
         <item itemvalue="Application.DaemonTest" />
         <item itemvalue="Application.InterruptedCompare" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -615,7 +628,7 @@
       <workItem from="1605400861737" duration="12917000" />
       <workItem from="1605489699485" duration="19371000" />
       <workItem from="1605575968422" duration="12109000" />
-      <workItem from="1605660762186" duration="997000" />
+      <workItem from="1605660762186" duration="10013000" />
     </task>
     <servers />
   </component>
@@ -652,7 +665,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="810954000" />
+    <option name="totallyTimeSpent" value="819970000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -679,13 +692,13 @@
       <window_info anchor="bottom" id="Database Changes" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3292978" />
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.4982036" weight="0.2730711" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50419164" side_tool="true" weight="0.20347957" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5708583" side_tool="true" weight="0.35779122" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" sideWeight="0.4998004" weight="0.32829046" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.29954615" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.33055976" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.4958084" weight="0.25416037" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.42914173" weight="0.35779122" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.3290469" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
@@ -704,7 +717,7 @@
       <window_info anchor="right" x="0" y="0" width="350" height="700" id="Documentation" order="9" side_tool="true" weight="0.32945737" />
       <window_info anchor="right" id="Maven Projects" order="10" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32985258" />
-      <window_info anchor="right" id="leetcode" order="12" side_tool="true" weight="0.13333334" />
+      <window_info anchor="right" id="leetcode" order="12" side_tool="true" visible="true" weight="0.13333334" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1391,6 +1404,42 @@
           <properties />
           <option name="timeStamp" value="196" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerticalTraversal_Mid_987.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerticalTraversal_Mid_987.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerticalTraversal_Mid_987.java</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerticalTraversal_Mid_987.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerticalTraversal_Mid_987.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerticalTraversal_Mid_987.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/FindNearestNum.java</url>
           <line>14</line>
@@ -1471,20 +1520,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/LRUCache_Mid_146.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/SwapPairs_Mid_24.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-592">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/IsPalindrome_EC_234.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1022">
@@ -1790,16 +1825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="978">
-          <caret line="72" column="22" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="72" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/FillNextTreeNode_Mid_116.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="671">
@@ -1902,10 +1927,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/Practice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="154">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GetMaxDepth_EC_104.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="978">
+          <caret line="72" column="22" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="72" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[987]二叉树的垂序遍历.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="78" column="37" lean-forward="true" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerticalTraversal_Mid_987.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="86" column="25" lean-forward="true" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1605682177417" expanded="false" signature="40:791" ph="..." />
           </folding>
         </state>
       </provider>
