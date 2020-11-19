@@ -60,7 +60,7 @@ public class IsBalanced_EC_110 {
         }
 
         // 左右高度差 <= 1  是平衡二叉树
-        if (Math.abs(getHeight(root.left) - getHeight(root.right)) > 1){
+        if (Math.abs(dfs(root.left) - dfs(root.right)) > 1){
             return false;
         }
 
@@ -68,13 +68,13 @@ public class IsBalanced_EC_110 {
         return isBalanced(root.left) && isBalanced(root.right);
     }
 
-    public int getHeight(TreeNode node){
+    public int dfs(TreeNode node){
         if (node == null){
             return 0;
         }
 
-        int l = getHeight(node.left) + 1;
-        int r = getHeight(node.right) + 1;
+        int l = dfs(node.left) + 1;
+        int r = dfs(node.right) + 1;
 
         return Math.max(l, r);
     }
@@ -107,7 +107,7 @@ public class IsBalanced_EC_110 {
         n4.left = n6;
         n4.right = n7;
 
-//        getHeight(n1);
+//        dfs(n1);
         System.out.println(isBalanced(n1));
     }
 
