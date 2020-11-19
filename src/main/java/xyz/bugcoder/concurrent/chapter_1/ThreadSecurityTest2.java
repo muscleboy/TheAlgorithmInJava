@@ -52,11 +52,8 @@ class Room{
         }
     }
 
-    // 这里加不加锁结果都一样，为啥？?
     public int getCounter(){
-        synchronized (this){
-            return counter;
-        }
+        return counter;
     }
 
 }
