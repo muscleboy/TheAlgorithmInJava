@@ -201,6 +201,12 @@
             <version>${servlet-api.version}</version>
             <scope>provided</scope>
         </dependency>
+        <!--Java 查看 mark word信息-->
+        <dependency>
+            <groupId>org.openjdk.jol</groupId>
+            <artifactId>jol-core</artifactId>
+            <version>0.9</version>
+        </dependency>
     </dependencies>
 
     <build>
