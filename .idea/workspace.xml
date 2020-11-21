@@ -43,24 +43,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/GuardedObjectTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/GuardedSuspendDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+            <state relative-caret-position="862">
+              <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/Downloader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="85" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#1046#1047#0" expanded="true" />
+                <element signature="e#1083#1084#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,8 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/NotifyAndAll.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/SleepTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/InterruptTest2.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/InterruptTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/WaitNotifyInterupt.java" />
@@ -182,6 +176,8 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/GuardedObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/Downloader.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/GuardedObjectTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/GuardedSuspend.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/GuardedSuspendDemo.java" />
       </list>
     </option>
   </component>
@@ -300,6 +296,18 @@
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
               <item name="concurrent" type="462c0819:PsiDirectoryNode" />
               <item name="chapter_1" type="462c0819:PsiDirectoryNode" />
+              <item name="GuardedObjectTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_1" type="462c0819:PsiDirectoryNode" />
               <item name="ThreadSecurityTest2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
@@ -313,7 +321,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605951000644" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605954011381" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -372,7 +380,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GuardedObjectTest">
+  <component name="RunManager" selected="Application.GuardedSuspendDemo">
     <configuration name="CanPermutePalindrome_EC_1765" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.hash.CanPermutePalindrome_EC_1765" />
       <module name="TheAlgorithmInJava" />
@@ -412,6 +420,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GuardedSuspendDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.chapter_1.GuardedSuspendDemo" />
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.concurrent.chapter_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NumberOfBoomerangs_Mid_447" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.hash.NumberOfBoomerangs_Mid_447" />
       <module name="TheAlgorithmInJava" />
@@ -425,33 +446,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortList_Mid_148" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.linkedlist.SortList_Mid_148" />
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.SortList_Mid_148" />
       <item itemvalue="Application.NumberOfBoomerangs_Mid_447" />
       <item itemvalue="Application.CanPermutePalindrome_EC_1765" />
       <item itemvalue="Application.FindWords_EC_500" />
       <item itemvalue="Application.GuardedObjectTest" />
+      <item itemvalue="Application.GuardedSuspendDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GuardedSuspendDemo" />
         <item itemvalue="Application.GuardedObjectTest" />
         <item itemvalue="Application.FindWords_EC_500" />
         <item itemvalue="Application.CanPermutePalindrome_EC_1765" />
         <item itemvalue="Application.NumberOfBoomerangs_Mid_447" />
-        <item itemvalue="Application.SortList_Mid_148" />
       </list>
     </recent_temporary>
   </component>
@@ -640,7 +648,7 @@
       <workItem from="1605660762186" duration="17492000" />
       <workItem from="1605746759853" duration="18918000" />
       <workItem from="1605832477814" duration="14411000" />
-      <workItem from="1605920225454" duration="13201000" />
+      <workItem from="1605920225454" duration="15786000" />
     </task>
     <servers />
   </component>
@@ -677,7 +685,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="873979000" />
+    <option name="totallyTimeSpent" value="876564000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,7 +707,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5038168" side_tool="true" weight="0.13941018" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.33282906" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.31770045" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3292978" />
@@ -710,7 +718,7 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.33055976" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.42794412" weight="0.30862328" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" sideWeight="0.42794412" visible="true" weight="0.2397882" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.3290469" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
@@ -1538,13 +1546,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/GetMaxMoney.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/Hanoi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
@@ -1952,10 +1953,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/GuardedObjectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+        <state relative-caret-position="1110">
+          <caret line="89" column="5" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="89" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/GuardedSuspendDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="862">
+          <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
           </folding>
         </state>
       </provider>
