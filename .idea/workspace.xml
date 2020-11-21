@@ -43,15 +43,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/MessageQueueDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/ParkUnParkTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            <state relative-caret-position="462">
+              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="class#Message#0" />
               </folding>
             </state>
           </provider>
@@ -122,7 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/InterruptTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/WaitNotifyInterupt.java" />
         <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[116]填充每个节点的下一个右侧节点指针.java" />
         <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[117]填充每个节点的下一个右侧节点指针 II.java" />
@@ -173,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/GuardedSuspend.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/GuardedSuspendDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/MessageQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/ParkUnParkTest.java" />
       </list>
     </option>
   </component>
@@ -304,7 +301,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605958195166" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605960622304" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -363,20 +360,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MessageQueueDemo">
-    <configuration name="CanPermutePalindrome_EC_1765" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.hash.CanPermutePalindrome_EC_1765" />
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.hash.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ParkUnParkTest">
     <configuration name="FindWords_EC_500" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.hash.FindWords_EC_500" />
       <module name="TheAlgorithmInJava" />
@@ -429,20 +413,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParkUnParkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.chapter_1.ParkUnParkTest" />
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.concurrent.chapter_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.CanPermutePalindrome_EC_1765" />
       <item itemvalue="Application.FindWords_EC_500" />
       <item itemvalue="Application.GuardedObjectTest" />
       <item itemvalue="Application.GuardedSuspendDemo" />
       <item itemvalue="Application.MessageQueueDemo" />
+      <item itemvalue="Application.ParkUnParkTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParkUnParkTest" />
         <item itemvalue="Application.MessageQueueDemo" />
         <item itemvalue="Application.GuardedSuspendDemo" />
         <item itemvalue="Application.GuardedObjectTest" />
         <item itemvalue="Application.FindWords_EC_500" />
-        <item itemvalue="Application.CanPermutePalindrome_EC_1765" />
       </list>
     </recent_temporary>
   </component>
@@ -631,7 +628,7 @@
       <workItem from="1605660762186" duration="17492000" />
       <workItem from="1605746759853" duration="18918000" />
       <workItem from="1605832477814" duration="14411000" />
-      <workItem from="1605920225454" duration="17264000" />
+      <workItem from="1605920225454" duration="19005000" />
     </task>
     <servers />
   </component>
@@ -668,7 +665,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="878042000" />
+    <option name="totallyTimeSpent" value="879783000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -681,7 +678,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48069853" visible="true" weight="0.15369262" />
       <window_info id="Structure" order="1" sideWeight="0.5193015" side_tool="true" weight="0.13013972" />
@@ -701,7 +697,7 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.33055976" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" sideWeight="0.42794412" visible="true" weight="0.3857791" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.42794412" weight="0.3161876" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.3290469" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
@@ -1529,17 +1525,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/IsPowerOfTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/JumpFloor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -1957,13 +1942,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/MessageQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#405#406#0" expanded="true" />
             <element signature="e#445#446#0" expanded="true" />
             <element signature="class#Message#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/ParkUnParkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
