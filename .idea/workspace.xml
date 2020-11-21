@@ -43,20 +43,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/GuardedSuspendDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/MessageQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="862">
-              <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+            <state relative-caret-position="432">
+              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1083#1084#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="class#Message#0" />
               </folding>
             </state>
           </provider>
@@ -127,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/InterruptTest2.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/InterruptTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/WaitNotifyInterupt.java" />
         <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[116]填充每个节点的下一个右侧节点指针.java" />
@@ -178,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/GuardedObjectTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/GuardedSuspend.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/GuardedSuspendDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/MessageQueueDemo.java" />
       </list>
     </option>
   </component>
@@ -296,18 +291,6 @@
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
               <item name="concurrent" type="462c0819:PsiDirectoryNode" />
               <item name="chapter_1" type="462c0819:PsiDirectoryNode" />
-              <item name="GuardedObjectTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter_1" type="462c0819:PsiDirectoryNode" />
               <item name="ThreadSecurityTest2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
@@ -321,7 +304,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605954011381" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605958195166" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -380,7 +363,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GuardedSuspendDemo">
+  <component name="RunManager" selected="Application.MessageQueueDemo">
     <configuration name="CanPermutePalindrome_EC_1765" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.hash.CanPermutePalindrome_EC_1765" />
       <module name="TheAlgorithmInJava" />
@@ -433,12 +416,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfBoomerangs_Mid_447" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.hash.NumberOfBoomerangs_Mid_447" />
+    <configuration name="MessageQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.chapter_1.MessageQueueDemo" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.hash.*" />
+          <option name="PATTERN" value="xyz.bugcoder.concurrent.chapter_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -447,19 +430,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NumberOfBoomerangs_Mid_447" />
       <item itemvalue="Application.CanPermutePalindrome_EC_1765" />
       <item itemvalue="Application.FindWords_EC_500" />
       <item itemvalue="Application.GuardedObjectTest" />
       <item itemvalue="Application.GuardedSuspendDemo" />
+      <item itemvalue="Application.MessageQueueDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MessageQueueDemo" />
         <item itemvalue="Application.GuardedSuspendDemo" />
         <item itemvalue="Application.GuardedObjectTest" />
         <item itemvalue="Application.FindWords_EC_500" />
         <item itemvalue="Application.CanPermutePalindrome_EC_1765" />
-        <item itemvalue="Application.NumberOfBoomerangs_Mid_447" />
       </list>
     </recent_temporary>
   </component>
@@ -648,7 +631,7 @@
       <workItem from="1605660762186" duration="17492000" />
       <workItem from="1605746759853" duration="18918000" />
       <workItem from="1605832477814" duration="14411000" />
-      <workItem from="1605920225454" duration="15786000" />
+      <workItem from="1605920225454" duration="17264000" />
     </task>
     <servers />
   </component>
@@ -685,7 +668,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="876564000" />
+    <option name="totallyTimeSpent" value="878042000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -718,7 +701,7 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.33055976" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" sideWeight="0.42794412" visible="true" weight="0.2397882" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" sideWeight="0.42794412" visible="true" weight="0.3857791" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.3290469" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
@@ -1546,13 +1529,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/Hanoi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/IsPowerOfTwo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -1963,8 +1939,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/GuardedSuspendDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="862">
-          <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+        <state relative-caret-position="506">
+          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#462#463#0" expanded="true" />
@@ -1975,6 +1951,19 @@
             <element signature="e#765#766#0" expanded="true" />
             <element signature="e#686#687#0" expanded="true" />
             <element signature="e#714#715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/MessageQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="class#Message#0" />
           </folding>
         </state>
       </provider>
