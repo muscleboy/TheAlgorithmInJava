@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,20 +44,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 10- I]斐波那契数列.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/tree/RebuildTree_7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="33" selection-end-column="11" />
+            <state relative-caret-position="797">
+              <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/rec/Fib_10_I.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 07]重建二叉树.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+            <state relative-caret-position="286">
+              <caret line="44" column="5" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -128,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/BlockStatusTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/Practice.java" />
         <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[987]二叉树的垂序遍历.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerticalTraversal_Mid_987.java" />
@@ -179,6 +180,7 @@
         <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 10- II]青蛙跳台阶问题.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/rec/NumWays_EC_10_II.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/rec/Fib_10_I.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/tree/RebuildTree_7.java" />
       </list>
     </option>
   </component>
@@ -277,17 +279,6 @@
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
               <item name="jianzhioffer" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="jianzhioffer" type="462c0819:PsiDirectoryNode" />
-              <item name="rec" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -298,7 +289,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606101353003" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606106512959" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -312,9 +303,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="xyz.bugcoder.DesignPattern.UmlRelation.Aggregation" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="xyz.bugcoder.DesignPattern.LiskovSubstitution" />
     </key>
@@ -325,6 +313,10 @@
       <recent name="xyz.bugcoder.DesignPattern" />
       <recent name="xyz.bugcoder.DesignPattern.create" />
       <recent name="xyz.bugcoder" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/decoration" />
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/bridge/pattern" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1" />
@@ -340,9 +332,8 @@
       <recent name="xyz.bugcoder.DesignPattern.structure.template.group" />
       <recent name="xyz.bugcoder.DesignPattern.structure.strategy.impl" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/decoration" />
-      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/bridge/pattern" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="xyz.bugcoder.DesignPattern.UmlRelation.Aggregation" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -357,7 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Fib_10_I">
+  <component name="RunManager" selected="JUnit.RebuildTree_7.test">
     <configuration name="Fib_10_I" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.rec.Fib_10_I" />
       <module name="TheAlgorithmInJava" />
@@ -377,19 +368,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.hash.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestNoRepeatSubString_Mid_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.hash.LongestNoRepeatSubString_Mid_3" />
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -423,20 +401,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RebuildTree_7.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.jianzhioffer.tree" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.tree.RebuildTree_7" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.LongestNoRepeatSubString_Mid_3" />
       <item itemvalue="Application.FirstUniqChar_EC_50" />
       <item itemvalue="Application.ReplaceSpaces_EC_5" />
       <item itemvalue="Application.NumWays_EC_10_II" />
       <item itemvalue="Application.Fib_10_I" />
+      <item itemvalue="JUnit.RebuildTree_7.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RebuildTree_7.test" />
         <item itemvalue="Application.Fib_10_I" />
         <item itemvalue="Application.NumWays_EC_10_II" />
         <item itemvalue="Application.ReplaceSpaces_EC_5" />
         <item itemvalue="Application.FirstUniqChar_EC_50" />
-        <item itemvalue="Application.LongestNoRepeatSubString_Mid_3" />
       </list>
     </recent_temporary>
   </component>
@@ -627,17 +621,11 @@
       <workItem from="1605832477814" duration="14411000" />
       <workItem from="1605920225454" duration="20296000" />
       <workItem from="1606008339376" duration="12101000" />
-      <workItem from="1606094508163" duration="5350000" />
+      <workItem from="1606094508163" duration="9213000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_test - 2020.11.12 at 17h 06m 03s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RotationLinkedList_Mid_61_test - 2020.11.15 at 10h 52m 44s.xml">
-      <configuration name="RotationLinkedList_Mid_61.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IsBalanced_EC_110_test - 2020.11.18 at 16h 35m 27s.xml">
       <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
     </history-entry>
@@ -662,9 +650,15 @@
     <history-entry file="IsBalanced_EC_110_test - 2020.11.19 at 12h 14m 23s.xml">
       <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RebuildTree_7_test - 2020.11.23 at 12h 17m 26s.xml">
+      <configuration name="RebuildTree_7.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RebuildTree_7_test - 2020.11.23 at 12h 18m 07s.xml">
+      <configuration name="RebuildTree_7.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="898525000" />
+    <option name="totallyTimeSpent" value="902388000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -697,7 +691,7 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.33055976" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" sideWeight="0.42714572" visible="true" weight="0.20801815" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.42714572" weight="0.22390318" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.3290469" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952183" />
@@ -1531,23 +1525,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/ThreadSafePratise2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/hash/TwoSum_EC_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[215]数组中的第K个最大元素.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -1930,17 +1907,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/rec/NumWays_EC_10_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 10- II]青蛙跳台阶问题.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/rec/NumWays_EC_10_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1953,8 +1930,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/rec/Fib_10_I.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+        <state relative-caret-position="516">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 07]重建二叉树.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/tree/RebuildTree_7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
