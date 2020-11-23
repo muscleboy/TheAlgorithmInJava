@@ -2,6 +2,8 @@ package xyz.bugcoder.concurrent.chapter_1;
 
 import lombok.extern.slf4j.Slf4j;
 
+import java.util.concurrent.locks.ReentrantLock;
+
 /**
  * @Package: xyz.bugcoder.concurrent.chapter_1
  * @author: Weiyj
@@ -17,14 +19,14 @@ public class PhilosopherEatingQuestion {
         Chopstick c4 = new Chopstick("4");
         Chopstick c5 = new Chopstick("5");
 
-        new Philosopher("苏格拉底", c1, c2).start();
-        new Philosopher("柏拉图", c2, c3).start();
-        new Philosopher("亚里士多德", c3, c4).start();
-        new Philosopher("赫拉克利特", c4, c5).start();
-//        new Philosopher("阿基米德", c5, c1).start();
+        new Philosopher("苏格拉底1", c1, c2).start();
+        new Philosopher("柏拉图2", c2, c3).start();
+        new Philosopher("亚里士多德3", c3, c4).start();
+        new Philosopher("赫拉克利特4", c4, c5).start();
+        new Philosopher("阿基米德5", c5, c1).start();
 
         // 线程饥饿问题   一个线程由于优先级太低，始终得不到 CPU 调度执行，也不能够结束
-        new Philosopher("阿基米德", c1, c2).start();
+//        new Philosopher("阿基米德", c1, c2).start();
     }
 
 }
@@ -45,13 +47,34 @@ class Philosopher extends Thread {
         this.right = right;
     }
 
+    // ReentranceLock解决哲学家问题
     @Override
     public void run() {
+        // 死锁
+//        while (true){
+//            // 获得左、右筷子才能吃
+//            synchronized (left) {
+//                synchronized (right) {
+//                    eat();
+//                }
+//            }
+//        }
+
+        // ReentranceLock解决死锁
         while (true){
             // 获得左、右筷子才能吃
-            synchronized (left) {
-                synchronized (right) {
-                    eat();
+            if (left.tryLock()){
+                try {
+                    if (right.tryLock()){
+                        try {
+                            eat();
+                        }finally {
+                            right.unlock();
+                        }
+                    }
+                }finally {
+                    // 重点，获取不到右筷子，就让出左筷子
+                    left.unlock();
                 }
             }
         }
@@ -69,7 +92,7 @@ class Philosopher extends Thread {
 }
 
 // 筷子
-class Chopstick {
+class Chopstick extends ReentrantLock {
 
     String name;
 
