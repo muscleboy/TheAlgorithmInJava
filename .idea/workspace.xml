@@ -4,9 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/IsValidBST_Mid_98.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/IsValidBST_Mid_98.java" afterDir="false" />
-    </list>
+    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,20 +42,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/IsValidBST_Mid_98.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+            <state relative-caret-position="142">
+              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[98]验证二叉搜索树.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/LevelOrder_Mid_102.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="35" selection-end-column="66" />
+            <state relative-caret-position="683">
+              <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/LevelOrder_Mid_107.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -128,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_4_13_ReentranceLock/ReentrantLockCondition.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_4_13_ReentranceLock/ReentrantLockExcercise.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_4_13_ReentranceLock/Excercise_1.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_4_13_ReentranceLock/Excercise_2.java" />
@@ -179,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/CodecTreeByRec_Hard_297.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerifyPostOrder_Mid_1718.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/IsValidBST_Mid_98.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/LevelOrder_Mid_107.java" />
       </list>
     </option>
   </component>
@@ -308,7 +315,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606383879611" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606385083429" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -367,7 +374,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CodecTreeByRec_Hard_297">
+  <component name="RunManager" selected="Application.LevelOrder_Mid_107">
     <configuration name="BuildMaxBinaryTree_mid_654" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.tree.BuildMaxBinaryTree_mid_654" />
       <module name="TheAlgorithmInJava" />
@@ -394,8 +401,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FillNextTreeNode_Mid_116" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.tree.FillNextTreeNode_Mid_116" />
+    <configuration name="FindDuplicateSubTree_Mid_652" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.tree.FindDuplicateSubTree_Mid_652" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
@@ -407,8 +414,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDuplicateSubTree_Mid_652" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.tree.FindDuplicateSubTree_Mid_652" />
+    <configuration name="LevelOrder_Mid_107" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.tree.LevelOrder_Mid_107" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
@@ -434,19 +441,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FillNextTreeNode_Mid_116" />
       <item itemvalue="Application.ReverseKGroups" />
       <item itemvalue="Application.BuildMaxBinaryTree_mid_654" />
       <item itemvalue="Application.FindDuplicateSubTree_Mid_652" />
       <item itemvalue="Application.CodecTreeByRec_Hard_297" />
+      <item itemvalue="Application.LevelOrder_Mid_107" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LevelOrder_Mid_107" />
         <item itemvalue="Application.CodecTreeByRec_Hard_297" />
         <item itemvalue="Application.FindDuplicateSubTree_Mid_652" />
         <item itemvalue="Application.BuildMaxBinaryTree_mid_654" />
         <item itemvalue="Application.ReverseKGroups" />
-        <item itemvalue="Application.FillNextTreeNode_Mid_116" />
       </list>
     </recent_temporary>
   </component>
@@ -643,7 +650,7 @@
       <workItem from="1606211438917" duration="920000" />
       <workItem from="1606219991027" duration="3688000" />
       <workItem from="1606265170289" duration="22311000" />
-      <workItem from="1606352339979" duration="15248000" />
+      <workItem from="1606352339979" duration="15810000" />
     </task>
     <servers />
   </component>
@@ -680,7 +687,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="980704000" />
+    <option name="totallyTimeSpent" value="981266000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -695,7 +702,7 @@
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47946513" visible="true" weight="0.19800399" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47946513" visible="true" weight="0.19800399" />
       <window_info id="Structure" order="1" sideWeight="0.5205349" side_tool="true" weight="0.15528943" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1549,13 +1556,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/CustomStack_Mid_1381.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="104" column="40" lean-forward="true" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/FindKthLargest_Mid_215.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
@@ -1879,13 +1879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/LevelOrder_Mid_102.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="804">
-          <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/ReverseBinaryTree_226.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="926">
@@ -1907,6 +1900,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/IsValidBST_Mid_98.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/LevelOrder_Mid_102.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[98]验证二叉搜索树.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1914,10 +1921,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/IsValidBST_Mid_98.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/LevelOrder_Mid_107.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        <state relative-caret-position="371">
+          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
         </state>
       </provider>
     </entry>
