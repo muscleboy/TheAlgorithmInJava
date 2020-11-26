@@ -4,7 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="" />
+    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/IsValidBST_Mid_98.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/IsValidBST_Mid_98.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,8 +47,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/IsValidBST_Mid_98.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="318">
+              <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[98]验证二叉搜索树.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="35" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -117,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_4_13_ReentranceLock/FairReentrantLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_4_13_ReentranceLock/ReentrantLockCondition.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_4_13_ReentranceLock/ReentrantLockExcercise.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_4_13_ReentranceLock/Excercise_1.java" />
@@ -168,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/FindDuplicateSubTree_Mid_652.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/CodecTreeByRec_Hard_297.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerifyPostOrder_Mid_1718.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/IsValidBST_Mid_98.java" />
       </list>
     </option>
   </component>
@@ -297,7 +308,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606382898029" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606383879611" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -632,7 +643,7 @@
       <workItem from="1606211438917" duration="920000" />
       <workItem from="1606219991027" duration="3688000" />
       <workItem from="1606265170289" duration="22311000" />
-      <workItem from="1606352339979" duration="14264000" />
+      <workItem from="1606352339979" duration="15248000" />
     </task>
     <servers />
   </component>
@@ -669,7 +680,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="979720000" />
+    <option name="totallyTimeSpent" value="980704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,8 +693,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47946513" visible="true" weight="0.19800399" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47946513" visible="true" weight="0.19800399" />
       <window_info id="Structure" order="1" sideWeight="0.5205349" side_tool="true" weight="0.15528943" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1537,13 +1549,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/AddOne_Easy_66.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/CustomStack_Mid_1381.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="617">
@@ -1902,10 +1907,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[98]验证二叉搜索树.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="35" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/IsValidBST_Mid_98.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="318">
+          <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
         </state>
       </provider>
     </entry>
