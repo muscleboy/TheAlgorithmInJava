@@ -84,6 +84,7 @@ import java.util.Queue;
  */
 public class FillNextTreeNode_Mid_116 {
 
+    // 层序遍历法
     public static Node connect(Node root){
 
         Queue<Node> queue = new LinkedList<>();
@@ -109,6 +110,28 @@ public class FillNextTreeNode_Mid_116 {
         return root;
     }
 
+    public static Node connect2(Node root){
+        if (root == null){
+            return null;
+        }
+        dfs(root.left, root.right);
+        return root;
+    }
+
+    public static void dfs(Node node1, Node node2){
+        if (node1 == null || node2 == null){
+            return ;
+        }
+        // 连接传入的节点
+        node1.next = node2;
+        // 连接相同父节点的两子节点
+        dfs(node1.left, node1.right);
+        dfs(node2.left, node2.right);
+        // 连接不同父节点的两子节点
+        dfs(node1.right, node1.left);
+
+    }
+
     public static void main(String[] args) {
         Node n1 = new Node(1);
         Node n2 = new Node(2);
@@ -125,7 +148,8 @@ public class FillNextTreeNode_Mid_116 {
         n3.left = n6;
         n3.right = n7;
 
-        System.out.println(connect(n1));
+//        System.out.println(connect(n1));
+        System.out.println(connect2(n1));
     }
 
 }

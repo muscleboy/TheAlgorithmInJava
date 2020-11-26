@@ -8,7 +8,7 @@ import xyz.bugcoder.leetcode_pp.TreeNode;
 //
 // 输入：
 //
-//      4
+//     4
 //   /   \
 //  2     7
 // / \   / \
@@ -16,7 +16,7 @@ import xyz.bugcoder.leetcode_pp.TreeNode;
 //
 // 输出：
 //
-//      4
+//     4
 //   /   \
 //  7     2
 // / \   / \
@@ -41,7 +41,7 @@ import xyz.bugcoder.leetcode_pp.TreeNode;
 public class ReverseBinaryTree_226 {
 
     // 思路
-    //   dfs 递归
+    //   dfs 递归 前序遍历
     // 复杂度
     //   时间：O(N)
     //   空间：O(N)
@@ -50,10 +50,28 @@ public class ReverseBinaryTree_226 {
             return null;
         }
 
-        TreeNode left = invertTree(root.left);
-        TreeNode right = invertTree(root.right);
-        root.left = right;
-        root.right = left;
+        TreeNode temp = root.left;
+        root.left = root.right;
+        root.right = temp;
+
+        invertTree(root.left);
+        invertTree(root.right);
+
+        return root;
+    }
+
+    // 后序遍历
+    public static TreeNode invertTree2(TreeNode root) {
+        if (root == null){
+            return null;
+        }
+
+        invertTree(root.left);
+        invertTree(root.right);
+
+        TreeNode temp = root.left;
+        root.left = root.right;
+        root.right = temp;
 
         return root;
     }
@@ -74,7 +92,8 @@ public class ReverseBinaryTree_226 {
         n3.left = n6;
         n3.right = n7;
 
-        System.out.println(invertTree(n1));
+//        System.out.println(invertTree(n1));
+        System.out.println(invertTree2(n1));
     }
 
 }
