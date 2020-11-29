@@ -4,9 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/BlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/BlockingQueue.java" afterDir="false" />
-    </list>
+    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,17 +42,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/BlockingQueue.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadScheduleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1117">
-              <caret line="185" column="102" selection-start-line="185" selection-start-column="102" selection-end-line="185" selection-end-column="102" />
+            <state relative-caret-position="1408">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
-                <element signature="docComment;class#BlockingQueue#0" />
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#2989#2990#0" expanded="true" />
-                <element signature="e#3029#3030#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#schedule#0;class#ThreadScheduleTest#0" />
+                <element signature="method#timerTest#0;class#ThreadScheduleTest#0" />
+                <element signature="e#2252#2481#0" expanded="true" />
+                <element signature="e#2480#2481#0" expanded="true" />
+                <element signature="e#2508#2643#0" expanded="true" />
+                <element signature="e#2642#2643#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ForkJoinPoolTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1220">
+              <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#MyTask#0" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#1314#1315#0" expanded="true" />
+                <element signature="e#1366#1367#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,8 +93,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>A</find>
-      <find>B</find>
       <find>depen</find>
       <find>getDateInstance</find>
       <find>getInstance</find>
@@ -104,6 +121,8 @@
       <find>capacity</find>
       <find>list.add(matrix[r][c]);</find>
       <find>cache</find>
+      <find>log.debug(&quot;worker 被移除{}&quot;, this);</find>
+      <find>run</find>
     </findStrings>
     <replaceStrings>
       <replace>standar</replace>
@@ -126,13 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 54]二叉搜索树的第k大节点.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/string/ReverseWords_58_I.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/string/ReverseWords_58_II.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/SlidingWindow/MaxSlidingWindow_59.java" />
-        <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 59 - I]滑动窗口的最大值.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/amazing/add_65.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/amazing/Add_65.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/ReverseBinaryTree_226.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/FillNextTreeNode_Mid_116.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/ReverseKGroups.java" />
@@ -177,6 +189,13 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/SlidingWindow_Mid_1052.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/MinSubstring_Hard_76.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/BlockingQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/NewFixedThreadPollTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadPollTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadSubmitTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadPoolInvokeAll.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadHungryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadScheduleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ForkJoinPoolTest.java" />
       </list>
     </option>
   </component>
@@ -306,9 +325,10 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606636151636" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606654126849" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -365,13 +385,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadPool">
-    <configuration name="MinSubstring_Hard_76" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.double_pointer.MinSubstring_Hard_76" />
+  <component name="RunManager" selected="Application.ForkJoinPoolTest">
+    <configuration name="ForkJoinPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_8_tools.ForkJoinPoolTest" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.double_pointer.*" />
+          <option name="PATTERN" value="xyz.bugcoder.concurrent.heima_8_tools.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,12 +399,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_7.Pool" />
+    <configuration name="ThreadHungryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_8_tools.ThreadHungryTest" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.concurrent.heima_7.*" />
+          <option name="PATTERN" value="xyz.bugcoder.concurrent.heima_8_tools.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,12 +412,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SlidingWindow_Mid_1052" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.double_pointer.SlidingWindow_Mid_1052" />
+    <configuration name="ThreadPoolInvokeAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_8_tools.ThreadPoolInvokeAll" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.double_pointer.*" />
+          <option name="PATTERN" value="xyz.bugcoder.concurrent.heima_8_tools.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -405,12 +425,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_7.Test" />
+    <configuration name="ThreadScheduleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_8_tools.ThreadScheduleTest" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.concurrent.heima_7.*" />
+          <option name="PATTERN" value="xyz.bugcoder.concurrent.heima_8_tools.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -418,8 +438,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_8_tools.ThreadPool" />
+    <configuration name="ThreadSubmitTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_8_tools.ThreadSubmitTask" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
@@ -432,19 +452,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Pool" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.ThreadPool" />
-      <item itemvalue="Application.SlidingWindow_Mid_1052" />
-      <item itemvalue="Application.MinSubstring_Hard_76" />
+      <item itemvalue="Application.ThreadSubmitTask" />
+      <item itemvalue="Application.ThreadPoolInvokeAll" />
+      <item itemvalue="Application.ThreadHungryTest" />
+      <item itemvalue="Application.ThreadScheduleTest" />
+      <item itemvalue="Application.ForkJoinPoolTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadPool" />
-        <item itemvalue="Application.MinSubstring_Hard_76" />
-        <item itemvalue="Application.SlidingWindow_Mid_1052" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Pool" />
+        <item itemvalue="Application.ForkJoinPoolTest" />
+        <item itemvalue="Application.ThreadScheduleTest" />
+        <item itemvalue="Application.ThreadHungryTest" />
+        <item itemvalue="Application.ThreadPoolInvokeAll" />
+        <item itemvalue="Application.ThreadSubmitTask" />
       </list>
     </recent_temporary>
   </component>
@@ -644,20 +664,11 @@
       <workItem from="1606352339979" duration="16767000" />
       <workItem from="1606438762393" duration="16438000" />
       <workItem from="1606527663284" duration="11784000" />
-      <workItem from="1606612676044" duration="13747000" />
+      <workItem from="1606612676044" duration="21709000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IsBalanced_EC_110_test - 2020.11.18 at 16h 35m 27s.xml">
-      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IsBalanced_EC_110_test - 2020.11.18 at 16h 35m 44s.xml">
-      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IsBalanced_EC_110_test - 2020.11.18 at 17h 11m 05s.xml">
-      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IsBalanced_EC_110_test - 2020.11.18 at 17h 11m 28s.xml">
       <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
     </history-entry>
@@ -679,9 +690,18 @@
     <history-entry file="RebuildTree_7_test - 2020.11.23 at 12h 18m 07s.xml">
       <configuration name="RebuildTree_7.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NewFixedThreadPollTest_test1 - 2020.11.29 at 16h 30m 32s.xml">
+      <configuration name="NewFixedThreadPollTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewFixedThreadPollTest_test1 - 2020.11.29 at 16h 30m 40s.xml">
+      <configuration name="NewFixedThreadPollTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewFixedThreadPollTest_test1 - 2020.11.29 at 16h 32m 02s.xml">
+      <configuration name="NewFixedThreadPollTest.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1024192000" />
+    <option name="totallyTimeSpent" value="1032154000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -713,7 +733,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.33055976" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.39409986" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.36459908" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.3290469" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32952183" />
@@ -1556,108 +1576,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/LevelOrder_Mid_107.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[34]在排序数组中查找元素的第一个和最后一个位置.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_6_nolock/Account.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_6_nolock/AtomicIntegerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_6_nolock/AtomicReferenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_6_nolock/ABASolve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_6_nolock/ABATest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_6_nolock/AtomicIntegerArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_6_nolock/AtomicRefFieldUpdater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_6_nolock/NotSafeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_6_nolock/AdderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_2/OperandStack.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_2/OperandStackTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -2169,16 +2087,142 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/strategy/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/strategy/ICouponDiscount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/strategy/impl/NYGDiscount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/strategy/impl/MJDiscount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/strategy/impl/ZKDiscount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/strategy/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding>
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/BlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1117">
-          <caret line="185" column="102" selection-start-line="185" selection-start-column="102" selection-end-line="185" selection-end-column="102" />
+        <state relative-caret-position="2196">
+          <caret line="257" column="28" selection-start-line="257" selection-start-column="28" selection-end-line="257" selection-end-column="28" />
           <folding>
             <element signature="docComment;class#BlockingQueue#0" />
             <element signature="e#802#803#0" expanded="true" />
             <element signature="e#842#843#0" expanded="true" />
             <element signature="e#2989#2990#0" expanded="true" />
             <element signature="e#3029#3030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadSubmitTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadPollTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadPoolInvokeAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#method1#0;class#ThreadPoolInvokeAll#0" />
+            <element signature="method#method1#1;class#ThreadPoolInvokeAll#0" />
+            <element signature="method#method2#1;class#ThreadPoolInvokeAll#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadHungryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadScheduleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#schedule#0;class#ThreadScheduleTest#0" />
+            <element signature="method#timerTest#0;class#ThreadScheduleTest#0" />
+            <element signature="e#2252#2481#0" expanded="true" />
+            <element signature="e#2480#2481#0" expanded="true" />
+            <element signature="e#2508#2643#0" expanded="true" />
+            <element signature="e#2642#2643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ForkJoinPoolTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#MyTask#0" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1366#1367#0" expanded="true" />
           </folding>
         </state>
       </provider>
