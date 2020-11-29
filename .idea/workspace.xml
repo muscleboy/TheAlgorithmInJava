@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/SlidingWindow_Mid_1052.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,32 +47,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/BlockingQueue.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/SlidingWindow_Mid_1052.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="105" column="26" lean-forward="true" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
-              <folding>
-                <element signature="docComment;class#BlockingQueue#0" />
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="method#take#0;class#BlockingQueue#0" />
-                <element signature="e#737#816#0" />
-                <element signature="e#798#842#1" />
-                <element signature="e#820#881#0" />
-                <element signature="e#913#973#0" />
-                <element signature="e#769#807#0" />
-                <element signature="method#put#0;class#BlockingQueue#0" />
-                <element signature="e#1188#1276#0" />
-                <element signature="e#1253#1484#1" />
-                <element signature="e#1275#1335#0" />
-                <element signature="e#1368#1429#0" />
-                <element signature="e#1220#1258#0" />
-                <element signature="method#size#0;class#BlockingQueue#0" />
-                <element signature="e#1641#1672#0" />
-                <element signature="e#1673#1711#0" />
-                <element signature="e#2678#2679#0" expanded="true" />
-                <element signature="e#2710#2711#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="768">
+              <caret line="76" column="5" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="76" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[1052]爱生气的书店老板.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -141,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/SpiralOrder_29.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/KthLargestOnBST_54.java" />
         <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 54]二叉搜索树的第k大节点.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/string/ReverseWords_58_I.java" />
@@ -192,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_7/Pool.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_7/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/BlockingQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/SlidingWindow_Mid_1052.java" />
       </list>
     </option>
   </component>
@@ -219,7 +208,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
@@ -286,7 +275,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+              <item name="double_pointer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,7 +310,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606557556193" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606618184767" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -369,7 +369,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadPool">
+  <component name="RunManager" selected="Application.SlidingWindow_Mid_1052">
     <configuration name="Pool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_7.Pool" />
       <module name="TheAlgorithmInJava" />
@@ -383,12 +383,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchMatrix_Mid_74" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.double_pointer.SearchMatrix_Mid_74" />
+    <configuration name="SimpleDateFormatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_7.SimpleDateFormatTest" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.double_pointer.*" />
+          <option name="PATTERN" value="xyz.bugcoder.concurrent.heima_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -396,12 +396,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleDateFormatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_7.SimpleDateFormatTest" />
+    <configuration name="SlidingWindow_Mid_1052" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.double_pointer.SlidingWindow_Mid_1052" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.concurrent.heima_7.*" />
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.double_pointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -436,19 +436,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SearchMatrix_Mid_74" />
       <item itemvalue="Application.SimpleDateFormatTest" />
       <item itemvalue="Application.Pool" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.ThreadPool" />
+      <item itemvalue="Application.SlidingWindow_Mid_1052" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SlidingWindow_Mid_1052" />
         <item itemvalue="Application.ThreadPool" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Pool" />
         <item itemvalue="Application.SimpleDateFormatTest" />
-        <item itemvalue="Application.SearchMatrix_Mid_74" />
       </list>
     </recent_temporary>
   </component>
@@ -647,7 +647,8 @@
       <workItem from="1606265170289" duration="22311000" />
       <workItem from="1606352339979" duration="16767000" />
       <workItem from="1606438762393" duration="16438000" />
-      <workItem from="1606527663284" duration="11333000" />
+      <workItem from="1606527663284" duration="11784000" />
+      <workItem from="1606612676044" duration="1728000" />
     </task>
     <servers />
   </component>
@@ -684,7 +685,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1009994000" />
+    <option name="totallyTimeSpent" value="1012173000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,7 +700,7 @@
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47946513" visible="true" weight="0.19520958" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47946513" visible="true" weight="0.19720559" />
       <window_info id="Structure" order="1" sideWeight="0.5205349" side_tool="true" weight="0.15528943" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -716,7 +717,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.33055976" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.33963692" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.19969743" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.3290469" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32952183" />
@@ -1559,20 +1560,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[98]验证二叉搜索树.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="35" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/IsValidBST_Mid_98.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/LevelOrder_Mid_102.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="683">
@@ -2171,30 +2158,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/BlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="105" column="26" lean-forward="true" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+        <state relative-caret-position="704">
+          <caret line="121" column="31" lean-forward="true" selection-start-line="121" selection-start-column="31" selection-end-line="121" selection-end-column="31" />
           <folding>
             <element signature="docComment;class#BlockingQueue#0" />
             <element signature="e#802#803#0" expanded="true" />
             <element signature="e#842#843#0" expanded="true" />
             <element signature="method#take#0;class#BlockingQueue#0" />
-            <element signature="e#737#816#0" />
-            <element signature="e#798#842#1" />
-            <element signature="e#820#881#0" />
-            <element signature="e#913#973#0" />
-            <element signature="e#769#807#0" />
             <element signature="method#put#0;class#BlockingQueue#0" />
-            <element signature="e#1188#1276#0" />
-            <element signature="e#1253#1484#1" />
-            <element signature="e#1275#1335#0" />
-            <element signature="e#1368#1429#0" />
-            <element signature="e#1220#1258#0" />
             <element signature="method#size#0;class#BlockingQueue#0" />
-            <element signature="e#1641#1672#0" />
-            <element signature="e#1673#1711#0" />
-            <element signature="e#2678#2679#0" expanded="true" />
-            <element signature="e#2710#2711#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[1052]爱生气的书店老板.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/SlidingWindow_Mid_1052.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="76" column="5" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="76" selection-end-column="5" />
         </state>
       </provider>
     </entry>
