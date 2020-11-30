@@ -1,4 +1,4 @@
-package xyz.bugcoder.leetcode_pp.double_pointer;
+package xyz.bugcoder.leetcode_pp.sliding_window;
 
 //给你一个字符串 s 、一个字符串 t 。返回 s 中涵盖 t 所有字符的最小子串。如果 s 中不存在涵盖 t 所有字符的子串，则返回空字符串 "" 。
 //
@@ -32,8 +32,6 @@ package xyz.bugcoder.leetcode_pp.double_pointer;
 //
 //进阶：你能设计一个在 o(n) 时间内解决此问题的算法吗？ Related Topics 哈希表 双指针 字符串 Sliding Window
 // 👍 843 👎 0
-
-import java.util.Arrays;
 
 /**
  * @Package: xyz.bugcoder.leetcode_pp.double_pointer

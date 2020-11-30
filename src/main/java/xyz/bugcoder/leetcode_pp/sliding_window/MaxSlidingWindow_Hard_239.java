@@ -1,4 +1,4 @@
-package xyz.bugcoder.leetcode_pp.double_pointer;
+package xyz.bugcoder.leetcode_pp.sliding_window;
 
 import java.util.*;
 
