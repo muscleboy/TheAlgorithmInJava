@@ -4,7 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="" />
+    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,39 +45,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadScheduleTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/MaxSlidingWindow_Hard_239.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1408">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#schedule#0;class#ThreadScheduleTest#0" />
-                <element signature="method#timerTest#0;class#ThreadScheduleTest#0" />
-                <element signature="e#2252#2481#0" expanded="true" />
-                <element signature="e#2480#2481#0" expanded="true" />
-                <element signature="e#2508#2643#0" expanded="true" />
-                <element signature="e#2642#2643#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1042">
+              <caret line="82" column="5" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="82" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ForkJoinPoolTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[239]滑动窗口最大值.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1220">
-              <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="class#MyTask#0" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#1314#1315#0" expanded="true" />
-                <element signature="e#1366#1367#0" expanded="true" />
-              </folding>
+            <state>
+              <caret selection-end-line="38" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -145,10 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/ReverseBinaryTree_226.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/FillNextTreeNode_Mid_116.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/ReverseKGroups.java" />
-        <option value="$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[654]最大二叉树.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/BuildMaxBinaryTree_mid_654.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/PreInBuildTree_MId_105.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/PreInBuildTree_Mid_105.java" />
@@ -196,6 +176,10 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadHungryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadScheduleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ForkJoinPoolTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_2/HeadDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_2/HeadDemo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_2/HeapSizeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/MaxSlidingWindow_Hard_239.java" />
       </list>
     </option>
   </component>
@@ -223,7 +207,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
@@ -290,7 +274,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="jianzhioffer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -300,8 +284,29 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_8_tools" type="462c0819:PsiDirectoryNode" />
+              <item name="jianzhioffer" type="462c0819:PsiDirectoryNode" />
+              <item name="SlidingWindow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+              <item name="double_pointer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,7 +330,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606654126849" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606708605310" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -337,12 +342,9 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="VisualVMLauncher" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="xyz.bugcoder.DesignPattern.UmlRelation.Aggregation" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="xyz.bugcoder.DesignPattern.LiskovSubstitution" />
     </key>
@@ -354,6 +356,10 @@
       <recent name="xyz.bugcoder.DesignPattern.create" />
       <recent name="xyz.bugcoder" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/decoration" />
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/bridge/pattern" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_5_JMM" />
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_4_13_ReentranceLock" />
@@ -362,15 +368,14 @@
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/status/impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xyz.bugcoder.jvm.chapter_2" />
       <recent name="xyz.bugcoder.leetcode_pp.double_pointer" />
       <recent name="xyz.bugcoder.leetcode_pp.tree" />
       <recent name="xyz.bugcoder.jianzhioffer.string" />
-      <recent name="xyz.bugcoder.jvm.chapter_2" />
       <recent name="xyz.bugcoder.concurrent.heima_5_JMM" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/decoration" />
-      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/bridge/pattern" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="xyz.bugcoder.DesignPattern.UmlRelation.Aggregation" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -385,7 +390,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ForkJoinPoolTest">
+  <component name="RunManager" selected="Application.MaxSlidingWindow_Hard_239">
     <configuration name="ForkJoinPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_8_tools.ForkJoinPoolTest" />
       <module name="TheAlgorithmInJava" />
@@ -399,12 +404,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadHungryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_8_tools.ThreadHungryTest" />
+    <configuration name="HeadDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jvm.chapter_2.HeadDemo1" />
       <module name="TheAlgorithmInJava" />
+      <option name="VM_PARAMETERS" value="-Xms20m -Xmx20m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.concurrent.heima_8_tools.*" />
+          <option name="PATTERN" value="xyz.bugcoder.jvm.chapter_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -412,12 +418,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolInvokeAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_8_tools.ThreadPoolInvokeAll" />
+    <configuration name="HeadDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jvm.chapter_2.HeadDemo2" />
       <module name="TheAlgorithmInJava" />
+      <option name="VM_PARAMETERS" value="-Xms10m -Xmx10m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.concurrent.heima_8_tools.*" />
+          <option name="PATTERN" value="xyz.bugcoder.jvm.chapter_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -425,12 +432,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadScheduleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_8_tools.ThreadScheduleTest" />
+    <configuration name="HeapSizeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jvm.chapter_2.HeapSizeTest" />
       <module name="TheAlgorithmInJava" />
+      <option name="VM_PARAMETERS" value=" -XX:+PrintGCDetails" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.concurrent.heima_8_tools.*" />
+          <option name="PATTERN" value="xyz.bugcoder.jvm.chapter_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -438,12 +446,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadSubmitTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_8_tools.ThreadSubmitTask" />
+    <configuration name="MaxSlidingWindow_Hard_239" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.double_pointer.MaxSlidingWindow_Hard_239" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.concurrent.heima_8_tools.*" />
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.double_pointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -452,19 +460,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadSubmitTask" />
-      <item itemvalue="Application.ThreadPoolInvokeAll" />
-      <item itemvalue="Application.ThreadHungryTest" />
-      <item itemvalue="Application.ThreadScheduleTest" />
       <item itemvalue="Application.ForkJoinPoolTest" />
+      <item itemvalue="Application.HeadDemo2" />
+      <item itemvalue="Application.HeadDemo1" />
+      <item itemvalue="Application.HeapSizeTest" />
+      <item itemvalue="Application.MaxSlidingWindow_Hard_239" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSlidingWindow_Hard_239" />
+        <item itemvalue="Application.HeapSizeTest" />
+        <item itemvalue="Application.HeadDemo1" />
+        <item itemvalue="Application.HeadDemo2" />
         <item itemvalue="Application.ForkJoinPoolTest" />
-        <item itemvalue="Application.ThreadScheduleTest" />
-        <item itemvalue="Application.ThreadHungryTest" />
-        <item itemvalue="Application.ThreadPoolInvokeAll" />
-        <item itemvalue="Application.ThreadSubmitTask" />
       </list>
     </recent_temporary>
   </component>
@@ -664,7 +672,10 @@
       <workItem from="1606352339979" duration="16767000" />
       <workItem from="1606438762393" duration="16438000" />
       <workItem from="1606527663284" duration="11784000" />
-      <workItem from="1606612676044" duration="21709000" />
+      <workItem from="1606612676044" duration="22469000" />
+      <workItem from="1606656026423" duration="3104000" />
+      <workItem from="1606667038748" duration="19000" />
+      <workItem from="1606696882727" duration="8232000" />
     </task>
     <servers />
   </component>
@@ -701,7 +712,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1032154000" />
+    <option name="totallyTimeSpent" value="1044269000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -716,7 +727,7 @@
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47826087" visible="true" weight="0.19720559" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47826087" visible="true" weight="0.20319362" />
       <window_info id="Structure" order="1" sideWeight="0.5217391" side_tool="true" weight="0.19720559" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -733,7 +744,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.33055976" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.36459908" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.42662632" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.3290469" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32952183" />
@@ -741,6 +752,8 @@
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="bottom" id="Tail" order="16" />
       <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.5417166" side_tool="true" weight="0.21558245" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="18" weight="0.54236007" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="19" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Maven" order="2" weight="0.22155689" />
@@ -1496,6 +1509,60 @@
           <properties />
           <option name="timeStamp" value="224" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/MaxSlidingWindow_Hard_239.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/MaxSlidingWindow_Hard_239.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/MaxSlidingWindow_Hard_239.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/MaxSlidingWindow_Hard_239.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/MaxSlidingWindow_Hard_239.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/MaxSlidingWindow_Hard_239.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/MaxSlidingWindow_Hard_239.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/MaxSlidingWindow_Hard_239.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/MaxSlidingWindow_Hard_239.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/FindNearestNum.java</url>
           <line>14</line>
@@ -1576,70 +1643,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_2/OperandStackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_2/StackEreaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_2/StackovExcpTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_6_nolock/MyAtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="method#getUnSafe#0;class#MyAtomicInteger#0" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1618#1619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_6_nolock/UnSafeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/SearchMatrix_Mid_74.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="99" column="28" lean-forward="true" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/SearchInsert_EC_35.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
@@ -2194,10 +2197,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ForkJoinPoolTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="72" column="40" lean-forward="true" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#MyTask#0" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1366#1367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadScheduleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="758">
+          <caret line="57" column="47" lean-forward="true" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#schedule#0;class#ThreadScheduleTest#0" />
@@ -2210,20 +2230,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ForkJoinPoolTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_2/HeadDemo1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_2/HeadDemo2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_2/HeapSizeTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_2/OperandStackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1220">
-          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#MyTask#0" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="924">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/SlidingWindow/MaxSlidingWindow_59.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[239]滑动窗口最大值.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/MaxSlidingWindow_Hard_239.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1042">
+          <caret line="82" column="5" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="82" selection-end-column="5" />
         </state>
       </provider>
     </entry>
