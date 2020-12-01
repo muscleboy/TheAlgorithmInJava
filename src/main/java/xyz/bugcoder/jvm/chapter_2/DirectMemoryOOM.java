@@ -1,4 +1,4 @@
-package xyz.bugcoder.concurrent.chapter_1;
+package xyz.bugcoder.jvm.chapter_2;
 
 import sun.misc.Unsafe;
 
