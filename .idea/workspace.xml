@@ -43,25 +43,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/CustomLock.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/CountDownLatchDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="904">
-              <caret line="89" column="19" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="36" />
+            <state relative-caret-position="528">
+              <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="class#MySync#0;class#CustomLock#0" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-                <element signature="e#1191#1192#0" expanded="true" />
-                <element signature="e#1251#1252#0" expanded="true" />
-                <element signature="e#1362#1363#0" expanded="true" />
-                <element signature="e#1383#1384#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#1811#1812#0" expanded="true" />
-                <element signature="e#1843#1844#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,8 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/FindDuplicateSubTree_Mid_652.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/CodecTreeByRec_Hard_297.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerifyPostOrder_Mid_1718.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/IsValidBST_Mid_98.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/LevelOrder_Mid_107.java" />
@@ -184,6 +169,8 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/sliding_window/MinSubstring_Hard_76.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/sliding_window/CheckInClusion_Mid_567.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/CustomLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ReentrantRWLockTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/CountDownLatchDemo.java" />
       </list>
     </option>
   </component>
@@ -211,7 +198,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
@@ -313,7 +300,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606730251314" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606738264794" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -373,13 +360,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CustomLock">
+  <component name="RunManager" selected="Application.CountDownLatchDemo">
     <configuration name="CheckInClusion_Mid_567" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.sliding_window.CheckInClusion_Mid_567" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.sliding_window.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_8_tools.CountDownLatchDemo" />
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.concurrent.heima_8_tools.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -400,34 +400,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeadDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jvm.chapter_2.HeadDemo1" />
-      <module name="TheAlgorithmInJava" />
-      <option name="VM_PARAMETERS" value="-Xms20m -Xmx20m" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.jvm.chapter_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeapSizeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jvm.chapter_2.HeapSizeTest" />
-      <module name="TheAlgorithmInJava" />
-      <option name="VM_PARAMETERS" value=" -XX:+PrintGCDetails" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.jvm.chapter_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MaxSlidingWindow_Hard_239" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.sliding_window.MaxSlidingWindow_Hard_239" />
       <module name="TheAlgorithmInJava" />
@@ -441,20 +413,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReentrantRWLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_8_tools.ReentrantRWLockTest" />
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.concurrent.heima_8_tools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.HeadDemo1" />
-      <item itemvalue="Application.HeapSizeTest" />
       <item itemvalue="Application.MaxSlidingWindow_Hard_239" />
       <item itemvalue="Application.CheckInClusion_Mid_567" />
       <item itemvalue="Application.CustomLock" />
+      <item itemvalue="Application.ReentrantRWLockTest" />
+      <item itemvalue="Application.CountDownLatchDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDownLatchDemo" />
+        <item itemvalue="Application.ReentrantRWLockTest" />
         <item itemvalue="Application.CustomLock" />
         <item itemvalue="Application.CheckInClusion_Mid_567" />
         <item itemvalue="Application.MaxSlidingWindow_Hard_239" />
-        <item itemvalue="Application.HeapSizeTest" />
-        <item itemvalue="Application.HeadDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -657,7 +642,7 @@
       <workItem from="1606612676044" duration="22469000" />
       <workItem from="1606656026423" duration="3104000" />
       <workItem from="1606667038748" duration="19000" />
-      <workItem from="1606696882727" duration="12039000" />
+      <workItem from="1606696882727" duration="16156000" />
     </task>
     <servers />
   </component>
@@ -694,7 +679,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1048076000" />
+    <option name="totallyTimeSpent" value="1052193000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -707,7 +692,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47826087" visible="true" weight="0.20319362" />
       <window_info id="Structure" order="1" sideWeight="0.5217391" side_tool="true" weight="0.19720559" />
@@ -726,7 +710,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.33055976" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.19742814" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.3237519" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.3290469" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32952183" />
@@ -1625,20 +1609,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/DelDuplicateNum_Mid_80.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[16]最接近的三数之和.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="31" column="64" lean-forward="true" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/ThreeSumClosest_Mid_16.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
@@ -2236,10 +2206,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ReentrantRWLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/CustomLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="904">
-          <caret line="89" column="19" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="36" />
+        <state relative-caret-position="440">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#MySync#0;class#CustomLock#0" />
@@ -2255,6 +2235,16 @@
             <element signature="e#1843#1844#0" expanded="true" />
             <element signature="e#779#780#0" expanded="true" />
             <element signature="e#806#807#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
