@@ -32,6 +32,9 @@ package xyz.bugcoder.leetcode_pp.sliding_window;
 // Related Topics 双指针 Sliding Window
 // 👍 202 👎 0
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @Package: xyz.bugcoder.leetcode_pp.sliding_window
  * @author: Weiyj
@@ -40,17 +43,23 @@ package xyz.bugcoder.leetcode_pp.sliding_window;
  */
 public class CheckInClusion_Mid_567 {
 
-    // todo 未完，细节有问题
+    // 思路
+    //   滑动窗口, 首先统计 t 中各个字符出现的次数need，再用一个 map 统计滑动时的字符window
+    //   当 window 中全部出现 need 中的字符，开始收缩窗口
+    // 复杂度
+    //   时间：O(N)
+    //   空间间：O(N)
     public static boolean checkInclusion(String t, String s) {
 
         // 字符串 t 的各个字符
-        int[] need = new int[128];
+        Map<Character, Integer> need = new HashMap<>();
         // 当前窗口的各个字符
-        int[] window = new int[128];
+        Map<Character, Integer> window = new HashMap<>();
 
         // 字符串 t 的所有字母以及出现的次数
         for (char c : t.toCharArray()) {
-            need[c]++;
+            // 这里要用intValue()
+            need.put(c, need.getOrDefault(c, 0).intValue() + 1);
         }
 
         // 左右
@@ -62,36 +71,27 @@ public class CheckInClusion_Mid_567 {
         while (right < s.length()) {
 
             char c = s.charAt(right);
-            // 遇到 t 中不存在的，直接下一个
-            if (need[c] == 0){
-                right ++;
-                continue;
+            right++;
+            if (need.containsKey(c)) {
+                window.put(c, window.getOrDefault(c, 0).intValue() + 1);
+                if (need.get(c).intValue() == window.get(c).intValue()) {
+                    valid++;
+                }
             }
-
-            // 解决 s: ab, t: a  输出：""  xxxx
-            // 理应输出：a
-            if (window[c] < need[c]){
-                valid ++;
-            }
-            window[c] ++;
-            right ++;
 
             // 当前窗口中，包含 t 中所有字符
-            while (right - left >= t.length()){
-                if (valid == t.length()){
-                   return true;
+            while (right - left >= t.length()) {
+                if (valid == need.size()) {
+                    return true;
                 }
                 char d = s.charAt(left);
-                // 对应上面 right 指向 t 中不存在的字符
-                if (need[d] == 0){
-                    left ++;
-                    continue;
+                left++;
+                if (need.containsKey(d)){
+                    if (need.get(d) == window.get(d)) {
+                        valid--;
+                    }
+                    window.put(d, window.get(d).intValue() - 1);
                 }
-                if (window[d] == need[d]){
-                    valid --;
-                }
-                window[d] --;
-                left ++;
             }
         }
 
@@ -99,8 +99,8 @@ public class CheckInClusion_Mid_567 {
     }
 
     public static void main(String[] args) {
-        String s1 = "ab";
-        String s2 = "eidboaoo";
+        String s1 = "ea";
+        String s2 = "eidbeaooo";
         System.out.println(checkInclusion(s1, s2));
     }
 
