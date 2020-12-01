@@ -63,8 +63,39 @@ public class LongestNoRepeatSubString_Mid_3 {
         return max;
     }
 
+    // 滑动窗口写法
+    public static int lengthOfLongestSubstring2(String s) {
+
+        if (s == null || s.isEmpty()){
+            return 0;
+        }
+
+        Map<Character, Integer> window = new HashMap<>();
+        int l = 0;
+        int r = 0;
+        int max = Integer.MIN_VALUE;
+
+        while (r < s.length()){
+            char c = s.charAt(r);
+            r ++;
+            window.put(c, window.getOrDefault(c, 0 ) + 1);
+
+            while (window.get(c) > 1){
+                char d = s.charAt(l);
+                l ++;
+                if (window.containsKey(d)) {
+                    window.put(d, window.get(d) - 1);
+                }
+            }
+            max = Math.max(max, r - l);
+        }
+
+        return max;
+    }
+
     public static void main(String[] args) {
-        System.out.println(lengthOfLongestSubstring("abba"));
+        System.out.println(lengthOfLongestSubstring("abcba"));
+        System.out.println(lengthOfLongestSubstring2("abcba"));
     }
 
 }
