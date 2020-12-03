@@ -1,4 +1,4 @@
-package xyz.bugcoder.leetcode_pp.linkedlist;
+package xyz.bugcoder.leetcode_pp.design;
 
 import java.util.HashMap;
 import java.util.Map;
