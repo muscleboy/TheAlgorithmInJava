@@ -3,6 +3,7 @@ package xyz.bugcoder.leetcode_pp.tree;
 import xyz.bugcoder.leetcode_pp.TreeNode;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Stack;
 
@@ -10,55 +11,54 @@ import java.util.Stack;
  * @Package: xyz.bugcoder.leetcode_pp.tree
  * @author: Weiyj
  * @Description: TODO
- * @createTime 2020-12-04 10:37
+ * @createTime 2020-12-04 11:13
  */
-public class InOrder_Mid_94 {
+public class PostOrder_Mid_145 {
 
     List<Integer> res = new ArrayList<>();
 
-    // 中序遍历-递归
-    public List<Integer> inorderTraversal(TreeNode root) {
+    // 后序遍历-递归
+    public List<Integer> postorderTraversal(TreeNode root){
         dfs(root);
         return res;
     }
 
     public void dfs(TreeNode root){
-        if(root == null){
+        if (root == null) {
             return;
         }
         dfs(root.left);
-        res.add(root.val);
         dfs(root.right);
+        res.add(root.val);
     }
 
-    // 中序遍历-迭代
+    // 迭代
     // 1.左节点
-    // 2.根节点
-    // 3.右节点
-    public List<Integer> inorderTraversal2(TreeNode root) {
-
+    // 2.右节点
+    // 3.根节点
+    public List<Integer> postorderTraversal2(TreeNode root){
         List<Integer> res = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
 
         while (root != null || !stack.isEmpty()) {
             if (root != null) {
-                // 1.遍历左节点
+                // 1.取根节点
+                res.add(root.val);
                 stack.push(root);
-                root = root.left;
+                // 2.遍历右子树
+                root = root.right;
             }else {
                 TreeNode temp = stack.pop();
-                // 2.取根节点
-                res.add(temp.val);
-                // 3.遍历右节点
-                root = temp.right;
+                // 3.遍历左子树
+                root = temp.left;
             }
         }
-
+        // 原本是 根、右、左   --->  左、右、根
+        Collections.reverse(res);
         return res;
     }
 
     public static void main(String[] args) {
-        InOrder_Mid_94 in = new InOrder_Mid_94();
         TreeNode n1 = new TreeNode(1);
         TreeNode n2 = new TreeNode(2);
         TreeNode n3 = new TreeNode(3);
@@ -72,10 +72,11 @@ public class InOrder_Mid_94 {
         n2.right = n5;
         n3.left = n6;
         n3.right = n7;
-        // [4, 2, 5, 1, 6, 3, 7]
-//        System.out.println(in.inorderTraversal(n1));
-        // [4, 2, 5, 1, 6, 3, 7]
-        System.out.println(in.inorderTraversal2(n1));
+        PostOrder_Mid_145 p = new PostOrder_Mid_145();
+        // [4, 5, 2, 6, 7, 3, 1]
+        System.out.println(p.postorderTraversal(n1));
+        // [4, 5, 2, 6, 7, 3, 1]
+//        System.out.println(p.postorderTraversal2(n1));
     }
 
 }

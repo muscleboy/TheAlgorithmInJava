@@ -30,24 +30,24 @@ public class PreOrder_Mid_144 {
     }
 
     // 二叉树前序遍历--迭代
+    // 1.根结点
+    // 2.左结点
+    // 3.右结点
     public static List<Integer> preorderTraversal2(TreeNode root) {
-
-        if (root == null) {
-            return new ArrayList<>();
-        }
 
         List<Integer> res = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
-        stack.push(root);
-        while (!stack.isEmpty()) {
-            TreeNode node = stack.pop();
-            res.add(node.val);
-            // 右左
-            if (node.right != null){
-                stack.push(node.right);
-            }
-            if (node.left != null) {
-                stack.push(node.left);
+        while (root != null || !stack.isEmpty()) {
+            if (root != null) {
+                // 1.取根节点
+                res.add(root.val);
+                stack.push(root);
+                // 2.遍历左子树
+                root = root.left;
+            }else {
+                TreeNode temp = stack.pop();
+                // 3.遍历右子树
+                root = temp.right;
             }
         }
 
