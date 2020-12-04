@@ -94,7 +94,7 @@ public class SearchMatrix_Mid_74 {
         int left = 0;
         int right = m * n - 1;
         while (left <= right){
-            int mid = (left + left)/2;
+            int mid = (left + right)/2;
             int e = matrix[mid / n][mid % n];
             if (e == target){
                 return true;
@@ -109,8 +109,9 @@ public class SearchMatrix_Mid_74 {
     }
 
     public static void main(String[] args) {
+//        int[][] matrix = {{1,3,5,7},{10,11,16,20},{23,30,34,50}};
         int[][] matrix = {{1,3,5,7},{10,11,16,20},{23,30,34,50}};
-        int t = 111;
+        int t = 11;
         System.out.println(searchMatrix(matrix, t));
         System.out.println(searchMatrix2(matrix, t));
     }
