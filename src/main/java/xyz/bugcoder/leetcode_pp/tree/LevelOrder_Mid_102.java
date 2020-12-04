@@ -77,6 +77,39 @@ public class LevelOrder_Mid_102 {
         return result;
     }
 
+    // 层序遍历-递归
+    // 思路
+    //   每次递归带上当前节点的层数，如果是该层第一个节点，该层对应的list 还未创建，则 add([])
+    // 复杂度
+    //   时间：O(N)
+    //   空间：O(h),最多需要长度为 h 的 List
+    public static List<List<Integer>> levelOrder2(TreeNode root) {
+        if (root == null){
+            return new ArrayList<>();
+        }
+        List<List<Integer>> res = new ArrayList<>();
+        dfs(1, root, res);
+        return res;
+    }
+
+    private static void dfs(int index, TreeNode root, List<List<Integer>> res){
+        // 假设 index = 3，res = [[1],[2,3]]
+        // add 之后 [[1],[2,3][]]
+        if (res.size() < index) {
+            res.add(new ArrayList<>());
+        }
+        // 假设 index = 3, res = [[1],[2,3],[4]]，进来的节点root是 5,
+        // add之后，[[1],[2,3],[4,5]]
+        res.get(index - 1).add(root.val);
+        // 左、右子树都是下一层
+        if (root.left != null){
+            dfs(index + 1, root.left, res);
+        }
+        if (root.right != null) {
+            dfs(index + 1, root.right, res);
+        }
+    }
+
     public static void main(String[] args) {
         TreeNode n1 = new TreeNode(3);
         TreeNode n2 = new TreeNode(9);
@@ -90,6 +123,7 @@ public class LevelOrder_Mid_102 {
         n3.right = n5;
 
         System.out.println(levelOrder(n1));
+        System.out.println(levelOrder2(n1));
     }
 
 }
