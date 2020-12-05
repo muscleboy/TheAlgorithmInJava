@@ -38,7 +38,7 @@ import xyz.bugcoder.leetcode_pp.ListNode;
  * @Description: TODO
  * @createTime 2020-11-26 11:58
  */
-public class ReverseKGroups {
+public class ReverseKGroups_Hard_25 {
 
     // 思路
     //   首先反转前 k 个，然后递归从 k+1 位置开始，往后 k 个

@@ -23,6 +23,9 @@ package xyz.bugcoder.leetcode_pp.linkedlist;
 
 import xyz.bugcoder.leetcode_pp.ListNode;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @Package: xyz.bugcoder.leetcode_pp.linkedlist
  * @author: Weiyj
@@ -82,17 +85,93 @@ public class IsPalindrome_EC_234 {
         }
     }
 
+    // 思路
+    //   将链表的值放入List中，因为数组还需要大小，然后收尾双指针，相互比较
+    // 复杂度
+    //   时间：O(N)
+    //   空间：O(N)，需要长度为 N 的 List
+    public static boolean isPalindrome2(ListNode head){
+        List<ListNode> list = new ArrayList<>();
+        ListNode p = head;
+        while (p != null){
+            list.add(p);
+            p = p.next;
+        }
+
+        int l = 0;
+        int r = list.size() - 1;
+        while (l <= r){
+            if (list.get(l).val != list.get(r).val){
+                return false;
+            }
+            l ++;
+            r --;
+        }
+
+        return true;
+    }
+
+    // 思路
+    //   1.找到链表的中间位置，奇数为中间，偶数为中间靠后
+    //   2.反转后半部分
+    //   3.此时双指针分别从头、中间位置开始比较
+    // 复杂度
+    //   时间：O(N)
+    //   空间：O(1)
+    public static boolean isPalindrome3(ListNode head){
+        ListNode fast = head;
+        ListNode slow = head;
+        while (fast != null && fast.next != null){
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+
+        if (fast != null) {
+            slow = slow.next;
+        }
+
+        // 反转后半部分
+        slow = reverse3(slow);
+        // fast 归零(回到最初的原点)
+        fast = head;
+
+        while (slow != null) {
+            if (slow.val != fast.val) {
+                return false;
+            }
+            fast = fast.next;
+            slow = slow.next;
+        }
+
+        return true;
+    }
+
+    // 反转链表
+    public static ListNode reverse3(ListNode head){
+        if(head == null || head.next == null){
+            return head;
+        }
+
+        ListNode newHead = reverse3(head.next);
+        head.next.next = head;
+        head.next = null;
+
+        return newHead;
+    }
+
     public static void main(String[] args) {
         ListNode n1 = new ListNode(1);
-        ListNode n2 = new ListNode(1);
+        ListNode n2 = new ListNode(2);
         ListNode n3 = new ListNode(2);
         ListNode n4 = new ListNode(1);
-        ListNode n5 = new ListNode(1);
+//        ListNode n5 = new ListNode(1);
         n1.next = n2;
         n2.next = n3;
         n3.next = n4;
-        n4.next = n5;
-        System.out.println(isPalindrome(n1));
+//        n4.next = n5;
+//        System.out.println(isPalindrome(n1));
+//        System.out.println(isPalindrome2(n1));
+        System.out.println(isPalindrome3(n1));
     }
 
 }
