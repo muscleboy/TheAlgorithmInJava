@@ -41,11 +41,14 @@ public class ReverseBetween_Mid_92 {
         ListNode g = dummy;
         ListNode p = dummy.next;
 
+        // g移动到第一个要反转的节点的前面
+        // p移动到第一个要反转的节点的位置上
         for (int i = 0; i < m-1; i++) {
             g = g.next;
             p = p.next;
         }
 
+        // 将 p 后面的删除，添加到 g 后面
         for (int i = 0; i < n - m; i++) {
             // 画图画图！！！
             // 链表拼接, 后往前顺序
@@ -57,6 +60,34 @@ public class ReverseBetween_Mid_92 {
         }
 
         return dummy.next;
+    }
+
+    // 递归法
+    public static ListNode reverseBetween2(ListNode head, int m, int n) {
+        // 当 m = 1时，就相当于反转前 n 个节点了
+        if (m == 1){
+            return reverseN(head, n);
+        }
+
+        head.next = reverseBetween2(head.next, m - 1, n -  1);
+
+        return head;
+    }
+
+    // 后继节点
+    static ListNode successor = null;
+    // 反转前 n 个节点
+    public static ListNode reverseN(ListNode head, int n) {
+        if (n == 1){
+            successor = head.next;
+            return head;
+        }
+
+        ListNode newHead = reverseN(head.next,n - 1);
+        head.next.next = head;
+        head.next = successor;
+
+        return newHead;
     }
 
     public static void main(String[] args) {
@@ -71,7 +102,8 @@ public class ReverseBetween_Mid_92 {
         h3.next = h4;
         h4.next = h5;
 
-        System.out.println(reverseBetween(h1, 1, 5));
+        System.out.println(reverseBetween(h1, 1, 3));
+//        System.out.println(reverseBetween2(h1, 1, 3));
     }
 
 }
