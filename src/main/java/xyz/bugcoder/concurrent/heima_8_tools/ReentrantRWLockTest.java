@@ -34,6 +34,14 @@ public class ReentrantRWLockTest {
             }
         }, "t2").start();
 
+        new Thread(() -> {
+            try {
+                d.read();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }, "t3").start();
+
     }
 
 }
