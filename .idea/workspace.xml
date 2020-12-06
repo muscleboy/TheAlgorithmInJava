@@ -43,19 +43,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_6/ReentrantRWLockList.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/Chapter_3/MethodAreaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+            <state relative-caret-position="198">
+              <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ReentrantRWLockTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/Chapter_3/OOM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+            <state relative-caret-position="176">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -127,10 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/NewFixedThreadPollTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadPollTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadSubmitTask.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadPoolInvokeAll.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadHungryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ThreadScheduleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ForkJoinPoolTest.java" />
@@ -141,7 +137,6 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/sliding_window/MaxSlidingWindow_Hard_239.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/sliding_window/MinSubstring_Hard_76.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/CustomLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ReentrantRWLockTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/CountDownLatchDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/sliding_window/CheckInClusion_Mid_567.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/sliding_window/FindAnagrams_Mid_438.java" />
@@ -178,6 +173,11 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_6/FIFOMutex.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_6/ReentrantLockList.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_6/ReentrantRWLockList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ReentrantRWLockTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/Chapter_3/EscapeAnalisys.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/Chapter_3/EscapeAnalysis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/Chapter_3/EscapeAnalysisTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/Chapter_3/MethodAreaTest.java" />
       </list>
     </option>
   </component>
@@ -273,7 +273,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -283,31 +283,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter_6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_8_tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_8_tools" type="462c0819:PsiDirectoryNode" />
-              <item name="ReentrantRWLockTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter_3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -337,7 +314,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607244789880" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607261549352" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -397,7 +374,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReentrantRWLockTest">
+  <component name="RunManager" selected="Application.EscapeAnalysisTest">
     <configuration name="CopyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.chapter_5.CopyList" />
       <module name="TheAlgorithmInJava" />
@@ -424,6 +401,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EscapeAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jvm.Chapter_3.EscapeAnalysis" />
+      <module name="TheAlgorithmInJava" />
+      <option name="VM_PARAMETERS" value="-XX:PrintEscapeAnalysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.jvm.Chapter_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EscapeAnalysisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jvm.Chapter_3.EscapeAnalysisTest" />
+      <module name="TheAlgorithmInJava" />
+      <option name="VM_PARAMETERS" value="-Xms1G -Xmx1G -XX:-DoEscapeAnalysis -XX:+PrintGCDetails" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.jvm.Chapter_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReentrantRWLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_8_tools.ReentrantRWLockTest" />
       <module name="TheAlgorithmInJava" />
@@ -437,46 +442,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortList_Mid_148" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.linkedlist.SortList_Mid_148" />
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubSet_Mid_78" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.array.SubSet_Mid_78" />
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.SortList_Mid_148" />
-      <item itemvalue="Application.SubSet_Mid_78" />
       <item itemvalue="Application.CopyList" />
       <item itemvalue="Application.CustomLock" />
       <item itemvalue="Application.ReentrantRWLockTest" />
+      <item itemvalue="Application.EscapeAnalysis" />
+      <item itemvalue="Application.EscapeAnalysisTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EscapeAnalysisTest" />
+        <item itemvalue="Application.EscapeAnalysis" />
         <item itemvalue="Application.ReentrantRWLockTest" />
         <item itemvalue="Application.CustomLock" />
         <item itemvalue="Application.CopyList" />
-        <item itemvalue="Application.SortList_Mid_148" />
-        <item itemvalue="Application.SubSet_Mid_78" />
       </list>
     </recent_temporary>
   </component>
@@ -686,7 +665,7 @@
       <workItem from="1607046004564" duration="14453000" />
       <workItem from="1607077753939" duration="4258000" />
       <workItem from="1607129344502" duration="6002000" />
-      <workItem from="1607219797079" duration="10284000" />
+      <workItem from="1607219797079" duration="15002000" />
     </task>
     <servers />
   </component>
@@ -723,7 +702,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1117250000" />
+    <option name="totallyTimeSpent" value="1121968000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -736,7 +715,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47636363" visible="true" weight="0.19680639" />
       <window_info id="Structure" order="1" sideWeight="0.52363634" side_tool="true" weight="0.19680639" />
@@ -752,10 +730,10 @@
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.4974052" weight="0.56330556" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" sideWeight="0.4998004" weight="0.328279" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.33055976" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.33055344" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.20015164" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.3009856" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.3290469" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32952183" />
@@ -763,7 +741,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="bottom" id="Tail" order="16" />
       <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.5417166" side_tool="true" weight="0.21558245" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="18" weight="0.54236007" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="18" weight="0.30780894" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="19" />
       <window_info anchor="bottom" id="VisualGC" order="20" side_tool="true" />
       <window_info anchor="right" id="Palette" order="0" />
@@ -1667,34 +1645,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/PreInBuildTree_Mid_105.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/LevelOrder_Mid_107.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/stack/IsValid_EC_20.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/SearchMatrix_Mid_74.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="978">
-          <caret line="112" column="64" lean-forward="true" selection-start-line="112" selection-start-column="64" selection-end-line="112" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/FindNumIn2DArray_04.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -2079,15 +2029,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_6/ReentrantRWLockList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        <state relative-caret-position="425">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/ReentrantRWLockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        <state relative-caret-position="266">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_2/ClassLoaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/Chapter_3/EscapeAnalysisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/Chapter_3/EscapeAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/Chapter_3/MethodAreaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
         </state>
       </provider>
     </entry>
