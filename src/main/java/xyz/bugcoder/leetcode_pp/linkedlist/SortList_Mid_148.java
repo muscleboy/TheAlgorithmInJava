@@ -53,29 +53,34 @@ import xyz.bugcoder.leetcode_pp.ListNode;
  * @Description: TODO
  * @createTime 2020-11-14 15:04
  */
-
-// todo  没写完...
 public class SortList_Mid_148 {
 
+    // 思路
+    //   分支法，将链表分成 2 个，各自排好序，在合并成一个链表
+    // 复杂度
+    //   时间：O(NlogN) ?
+    //   空间：O(1)
     public static ListNode sortList(ListNode head){
 
-        if (head == null){
-            return null;
+        if (head == null || head.next == null){
+            return head;
         }
 
-        ListNode cur = head;
-        ListNode next = head.next;
-        while (head != null){
-            if (cur.val > next.val){
-                cur.next = cur.next.next;
-                next.next = cur;
-            }
-            head = head.next;
-        }
+        // 获取链表中间节点，
+        ListNode mid = getMidNode(head);
+        ListNode right = mid.next;
+        // 链表断开
+        mid.next = null;
 
-        return head;
+        // 排序左右两边链表
+        ListNode l = sortList(head);
+        ListNode r = sortList(right);
+
+        // 合并链表
+        return mergeList(l, r);
     }
 
+    // 寻找链表的中间节点
     public static ListNode getMidNode(ListNode head){
         ListNode slow = head;
         ListNode fast = head.next;
@@ -88,18 +93,37 @@ public class SortList_Mid_148 {
         return slow;
     }
 
+    // 合并链表
+    public static ListNode mergeList(ListNode l1, ListNode l2){
+        ListNode dummy = new ListNode(0);
+        ListNode cur = dummy;
+        while (l1 != null && l2 != null) {
+            if (l1.val < l2.val){
+                cur.next = l1;
+                l1 = l1.next;
+            }else {
+                cur.next = l2;
+                l2 = l2.next;
+            }
+            cur = cur.next;
+        }
+        cur.next = l1 == null ? l2 : l1;
+
+        return dummy.next;
+    }
+
     public static void main(String[] args) {
         ListNode n1 = new ListNode(1);
-        ListNode n2 = new ListNode(3);
+        ListNode n2 = new ListNode(7);
         ListNode n3 = new ListNode(2);
         ListNode n4 = new ListNode(4);
-        ListNode n5 = new ListNode(5);
+        ListNode n5 = new ListNode(3);
         n1.next = n2;
         n2.next = n3;
         n3.next = n4;
-//        n4.next = n5;
+        n4.next = n5;
 
-        System.out.println(getMidNode(n1));
+        System.out.println(sortList(n1));
     }
 
 }
