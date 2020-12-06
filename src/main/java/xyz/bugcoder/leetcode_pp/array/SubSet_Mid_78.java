@@ -34,7 +34,7 @@ public class SubSet_Mid_78 {
     }
 
     // 思路
-    //   数组中每一位数字，都有选(1)和不选(0)的状态，对于长度为 n 的数组，有 2^n次幂数量子集
+    //   数组中每一位数字，都有选(1)和不选(0)的状态，根据数组中数字的二进制位决定，0：未选中，1：选中、记录
     // 复杂度
     //   时间：O(n * 2^n)
     //   空间：O(1)
@@ -47,7 +47,7 @@ public class SubSet_Mid_78 {
             List<Integer> list = new ArrayList<>();
             // n
             for (int j = 0; j < nums.length; j++) {
-                // 位置为 1
+                // 位置为 1，选中
                 if (((i >> j) & 1) == 1){
                     list.add(nums[j]);
                 }
