@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/CoinChange_Mid_322.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/CoinChange_Mid_322.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,20 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[322]零钱兑换.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="51" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/CoinChange_Mid_322.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="75" column="46" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
+            <state relative-caret-position="931">
+              <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -316,7 +307,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607311936088" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607313431350" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -668,7 +659,7 @@
       <workItem from="1607077753939" duration="4258000" />
       <workItem from="1607129344502" duration="6002000" />
       <workItem from="1607219797079" duration="15707000" />
-      <workItem from="1607303210199" duration="2770000" />
+      <workItem from="1607303210199" duration="3390000" />
     </task>
     <servers />
   </component>
@@ -705,7 +696,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1125443000" />
+    <option name="totallyTimeSpent" value="1126063000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -720,7 +711,7 @@
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47636363" visible="true" weight="0.1988024" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47636363" visible="true" weight="0.1988024" />
       <window_info id="Structure" order="1" sideWeight="0.52363634" side_tool="true" weight="0.19680639" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -737,7 +728,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.33055344" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.21455649" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.21455649" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.3290469" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32952183" />
@@ -2049,8 +2040,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/CoinChange_Mid_322.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="75" column="46" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
+        <state relative-caret-position="931">
+          <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
         </state>
       </provider>
     </entry>
