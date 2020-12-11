@@ -39,6 +39,13 @@ public class Trie {
 
     }
 
+    // 思路
+    //   insert: 遍历 word，不存在，则创建新的节点；存在，则把该字符所在节点指向当前节点；遍历结束，标记可以形成单词
+    //   search: 遍历 word，不存在，则返回 false 找不到；存在，则把该字符所在节点指向当前节点；遍历结束，返回标记
+    //   searchWith: 遍历 word，遍历 word，不存在，则返回 false 找不到；存在，则把该字符所在节点指向当前节点；最后返回 true
+    // 复杂度
+    //   时间：都是O(n)，n 为字符串的长度
+    //   空间：O(26*n)
     public void insert(String word) {
         Trie cur = this;
         for(char c : word.toCharArray()){
