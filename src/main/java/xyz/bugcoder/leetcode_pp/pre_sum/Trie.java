@@ -32,7 +32,7 @@ package xyz.bugcoder.leetcode_pp.pre_sum;
 public class Trie {
 
     // 是否某个单词的结束
-    private boolean isEnd = false;
+    private boolean isWord = false;
     private Trie[] next = new Trie[26];
 
     public Trie() {
@@ -54,7 +54,7 @@ public class Trie {
             }
             cur = cur.next[c - 'a'];
         }
-        cur.isEnd = true;
+        cur.isWord = true;
     }
 
     public boolean search(String word) {
@@ -65,7 +65,7 @@ public class Trie {
             }
             cur = cur.next[c - 'a'];
         }
-        return cur.isEnd;
+        return cur.isWord;
     }
 
     public boolean startsWith(String prefix) {
