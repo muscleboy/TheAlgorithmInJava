@@ -83,6 +83,10 @@ public class AQSSource {
         }
     }
 
+    private boolean tryAcquire(int arg) {
+        return false;
+    }
+
     /**
      * 队列为双向链表，从尾部添加一个节点
      */
@@ -165,6 +169,14 @@ public class AQSSource {
                 cancelAcquire(node);
             }
         }
+    }
+
+    private boolean parkAndCheckInterrupt() {
+        return false;
+    }
+
+    private void setHead(Node node) {
+
     }
 
     // 根据前驱结点的 waitStatus 的状态判断是否阻塞

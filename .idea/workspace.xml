@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/AQSSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/AQSSource.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,35 +45,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/AQSSource.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_4/StringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1063">
-              <caret line="199" column="22" selection-start-line="199" selection-start-column="22" selection-end-line="199" selection-end-column="22" />
+            <state relative-caret-position="828">
+              <caret line="220" column="30" lean-forward="true" selection-start-line="220" selection-start-column="30" selection-end-line="220" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="initializer##0;class#AQSSource#0" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#900#901#0" expanded="true" />
-                <element signature="e#939#940#0" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#1579#1580#0" expanded="true" />
-                <element signature="e#1659#1660#0" expanded="true" />
-                <element signature="class#Node#0;class#AQSSource#0" />
-                <element signature="e#5225#5226#0" expanded="true" />
-                <element signature="e#5276#5277#0" expanded="true" />
-                <element signature="class#ConditionObject#0;class#AQSSource#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="2285" column="43" selection-start-line="2285" selection-start-column="26" selection-end-line="2285" selection-end-column="43" />
-              <folding>
-                <element signature="e#11804#21933#0" />
+                <element signature="method#test1#0;class#StringTest#0" />
+                <element signature="method#method1#0;class#StringTest#0" />
+                <element signature="method#method2#0;class#StringTest#0" />
+                <element signature="method#test2#0;class#StringTest#0" />
+                <element signature="method#test3#0;class#StringTest#0" />
+                <element signature="method#test4#0;class#StringTest#0" />
+                <element signature="method#test5#0;class#StringTest#0" />
+                <element signature="method#test6#0;class#StringTest#0" />
               </folding>
             </state>
           </provider>
@@ -146,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_4/JHSDB_TestCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_4/OOMObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/ReverseKGroups.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/ReverseBetween_Mid_92.java" />
@@ -197,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/AddTwoNum_Mid_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/RotationLinkedList_Mid_61.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/AQSSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_4/StringTest.java" />
       </list>
     </option>
   </component>
@@ -303,39 +287,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_8_tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="pdai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="pdai" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -354,7 +306,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607855561386" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607869698921" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -362,7 +314,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -414,86 +366,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyLinkedList2_Mid_707">
-    <configuration name="LockSupportSrc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.pdai.concurrent.LockSupportSrc" />
+  <component name="RunManager" selected="JUnit.StringTest.test10">
+    <configuration name="StringTest.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.pdai.concurrent.*" />
+          <option name="PATTERN" value="xyz.bugcoder.jvm.chapter_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.jvm.chapter_4" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jvm.chapter_4.StringTest" />
+      <option name="METHOD_NAME" value="test10" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedList2_Mid_707" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.linkedlist.MyLinkedList2_Mid_707" />
+    <configuration name="StringTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.linkedlist.*" />
+          <option name="PATTERN" value="xyz.bugcoder.jvm.chapter_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.jvm.chapter_4" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jvm.chapter_4.StringTest" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Node" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.Node" />
+    <configuration name="StringTest.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.*" />
+          <option name="PATTERN" value="xyz.bugcoder.jvm.chapter_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.jvm.chapter_4" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jvm.chapter_4.StringTest" />
+      <option name="METHOD_NAME" value="test7" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddEvenList_Mid_328" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.linkedlist.OddEvenList_Mid_328" />
+    <configuration name="StringTest.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.linkedlist.*" />
+          <option name="PATTERN" value="xyz.bugcoder.jvm.chapter_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.jvm.chapter_4" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jvm.chapter_4.StringTest" />
+      <option name="METHOD_NAME" value="test8" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.pdai.concurrent.Test1" />
+    <configuration name="StringTest.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.pdai.concurrent.*" />
+          <option name="PATTERN" value="xyz.bugcoder.jvm.chapter_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.jvm.chapter_4" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jvm.chapter_4.StringTest" />
+      <option name="METHOD_NAME" value="test9" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Node" />
-      <item itemvalue="Application.Test1" />
-      <item itemvalue="Application.OddEvenList_Mid_328" />
-      <item itemvalue="Application.LockSupportSrc" />
-      <item itemvalue="Application.MyLinkedList2_Mid_707" />
+      <item itemvalue="JUnit.StringTest.test6" />
+      <item itemvalue="JUnit.StringTest.test7" />
+      <item itemvalue="JUnit.StringTest.test8" />
+      <item itemvalue="JUnit.StringTest.test9" />
+      <item itemvalue="JUnit.StringTest.test10" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyLinkedList2_Mid_707" />
-        <item itemvalue="Application.LockSupportSrc" />
-        <item itemvalue="Application.OddEvenList_Mid_328" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Node" />
+        <item itemvalue="JUnit.StringTest.test10" />
+        <item itemvalue="JUnit.StringTest.test9" />
+        <item itemvalue="JUnit.StringTest.test8" />
+        <item itemvalue="JUnit.StringTest.test7" />
+        <item itemvalue="JUnit.StringTest.test6" />
       </list>
     </recent_temporary>
   </component>
@@ -711,44 +678,44 @@
       <workItem from="1607559704957" duration="6015000" />
       <workItem from="1607648272557" duration="8265000" />
       <workItem from="1607736301854" duration="8206000" />
-      <workItem from="1607821684662" duration="9349000" />
+      <workItem from="1607821684662" duration="17287000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IsBalanced_EC_110_test - 2020.11.18 at 17h 11m 28s.xml">
-      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
+    <history-entry file="StringTest_test8 - 2020.12.13 at 21h 57m 46s.xml">
+      <configuration name="StringTest.test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsBalanced_EC_110_test - 2020.11.18 at 17h 11m 35s.xml">
-      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
+    <history-entry file="StringTest_test9 - 2020.12.13 at 22h 11m 02s.xml">
+      <configuration name="StringTest.test9" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsBalanced_EC_110_test - 2020.11.18 at 17h 11m 51s.xml">
-      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
+    <history-entry file="StringTest_test9 - 2020.12.13 at 22h 13m 19s.xml">
+      <configuration name="StringTest.test9" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsBalanced_EC_110_test - 2020.11.18 at 17h 12m 03s.xml">
-      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
+    <history-entry file="StringTest_test9 - 2020.12.13 at 22h 13m 31s.xml">
+      <configuration name="StringTest.test9" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsBalanced_EC_110_test - 2020.11.19 at 12h 14m 23s.xml">
-      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
+    <history-entry file="StringTest_test10 - 2020.12.13 at 22h 18m 58s.xml">
+      <configuration name="StringTest.test10" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RebuildTree_7_test - 2020.11.23 at 12h 17m 26s.xml">
-      <configuration name="RebuildTree_7.test" configurationId="JUnit" />
+    <history-entry file="StringTest_test10 - 2020.12.13 at 22h 19m 11s.xml">
+      <configuration name="StringTest.test10" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RebuildTree_7_test - 2020.11.23 at 12h 18m 07s.xml">
-      <configuration name="RebuildTree_7.test" configurationId="JUnit" />
+    <history-entry file="StringTest_test10 - 2020.12.13 at 22h 22m 30s.xml">
+      <configuration name="StringTest.test10" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewFixedThreadPollTest_test1 - 2020.11.29 at 16h 30m 32s.xml">
-      <configuration name="NewFixedThreadPollTest.test1" configurationId="JUnit" />
+    <history-entry file="StringTest_test10 - 2020.12.13 at 22h 22m 43s.xml">
+      <configuration name="StringTest.test10" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewFixedThreadPollTest_test1 - 2020.11.29 at 16h 30m 40s.xml">
-      <configuration name="NewFixedThreadPollTest.test1" configurationId="JUnit" />
+    <history-entry file="StringTest_test10 - 2020.12.13 at 22h 23m 08s.xml">
+      <configuration name="StringTest.test10" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewFixedThreadPollTest_test1 - 2020.11.29 at 16h 32m 02s.xml">
-      <configuration name="NewFixedThreadPollTest.test1" configurationId="JUnit" />
+    <history-entry file="StringTest_test10 - 2020.12.13 at 22h 25m 21s.xml">
+      <configuration name="StringTest.test10" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1173454000" />
+    <option name="totallyTimeSpent" value="1181392000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -763,13 +730,13 @@
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48521608" visible="true" weight="0.18363273" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48548093" visible="true" weight="0.18363273" />
       <window_info id="Structure" order="1" sideWeight="0.5147839" side_tool="true" weight="0.18363273" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5147839" side_tool="true" weight="0.18363273" />
+      <window_info id="Favorites" order="6" sideWeight="0.51451904" side_tool="true" weight="0.18363273" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3176649" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="2" weight="0.32848233" />
@@ -780,7 +747,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.5579985" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.2767248" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.16451858" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32903716" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32952183" />
@@ -805,7 +772,7 @@
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32985258" />
       <window_info anchor="right" id="leetcode" order="12" side_tool="true" weight="0.13293414" />
       <window_info anchor="right" id="ASM" order="13" weight="0.52854294" />
-      <window_info anchor="right" id="jclasslib" order="14" weight="0.5500998" />
+      <window_info anchor="right" id="jclasslib" order="14" weight="0.44311377" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1720,100 +1687,16 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="filteringjava.lang.String">
+      <expression>
+        <expression-string>&quot;1&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/ClimbStair_EC_70.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/stream/IntStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="314" column="10" selection-start-line="314" selection-start-column="10" selection-end-line="314" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="189" column="14" selection-start-line="189" selection-start-column="14" selection-end-line="189" selection-end-column="14" />
-          <folding>
-            <element signature="e#8008#8009#0" expanded="true" />
-            <element signature="e#8036#8037#0" expanded="true" />
-            <element signature="e#8248#8249#0" expanded="true" />
-            <element signature="e#8275#8276#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[641]设计循环双端队列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="39" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/FileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/Rob_EC_198.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/MaxSubArray_42.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[525]连续数组.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/FindMaxLen_Mid_525.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[560]和为K的子数组.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[860]柠檬水找零.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -2001,19 +1884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -2128,6 +1998,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/AQSSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1628">
+          <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#AQSSource#0" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1579#1580#0" expanded="true" />
+            <element signature="e#1659#1660#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
+            <element signature="e#2189#2190#0" expanded="true" />
+            <element signature="e#4623#4624#0" expanded="true" />
+            <element signature="e#4651#4652#0" expanded="true" />
+            <element signature="class#Node#0;class#AQSSource#0" />
+            <element signature="e#5225#5226#0" expanded="true" />
+            <element signature="e#5276#5277#0" expanded="true" />
+            <element signature="class#ConditionObject#0;class#AQSSource#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
@@ -2138,23 +2040,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/AQSSource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/Chapter_3/ReferenceCountingGC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1063">
-          <caret line="199" column="22" selection-start-line="199" selection-start-column="22" selection-end-line="199" selection-end-column="22" />
+        <state relative-caret-position="462">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/Chapter_3/MethodAreaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/Chapter_3/FinalizerEscapeGC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/Chapter_3/EscapeAnalysisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/Chapter_3/EscapeAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_4/OOMObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_4/JHSDB_TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/maven_repo/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="324" selection-start-line="324" selection-end-line="324" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/maven_repo/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="initializer##0;class#AQSSource#0" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1579#1580#0" expanded="true" />
-            <element signature="e#1659#1660#0" expanded="true" />
-            <element signature="class#Node#0;class#AQSSource#0" />
-            <element signature="e#5225#5226#0" expanded="true" />
-            <element signature="e#5276#5277#0" expanded="true" />
-            <element signature="class#ConditionObject#0;class#AQSSource#0" />
+            <element signature="e#1464#1658#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_4/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="220" column="30" lean-forward="true" selection-start-line="220" selection-start-column="30" selection-end-line="220" selection-end-column="30" />
+          <folding>
+            <element signature="method#test1#0;class#StringTest#0" />
+            <element signature="method#method1#0;class#StringTest#0" />
+            <element signature="method#method2#0;class#StringTest#0" />
+            <element signature="method#test2#0;class#StringTest#0" />
+            <element signature="method#test3#0;class#StringTest#0" />
+            <element signature="method#test4#0;class#StringTest#0" />
+            <element signature="method#test5#0;class#StringTest#0" />
+            <element signature="method#test6#0;class#StringTest#0" />
           </folding>
         </state>
       </provider>
