@@ -4,7 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="" />
+    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/MyLinkedList2_Mid_707.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/MyLinkedList2_Mid_707.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,31 +46,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/LockSupportSrc.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/MyLinkedList2_Mid_707.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="854">
-              <caret line="140" column="35" lean-forward="true" selection-start-line="140" selection-start-column="35" selection-end-line="140" selection-end-column="35" />
+            <state relative-caret-position="1041">
+              <caret line="117" column="30" lean-forward="true" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#method1#0;class#LockSupportSrc#0" />
-                <element signature="method#method2#0;class#LockSupportSrc#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/CustomLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
-              <folding>
-                <element signature="e#1396#1397#0" expanded="true" />
-                <element signature="e#1427#1428#0" expanded="true" />
-                <element signature="e#1845#1846#0" expanded="true" />
-                <element signature="e#1876#1877#0" expanded="true" />
-                <element signature="e#1929#1930#0" expanded="true" />
-                <element signature="e#1972#1973#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,9 +173,9 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/Test1.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/MyLinkedList_Mid_707.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/OddEvenList_Mid_328.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/MyLinkedList2_Mid_707.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/Test2.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/LockSupportSrc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/MyLinkedList2_Mid_707.java" />
       </list>
     </option>
   </component>
@@ -218,7 +203,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
@@ -235,6 +220,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TheAlgorithmInJava" type="58d84e3e:PackageViewProjectNode" />
+              <item name="TheAlgorithmInJava" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,7 +282,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -295,29 +292,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_8_tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="pdai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="pdai" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -330,25 +306,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TheAlgorithmInJava" type="58d84e3e:PackageViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607781384917" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607826854505" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -408,13 +372,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LockSupportSrc">
-    <configuration name="FindMaxLen_Mid_525" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.pre_sum.FindMaxLen_Mid_525" />
+  <component name="RunManager" selected="Application.MyLinkedList2_Mid_707">
+    <configuration name="LockSupportSrc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.pdai.concurrent.LockSupportSrc" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.pre_sum.*" />
+          <option name="PATTERN" value="xyz.bugcoder.pdai.concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -422,12 +386,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockSupportSrc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.pdai.concurrent.LockSupportSrc" />
+    <configuration name="MyLinkedList2_Mid_707" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.linkedlist.MyLinkedList2_Mid_707" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.pdai.concurrent.*" />
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -475,19 +439,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindMaxLen_Mid_525" />
       <item itemvalue="Application.Node" />
       <item itemvalue="Application.Test1" />
       <item itemvalue="Application.OddEvenList_Mid_328" />
       <item itemvalue="Application.LockSupportSrc" />
+      <item itemvalue="Application.MyLinkedList2_Mid_707" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyLinkedList2_Mid_707" />
         <item itemvalue="Application.LockSupportSrc" />
         <item itemvalue="Application.OddEvenList_Mid_328" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Node" />
-        <item itemvalue="Application.FindMaxLen_Mid_525" />
       </list>
     </recent_temporary>
   </component>
@@ -704,7 +668,8 @@
       <workItem from="1607485960031" duration="422000" />
       <workItem from="1607559704957" duration="6015000" />
       <workItem from="1607648272557" duration="8265000" />
-      <workItem from="1607736301854" duration="8017000" />
+      <workItem from="1607736301854" duration="8206000" />
+      <workItem from="1607821684662" duration="1462000" />
     </task>
     <servers />
   </component>
@@ -741,7 +706,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1163916000" />
+    <option name="totallyTimeSpent" value="1165567000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -756,7 +721,7 @@
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47636363" visible="true" weight="0.18163672" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47636363" visible="true" weight="0.18363273" />
       <window_info id="Structure" order="1" sideWeight="0.52363634" side_tool="true" weight="0.19680639" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -770,10 +735,10 @@
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.4974052" weight="0.3479909" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" sideWeight="0.4998004" weight="0.328279" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.33055344" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.5579985" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.16072783" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.2767248" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32903716" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32952183" />
@@ -1605,6 +1570,30 @@
           <properties />
           <option name="timeStamp" value="246" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/MyLinkedList2_Mid_707.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/MyLinkedList2_Mid_707.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/MyLinkedList2_Mid_707.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/MyLinkedList2_Mid_707.java</url>
+          <line>114</line>
+          <properties />
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/FindNearestNum.java</url>
           <line>14</line>
@@ -1679,19 +1668,17 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="m.head.next.next.next.val" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[32]最长有效括号.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/stack/IsValid_Hard_32.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="821">
@@ -1774,13 +1761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/design/LRUCache_Mid_146.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="79" column="28" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/FileReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1802,13 +1782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1034">
           <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/design/MyCircularDeque_Mid_641.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="54" column="18" lean-forward="true" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -2030,17 +2003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/MyLinkedList2_Mid_707.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="119" column="9" lean-forward="true" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
-          <folding>
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/Test2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -2082,10 +2044,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/design/RandomizedSet_Mid_380.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/design/MyCircularDeque_Mid_641.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="136" column="9" lean-forward="true" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/design/LRUCache_Mid_146.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="90" column="25" lean-forward="true" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/LockSupportSrc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="method#method1#0;class#LockSupportSrc#0" />
+            <element signature="method#method2#0;class#LockSupportSrc#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_8_tools/CustomLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
-          <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
           <folding>
             <element signature="e#1396#1397#0" expanded="true" />
             <element signature="e#1427#1428#0" expanded="true" />
@@ -2097,14 +2091,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/LockSupportSrc.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/MyLinkedList2_Mid_707.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="854">
-          <caret line="140" column="35" lean-forward="true" selection-start-line="140" selection-start-column="35" selection-end-line="140" selection-end-column="35" />
+        <state relative-caret-position="1041">
+          <caret line="117" column="30" lean-forward="true" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#method1#0;class#LockSupportSrc#0" />
-            <element signature="method#method2#0;class#LockSupportSrc#0" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
           </folding>
         </state>
       </provider>

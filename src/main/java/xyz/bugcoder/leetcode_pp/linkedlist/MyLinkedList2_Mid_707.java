@@ -29,45 +29,55 @@ public class MyLinkedList2_Mid_707 {
         size = 0;
     }
 
+    public ListNode getNode(int index){
+        ListNode p;
+        if(index <= size - index){
+            p = head;
+            // 获取 index 位置，所以是 =
+            for(int i = 0; i <= index; i ++){
+                p = p.next;
+            }
+        }else{
+            p = tail;
+            for(int i = 0; i < size - index; i ++){
+                p = p.pre;
+            }
+        }
+        return p;
+    }
+
     public int get(int index) {
         if(index < 0 || index >= size){
             return -1;
         }
-        ListNode cur = head;
-        // 比较看一下，从头比较快还是尾
-        if(index + 1 < size - index){
-            for(int i = 0; i < index + 1; i ++){
-                cur = cur.next;
-            }
-        }else{
-            cur = tail;
-            for(int i = 0; i < size - index; i ++){
-                cur = cur.pre;
-            }
-        }
-        return cur.val;
+        ListNode p = getNode(index);
+        return p.val;
     }
 
     public void addAtHead(int val) {
+        ListNode next = head.next;
         ListNode prev = head;
-        ListNode succ = head.next;
-        size ++;
         ListNode node = new ListNode(val);
+
         node.pre = prev;
-        node.next = succ;
+        node.next = next;
         prev.next = node;
-        succ.pre = node;
+        next.pre = node;
+
+        size ++;
     }
 
     public void addAtTail(int val) {
-        ListNode succ = tail;
         ListNode prev = tail.pre;
-        size ++;
+        ListNode next = tail;
         ListNode node = new ListNode(val);
+
         node.pre = prev;
-        node.next = succ;
+        node.next = next;
         prev.next = node;
-        succ.pre = node;
+        next.pre = node;
+
+        size ++;
     }
 
     public void addAtIndex(int index, int val) {
@@ -77,50 +87,37 @@ public class MyLinkedList2_Mid_707 {
         if(index < 0){
             index = 0;
         }
-        ListNode prev = null, succ = null;
-        if(index < size - index){
-            prev = head;
-            for(int i = 0; i < index; i ++){
-                prev = prev.next;
-                succ = prev.next;
-            }
-        }else{
-            succ = tail;
-            for(int i = 0; i < size - index; i ++){
-                succ = succ.pre;
-                prev = succ.pre;
-            }
-        }
-        size ++;
         ListNode node = new ListNode(val);
-        node.pre = prev;
-        node.next = succ;
-        prev.next = node;
-        succ.pre = node;
+        // 原来index 位置的节点 变成了下一个节点
+        ListNode next = getNode(index);
+        ListNode prev = next.pre;
 
+        node.next = next;
+        node.pre = prev;
+        prev.next = node;
+        next.pre = node;
+
+        size ++;
     }
 
     public void deleteAtIndex(int index) {
         if(index < 0 || index >= size){
             return;
         }
-        ListNode prev = null, succ = null;
-        if(index < size - index){
-            prev = head;
-            for(int i = 0; i < index; i ++){
-                prev = prev.next;
-                succ = prev.next.next;
-            }
-        }else{
-            succ = tail;
-            for(int i = 0; i < size - index - 1; i ++){
-                succ = succ.pre;
-                prev = succ.pre.pre;
-            }
-        }
+        ListNode node = getNode(index);
+        node.pre.next = node.next;
+        node.next.pre = node.pre;
         size --;
-        prev.next = succ;
-        succ.pre = prev;
+    }
+
+    public static void main(String[] args) {
+        MyLinkedList2_Mid_707 m = new MyLinkedList2_Mid_707();
+        m.addAtHead(1);
+        m.addAtTail(3);
+        m.addAtIndex(1, 2);
+        System.out.println(m.get(1));
+        m.deleteAtIndex(1);
+        System.out.println(m.get(1));
     }
 
 }
