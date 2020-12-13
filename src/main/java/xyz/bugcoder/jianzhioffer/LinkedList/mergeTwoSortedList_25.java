@@ -15,8 +15,6 @@ package xyz.bugcoder.jianzhioffer.LinkedList;
 // Related Topics 分治算法
 // 👍 39 👎 0
 
-import java.util.List;
-
 /**
  * Create with IDEA.
  *
