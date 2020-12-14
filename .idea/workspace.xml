@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/AQSSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/AQSSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,20 +45,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_4/StringTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/DivisorGame_EC_1025.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="220" column="30" lean-forward="true" selection-start-line="220" selection-start-column="30" selection-end-line="220" selection-end-column="30" />
-              <folding>
-                <element signature="method#test1#0;class#StringTest#0" />
-                <element signature="method#method1#0;class#StringTest#0" />
-                <element signature="method#method2#0;class#StringTest#0" />
-                <element signature="method#test2#0;class#StringTest#0" />
-                <element signature="method#test3#0;class#StringTest#0" />
-                <element signature="method#test4#0;class#StringTest#0" />
-                <element signature="method#test5#0;class#StringTest#0" />
-                <element signature="method#test6#0;class#StringTest#0" />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -130,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_4/OOMObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/ReverseKGroups.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/ReverseBetween_Mid_92.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/ReverseKGroups_Hard_25.java" />
@@ -181,6 +170,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/RotationLinkedList_Mid_61.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/AQSSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_4/StringTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/IsBalanced_EC_110.java" />
       </list>
     </option>
   </component>
@@ -208,7 +198,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
@@ -225,7 +215,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -287,7 +276,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+              <item name="dp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -300,13 +300,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607869698921" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607913019258" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -366,7 +367,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringTest.test10">
+  <component name="RunManager" selected="JUnit.IsBalanced_EC_110.test">
+    <configuration name="IsBalanced_EC_110.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.tree" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.tree.IsBalanced_EC_110" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringTest.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
@@ -378,22 +395,6 @@
       <option name="PACKAGE_NAME" value="xyz.bugcoder.jvm.chapter_4" />
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jvm.chapter_4.StringTest" />
       <option name="METHOD_NAME" value="test10" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.jvm.chapter_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.bugcoder.jvm.chapter_4" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jvm.chapter_4.StringTest" />
-      <option name="METHOD_NAME" value="test6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -448,19 +449,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.StringTest.test6" />
       <item itemvalue="JUnit.StringTest.test7" />
       <item itemvalue="JUnit.StringTest.test8" />
       <item itemvalue="JUnit.StringTest.test9" />
       <item itemvalue="JUnit.StringTest.test10" />
+      <item itemvalue="JUnit.IsBalanced_EC_110.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IsBalanced_EC_110.test" />
         <item itemvalue="JUnit.StringTest.test10" />
         <item itemvalue="JUnit.StringTest.test9" />
         <item itemvalue="JUnit.StringTest.test8" />
         <item itemvalue="JUnit.StringTest.test7" />
-        <item itemvalue="JUnit.StringTest.test6" />
       </list>
     </recent_temporary>
   </component>
@@ -678,23 +679,12 @@
       <workItem from="1607559704957" duration="6015000" />
       <workItem from="1607648272557" duration="8265000" />
       <workItem from="1607736301854" duration="8206000" />
-      <workItem from="1607821684662" duration="17287000" />
+      <workItem from="1607821684662" duration="18097000" />
+      <workItem from="1607908899944" duration="1002000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringTest_test8 - 2020.12.13 at 21h 57m 46s.xml">
-      <configuration name="StringTest.test8" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringTest_test9 - 2020.12.13 at 22h 11m 02s.xml">
-      <configuration name="StringTest.test9" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringTest_test9 - 2020.12.13 at 22h 13m 19s.xml">
-      <configuration name="StringTest.test9" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringTest_test9 - 2020.12.13 at 22h 13m 31s.xml">
-      <configuration name="StringTest.test9" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StringTest_test10 - 2020.12.13 at 22h 18m 58s.xml">
       <configuration name="StringTest.test10" configurationId="JUnit" />
     </history-entry>
@@ -713,9 +703,21 @@
     <history-entry file="StringTest_test10 - 2020.12.13 at 22h 25m 21s.xml">
       <configuration name="StringTest.test10" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StringTest_test10 - 2020.12.13 at 22h 26m 47s.xml">
+      <configuration name="StringTest.test10" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IsBalanced_EC_110_test - 2020.12.14 at 10h 22m 01s.xml">
+      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IsBalanced_EC_110_test - 2020.12.14 at 10h 22m 12s.xml">
+      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IsBalanced_EC_110_test - 2020.12.14 at 10h 22m 21s.xml">
+      <configuration name="IsBalanced_EC_110.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1181392000" />
+    <option name="totallyTimeSpent" value="1183204000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -728,9 +730,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48548093" visible="true" weight="0.18363273" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48548093" visible="true" weight="0.18562874" />
       <window_info id="Structure" order="1" sideWeight="0.5147839" side_tool="true" weight="0.18363273" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -747,7 +748,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.5579985" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.16451858" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.16451858" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32903716" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32952183" />
@@ -1697,30 +1698,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[860]柠檬水找零.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="53" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/greed/LemonadeChange_EC_860.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/SubArraySum_Mid_560.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[322]零钱兑换.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1760,13 +1737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/Trie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
@@ -2116,8 +2086,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_4/StringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="220" column="30" lean-forward="true" selection-start-line="220" selection-start-column="30" selection-end-line="220" selection-end-column="30" />
+        <state relative-caret-position="447">
+          <caret line="198" column="9" lean-forward="true" selection-start-line="198" selection-start-column="9" selection-end-line="198" selection-end-column="9" />
           <folding>
             <element signature="method#test1#0;class#StringTest#0" />
             <element signature="method#method1#0;class#StringTest#0" />
@@ -2128,6 +2098,34 @@
             <element signature="method#test5#0;class#StringTest#0" />
             <element signature="method#test6#0;class#StringTest#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/IsBalanced_EC_110.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="824">
+          <caret line="110" column="43" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/LevelOrder_Mid_102.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="844">
+          <caret line="122" column="22" lean-forward="true" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/DivisorGame_EC_1025.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
