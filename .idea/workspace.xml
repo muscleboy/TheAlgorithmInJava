@@ -44,47 +44,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/InOrder_Mid_94.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-268">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/HasPathSum_EC_112.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/hash/GroupAngrams_Mid_49.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="42" column="95" selection-start-line="42" selection-start-column="95" selection-end-line="42" selection-end-column="95" />
+            <state relative-caret-position="535">
+              <caret line="35" column="25" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="35" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[112]路径总和.java">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[49]字母异位词分组.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="21" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/CodecBT_Hard_297.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/PostOrder_Mid_145.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-360">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <caret selection-end-line="19" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -156,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/ReverseKGroups_Hard_25.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/IsPalindrome_EC_234.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/SubSet_Mid_78.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/SortList_Mid_148.java" />
@@ -207,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/IsBalanced_EC_110.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/DivisorGame_EC_1025.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/HasPathSum_EC_112.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/hash/GroupAngrams_Mid_49.java" />
       </list>
     </option>
   </component>
@@ -323,7 +296,7 @@
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="hash" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -343,7 +316,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607921294124" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607933150716" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -403,7 +376,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestInsertSort">
+  <component name="RunManager" selected="Application.GroupAngrams_Mid_49">
+    <configuration name="GroupAngrams_Mid_49" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.hash.GroupAngrams_Mid_49" />
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.hash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.sort.MergeSort" />
       <module name="TheAlgorithmInJava" />
@@ -462,36 +448,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.jvm.chapter_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.bugcoder.jvm.chapter_4" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jvm.chapter_4.StringTest" />
-      <option name="METHOD_NAME" value="test9" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.StringTest.test9" />
       <item itemvalue="JUnit.StringTest.test10" />
       <item itemvalue="JUnit.IsBalanced_EC_110.test" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.TestInsertSort" />
+      <item itemvalue="Application.GroupAngrams_Mid_49" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupAngrams_Mid_49" />
         <item itemvalue="Application.TestInsertSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="JUnit.IsBalanced_EC_110.test" />
         <item itemvalue="JUnit.StringTest.test10" />
-        <item itemvalue="JUnit.StringTest.test9" />
       </list>
     </recent_temporary>
   </component>
@@ -710,7 +680,7 @@
       <workItem from="1607648272557" duration="8265000" />
       <workItem from="1607736301854" duration="8206000" />
       <workItem from="1607821684662" duration="18097000" />
-      <workItem from="1607908899944" duration="5138000" />
+      <workItem from="1607908899944" duration="7769000" />
     </task>
     <servers />
   </component>
@@ -747,7 +717,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1187340000" />
+    <option name="totallyTimeSpent" value="1189971000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -779,7 +749,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.5579985" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.21379833" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.21379833" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32903716" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32952183" />
@@ -802,7 +772,7 @@
       <window_info anchor="right" x="0" y="0" width="350" height="700" id="Documentation" order="9" side_tool="true" weight="0.32934132" />
       <window_info anchor="right" id="Maven Projects" order="10" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32985258" />
-      <window_info active="true" anchor="right" id="leetcode" order="12" side_tool="true" visible="true" weight="0.13293414" />
+      <window_info anchor="right" id="leetcode" order="12" side_tool="true" weight="0.13293414" />
       <window_info anchor="right" id="ASM" order="13" weight="0.52854294" />
       <window_info anchor="right" id="jclasslib" order="14" weight="0.44311377" />
     </layout>
@@ -1729,24 +1699,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/LockSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="158" column="6" lean-forward="true" selection-start-line="158" selection-start-column="6" selection-end-line="158" selection-end-column="6" />
-          <folding>
-            <element signature="e#10983#10984#0" expanded="true" />
-            <element signature="e#11021#11022#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/design/RandomizedSet_Mid_380.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/design/MyCircularDeque_Mid_641.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -2057,20 +2009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/PostOrder_Mid_145.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/CodecBT_Hard_297.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/BuildMaxBinaryTree_mid_654.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="763">
@@ -2120,6 +2058,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/HasPathSum_EC_112.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/InOrder_Mid_94.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-268">
@@ -2134,10 +2079,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/HasPathSum_EC_112.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/CodecBT_Hard_297.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" column="95" selection-start-line="42" selection-start-column="95" selection-end-line="42" selection-end-column="95" />
+        <state relative-caret-position="335">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/PostOrder_Mid_145.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[49]字母异位词分组.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/hash/GroupAngrams_Mid_49.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="35" selection-end-column="25" />
         </state>
       </provider>
     </entry>
