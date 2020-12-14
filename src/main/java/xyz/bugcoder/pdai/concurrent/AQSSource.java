@@ -7,6 +7,7 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @Package: xyz.bugcoder.pdai.concurrent
@@ -84,7 +85,58 @@ public class AQSSource {
     }
 
     private boolean tryAcquire(int arg) {
+
+        final Thread current = Thread.currentThread();
+
+        // =0: 还没线程上锁，1：已被上锁，>1：重入
+        int c = getState();
+
+        if (c == 0){
+            // hasQueuePredecessors 判断自己(current)是否需要排序
+            if (!hasQueuePredecessors() && compareAndSetState(0, arg)){
+                // 设置当前线程为 持有锁 的线程，后面可以判断重入(是current就是重入)，不是就不是重入
+                setExclusiveOwnerThread(current);
+                return true;
+            }
+        }
+        // 首先 c ！= 0，然后如果当前线程current 不是持有锁的线程，那进不来，直接返回 false；
+        // 如果是当前线程，则说明重入了，状态 state +1
+        else if (current == getExclusiveOwnerThread()){
+            int nextc = c + arg;
+            if (nextc < 0){
+                throw new Error("Maximum lock count exceeded");
+            }
+            setState(nextc);
+            return true;
+        }
+
         return false;
+    }
+
+    private void setExclusiveOwnerThread(Thread current) {
+    }
+
+    private Thread getExclusiveOwnerThread() {
+        return Thread.currentThread();
+    }
+
+    // 看队列前面是否有人(是否需要派对)
+    public final boolean hasQueuePredecessors(){
+
+        Node t = tail;
+        Node h = head;
+        Node s;
+
+        //     &&  左边为 false，整体直接返回 false； 为 true 才会执行右边
+        //     ||  两边至少一个为 true，才会返回真；全 false，就返回false
+        // h != t: 说明此时队列的长度一定是 > 1的，如果队列只有一个 或者 为空， h == t
+        // h != t: ① 队列还没有初始化, h = t = null, 返回 false
+        //         ② 队列初始化 h = t, false
+        // s = h.next: 因为队首的线程不需要排队，也就是 thread线程字段 为 null
+        // 好比排队买票，队首的位置不算排队，第二个往后才算
+
+        return h != t &&
+                ((s = h.next) == null || s.thread != Thread.currentThread());
     }
 
     /**
@@ -118,6 +170,10 @@ public class AQSSource {
             // 这里初始状态  head = tail = null
             if (t == null) {
                 // 头结点为空，就把 new Node 置为头结点
+                // 这里是直接 new Node()，因为这里是死循环，所以当下次循环的时候
+                // 会尾插法连接传进来的节点， 可以发现这里 new Node()的 thread 字段并没有赋值
+                // 所以在 hasQueuePredecessors() 中，是判断 头结点的下一个 (s = h.next) == null
+                // 头结点.next 才是第一个排队的节点
                 if (compareAndSetHead(new Node())) {
                     tail = head;
                 }
