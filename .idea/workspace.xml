@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/Trie_Mid_208.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/Trie_Mid_208.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,25 +64,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/Trie.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/MapSum_Mid_677.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+            <state relative-caret-position="193">
+              <caret line="54" column="71" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="71" />
+              <folding>
+                <element signature="e#1350#1351#0" expanded="true" />
+                <element signature="e#1387#1388#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/Trie_Mid_208.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[677]键值映射.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1041">
-              <caret line="94" column="42" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#828#829#0" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-              </folding>
+            <state>
+              <caret selection-end-line="39" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -185,7 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/IsPalindrome_EC_234.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/SubSet_Mid_78.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/SortList_Mid_148.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_5/Test.java" />
@@ -236,6 +234,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/AQSSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/Trie.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/Trie_Mid_208.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/MapSum_Mid_677.java" />
       </list>
     </option>
   </component>
@@ -372,7 +371,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607999300364" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608004605564" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -432,7 +431,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Trie_Mid_208">
+  <component name="RunManager" selected="Application.MapSum_Mid_677">
     <configuration name="Count5WordsFromText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.interview.Count5WordsFromText" />
       <module name="TheAlgorithmInJava" />
@@ -459,12 +458,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.sort.MergeSort" />
+    <configuration name="MapSum_Mid_677" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.pre_sum.MapSum_Mid_677" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.sort.*" />
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.pre_sum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -499,19 +498,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.TestInsertSort" />
       <item itemvalue="Application.GroupAngrams_Mid_49" />
       <item itemvalue="Application.Count5WordsFromText" />
       <item itemvalue="Application.Trie_Mid_208" />
+      <item itemvalue="Application.MapSum_Mid_677" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapSum_Mid_677" />
         <item itemvalue="Application.Trie_Mid_208" />
         <item itemvalue="Application.Count5WordsFromText" />
         <item itemvalue="Application.GroupAngrams_Mid_49" />
         <item itemvalue="Application.TestInsertSort" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -731,7 +730,7 @@
       <workItem from="1607736301854" duration="8206000" />
       <workItem from="1607821684662" duration="18097000" />
       <workItem from="1607908899944" duration="14426000" />
-      <workItem from="1607994872216" duration="933000" />
+      <workItem from="1607994872216" duration="2774000" />
     </task>
     <servers />
   </component>
@@ -768,7 +767,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1197561000" />
+    <option name="totallyTimeSpent" value="1199402000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -783,7 +782,7 @@
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48548093" visible="true" weight="0.18762475" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48548093" visible="true" weight="0.23033932" />
       <window_info id="Structure" order="1" sideWeight="0.5147839" side_tool="true" weight="0.18363273" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -800,7 +799,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.5579985" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.5208491" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.37225172" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32903716" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32952183" />
@@ -1750,20 +1749,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/Chapter_3/ReferenceCountingGC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/Chapter_3/MethodAreaTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -2086,23 +2071,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/AQSSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="224" column="36" lean-forward="true" selection-start-line="224" selection-start-column="36" selection-end-line="224" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="initializer##0;class#AQSSource#0" />
-            <element signature="e#3153#3154#0" expanded="true" />
-            <element signature="e#3198#3199#0" expanded="true" />
-            <element signature="e#6484#6485#0" expanded="true" />
-            <element signature="e#6512#6513#0" expanded="true" />
-            <element signature="class#Node#0;class#AQSSource#0" />
-            <element signature="class#ConditionObject#0;class#AQSSource#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8536">
@@ -2139,12 +2107,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/Trie_Mid_208.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1041">
-          <caret line="94" column="42" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
+        <state relative-caret-position="641">
+          <caret line="53" column="70" selection-start-line="53" selection-start-column="70" selection-end-line="53" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#828#829#0" expanded="true" />
             <element signature="e#865#866#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/AQSSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="224" column="36" lean-forward="true" selection-start-line="224" selection-start-column="36" selection-end-line="224" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#AQSSource#0" />
+            <element signature="e#3153#3154#0" expanded="true" />
+            <element signature="e#3198#3199#0" expanded="true" />
+            <element signature="e#6484#6485#0" expanded="true" />
+            <element signature="e#6512#6513#0" expanded="true" />
+            <element signature="class#Node#0;class#AQSSource#0" />
+            <element signature="class#ConditionObject#0;class#AQSSource#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[677]键值映射.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/MapSum_Mid_677.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="54" column="71" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="71" />
+          <folding>
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
           </folding>
         </state>
       </provider>

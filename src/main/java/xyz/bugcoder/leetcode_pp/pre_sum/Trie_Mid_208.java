@@ -51,7 +51,7 @@ public class Trie_Mid_208 {
     //   searchWith: 遍历 word，遍历 word，不存在，则返回 false 找不到；存在，则把该字符所在节点指向当前节点；最后返回 true
     // 复杂度
     //   时间：都是O(n)，n 为字符串的长度
-    //   空间：O(26*n)
+    //   空间：O(m * n * k), m 为要插入的单词，n 为每个单词的长度，如果每个字符都不一样，那就最多需要k = 26
     public void insert(String word) {
         TrieNode cur = root;
         for(char c : word.toCharArray()){
