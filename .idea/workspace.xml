@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/Trie_Mid_208.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/Trie_Mid_208.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/MapSum_Mid_677.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/MapSum_Mid_677.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,14 +64,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/MapSum_Mid_677.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="54" column="71" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="71" />
+            <state relative-caret-position="1129">
+              <caret line="121" selection-start-line="121" selection-end-line="121" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#1350#1351#0" expanded="true" />
                 <element signature="e#1387#1388#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/MultiSearch_Mid_1893.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/SubSet_Mid_78.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/SortList_Mid_148.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_5/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_5/CopyList.java" />
@@ -235,6 +247,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/Trie.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/Trie_Mid_208.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/MapSum_Mid_677.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/MultiSearch_Mid_1893.java" />
       </list>
     </option>
   </component>
@@ -371,7 +384,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608004605564" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608014195644" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -431,7 +444,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MapSum_Mid_677">
+  <component name="RunManager" selected="Application.MultiSearch_Mid_1893">
     <configuration name="Count5WordsFromText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.interview.Count5WordsFromText" />
       <module name="TheAlgorithmInJava" />
@@ -471,12 +484,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.sort.TestInsertSort" />
+    <configuration name="MultiSearch_Mid_1893" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.pre_sum.MultiSearch_Mid_1893" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.sort.*" />
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.pre_sum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -498,19 +511,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestInsertSort" />
       <item itemvalue="Application.GroupAngrams_Mid_49" />
       <item itemvalue="Application.Count5WordsFromText" />
       <item itemvalue="Application.Trie_Mid_208" />
       <item itemvalue="Application.MapSum_Mid_677" />
+      <item itemvalue="Application.MultiSearch_Mid_1893" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiSearch_Mid_1893" />
         <item itemvalue="Application.MapSum_Mid_677" />
         <item itemvalue="Application.Trie_Mid_208" />
         <item itemvalue="Application.Count5WordsFromText" />
         <item itemvalue="Application.GroupAngrams_Mid_49" />
-        <item itemvalue="Application.TestInsertSort" />
       </list>
     </recent_temporary>
   </component>
@@ -730,7 +743,7 @@
       <workItem from="1607736301854" duration="8206000" />
       <workItem from="1607821684662" duration="18097000" />
       <workItem from="1607908899944" duration="14426000" />
-      <workItem from="1607994872216" duration="2774000" />
+      <workItem from="1607994872216" duration="7190000" />
     </task>
     <servers />
   </component>
@@ -767,7 +780,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1199402000" />
+    <option name="totallyTimeSpent" value="1203818000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -782,8 +795,8 @@
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48548093" visible="true" weight="0.23033932" />
-      <window_info id="Structure" order="1" sideWeight="0.5147839" side_tool="true" weight="0.18363273" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48441675" visible="true" weight="0.23033932" />
+      <window_info id="Structure" order="1" sideWeight="0.5155833" side_tool="true" weight="0.23033932" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -799,7 +812,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.5579985" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.37225172" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.21076573" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32903716" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32952183" />
@@ -1749,13 +1762,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/Chapter_3/MethodAreaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/Chapter_3/FinalizerEscapeGC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -2143,11 +2149,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/MapSum_Mid_677.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="54" column="71" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="71" />
+        <state relative-caret-position="1129">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#1350#1351#0" expanded="true" />
             <element signature="e#1387#1388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/MultiSearch_Mid_1893.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

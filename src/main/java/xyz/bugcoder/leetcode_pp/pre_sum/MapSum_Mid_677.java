@@ -41,7 +41,9 @@ package xyz.bugcoder.leetcode_pp.pre_sum;
 // Related Topics 字典树
 // 👍 76 👎 0
 
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * @Package: xyz.bugcoder.leetcode_pp.pre_sum
@@ -114,6 +116,10 @@ public class MapSum_Mid_677 {
         m.insert("apple", 3);
         m.insert("app", 2);
         System.out.println(m.sum("app"));
+        int[] res = {1,23,4};
+        List<Integer> list = Arrays.asList(1,2,3,4);
+        int[] ints = list.stream().mapToInt(i -> i).toArray();
+
     }
 
 }
