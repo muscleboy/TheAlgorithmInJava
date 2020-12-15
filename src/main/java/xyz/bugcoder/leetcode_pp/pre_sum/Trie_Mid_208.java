@@ -22,21 +22,27 @@ package xyz.bugcoder.leetcode_pp.pre_sum;
 // Related Topics 设计 字典树
 // 👍 479 👎 0
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @Package: xyz.bugcoder.leetcode_pp.pre_sum
  * @author: Weiyj
  * @Description: 208
  * @createTime 2020-12-11 09:10
  */
-// 208 -- 数组实现
-public class Trie {
+// 208  -- map 实现
+public class Trie_Mid_208 {
 
-    // 是否某个单词的结束
-    private boolean isWord = false;
-    private Trie[] next = new Trie[26];
+    class TrieNode{
+        Map<Character, TrieNode> next = new HashMap<>();
+        boolean isWord;
+    }
 
-    public Trie() {
+    TrieNode root;
 
+    public Trie_Mid_208() {
+        root = new TrieNode();
     }
 
     // 思路
@@ -47,36 +53,47 @@ public class Trie {
     //   时间：都是O(n)，n 为字符串的长度
     //   空间：O(26*n)
     public void insert(String word) {
-        Trie cur = this;
+        TrieNode cur = root;
         for(char c : word.toCharArray()){
-            if (cur.next[c - 'a'] == null) {
-                cur.next[c - 'a'] = new Trie();
+            if (!cur.next.containsKey(c)){
+                TrieNode temp = new TrieNode();
+                cur.next.put(c, temp);
+                cur = temp;
+            }else {
+                cur = cur.next.get(c);
             }
-            cur = cur.next[c - 'a'];
         }
         cur.isWord = true;
     }
 
     public boolean search(String word) {
-        Trie cur = this;
+        TrieNode cur = root;
         for(char c : word.toCharArray()){
-            if (cur.next[c - 'a'] == null) {
+            if (!cur.next.containsKey(c)) {
                 return false;
             }
-            cur = cur.next[c - 'a'];
+            cur = cur.next.get(c);
         }
         return cur.isWord;
     }
 
     public boolean startsWith(String prefix) {
-        Trie cur = this;
+        TrieNode cur = root;
         for(char c : prefix.toCharArray()){
-            if (cur.next[c - 'a'] == null){
+            if (!cur.next.containsKey(c)) {
                 return false;
             }
-            cur = cur.next[c - 'a'];
+            cur = cur.next.get(c);
         }
         return true;
+    }
+
+    public static void main(String[] args) {
+        Trie_Mid_208 t = new Trie_Mid_208();
+        t.insert("hello");
+        t.insert("world");
+        System.out.println(t.search("hello"));
+        System.out.println(t.startsWith("hel"));
     }
 
 }
