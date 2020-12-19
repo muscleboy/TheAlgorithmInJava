@@ -232,7 +232,7 @@ public class AQSSource {
     }
 
     private void setHead(Node node) {
-
+        head = node;
     }
 
     // 根据前驱结点的 waitStatus 的状态判断是否阻塞
@@ -268,10 +268,15 @@ public class AQSSource {
 
         node.thread = null;
         Node prev = node.prev;
+
+        // 找到 node 前驱结点中第一个状态 < 0 的节点，也就是不为 cancel(1) 的节点
         while (prev.waitStatus > 0){
             node.prev = prev;
             prev = prev.prev;
         }
+
+        Node prevNext = prev.next;
+        node.waitStatus = Node.CANCELLED;
 
     }
 
