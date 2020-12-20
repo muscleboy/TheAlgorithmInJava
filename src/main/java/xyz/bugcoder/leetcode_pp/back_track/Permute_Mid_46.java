@@ -36,8 +36,8 @@ public class Permute_Mid_46 {
     //   比如 nums = {1,2,3}，第一个位置选择 1，第二选择 2，第三选择 3
     //   回溯，第一个位置选择 1，第二选择 3，第三选择 2，这样就可以得到一个排列，如此递归
     // 复杂度
-    //   时间：O(N)
-    //   空间：O(N), N 为数组的长度
+    //   时间：O(N * N!)
+    //   空间：O(N * N!), N 为数组的长度
     public List<List<Integer>> permute(int[] nums) {
         List<Integer> track = new ArrayList<>();
         backtrack(track, nums);
