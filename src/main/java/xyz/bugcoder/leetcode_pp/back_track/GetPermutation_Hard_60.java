@@ -52,6 +52,7 @@ package xyz.bugcoder.leetcode_pp.back_track;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -120,9 +121,13 @@ public class GetPermutation_Hard_60 {
 
     @Test
     public void test(){
-        GetPermutation_Hard_60 g = new GetPermutation_Hard_60();
+        StringBuilder res = new StringBuilder();
+        StringBuilder res2 = new StringBuilder();
+        String s = res.substring(0, res.length() - 3);
+        res.append(s);
         int n = 4;
-        System.out.println(g.getPermutation(n, 9));
+        int k = 9;
+        System.out.println(getPermutation(n, k));
     }
 
 }
