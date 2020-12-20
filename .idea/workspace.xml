@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,10 +45,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Subset_Mid_78.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/SubsetUnique_Mid_90.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="909">
-              <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+            <state relative-caret-position="1038">
+              <caret line="57" column="52" lean-forward="true" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Permute_Mid_46.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,61 +66,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/SubsetUnique_Mid_90.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/GetPermutation_Hard_60.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
-              <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/CombinationSum_Mid_39.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="856">
-              <caret line="97" column="39" lean-forward="true" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/CombinationSum_Mid_40.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
-              <caret line="89" column="38" lean-forward="true" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[90]子集 II.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="17" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Permute_Mid_46.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="821">
-              <caret line="62" column="35" lean-forward="true" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Combine_Mid_77.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+            <state relative-caret-position="1077">
+              <caret line="121" column="23" lean-forward="true" selection-start-line="121" selection-start-column="23" selection-end-line="121" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/Rob_Mid_337.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/ClimbStair_EC_70.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/NumArray_EC_303.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/FileReader.java" />
@@ -238,6 +194,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Subset_Mid_78.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Permute_Mid_46.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/SubsetUnique_Mid_90.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/GetPermutation_Hard_60.java" />
       </list>
     </option>
   </component>
@@ -374,7 +331,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608443436308" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608448408671" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -434,7 +391,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubsetUnique_Mid_90">
+  <component name="RunManager" selected="JUnit.GetPermutation_Hard_60.test">
     <configuration name="SubsetUnique_Mid_90" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.back_track.SubsetUnique_Mid_90" />
       <module name="TheAlgorithmInJava" />
@@ -461,22 +418,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CombinationSum_Mid_40.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.back_track.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.back_track" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.back_track.CombinationSum_Mid_40" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Combine_Mid_77.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
@@ -487,6 +428,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.back_track" />
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.back_track.Combine_Mid_77" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetPermutation_Hard_60.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.back_track.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.back_track" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.back_track.GetPermutation_Hard_60" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -510,19 +467,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CombinationSum_Mid_40.test" />
       <item itemvalue="JUnit.Combine_Mid_77.test" />
       <item itemvalue="Application.Subset_Mid_78" />
       <item itemvalue="JUnit.Permute_Mid_46.test" />
       <item itemvalue="Application.SubsetUnique_Mid_90" />
+      <item itemvalue="JUnit.GetPermutation_Hard_60.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GetPermutation_Hard_60.test" />
         <item itemvalue="Application.SubsetUnique_Mid_90" />
         <item itemvalue="JUnit.Permute_Mid_46.test" />
         <item itemvalue="Application.Subset_Mid_78" />
         <item itemvalue="JUnit.Combine_Mid_77.test" />
-        <item itemvalue="JUnit.CombinationSum_Mid_40.test" />
       </list>
     </recent_temporary>
   </component>
@@ -749,44 +706,44 @@
       <workItem from="1608345772926" duration="1702000" />
       <workItem from="1608367457952" duration="2551000" />
       <workItem from="1608370597192" duration="7751000" />
-      <workItem from="1608425079267" duration="10723000" />
+      <workItem from="1608425079267" duration="14448000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Combine_Mid_77_test - 2020.12.20 at 12h 34m 20s.xml">
-      <configuration name="Combine_Mid_77.test" configurationId="JUnit" />
+    <history-entry file="GetPermutation_Hard_60_test - 2020.12.20 at 14h 45m 46s.xml">
+      <configuration name="GetPermutation_Hard_60.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Combine_Mid_77_test - 2020.12.20 at 12h 34m 34s.xml">
-      <configuration name="Combine_Mid_77.test" configurationId="JUnit" />
+    <history-entry file="GetPermutation_Hard_60_test - 2020.12.20 at 14h 46m 21s.xml">
+      <configuration name="GetPermutation_Hard_60.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Combine_Mid_77_test - 2020.12.20 at 12h 37m 25s.xml">
-      <configuration name="Combine_Mid_77.test" configurationId="JUnit" />
+    <history-entry file="GetPermutation_Hard_60_test - 2020.12.20 at 14h 46m 59s.xml">
+      <configuration name="GetPermutation_Hard_60.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Combine_Mid_77_test - 2020.12.20 at 12h 38m 13s.xml">
-      <configuration name="Combine_Mid_77.test" configurationId="JUnit" />
+    <history-entry file="GetPermutation_Hard_60_test - 2020.12.20 at 14h 48m 33s.xml">
+      <configuration name="GetPermutation_Hard_60.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Combine_Mid_77_test - 2020.12.20 at 12h 38m 21s.xml">
-      <configuration name="Combine_Mid_77.test" configurationId="JUnit" />
+    <history-entry file="GetPermutation_Hard_60_test - 2020.12.20 at 14h 48m 43s.xml">
+      <configuration name="GetPermutation_Hard_60.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Combine_Mid_77_test - 2020.12.20 at 12h 38m 47s.xml">
-      <configuration name="Combine_Mid_77.test" configurationId="JUnit" />
+    <history-entry file="GetPermutation_Hard_60_test - 2020.12.20 at 14h 49m 23s.xml">
+      <configuration name="GetPermutation_Hard_60.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Combine_Mid_77_test - 2020.12.20 at 12h 52m 00s.xml">
-      <configuration name="Combine_Mid_77.test" configurationId="JUnit" />
+    <history-entry file="GetPermutation_Hard_60_test - 2020.12.20 at 14h 51m 03s.xml">
+      <configuration name="GetPermutation_Hard_60.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Combine_Mid_77_test - 2020.12.20 at 12h 52m 33s.xml">
-      <configuration name="Combine_Mid_77.test" configurationId="JUnit" />
+    <history-entry file="GetPermutation_Hard_60_test - 2020.12.20 at 15h 01m 47s.xml">
+      <configuration name="GetPermutation_Hard_60.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Permute_Mid_46_test - 2020.12.20 at 13h 35m 22s.xml">
-      <configuration name="Permute_Mid_46.test" configurationId="JUnit" />
+    <history-entry file="GetPermutation_Hard_60_test - 2020.12.20 at 15h 10m 39s.xml">
+      <configuration name="GetPermutation_Hard_60.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Permute_Mid_46_test - 2020.12.20 at 13h 35m 28s.xml">
-      <configuration name="Permute_Mid_46.test" configurationId="JUnit" />
+    <history-entry file="GetPermutation_Hard_60_test - 2020.12.20 at 15h 10m 54s.xml">
+      <configuration name="GetPermutation_Hard_60.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1246976000" />
+    <option name="totallyTimeSpent" value="1250701000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -818,7 +775,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.5579985" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.14708112" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.13722517" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32903716" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32952183" />
@@ -1769,20 +1726,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/HasPathSum_EC_112.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[814]二叉树剪枝.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="46" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/amazing/Add_65.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -2145,28 +2088,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Combine_Mid_77.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
+        <state relative-caret-position="846">
           <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Permute_Mid_46.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="62" column="35" lean-forward="true" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Subset_Mid_78.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="909">
-          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2180,27 +2103,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/CombinationSum_Mid_40.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="89" column="38" lean-forward="true" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/CombinationSum_Mid_39.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="856">
-          <caret line="97" column="39" lean-forward="true" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
+        <state relative-caret-position="1304">
+          <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/CombinationSum_Mid_40.java">
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[60]排列序列.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="89" column="38" lean-forward="true" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
+        <state relative-caret-position="154">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Subset_Mid_78.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="41" column="52" lean-forward="true" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/SubsetUnique_Mid_90.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+        <state relative-caret-position="1038">
+          <caret line="57" column="52" lean-forward="true" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Permute_Mid_46.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/GetPermutation_Hard_60.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1077">
+          <caret line="121" column="23" lean-forward="true" selection-start-line="121" selection-start-column="23" selection-end-line="121" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
