@@ -43,35 +43,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_6/ByteCodeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_6/SonTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-              <folding>
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_6/ConstantPoolDesc.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/RestoreIpAddresses_Mid_93.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="95">
+              <caret line="27" column="110" lean-forward="true" selection-start-line="27" selection-start-column="110" selection-end-line="27" selection-end-column="110" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1812#1813#0" expanded="true" />
+                <element signature="e#1881#1882#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/FindMaxLen_Mid_525.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/SubArraySum_Mid_560.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/greed/LemonadeChange_EC_860.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/Node.java" />
@@ -194,6 +174,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_6/ByteCodeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_6/SonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_6/ConstantPoolDesc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/RestoreIpAddresses_Mid_93.java" />
       </list>
     </option>
   </component>
@@ -238,7 +219,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,7 +269,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -299,8 +279,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter_6" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+              <item name="back_track" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -324,13 +304,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608477726842" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608520658474" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -390,7 +371,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConstantPoolDesc">
+  <component name="RunManager" selected="JUnit.RestoreIpAddresses_Mid_93.test">
     <configuration name="ByteCodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jvm.chapter_6.ByteCodeTest" />
       <module name="TheAlgorithmInJava" />
@@ -430,7 +411,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetPermutation_Hard_60.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestoreIpAddresses_Mid_93.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
@@ -439,7 +420,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.back_track" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.back_track.GetPermutation_Hard_60" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.back_track.RestoreIpAddresses_Mid_93" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -466,16 +447,16 @@
       <item itemvalue="Application.ByteCodeTest" />
       <item itemvalue="Application.SonTest" />
       <item itemvalue="Application.ConstantPoolDesc" />
-      <item itemvalue="JUnit.GetPermutation_Hard_60.test" />
       <item itemvalue="JUnit.reformatNumber.test" />
+      <item itemvalue="JUnit.RestoreIpAddresses_Mid_93.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RestoreIpAddresses_Mid_93.test" />
         <item itemvalue="Application.ConstantPoolDesc" />
         <item itemvalue="Application.SonTest" />
         <item itemvalue="Application.ByteCodeTest" />
         <item itemvalue="JUnit.reformatNumber.test" />
-        <item itemvalue="JUnit.GetPermutation_Hard_60.test" />
       </list>
     </recent_temporary>
   </component>
@@ -703,22 +684,11 @@
       <workItem from="1608367457952" duration="2551000" />
       <workItem from="1608370597192" duration="7751000" />
       <workItem from="1608425079267" duration="23748000" />
+      <workItem from="1608510760930" duration="2253000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="reformatNumber_test - 2020.12.20 at 18h 06m 33s.xml">
-      <configuration name="reformatNumber.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="reformatNumber_test - 2020.12.20 at 18h 07m 21s.xml">
-      <configuration name="reformatNumber.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="reformatNumber_test - 2020.12.20 at 18h 09m 05s.xml">
-      <configuration name="reformatNumber.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="reformatNumber_test - 2020.12.20 at 18h 43m 02s.xml">
-      <configuration name="reformatNumber.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="reformatNumber_test - 2020.12.20 at 18h 44m 01s.xml">
       <configuration name="reformatNumber.test" configurationId="JUnit" />
     </history-entry>
@@ -737,9 +707,21 @@
     <history-entry file="reformatNumber_test - 2020.12.20 at 18h 57m 48s.xml">
       <configuration name="reformatNumber.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RestoreIpAddresses_Mid_93_test - 2020.12.21 at 11h 07m 21s.xml">
+      <configuration name="RestoreIpAddresses_Mid_93.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestoreIpAddresses_Mid_93_test - 2020.12.21 at 11h 09m 31s.xml">
+      <configuration name="RestoreIpAddresses_Mid_93.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestoreIpAddresses_Mid_93_test - 2020.12.21 at 11h 12m 18s.xml">
+      <configuration name="RestoreIpAddresses_Mid_93.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestoreIpAddresses_Mid_93_test - 2020.12.21 at 11h 12m 28s.xml">
+      <configuration name="RestoreIpAddresses_Mid_93.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1260001000" />
+    <option name="totallyTimeSpent" value="1262254000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -752,8 +734,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48266423" visible="true" weight="0.18403193" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48266423" visible="true" weight="0.18602794" />
       <window_info id="Structure" order="1" sideWeight="0.5173358" side_tool="true" weight="0.18403193" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -770,7 +753,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.5579985" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.16906747" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.15921153" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32903716" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32952183" />
@@ -1721,16 +1704,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/MultiSearch_Mid_1893.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/pre_sum/SubArraySum_Mid_560.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-147">
@@ -2024,16 +1997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/CombinationSum_Mid_39.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1304">
-          <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[60]排列序列.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -2134,22 +2097,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_6/ByteCodeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/CombinationSum_Mid_39.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_6/SonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        <state relative-caret-position="505">
+          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding>
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2157,7 +2110,33 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_6/ConstantPoolDesc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_6/SonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_6/ByteCodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/RestoreIpAddresses_Mid_93.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="27" column="110" lean-forward="true" selection-start-line="27" selection-start-column="110" selection-end-line="27" selection-end-column="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1881#1882#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
