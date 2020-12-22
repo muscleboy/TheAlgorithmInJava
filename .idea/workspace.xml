@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/string/KMP_28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/string/KMP_28.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/string/KMP_28.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+            <state relative-caret-position="956">
+              <caret line="106" column="44" lean-forward="true" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -319,7 +318,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608612511087" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608616174202" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -696,7 +695,7 @@
       <workItem from="1608370597192" duration="7751000" />
       <workItem from="1608425079267" duration="23748000" />
       <workItem from="1608510760930" duration="6927000" />
-      <workItem from="1608606025867" duration="4861000" />
+      <workItem from="1608606025867" duration="7570000" />
     </task>
     <servers />
   </component>
@@ -733,7 +732,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1271789000" />
+    <option name="totallyTimeSpent" value="1274498000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -762,10 +761,10 @@
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.497006" weight="0.40561032" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" sideWeight="0.4998004" weight="0.328279" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.42077333" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.328279" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.16376042" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.13267627" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32903716" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32952183" />
@@ -1658,6 +1657,12 @@
           <properties />
           <option name="timeStamp" value="258" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/string/KMP_28.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/FindNearestNum.java</url>
           <line>14</line>
@@ -2180,8 +2185,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/string/KMP_28.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+        <state relative-caret-position="956">
+          <caret line="106" column="44" lean-forward="true" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
         </state>
       </provider>
     </entry>

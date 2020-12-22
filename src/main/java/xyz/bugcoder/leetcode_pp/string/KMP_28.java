@@ -57,7 +57,6 @@ public class KMP_28 {
             }
             next[i] = j;
         }
-        System.out.println(Arrays.toString(next));
     }
 
     // 思路
@@ -65,7 +64,7 @@ public class KMP_28 {
     // 复杂度
     //   时间：O(m + n)，m 为构建 next 数组，n 为匹配过程
     //   空间：O(n), n = t.length()
-    public int strStr(String s, String t) {
+    public int strStr_KMP(String s, String t) {
         if(t == null || t.length() == 0){
             return 0;
         }
@@ -85,11 +84,32 @@ public class KMP_28 {
         return -1;
     }
 
+    // 思路
+    //   BF 暴力法，双层 for 循环
+    // 复杂度
+    //   时间：O(m * n)
+    //   空间：O(1)
+    public int strStr_BF(String s, String t){
+        if(t == null || t.length() == 0){
+            return 0;
+        }
+        for (int i = 0; i <= s.length() - t.length(); i++) {
+            for (int j = 0; j < t.length() && s.charAt(i+j) == t.charAt(j); j++) {
+                if (j == t.length() - 1) {
+                    return i;
+                }
+            }
+        }
+
+        return -1;
+    }
+
     public static void main(String[] args) {
         String s = "aabaabaafa";
         String t = "aabaaf";
         KMP_28 k = new KMP_28(t);
-        System.out.println(k.strStr(s, t));
+        System.out.println(k.strStr_KMP(s, t));
+        System.out.println(k.strStr_BF(s, t));
     }
 
 }
