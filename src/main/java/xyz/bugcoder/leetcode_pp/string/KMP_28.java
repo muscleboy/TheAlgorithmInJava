@@ -25,8 +25,6 @@ package xyz.bugcoder.leetcode_pp.string;
 // Related Topics 双指针 字符串
 // 👍 650 👎 0
 
-import java.util.Arrays;
-
 /**
  * @Package: xyz.bugcoder.leetcode_pp.string
  * @author: Weiyj
