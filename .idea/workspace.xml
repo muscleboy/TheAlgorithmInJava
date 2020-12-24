@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/MinDepth_EC_111.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="821">
-              <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
+            <state relative-caret-position="886">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,11 +57,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[111]二叉树的最小深度.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bfs/OpenLock_Mid_752.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="34" selection-end-column="66" />
+            <state relative-caret-position="185">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/MyLinkedList_Mid_707.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/OddEvenList_Mid_328.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/Test2.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/LockSupportSrc.java" />
@@ -186,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/string/FirstUniqChar_EC_387.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/hash/FirstUniqChar_EC_387.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/MinDepth_EC_111.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bfs/OpenLock_Mid_752.java" />
       </list>
     </option>
   </component>
@@ -322,7 +324,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608725028742" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608783441226" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -382,26 +384,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FirstUniqChar_EC_387.test">
+  <component name="RunManager" selected="JUnit.OpenLock_Mid_752.test">
     <configuration name="KMP_28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.string.KMP_28" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.hash.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Signal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.Signal" />
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -457,20 +446,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OpenLock_Mid_752.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.bfs" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.bfs.OpenLock_Mid_752" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Signal" />
       <item itemvalue="Application.KMP_28" />
       <item itemvalue="JUnit.CombinationSum_Mid_40.test" />
       <item itemvalue="JUnit.KMP_28.test" />
       <item itemvalue="JUnit.FirstUniqChar_EC_387.test" />
+      <item itemvalue="JUnit.OpenLock_Mid_752.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OpenLock_Mid_752.test" />
         <item itemvalue="JUnit.FirstUniqChar_EC_387.test" />
         <item itemvalue="Application.KMP_28" />
         <item itemvalue="JUnit.KMP_28.test" />
         <item itemvalue="JUnit.CombinationSum_Mid_40.test" />
-        <item itemvalue="Application.Signal" />
       </list>
     </recent_temporary>
   </component>
@@ -701,44 +706,44 @@
       <workItem from="1608510760930" duration="6927000" />
       <workItem from="1608606025867" duration="8489000" />
       <workItem from="1608687856049" duration="4386000" />
-      <workItem from="1608775950324" duration="1446000" />
+      <workItem from="1608775950324" duration="4778000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LetterCombinations_Mid_17_test - 2020.12.21 at 12h 31m 35s.xml">
-      <configuration name="LetterCombinations_Mid_17.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterCombinations_Mid_17_test - 2020.12.21 at 12h 31m 43s.xml">
-      <configuration name="LetterCombinations_Mid_17.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterCombinations_Mid_17_test - 2020.12.21 at 12h 46m 01s.xml">
-      <configuration name="LetterCombinations_Mid_17.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterCombinations_Mid_17_test - 2020.12.21 at 12h 46m 04s.xml">
-      <configuration name="LetterCombinations_Mid_17.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CombinationSum_Mid_40_test - 2020.12.21 at 23h 51m 34s.xml">
-      <configuration name="CombinationSum_Mid_40.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CombinationSum_Mid_40_test - 2020.12.21 at 23h 51m 49s.xml">
-      <configuration name="CombinationSum_Mid_40.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CombinationSum_Mid_40_test - 2020.12.21 at 23h 52m 44s.xml">
-      <configuration name="CombinationSum_Mid_40.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CombinationSum_Mid_40_test - 2020.12.21 at 23h 52m 51s.xml">
-      <configuration name="CombinationSum_Mid_40.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="KMP_test - 2020.12.22 at 11h 34m 48s.xml">
       <configuration name="KMP.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FirstUniqChar_EC_387_test - 2020.12.23 at 15h 04m 21s.xml">
       <configuration name="FirstUniqChar_EC_387.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OpenLock_Mid_752_test - 2020.12.24 at 11h 32m 53s.xml">
+      <configuration name="OpenLock_Mid_752.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpenLock_Mid_752_test - 2020.12.24 at 11h 40m 05s.xml">
+      <configuration name="OpenLock_Mid_752.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpenLock_Mid_752_test - 2020.12.24 at 12h 07m 49s.xml">
+      <configuration name="OpenLock_Mid_752.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpenLock_Mid_752_test - 2020.12.24 at 12h 09m 16s.xml">
+      <configuration name="OpenLock_Mid_752.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpenLock_Mid_752_test - 2020.12.24 at 12h 11m 09s.xml">
+      <configuration name="OpenLock_Mid_752.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpenLock_Mid_752_test - 2020.12.24 at 12h 11m 20s.xml">
+      <configuration name="OpenLock_Mid_752.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpenLock_Mid_752_test - 2020.12.24 at 12h 11m 32s.xml">
+      <configuration name="OpenLock_Mid_752.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpenLock_Mid_752_test - 2020.12.24 at 12h 12m 38s.xml">
+      <configuration name="OpenLock_Mid_752.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1281249000" />
+    <option name="totallyTimeSpent" value="1284581000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -770,7 +775,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.328279" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.13267627" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.22289613" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32903716" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32952183" />
@@ -1763,34 +1768,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_4/GCMemoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-          <folding>
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_4/GCLogTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/AQSTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -2173,6 +2150,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#1471#1472#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[752]打开转盘锁.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="58" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[111]二叉树的最小深度.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -2182,8 +2179,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/MinDepth_EC_111.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
+        <state relative-caret-position="886">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bfs/OpenLock_Mid_752.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
