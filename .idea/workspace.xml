@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,10 +47,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/stack/DailyTemperatures_Mid_739.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/KthSmallest_Mid_378.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="755">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="564">
+              <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,10 +59,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[739]每日温度.java">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[378]有序矩阵中第K小的元素.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+              <caret line="29" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -134,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/hash/WordPattern_EC_290.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/hash/MissNum_EC_268.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/PruneTree_Mid_814.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/FindDiff_EC_389.java" />
@@ -185,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/LastStoneWeight_EC_1046.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/hash/FrequencySort_Mid_451.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/stack/DailyTemperatures_Mid_739.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/KthSmallest_Mid_378.java" />
       </list>
     </option>
   </component>
@@ -212,7 +213,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
@@ -229,7 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,7 +291,7 @@
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
+              <item name="double_pointer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -315,13 +315,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609042641267" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609127641492" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -381,7 +382,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DailyTemperatures_Mid_739.test">
+  <component name="RunManager" selected="JUnit.KthSmallest_Mid_378.test">
     <configuration name="IsValid_Hard_32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.stack.IsValid_Hard_32" />
       <module name="TheAlgorithmInJava" />
@@ -427,6 +428,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KthSmallest_Mid_378.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.bs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.bs" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.bs.KthSmallest_Mid_378" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LastStoneWeight_EC_1046.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
@@ -443,36 +460,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassiveUse.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.jvm.chapter_6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.bugcoder.jvm.chapter_6" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jvm.chapter_6.PassiveUse" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.PassiveUse.test2" />
+      <item itemvalue="Application.IsValid_Hard_32" />
       <item itemvalue="JUnit.LastStoneWeight_EC_1046.test" />
       <item itemvalue="JUnit.FrequencySort_Mid_451.test" />
-      <item itemvalue="Application.IsValid_Hard_32" />
       <item itemvalue="JUnit.DailyTemperatures_Mid_739.test" />
+      <item itemvalue="JUnit.KthSmallest_Mid_378.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KthSmallest_Mid_378.test" />
         <item itemvalue="JUnit.DailyTemperatures_Mid_739.test" />
         <item itemvalue="Application.IsValid_Hard_32" />
         <item itemvalue="JUnit.FrequencySort_Mid_451.test" />
         <item itemvalue="JUnit.LastStoneWeight_EC_1046.test" />
-        <item itemvalue="JUnit.PassiveUse.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -706,44 +707,45 @@
       <workItem from="1608775950324" duration="16860000" />
       <workItem from="1608856707677" duration="12006000" />
       <workItem from="1608948009196" duration="7113000" />
-      <workItem from="1609030214367" duration="2612000" />
+      <workItem from="1609030214367" duration="3264000" />
+      <workItem from="1609120319774" duration="3329000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PassiveUse_test - 2020.12.26 at 21h 55m 14s.xml">
-      <configuration name="PassiveUse.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PassiveUse_test2 - 2020.12.26 at 21h 56m 36s.xml">
-      <configuration name="PassiveUse.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LastStoneWeight_EC_1046_test - 2020.12.27 at 10h 39m 17s.xml">
-      <configuration name="LastStoneWeight_EC_1046.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FrequencySort_Mid_451_test - 2020.12.27 at 11h 23m 31s.xml">
-      <configuration name="FrequencySort_Mid_451.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DailyTemperatures_Mid_739_test - 2020.12.27 at 12h 05m 47s.xml">
+    <history-entry file="DailyTemperatures_Mid_739_test - 2020.12.27 at 12h 16m 48s.xml">
       <configuration name="DailyTemperatures_Mid_739.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DailyTemperatures_Mid_739_test - 2020.12.27 at 12h 06m 20s.xml">
+    <history-entry file="DailyTemperatures_Mid_739_test - 2020.12.27 at 12h 17m 14s.xml">
       <configuration name="DailyTemperatures_Mid_739.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DailyTemperatures_Mid_739_test - 2020.12.27 at 12h 11m 08s.xml">
+    <history-entry file="DailyTemperatures_Mid_739_test - 2020.12.27 at 12h 17m 23s.xml">
       <configuration name="DailyTemperatures_Mid_739.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DailyTemperatures_Mid_739_test - 2020.12.27 at 12h 11m 58s.xml">
-      <configuration name="DailyTemperatures_Mid_739.test" configurationId="JUnit" />
+    <history-entry file="KthSmallest_Mid_378_test - 2020.12.28 at 11h 19m 46s.xml">
+      <configuration name="KthSmallest_Mid_378.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DailyTemperatures_Mid_739_test - 2020.12.27 at 12h 12m 29s.xml">
-      <configuration name="DailyTemperatures_Mid_739.test" configurationId="JUnit" />
+    <history-entry file="KthSmallest_Mid_378_test - 2020.12.28 at 11h 22m 08s.xml">
+      <configuration name="KthSmallest_Mid_378.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DailyTemperatures_Mid_739_test - 2020.12.27 at 12h 14m 45s.xml">
-      <configuration name="DailyTemperatures_Mid_739.test" configurationId="JUnit" />
+    <history-entry file="KthSmallest_Mid_378_test - 2020.12.28 at 11h 22m 10s.xml">
+      <configuration name="KthSmallest_Mid_378.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KthSmallest_Mid_378_test - 2020.12.28 at 11h 23m 17s.xml">
+      <configuration name="KthSmallest_Mid_378.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KthSmallest_Mid_378_test - 2020.12.28 at 11h 23m 20s.xml">
+      <configuration name="KthSmallest_Mid_378.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KthSmallest_Mid_378_test - 2020.12.28 at 11h 23m 26s.xml">
+      <configuration name="KthSmallest_Mid_378.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KthSmallest_Mid_378_test - 2020.12.28 at 11h 51m 17s.xml">
+      <configuration name="KthSmallest_Mid_378.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1318394000" />
+    <option name="totallyTimeSpent" value="1322375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -758,7 +760,7 @@
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48266423" visible="true" weight="0.19800399" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48266423" visible="true" weight="0.2247505" />
       <window_info id="Structure" order="1" sideWeight="0.5173358" side_tool="true" weight="0.18403193" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -775,7 +777,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.328279" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.14480667" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.17285822" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32903716" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32952183" />
@@ -1774,97 +1776,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="393" column="38" selection-start-line="393" selection-start-column="38" selection-end-line="393" selection-end-column="38" />
-          <folding>
-            <element signature="e#10079#10080#0" expanded="true" />
-            <element signature="e#10135#10136#0" expanded="true" />
-            <element signature="e#25317#25318#0" expanded="true" />
-            <element signature="e#25381#25382#0" expanded="true" />
-            <element signature="e#26141#26142#0" expanded="true" />
-            <element signature="e#26195#26196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="1074" column="22" selection-start-line="1074" selection-start-column="22" selection-end-line="1074" selection-end-column="22" />
-          <folding>
-            <element signature="e#41392#41393#0" expanded="true" />
-            <element signature="e#41449#41450#0" expanded="true" />
-            <element signature="e#42562#42563#0" expanded="true" />
-            <element signature="e#42619#42620#0" expanded="true" />
-            <element signature="e#44444#44445#0" expanded="true" />
-            <element signature="e#44501#44502#0" expanded="true" />
-            <element signature="e#67632#67633#0" expanded="true" />
-            <element signature="e#67680#67681#0" expanded="true" />
-            <element signature="e#85889#85890#0" expanded="true" />
-            <element signature="e#85959#85960#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[1046]最后一块石头的重量.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[690]员工的重要性.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/AQSSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1506">
-          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="753" column="68" selection-start-line="753" selection-start-column="68" selection-end-line="753" selection-end-column="68" />
-          <folding>
-            <element signature="e#11695#11696#0" expanded="true" />
-            <element signature="e#11730#11731#0" expanded="true" />
-            <element signature="e#27935#27936#0" expanded="true" />
-            <element signature="e#27980#27981#0" expanded="true" />
-            <element signature="e#30158#30159#0" expanded="true" />
-            <element signature="e#30197#30198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/DeadLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/LockSupportSrc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-372">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-84">
@@ -2210,17 +2121,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[739]每日温度.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/stack/DailyTemperatures_Mid_739.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="871">
+          <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/stack/DailyTemperatures_Mid_739.java">
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[739]每日温度.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="220">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/greed/LemonadeChange_EC_860.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[378]有序矩阵中第K小的元素.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/ThreeSumClosest_Mid_16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/SortedSquares_EC_977.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/SlidingWindow_Mid_1052.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/SearchRotateSortedArray_Mid_81.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/SearchInsert_EC_35.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/SearchMatrix_Mid_74.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/KthSmallest_Mid_378.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
