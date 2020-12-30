@@ -1,4 +1,4 @@
-package xyz.bugcoder.leetcode_pp.bfs;
+package xyz.bugcoder.leetcode_pp.fs.bfs;
 
 //给定一个保存员工信息的数据结构，它包含了员工唯一的id，重要度 和 直系下属的id。
 //
@@ -40,7 +40,7 @@ class Employee {
 import java.util.*;
 
 /**
- * @Package: xyz.bugcoder.leetcode_pp.bfs
+ * @Package: xyz.bugcoder.leetcode_pp.fs.bfs
  * @author: Weiyj
  * @Description: TODO
  * @createTime 2020-12-25 11:50

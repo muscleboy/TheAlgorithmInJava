@@ -1,4 +1,4 @@
-package xyz.bugcoder.leetcode_pp.bfs;
+package xyz.bugcoder.leetcode_pp.fs.bfs;
 
 //在二叉树中，根节点位于深度 0 处，每个深度为 k 的节点的子节点位于深度 k+1 处。
 //
@@ -53,7 +53,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * @Package: xyz.bugcoder.leetcode_pp.bfs
+ * @Package: xyz.bugcoder.leetcode_pp.fs.bfs
  * @author: Weiyj
  * @Description: TODO
  * @createTime 2020-12-24 12:25

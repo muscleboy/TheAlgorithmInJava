@@ -1,4 +1,4 @@
-package xyz.bugcoder.leetcode_pp.bfs;
+package xyz.bugcoder.leetcode_pp.fs.bfs;
 
 //给定正整数 n，找到若干个完全平方数（比如 1, 4, 9, 16, ...）使得它们的和等于 n。你需要让组成和的完全平方数的个数最少。
 //
@@ -23,7 +23,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * @Package: xyz.bugcoder.leetcode_pp.bfs
+ * @Package: xyz.bugcoder.leetcode_pp.fs.bfs
  * @author: Weiyj
  * @Description: TODO
  * @createTime 2020-12-26 11:43

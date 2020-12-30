@@ -1,4 +1,4 @@
-package xyz.bugcoder.leetcode_pp.bfs;
+package xyz.bugcoder.leetcode_pp.fs.bfs;
 
 //给你一个由 '1'（陆地）和 '0'（水）组成的的二维网格，请你计算网格中岛屿的数量。
 //
@@ -46,7 +46,7 @@ package xyz.bugcoder.leetcode_pp.bfs;
 // 👍 915 👎 0
 
 /**
- * @Package: xyz.bugcoder.leetcode_pp.bfs
+ * @Package: xyz.bugcoder.leetcode_pp.fs.bfs
  * @author: Weiyj
  * @Description: TODO
  * @createTime 2020-12-26 12:59
