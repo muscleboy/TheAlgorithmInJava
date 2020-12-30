@@ -121,10 +121,6 @@ public class GetPermutation_Hard_60 {
 
     @Test
     public void test(){
-        StringBuilder res = new StringBuilder();
-        StringBuilder res2 = new StringBuilder();
-        String s = res.substring(0, res.length() - 3);
-        res.append(s);
         int n = 4;
         int k = 9;
         System.out.println(getPermutation(n, k));
