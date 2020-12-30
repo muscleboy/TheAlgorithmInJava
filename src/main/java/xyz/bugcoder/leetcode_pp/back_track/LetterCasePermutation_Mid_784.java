@@ -67,7 +67,10 @@ public class LetterCasePermutation_Mid_784 {
         backtrack(res, cs, begin + 1);
         // 修改的分支
         if (Character.isLetter(cs[begin])) {
-            cs[begin] ^= 1 << 5;
+            // 效率更高
+//            cs[begin] ^= 1 << 5;
+            // 骚操作，异或' ' 可实现大小写转换
+            cs[begin] ^= ' ';
             backtrack(res, cs, begin + 1);
         }
     }
