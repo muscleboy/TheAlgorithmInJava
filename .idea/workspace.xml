@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bfs/GetImportance_Ec_690.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/fs/bfs/GetImportance_Ec_690.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bfs/IsCousins_EC_993.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/fs/bfs/IsCousins_EC_993.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bfs/NumIslands_Mid_200.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/fs/bfs/NumIslands_Mid_200.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bfs/NumSquare_Mid_279.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/fs/bfs/NumSquare_Mid_279.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bfs/OpenLock_Mid_752.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/fs/bfs/OpenLock_Mid_752.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,20 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Exist_Mid_79.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/fs/dfs/Solve_Mid_130.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/fs/dfs/FloodFill_Mid_733.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+            <state relative-caret-position="553">
+              <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,10 +58,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[130]被围绕的区域.java">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[733]图像渲染.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+              <caret line="38" column="5" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -149,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_4/GCUseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/AQSTest.java" />
@@ -200,6 +184,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/heap/RearrangeBarcodes_Mid_1054.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Exist_Mid_79.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/fs/dfs/Solve_Mid_130.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/fs/dfs/FloodFill_Mid_733.java" />
       </list>
     </option>
   </component>
@@ -313,6 +298,18 @@
               <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+              <item name="fs" type="462c0819:PsiDirectoryNode" />
+              <item name="dfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -336,7 +333,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609292529883" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609296332972" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -396,7 +393,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Solve_Mid_130.test">
+  <component name="RunManager" selected="JUnit.FloodFill_Mid_733.test">
     <configuration name="Exist_Mid_79.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
@@ -413,6 +410,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FloodFill_Mid_733.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.fs.dfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.fs.dfs" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.fs.dfs.FloodFill_Mid_733" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GenerateParenthesis_Mid_22.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
@@ -423,22 +436,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.back_track" />
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.back_track.GenerateParenthesis_Mid_22" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KthSmallest_Mid_378.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.bs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.bs" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.bs.KthSmallest_Mid_378" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -478,19 +475,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.KthSmallest_Mid_378.test" />
       <item itemvalue="JUnit.GenerateParenthesis_Mid_22.test" />
       <item itemvalue="JUnit.RearrangeBarcodes_Mid_1054.test" />
       <item itemvalue="JUnit.Exist_Mid_79.test" />
       <item itemvalue="JUnit.Solve_Mid_130.test" />
+      <item itemvalue="JUnit.FloodFill_Mid_733.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FloodFill_Mid_733.test" />
         <item itemvalue="JUnit.Solve_Mid_130.test" />
         <item itemvalue="JUnit.Exist_Mid_79.test" />
         <item itemvalue="JUnit.RearrangeBarcodes_Mid_1054.test" />
         <item itemvalue="JUnit.GenerateParenthesis_Mid_22.test" />
-        <item itemvalue="JUnit.KthSmallest_Mid_378.test" />
       </list>
     </recent_temporary>
   </component>
@@ -729,23 +726,11 @@
       <workItem from="1609203547710" duration="261000" />
       <workItem from="1609244016239" duration="585000" />
       <workItem from="1609248354149" duration="6145000" />
-      <workItem from="1609287893461" duration="1111000" />
+      <workItem from="1609287893461" duration="2005000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Exist_Mid_79_test - 2020.12.29 at 22h 36m 31s.xml">
-      <configuration name="Exist_Mid_79.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Exist_Mid_79_test - 2020.12.29 at 22h 39m 16s.xml">
-      <configuration name="Exist_Mid_79.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Exist_Mid_79_test - 2020.12.29 at 22h 42m 32s.xml">
-      <configuration name="Exist_Mid_79.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Exist_Mid_79_test - 2020.12.29 at 22h 42m 42s.xml">
-      <configuration name="Exist_Mid_79.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Exist_Mid_79_test - 2020.12.29 at 22h 43m 02s.xml">
       <configuration name="Exist_Mid_79.test" configurationId="JUnit" />
     </history-entry>
@@ -764,9 +749,21 @@
     <history-entry file="Exist_Mid_79_test - 2020.12.29 at 22h 57m 09s.xml">
       <configuration name="Exist_Mid_79.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Solve_Mid_130_test - 2020.12.30 at 09h 42m 00s.xml">
+      <configuration name="Solve_Mid_130.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solve_Mid_130_test - 2020.12.30 at 09h 42m 11s.xml">
+      <configuration name="Solve_Mid_130.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FloodFill_Mid_733_test - 2020.12.30 at 10h 43m 59s.xml">
+      <configuration name="FloodFill_Mid_733.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FloodFill_Mid_733_test - 2020.12.30 at 10h 45m 02s.xml">
+      <configuration name="FloodFill_Mid_733.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1331741000" />
+    <option name="totallyTimeSpent" value="1332635000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -798,7 +795,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.328279" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.18726307" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.18650493" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32903716" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32952183" />
@@ -1797,25 +1794,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[200]岛屿数量.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_6/ActiveUse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1703#1704#0" expanded="true" />
-            <element signature="e#1736#1737#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_6/PassiveUse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="843">
@@ -2173,9 +2151,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/fs/dfs/Solve_Mid_130.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="74" column="57" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Exist_Mid_79.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
+        <state relative-caret-position="741">
           <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
         </state>
       </provider>
@@ -2187,10 +2175,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/fs/dfs/Solve_Mid_130.java">
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[733]图像渲染.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+        <state relative-caret-position="154">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/fs/dfs/FloodFill_Mid_733.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
