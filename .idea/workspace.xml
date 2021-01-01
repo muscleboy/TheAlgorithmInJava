@@ -4,9 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-    </list>
+    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,17 +42,7 @@
     <favorites_list name="CodeIris Favorites" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/NumTrees_Mid_96.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -309,7 +297,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609479283212" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609479641410" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -369,17 +357,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NumTrees_Mid_96.test">
-    <configuration name="GetPermutation_Hard_60.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GenerateTrees_Mid_95.test">
+    <configuration name="GenerateTrees_Mid_95.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.back_track.*" />
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.back_track" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.back_track.GetPermutation_Hard_60" />
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.tree" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.tree.GenerateTrees_Mid_95" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -451,19 +439,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.GetPermutation_Hard_60.test" />
       <item itemvalue="JUnit.LetterCasePermutation_Mid_784.test" />
       <item itemvalue="JUnit.SolveNQueues_H_51.test" />
       <item itemvalue="JUnit.MySqrt_Ec_69.test" />
       <item itemvalue="JUnit.NumTrees_Mid_96.test" />
+      <item itemvalue="JUnit.GenerateTrees_Mid_95.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GenerateTrees_Mid_95.test" />
         <item itemvalue="JUnit.NumTrees_Mid_96.test" />
         <item itemvalue="JUnit.MySqrt_Ec_69.test" />
         <item itemvalue="JUnit.SolveNQueues_H_51.test" />
         <item itemvalue="JUnit.LetterCasePermutation_Mid_784.test" />
-        <item itemvalue="JUnit.GetPermutation_Hard_60.test" />
       </list>
     </recent_temporary>
   </component>
@@ -704,7 +692,7 @@
       <workItem from="1609248354149" duration="6145000" />
       <workItem from="1609287893461" duration="6447000" />
       <workItem from="1609376858301" duration="3745000" />
-      <workItem from="1609464077672" duration="1828000" />
+      <workItem from="1609464077672" duration="2125000" />
     </task>
     <servers />
   </component>
@@ -741,7 +729,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1342650000" />
+    <option name="totallyTimeSpent" value="1342947000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -754,7 +742,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48266423" visible="true" weight="0.23912175" />
       <window_info id="Structure" order="1" sideWeight="0.5173358" side_tool="true" weight="0.18403193" />
@@ -2160,8 +2147,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/NumTrees_Mid_96.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        <state relative-caret-position="638">
+          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
         </state>
       </provider>
     </entry>
