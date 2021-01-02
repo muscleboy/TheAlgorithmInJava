@@ -4,7 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="" />
+    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +44,17 @@
     <favorites_list name="CodeIris Favorites" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/singleNonDuplicate_Mid_540.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,8 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/CombinationSum_Mid_39.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Combine_Mid_77.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Subset_Mid_78.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Permute_Mid_46.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/SubsetUnique_Mid_90.java" />
@@ -161,6 +171,8 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/ThreeSumClosest_Mid_16.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/MySqrt_Ec_69.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/NumTrees_Mid_96.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GenerateTrees_Mid_95.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/singleNonDuplicate_Mid_540.java" />
       </list>
     </option>
   </component>
@@ -188,7 +200,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
@@ -205,18 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TheAlgorithmInJava" type="58d84e3e:PackageViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,7 +278,7 @@
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="double_pointer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -291,13 +291,25 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TheAlgorithmInJava" type="58d84e3e:PackageViewProjectNode" />
+              <item name="TheAlgorithmInJava" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609479641410" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609479722009" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -692,14 +704,12 @@
       <workItem from="1609248354149" duration="6145000" />
       <workItem from="1609287893461" duration="6447000" />
       <workItem from="1609376858301" duration="3745000" />
-      <workItem from="1609464077672" duration="2125000" />
+      <workItem from="1609464077672" duration="2885000" />
+      <workItem from="1609551718356" duration="368000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolveNQueues_H_51_test - 2020.12.30 at 13h 03m 23s.xml">
-      <configuration name="SolveNQueues_H_51.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SolveNQueues_H_51_test - 2020.12.30 at 13h 03m 25s.xml">
       <configuration name="SolveNQueues_H_51.test" configurationId="JUnit" />
     </history-entry>
@@ -727,9 +737,12 @@
     <history-entry file="NumTrees_Mid_96_test - 2021.01.01 at 13h 28m 22s.xml">
       <configuration name="NumTrees_Mid_96.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GenerateTrees_Mid_95_test - 2021.01.01 at 13h 40m 20s.xml">
+      <configuration name="GenerateTrees_Mid_95.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1342947000" />
+    <option name="totallyTimeSpent" value="1344075000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -742,8 +755,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48266423" visible="true" weight="0.23912175" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48266423" visible="true" weight="0.24151696" />
       <window_info id="Structure" order="1" sideWeight="0.5173358" side_tool="true" weight="0.18403193" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1759,27 +1773,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/CombinationSum_Mid_40.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="64" column="12" lean-forward="true" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[22]括号生成.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[451]根据字符出现频率排序.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/LastStoneWeight_EC_1046.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -2149,6 +2142,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GenerateTrees_Mid_95.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="58" column="51" lean-forward="true" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1699#1700#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[95]不同的二叉搜索树 II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/singleNonDuplicate_Mid_540.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
