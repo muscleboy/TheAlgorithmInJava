@@ -39,7 +39,7 @@ import org.junit.Test;
  * @Description: TODO
  * @createTime 2021-01-03 12:12
  */
-public class HIndex_M_10 {
+public class HIndex_M_275 {
 
     // O(N)
     public int hIndex(int[] citations) {
