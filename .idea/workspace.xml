@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,12 +45,30 @@
     <favorites_list name="CodeIris Favorites" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/singleNonDuplicate_Mid_540.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="264">
+              <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="14" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/findPeakElement_M_162.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="887">
+              <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[162]寻找峰值.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -122,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Subset_Mid_78.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Permute_Mid_46.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/SubsetUnique_Mid_90.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/reformatNumber.java" />
@@ -173,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/NumTrees_Mid_96.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GenerateTrees_Mid_95.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/singleNonDuplicate_Mid_540.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/findPeakElement_M_162.java" />
       </list>
     </option>
   </component>
@@ -200,7 +219,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
@@ -291,7 +310,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -303,6 +321,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -705,7 +724,8 @@
       <workItem from="1609287893461" duration="6447000" />
       <workItem from="1609376858301" duration="3745000" />
       <workItem from="1609464077672" duration="2885000" />
-      <workItem from="1609551718356" duration="368000" />
+      <workItem from="1609551718356" duration="921000" />
+      <workItem from="1609634269462" duration="2066000" />
     </task>
     <servers />
   </component>
@@ -742,7 +762,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1344075000" />
+    <option name="totallyTimeSpent" value="1346694000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -757,7 +777,7 @@
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48266423" visible="true" weight="0.24151696" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48266423" visible="true" weight="0.24431138" />
       <window_info id="Structure" order="1" sideWeight="0.5173358" side_tool="true" weight="0.18403193" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1773,26 +1793,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/LastStoneWeight_EC_1046.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/hash/FrequencySort_Mid_451.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/heap/RearrangeBarcodes_Mid_1054.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="794">
@@ -2166,10 +2166,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[162]寻找峰值.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/singleNonDuplicate_Mid_540.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="264">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/findPeakElement_M_162.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="887">
+          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
         </state>
       </provider>
     </entry>
