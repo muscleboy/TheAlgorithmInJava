@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,29 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/singleNonDuplicate_Mid_540.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="14" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/findPeakElement_M_162.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/HIndex_M_10.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="887">
-              <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[162]寻找峰值.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="567">
+              <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -141,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Permute_Mid_46.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/SubsetUnique_Mid_90.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/reformatNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/weekly/w_220/reformatNumber.java" />
@@ -192,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GenerateTrees_Mid_95.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/singleNonDuplicate_Mid_540.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/findPeakElement_M_162.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/HIndex_M_10.java" />
       </list>
     </option>
   </component>
@@ -328,7 +309,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609479722009" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609649294487" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -388,7 +369,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GenerateTrees_Mid_95.test">
+  <component name="RunManager" selected="JUnit.HIndex_M_10.test">
     <configuration name="GenerateTrees_Mid_95.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
@@ -405,16 +386,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterCasePermutation_Mid_784.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HIndex_M_10.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.back_track.*" />
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.double_pointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.back_track" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.back_track.LetterCasePermutation_Mid_784" />
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.double_pointer" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.double_pointer.HIndex_M_10" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -470,19 +451,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.LetterCasePermutation_Mid_784.test" />
       <item itemvalue="JUnit.SolveNQueues_H_51.test" />
       <item itemvalue="JUnit.MySqrt_Ec_69.test" />
       <item itemvalue="JUnit.NumTrees_Mid_96.test" />
       <item itemvalue="JUnit.GenerateTrees_Mid_95.test" />
+      <item itemvalue="JUnit.HIndex_M_10.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HIndex_M_10.test" />
         <item itemvalue="JUnit.GenerateTrees_Mid_95.test" />
         <item itemvalue="JUnit.NumTrees_Mid_96.test" />
         <item itemvalue="JUnit.MySqrt_Ec_69.test" />
         <item itemvalue="JUnit.SolveNQueues_H_51.test" />
-        <item itemvalue="JUnit.LetterCasePermutation_Mid_784.test" />
       </list>
     </recent_temporary>
   </component>
@@ -725,17 +706,11 @@
       <workItem from="1609376858301" duration="3745000" />
       <workItem from="1609464077672" duration="2885000" />
       <workItem from="1609551718356" duration="921000" />
-      <workItem from="1609634269462" duration="2066000" />
+      <workItem from="1609634269462" duration="3887000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolveNQueues_H_51_test - 2020.12.30 at 13h 03m 25s.xml">
-      <configuration name="SolveNQueues_H_51.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolveNQueues_H_51_test - 2020.12.30 at 13h 03m 38s.xml">
-      <configuration name="SolveNQueues_H_51.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MySqrt_Ec_69_test - 2021.01.01 at 13h 20m 13s.xml">
       <configuration name="MySqrt_Ec_69.test" configurationId="JUnit" />
     </history-entry>
@@ -760,9 +735,15 @@
     <history-entry file="GenerateTrees_Mid_95_test - 2021.01.01 at 13h 40m 20s.xml">
       <configuration name="GenerateTrees_Mid_95.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HIndex_M_10_test - 2021.01.03 at 12h 15m 49s.xml">
+      <configuration name="HIndex_M_10.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HIndex_M_10_test - 2021.01.03 at 12h 47m 59s.xml">
+      <configuration name="HIndex_M_10.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1346694000" />
+    <option name="totallyTimeSpent" value="1348515000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -788,13 +769,13 @@
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3292978" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.497006" weight="0.40561032" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.497006" weight="0.29567856" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" sideWeight="0.4998004" weight="0.328279" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.328279" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.21304019" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.17740713" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32903716" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32952183" />
@@ -1793,23 +1774,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/heap/RearrangeBarcodes_Mid_1054.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[1054]距离相等的条形码.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Combine_Mid_77.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="671">
@@ -2173,6 +2137,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[275]H 指数 II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/singleNonDuplicate_Mid_540.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -2182,8 +2153,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/findPeakElement_M_162.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="887">
-          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        <state relative-caret-position="777">
+          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/HIndex_M_10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
         </state>
       </provider>
     </entry>
