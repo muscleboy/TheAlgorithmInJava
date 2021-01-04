@@ -148,7 +148,7 @@ public class FillNextTreeNode_Mid_116 {
         n3.left = n6;
         n3.right = n7;
 
-//        System.out.println(connect(n1));
+//        System.out.println(server(n1));
         System.out.println(connect2(n1));
     }
 
