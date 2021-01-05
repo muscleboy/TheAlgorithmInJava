@@ -1,4 +1,4 @@
-package xyz.bugcoder.leetcode_pp.double_pointer;
+package xyz.bugcoder.leetcode_pp.bs;
 
 //实现 int sqrt(int x) 函数。
 //

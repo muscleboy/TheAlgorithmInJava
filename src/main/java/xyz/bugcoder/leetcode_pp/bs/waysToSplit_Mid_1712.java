@@ -1,4 +1,4 @@
-package xyz.bugcoder.leetcode_pp.double_pointer;
+package xyz.bugcoder.leetcode_pp.bs;
 
 //我们称一个分割整数数组的方案是 好的 ，当它满足：
 //
