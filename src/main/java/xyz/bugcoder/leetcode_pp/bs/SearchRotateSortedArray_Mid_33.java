@@ -76,13 +76,16 @@ public class SearchRotateSortedArray_Mid_33 {
             if (nums[l] <= nums[mid]){
                 if (target >= nums[l] && target <= nums[mid]){
                     r = mid - 1;
-                }else {
+                }
+                else {
                     l = mid + 1;
                 }
-            }else {
+            }
+            else {
                 if (target < nums[l] && target > nums[target]){
                     l = mid + 1;
-                }else {
+                }
+                else {
                     r = mid - 1;
                 }
             }
