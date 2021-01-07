@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/SearchRotateSortedArray_Mid_33.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/SearchRotateSortedArray_Mid_33.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,84 +44,7 @@
     <favorites_list name="CodeIris Favorites" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/Pipe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1540">
-              <caret line="76" column="53" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/FirstPosAnLastPos_Mid_34.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2200">
-              <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/FindMin_Mid_153.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2090">
-              <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/FindMid_Mid_154.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/SearchRotateSortedArray_Mid_33.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/ReverseNum_Ec_7.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="931">
-              <caret line="48" column="19" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="48" selection-end-column="19" />
-              <folding>
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[7]整数反转.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18832">
-              <caret line="916" column="66" selection-start-line="916" selection-start-column="66" selection-end-line="916" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -270,7 +190,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
@@ -368,7 +288,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609944839689" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609951371998" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -763,17 +683,13 @@
       <workItem from="1609723785857" duration="12320000" />
       <workItem from="1609811322025" duration="4620000" />
       <workItem from="1609906516427" duration="1342000" />
-      <workItem from="1609926102807" duration="487000" />
+      <workItem from="1609926102807" duration="1861000" />
+      <workItem from="1609984031094" duration="138000" />
+      <workItem from="1610008699971" duration="477000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HIndex_M_10_test - 2021.01.03 at 12h 15m 49s.xml">
-      <configuration name="HIndex_M_10.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HIndex_M_10_test - 2021.01.03 at 12h 47m 59s.xml">
-      <configuration name="HIndex_M_10.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="waysToSplit_Mid_1712_test - 2021.01.04 at 11h 04m 02s.xml">
       <configuration name="waysToSplit_Mid_1712.test" configurationId="JUnit" />
     </history-entry>
@@ -798,9 +714,15 @@
     <history-entry file="FindMid_Mid_154_test - 2021.01.05 at 11h 56m 03s.xml">
       <configuration name="FindMid_Mid_154.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ReverseNum_Ec_7_test - 2021.01.06 at 22h 53m 34s.xml">
+      <configuration name="ReverseNum_Ec_7.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReverseNum_Ec_7_test - 2021.01.06 at 22h 53m 56s.xml">
+      <configuration name="ReverseNum_Ec_7.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1376854000" />
+    <option name="totallyTimeSpent" value="1378843000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -813,9 +735,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4821835" visible="true" weight="0.22874251" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4821835" visible="true" weight="0.23353294" />
       <window_info id="Structure" order="1" sideWeight="0.51781654" side_tool="true" weight="0.17684631" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -2144,38 +2065,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/Pipe.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/ReverseNum_Ec_7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="76" column="53" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/FirstPosAnLastPos_Mid_34.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2200">
-          <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/FindMin_Mid_153.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2090">
-          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/FindMid_Mid_154.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18832">
-          <caret line="916" column="66" selection-start-line="916" selection-start-column="66" selection-end-line="916" selection-end-column="66" />
+        <state relative-caret-position="1098">
+          <caret line="56" column="57" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
+          <folding>
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2186,6 +2083,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/FindMid_Mid_154.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/FindMin_Mid_153.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/FirstPosAnLastPos_Mid_34.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/Pipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1041">
+          <caret line="76" column="53" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[7]整数反转.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -2193,14 +2118,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/ReverseNum_Ec_7.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="48" column="19" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="48" selection-end-column="19" />
-          <folding>
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1217">
+          <caret line="916" column="66" selection-start-line="916" selection-start-column="66" selection-end-line="916" selection-end-column="66" />
         </state>
       </provider>
     </entry>
