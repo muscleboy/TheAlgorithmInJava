@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,10 +46,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/back_track/Exist_Mid_12.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/dp/CuttingRope_Mid_14.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+            <state relative-caret-position="755">
+              <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
+              <folding>
+                <element signature="e#1752#1753#0" expanded="true" />
+                <element signature="e#1803#1804#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 14- I]剪绳子.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -123,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/hash/FrequencySort_Mid_451.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/stack/DailyTemperatures_Mid_739.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/GenerateParenthesis_Mid_22.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/RearrangeBarcodes_Mid_1054.java" />
@@ -174,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/Test2.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/Test3.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/back_track/Exist_Mid_12.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/dp/CuttingRope_Mid_14.java" />
       </list>
     </option>
   </component>
@@ -287,27 +299,6 @@
               <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="pdai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="pdai" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -320,7 +311,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610164858946" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610168291903" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -380,7 +371,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MaxVowels_Mid_1456.test">
+  <component name="RunManager" selected="JUnit.CuttingRope_Mid_14.test">
+    <configuration name="CuttingRope_Mid_14.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.jianzhioffer.dp" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.dp.CuttingRope_Mid_14" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindMid_Mid_154.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
@@ -391,22 +398,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.bs" />
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.bs.FindMid_Mid_154" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindMin_Mid_153.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.bs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.bs" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.bs.FindMin_Mid_153" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -462,19 +453,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.FindMin_Mid_153.test" />
       <item itemvalue="JUnit.FindMid_Mid_154.test" />
       <item itemvalue="JUnit.ReverseNum_Ec_7.test" />
       <item itemvalue="JUnit.Rotate_Mid_189.test" />
       <item itemvalue="JUnit.MaxVowels_Mid_1456.test" />
+      <item itemvalue="JUnit.CuttingRope_Mid_14.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CuttingRope_Mid_14.test" />
         <item itemvalue="JUnit.MaxVowels_Mid_1456.test" />
         <item itemvalue="JUnit.Rotate_Mid_189.test" />
         <item itemvalue="JUnit.ReverseNum_Ec_7.test" />
         <item itemvalue="JUnit.FindMid_Mid_154.test" />
-        <item itemvalue="JUnit.FindMin_Mid_153.test" />
       </list>
     </recent_temporary>
   </component>
@@ -726,14 +717,11 @@
       <workItem from="1610008699971" duration="477000" />
       <workItem from="1610034891944" duration="300000" />
       <workItem from="1610075866414" duration="8084000" />
-      <workItem from="1610159971034" duration="1532000" />
+      <workItem from="1610159971034" duration="2398000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MaxVowels_Mid_1456_test - 2021.01.08 at 12h 26m 04s.xml">
-      <configuration name="MaxVowels_Mid_1456.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MaxVowels_Mid_1456_test - 2021.01.08 at 12h 26m 43s.xml">
       <configuration name="MaxVowels_Mid_1456.test" configurationId="JUnit" />
     </history-entry>
@@ -761,9 +749,12 @@
     <history-entry file="MaxVowels_Mid_1456_test - 2021.01.08 at 13h 02m 54s.xml">
       <configuration name="MaxVowels_Mid_1456.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CuttingRope_Mid_14_test - 2021.01.09 at 12h 52m 56s.xml">
+      <configuration name="CuttingRope_Mid_14.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1388759000" />
+    <option name="totallyTimeSpent" value="1389625000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1800,44 +1791,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/io/BIOServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="965">
-          <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="46" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/io/FileChannels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="54" column="55" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1861#2661#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/io/ScatterAndGather.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1137">
-          <caret line="72" column="32" lean-forward="true" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/nio/channels/SelectableChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="112" column="61" selection-start-line="112" selection-start-column="61" selection-end-line="112" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/nio/channels/SelectionKey.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="781">
@@ -2219,10 +2172,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/rec/MovingCount_13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/rec/NumWays_EC_10_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="66" column="37" lean-forward="true" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/back_track/Exist_Mid_12.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+        <state relative-caret-position="1051">
+          <caret line="78" column="40" lean-forward="true" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 14- I]剪绳子.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/dp/CuttingRope_Mid_14.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="755">
+          <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
+          <folding>
+            <element signature="e#1752#1753#0" expanded="true" />
+            <element signature="e#1803#1804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
