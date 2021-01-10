@@ -41,6 +41,16 @@ package xyz.bugcoder.leetcode_pp.sliding_window;
  */
 public class MinSubstring_Hard_76 {
 
+    /**
+     * 思路：
+     *    滑动窗口，先找到一个可行解，然后慢慢优化这个可行解，取最小值
+     * 复杂度：
+     *    时间：O(N)
+     *    空间：O(1)
+     * @param s
+     * @param t
+     * @return
+     */
     public static String minWindow(String s, String t) {
 
         // 字符串 t 的各个字符
