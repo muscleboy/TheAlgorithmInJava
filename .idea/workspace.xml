@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/tree/LowestCommonAncestor_Mid_68.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/tree/LowestCommonAncestorII_Mid_68.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,11 +55,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/tree/LowestCommonAncestor_Mid_68.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/tree/LowestCommonAncestorII_Mid_68.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1041">
-              <caret line="90" column="43" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="90" selection-end-column="43" />
+            <state relative-caret-position="1378">
+              <caret line="82" column="44" lean-forward="true" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/tree/LowestCommonAncestorI_Mid_68.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -132,8 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Exist_Mid_79.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/fs/dfs/Solve_Mid_130.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/fs/dfs/FloodFill_Mid_733.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/GetPermutation_Hard_60.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/LetterCasePermutation_Mid_784.java" />
@@ -183,6 +190,8 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/sliding_window/MinSubstring_Hard_76.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/back_track/Permutation_Mid_38.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/tree/LowestCommonAncestor_Mid_68.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/tree/LowestCommonAncestorII_Mid_68.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/tree/LowestCommonAncestorI_Mid_68.java" />
       </list>
     </option>
   </component>
@@ -319,7 +328,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610337634075" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610339322316" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -334,6 +343,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="xyz.bugcoder.DesignPattern.UmlRelation.Aggregation" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="xyz.bugcoder.DesignPattern.LiskovSubstitution" />
     </key>
@@ -345,10 +357,6 @@
       <recent name="xyz.bugcoder.DesignPattern.create" />
       <recent name="xyz.bugcoder" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/decoration" />
-      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/bridge/pattern" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_6" />
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_5_JMM" />
@@ -357,14 +365,15 @@
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/status" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xyz.bugcoder.jianzhioffer.tree" />
       <recent name="xyz.bugcoder.leetcode_pp.back_track" />
       <recent name="xyz.bugcoder.jvm.chapter_4" />
       <recent name="xyz.bugcoder.leetcode_pp.pre_sum" />
       <recent name="xyz.bugcoder.leetcode_pp.linkedlist" />
-      <recent name="xyz.bugcoder.leetcode_pp.dp" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="xyz.bugcoder.DesignPattern.UmlRelation.Aggregation" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/decoration" />
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/bridge/pattern" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -730,7 +739,7 @@
       <workItem from="1610193866235" duration="192000" />
       <workItem from="1610200506686" duration="206000" />
       <workItem from="1610245298834" duration="2454000" />
-      <workItem from="1610335103104" duration="1334000" />
+      <workItem from="1610335103104" duration="1908000" />
     </task>
     <servers />
   </component>
@@ -767,7 +776,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1395274000" />
+    <option name="totallyTimeSpent" value="1395848000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1804,13 +1813,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/sliding_window/FindAnagrams_Mid_438.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="984">
-          <caret line="100" column="17" lean-forward="true" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/concurrent/Test3.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Exist_Mid_79.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -2193,10 +2195,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/tree/LowestCommonAncestor_Mid_68.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/tree/LowestCommonAncestorII_Mid_68.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1041">
-          <caret line="90" column="43" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="90" selection-end-column="43" />
+        <state relative-caret-position="1378">
+          <caret line="82" column="44" lean-forward="true" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/tree/LowestCommonAncestorI_Mid_68.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
         </state>
       </provider>
     </entry>

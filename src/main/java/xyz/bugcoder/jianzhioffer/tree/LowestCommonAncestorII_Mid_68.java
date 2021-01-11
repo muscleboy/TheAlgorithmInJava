@@ -50,14 +50,14 @@ import xyz.bugcoder.leetcode_pp.TreeNode;
  * @Description: TODO
  * @createTime 2021-01-11 11:57
  */
-public class LowestCommonAncestor_Mid_68 {
+public class LowestCommonAncestorII_Mid_68 {
 
     /**
      * 思路
-     * 递归
+     *    递归
      * 复杂度：
-     * 时间：O(N)
-     * 空间：O(N)
+     *    时间：O(N)
+     *    空间：O(N)
      *
      * @param root
      * @param p
