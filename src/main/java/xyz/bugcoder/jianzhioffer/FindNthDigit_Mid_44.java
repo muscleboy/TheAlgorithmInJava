@@ -53,6 +53,7 @@ public class FindNthDigit_Mid_44 {
         int bits = 1;
         long start = 1;
         long count = 9;
+
         // 1.
         while(n > count){
             n -= count;
@@ -60,15 +61,18 @@ public class FindNthDigit_Mid_44 {
             start *= 10;
             count = bits * start * 9;
         }
+
         // 2.
         long num = start + (n - 1)/bits;
+//        System.out.println("bits: " + bits + ", start: " + start + ", count: " + count + ", nums: " + num);
+
         //3.
         return Long.toString(num).charAt((n - 1) % bits) - '0';
     }
 
     @Test
     public void test(){
-        int n = 1000000000;
+        int n = 103;
         System.out.println(findNthDigit(n));
     }
 
