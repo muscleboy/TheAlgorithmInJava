@@ -30,7 +30,7 @@ import org.junit.Test;
  * @Description: TODO
  * @createTime 2021-01-12 11:31
  */
-public class MissingNumber_Ec_1852 {
+public class IsUnique_Ec_1852 {
 
     /**
      * 思路
