@@ -4,7 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="" />
+    <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,10 +47,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/dp/CuttingRope_Mid_14.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/MissingNumber_Ec_1852.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="699">
+              <caret line="68" column="43" lean-forward="true" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[面试题 01.01]判定字符是否唯一.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -120,8 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/LetterCasePermutation_Mid_784.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/SolveNQueues_H_51.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/diameterOfBT_Ec_543.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/SolveSudoku_H_37.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/ThreeSumClosest_Mid_16.java" />
@@ -171,6 +181,8 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/tree/LowestCommonAncestorI_Mid_68.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/FindNthDigit_Mid_44.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/dp/MaxValue_Mid_47.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/MissingNumber_Ec_1852.java" />
       </list>
     </option>
   </component>
@@ -215,17 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TheAlgorithmInJava" type="58d84e3e:PackageViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -277,7 +278,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="jianzhioffer" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -287,8 +288,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="jianzhioffer" type="462c0819:PsiDirectoryNode" />
-              <item name="dp" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+              <item name="bit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -301,13 +302,24 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TheAlgorithmInJava" type="58d84e3e:PackageViewProjectNode" />
+              <item name="TheAlgorithmInJava" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610351773616" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610423409092" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -367,7 +379,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindNthDigit_Mid_44.test">
+  <component name="RunManager" selected="JUnit.MissingNumber_Ec_1852.test">
     <configuration name="CuttingRope_Mid_14.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
@@ -416,6 +428,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MissingNumber_Ec_1852.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.bit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.bit" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.bit.MissingNumber_Ec_1852" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Permutation_Mid_38.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
@@ -432,36 +460,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rotate_Mid_189.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.array" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.array.Rotate_Mid_189" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.Rotate_Mid_189.test" />
       <item itemvalue="JUnit.MaxVowels_Mid_1456.test" />
       <item itemvalue="JUnit.CuttingRope_Mid_14.test" />
       <item itemvalue="JUnit.Permutation_Mid_38.test" />
       <item itemvalue="JUnit.FindNthDigit_Mid_44.test" />
+      <item itemvalue="JUnit.MissingNumber_Ec_1852.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MissingNumber_Ec_1852.test" />
         <item itemvalue="JUnit.FindNthDigit_Mid_44.test" />
         <item itemvalue="JUnit.Permutation_Mid_38.test" />
         <item itemvalue="JUnit.CuttingRope_Mid_14.test" />
         <item itemvalue="JUnit.MaxVowels_Mid_1456.test" />
-        <item itemvalue="JUnit.Rotate_Mid_189.test" />
       </list>
     </recent_temporary>
   </component>
@@ -718,17 +730,12 @@
       <workItem from="1610193866235" duration="192000" />
       <workItem from="1610200506686" duration="206000" />
       <workItem from="1610245298834" duration="2454000" />
-      <workItem from="1610335103104" duration="4259000" />
+      <workItem from="1610335103104" duration="4435000" />
+      <workItem from="1610422171199" duration="1075000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Permutation_Mid_38_test - 2021.01.10 at 13h 05m 31s.xml">
-      <configuration name="Permutation_Mid_38.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindNthDigit_Mid_44_test - 2021.01.11 at 13h 22m 57s.xml">
-      <configuration name="FindNthDigit_Mid_44.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FindNthDigit_Mid_44_test - 2021.01.11 at 13h 30m 04s.xml">
       <configuration name="FindNthDigit_Mid_44.test" configurationId="JUnit" />
     </history-entry>
@@ -753,9 +760,15 @@
     <history-entry file="FindNthDigit_Mid_44_test - 2021.01.11 at 14h 52m 03s.xml">
       <configuration name="FindNthDigit_Mid_44.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MissingNumber_Ec_1852_test - 2021.01.12 at 11h 33m 35s.xml">
+      <configuration name="MissingNumber_Ec_1852.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MissingNumber_Ec_1852_test - 2021.01.12 at 11h 41m 31s.xml">
+      <configuration name="MissingNumber_Ec_1852.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1398199000" />
+    <option name="totallyTimeSpent" value="1399450000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -768,8 +781,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4821835" visible="true" weight="0.22914171" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4821835" visible="true" weight="0.23153692" />
       <window_info id="Structure" order="1" sideWeight="0.51781654" side_tool="true" weight="0.17684631" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -786,7 +800,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.328279" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.28506443" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.2843063" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32903716" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32903716" />
@@ -1791,75 +1805,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="2003" column="8" selection-start-line="2003" selection-start-column="8" selection-end-line="2003" selection-end-column="8" />
-          <folding>
-            <element signature="e#82552#82553#0" expanded="true" />
-            <element signature="e#82614#82615#0" expanded="true" />
-            <element signature="e#82649#82650#0" expanded="true" />
-            <element signature="e#82714#82715#0" expanded="true" />
-            <element signature="e#86062#86063#0" expanded="true" />
-            <element signature="e#86109#86110#0" expanded="true" />
-            <element signature="e#86489#86490#0" expanded="true" />
-            <element signature="e#86521#86522#0" expanded="true" />
-            <element signature="e#86806#86807#0" expanded="true" />
-            <element signature="e#86872#86873#0" expanded="true" />
-            <element signature="e#96714#96715#0" expanded="true" />
-            <element signature="e#96783#96784#0" expanded="true" />
-            <element signature="e#96818#96819#0" expanded="true" />
-            <element signature="e#96887#96888#0" expanded="true" />
-            <element signature="e#96932#96933#0" expanded="true" />
-            <element signature="e#97010#97011#0" expanded="true" />
-            <element signature="e#97058#97059#0" expanded="true" />
-            <element signature="e#97129#97130#0" expanded="true" />
-            <element signature="e#97166#97167#0" expanded="true" />
-            <element signature="e#97238#97239#0" expanded="true" />
-            <element signature="e#97278#97279#0" expanded="true" />
-            <element signature="e#97347#97348#0" expanded="true" />
-            <element signature="e#97390#97391#0" expanded="true" />
-            <element signature="e#97463#97464#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="223" column="28" selection-start-line="223" selection-start-column="28" selection-end-line="223" selection-end-column="28" />
-          <folding>
-            <element signature="e#5767#5768#0" expanded="true" />
-            <element signature="e#5800#5801#0" expanded="true" />
-            <element signature="e#6596#6597#0" expanded="true" />
-            <element signature="e#6640#6641#0" expanded="true" />
-            <element signature="e#9063#9064#0" expanded="true" />
-            <element signature="e#9107#9108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 12]矩阵中的路径.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/rec/MovingCount_13.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/rec/NumWays_EC_10_II.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
@@ -2186,10 +2131,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/dp/MaxValue_Mid_47.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/dp/CuttingRope_Mid_14.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="739">
           <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 47]礼物的最大价值.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/FindDiff_EC_389.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[面试题 01.01]判定字符是否唯一.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/MissingNumber_Ec_1852.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="68" column="43" lean-forward="true" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
         </state>
       </provider>
     </entry>
