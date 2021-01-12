@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/MissingNumber_Ec_1852.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/IsUnique_Ec_1852.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,28 +46,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/IsUnique_Ec_1852.java">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[137]只出现一次的数字 II.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/MissingNumber_Ec_268.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1063">
-              <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+            <state relative-caret-position="154">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[268]丢失的数字.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/MissingNumber_Ec_268.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="58" column="5" lean-forward="true" selection-start-line="56" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="562">
+              <caret line="65" column="4" lean-forward="true" selection-start-line="65" selection-start-column="4" selection-end-line="70" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/SingleNumber_Mid_137.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -141,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/ThreeSumClosest_Mid_16.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/MySqrt_Ec_69.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/NumTrees_Mid_96.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/GenerateTrees_Mid_95.java" />
@@ -192,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/MissingNumber_Ec_1852.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/IsUnique_Ec_1852.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/MissingNumber_Ec_268.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/SingleNumber_Mid_137.java" />
       </list>
     </option>
   </component>
@@ -328,7 +327,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610423825864" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610427236332" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -388,19 +387,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MissingNumber_Ec_268.test">
-    <configuration name="CuttingRope_Mid_14.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SingleNumber_Mid_137.test">
+    <configuration name="FindContinuousSequence_57" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.array.FindContinuousSequence_57" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.dp.*" />
+          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xyz.bugcoder.jianzhioffer.dp" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.dp.CuttingRope_Mid_14" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -453,16 +449,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutation_Mid_38.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SingleNumber_Mid_137.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.back_track.*" />
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.bit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xyz.bugcoder.jianzhioffer.back_track" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.back_track.Permutation_Mid_38" />
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp.bit" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.bit.SingleNumber_Mid_137" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -470,19 +466,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CuttingRope_Mid_14.test" />
-      <item itemvalue="JUnit.Permutation_Mid_38.test" />
       <item itemvalue="JUnit.FindNthDigit_Mid_44.test" />
       <item itemvalue="JUnit.IsUnique_Ec_1852.test" />
       <item itemvalue="JUnit.MissingNumber_Ec_268.test" />
+      <item itemvalue="Application.FindContinuousSequence_57" />
+      <item itemvalue="JUnit.SingleNumber_Mid_137.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SingleNumber_Mid_137.test" />
+        <item itemvalue="Application.FindContinuousSequence_57" />
         <item itemvalue="JUnit.MissingNumber_Ec_268.test" />
         <item itemvalue="JUnit.IsUnique_Ec_1852.test" />
         <item itemvalue="JUnit.FindNthDigit_Mid_44.test" />
-        <item itemvalue="JUnit.Permutation_Mid_38.test" />
-        <item itemvalue="JUnit.CuttingRope_Mid_14.test" />
       </list>
     </recent_temporary>
   </component>
@@ -740,44 +736,44 @@
       <workItem from="1610200506686" duration="206000" />
       <workItem from="1610245298834" duration="2454000" />
       <workItem from="1610335103104" duration="4435000" />
-      <workItem from="1610422171199" duration="1596000" />
+      <workItem from="1610422171199" duration="3757000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FindNthDigit_Mid_44_test - 2021.01.11 at 13h 30m 04s.xml">
-      <configuration name="FindNthDigit_Mid_44.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindNthDigit_Mid_44_test - 2021.01.11 at 13h 30m 15s.xml">
-      <configuration name="FindNthDigit_Mid_44.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindNthDigit_Mid_44_test - 2021.01.11 at 13h 31m 32s.xml">
-      <configuration name="FindNthDigit_Mid_44.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindNthDigit_Mid_44_test - 2021.01.11 at 13h 32m 17s.xml">
-      <configuration name="FindNthDigit_Mid_44.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindNthDigit_Mid_44_test - 2021.01.11 at 13h 32m 22s.xml">
-      <configuration name="FindNthDigit_Mid_44.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindNthDigit_Mid_44_test - 2021.01.11 at 14h 51m 44s.xml">
-      <configuration name="FindNthDigit_Mid_44.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindNthDigit_Mid_44_test - 2021.01.11 at 14h 51m 53s.xml">
-      <configuration name="FindNthDigit_Mid_44.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindNthDigit_Mid_44_test - 2021.01.11 at 14h 52m 03s.xml">
-      <configuration name="FindNthDigit_Mid_44.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MissingNumber_Ec_1852_test - 2021.01.12 at 11h 33m 35s.xml">
-      <configuration name="MissingNumber_Ec_1852.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MissingNumber_Ec_1852_test - 2021.01.12 at 11h 41m 31s.xml">
       <configuration name="MissingNumber_Ec_1852.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MissingNumber_Ec_268_test - 2021.01.12 at 11h 56m 21s.xml">
+      <configuration name="MissingNumber_Ec_268.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MissingNumber_Ec_268_test - 2021.01.12 at 11h 56m 29s.xml">
+      <configuration name="MissingNumber_Ec_268.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MissingNumber_Ec_268_test - 2021.01.12 at 11h 56m 50s.xml">
+      <configuration name="MissingNumber_Ec_268.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingleNumber_Mid_137_test - 2021.01.12 at 12h 41m 59s.xml">
+      <configuration name="SingleNumber_Mid_137.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingleNumber_Mid_137_test - 2021.01.12 at 12h 42m 14s.xml">
+      <configuration name="SingleNumber_Mid_137.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingleNumber_Mid_137_test - 2021.01.12 at 12h 43m 07s.xml">
+      <configuration name="SingleNumber_Mid_137.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingleNumber_Mid_137_test - 2021.01.12 at 12h 44m 21s.xml">
+      <configuration name="SingleNumber_Mid_137.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingleNumber_Mid_137_test - 2021.01.12 at 12h 46m 56s.xml">
+      <configuration name="SingleNumber_Mid_137.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingleNumber_Mid_137_test - 2021.01.12 at 12h 49m 10s.xml">
+      <configuration name="SingleNumber_Mid_137.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1399971000" />
+    <option name="totallyTimeSpent" value="1402132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -792,7 +788,7 @@
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4821835" visible="true" weight="0.23153692" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4821835" visible="true" weight="0.23153692" />
       <window_info id="Structure" order="1" sideWeight="0.51781654" side_tool="true" weight="0.17684631" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -809,7 +805,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.328279" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.2843063" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.21228203" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32903716" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32903716" />
@@ -1814,114 +1810,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="655" column="16" selection-start-line="655" selection-start-column="16" selection-end-line="655" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/GetPermutation_Hard_60.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Permute_Mid_46.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/GetKthNodeFromEnd_22.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="847">
-          <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/ReverseLinkedList_24.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/heap/RearrangeBarcodes_Mid_1054.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="909">
-          <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/PermuteUnique_Mid_47.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="61" column="37" lean-forward="true" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/back_track/Permutation_Mid_38.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="981">
-          <caret line="65" column="45" lean-forward="true" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/back_track/Exist_Mid_12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="78" column="40" lean-forward="true" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 38]字符串的排列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/sliding_window/MaxSlidingWindow_Hard_239.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/sliding_window/MinSubstring_Hard_76.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/BuildMaxBinaryTree_mid_654.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="75" column="31" lean-forward="true" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/CodecTreeByRec_Hard_297.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/diameterOfBT_Ec_543.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/FillNextTreeNode_Mid_116.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-168">
@@ -2147,13 +2035,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/FindDiff_EC_389.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[面试题 01.01]判定字符是否唯一.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -2175,10 +2056,126 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/FindDiff_EC_389.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/NumberOf1Bit_15.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="51" column="44" lean-forward="true" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/ConstructArr_66.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindContinuousSequence_57.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+          <folding>
+            <element signature="e#1630#1631#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray_53.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-602">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/MajorityElement_39.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/MaxSubArray_42.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/MinArray_11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/OldBeforeEven_21.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/PrintNums_17.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/KMinNumbers_40.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/SpiralOrder_29.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/TwoSum_57.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="64" column="22" lean-forward="true" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/SingleNumbers_56.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[137]只出现一次的数字 II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/MissingNumber_Ec_268.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1063">
-          <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+        <state relative-caret-position="562">
+          <caret line="65" column="4" lean-forward="true" selection-start-line="65" selection-start-column="4" selection-end-line="70" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/SingleNumber_Mid_137.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
         </state>
       </provider>
     </entry>
