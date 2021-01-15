@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,19 +46,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/MaxAreaOfIsland_Mid_695.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/string/StrToInt_Mid_67.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+            <state relative-caret-position="799">
+              <caret line="142" column="26" lean-forward="true" selection-start-line="116" selection-start-column="8" selection-end-line="142" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[695]岛屿的最大面积.java">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 67]把字符串转换成整数.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+              <caret line="67" column="5" lean-forward="true" selection-start-line="65" selection-start-column="4" selection-end-line="67" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -132,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/double_pointer/waysToSplit_Mid_1712.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_6/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/io/FileChannels.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/io/FileChannelsFileCopy.java" />
@@ -183,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/back_track/TranslateNum_Mid_46.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/prefixesDivBy5_Ec_1018.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/MaxAreaOfIsland_Mid_695.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/string/StrToInt_Mid_67.java" />
       </list>
     </option>
   </component>
@@ -288,7 +287,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+              <item name="jianzhioffer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -298,8 +297,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
-              <item name="back_track" type="462c0819:PsiDirectoryNode" />
+              <item name="jianzhioffer" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -319,7 +318,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610679624460" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610683856459" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -379,39 +378,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TranslateNum_Mid_46.test">
+  <component name="RunManager" selected="JUnit.StrToInt_Mid_67.test">
+    <configuration name="ReverseWords_58_I" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.string.ReverseWords_58_I" />
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TimeClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.pdai.io.nio.TimeClient" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xyz.bugcoder.pdai.io.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.pdai.io.bio.TimeClient" />
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.pdai.io.bio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.pdai.io.aio.TimeServer" />
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.pdai.io.aio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -428,6 +414,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrToInt_Mid_67.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.jianzhioffer.string" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.string.StrToInt_Mid_67" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -449,19 +451,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TimeClient" />
-      <item itemvalue="Application.TimeServer (1)" />
       <item itemvalue="Application.TimeServer (2)" />
       <item itemvalue="Application.TimeClient (1)" />
       <item itemvalue="JUnit.TranslateNum_Mid_46.test" />
+      <item itemvalue="Application.ReverseWords_58_I" />
+      <item itemvalue="JUnit.StrToInt_Mid_67.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StrToInt_Mid_67.test" />
+        <item itemvalue="Application.ReverseWords_58_I" />
         <item itemvalue="JUnit.TranslateNum_Mid_46.test" />
         <item itemvalue="Application.TimeServer (2)" />
         <item itemvalue="Application.TimeClient (1)" />
-        <item itemvalue="Application.TimeClient" />
-        <item itemvalue="Application.TimeServer (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -723,32 +725,11 @@
       <workItem from="1610446816732" duration="8189000" />
       <workItem from="1610544068497" duration="2857000" />
       <workItem from="1610591160678" duration="727000" />
-      <workItem from="1610675861848" duration="1076000" />
+      <workItem from="1610675861848" duration="2880000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SingleNumber_Mid_137_test - 2021.01.12 at 12h 41m 59s.xml">
-      <configuration name="SingleNumber_Mid_137.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingleNumber_Mid_137_test - 2021.01.12 at 12h 42m 14s.xml">
-      <configuration name="SingleNumber_Mid_137.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingleNumber_Mid_137_test - 2021.01.12 at 12h 43m 07s.xml">
-      <configuration name="SingleNumber_Mid_137.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingleNumber_Mid_137_test - 2021.01.12 at 12h 44m 21s.xml">
-      <configuration name="SingleNumber_Mid_137.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingleNumber_Mid_137_test - 2021.01.12 at 12h 46m 56s.xml">
-      <configuration name="SingleNumber_Mid_137.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingleNumber_Mid_137_test - 2021.01.12 at 12h 49m 10s.xml">
-      <configuration name="SingleNumber_Mid_137.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NthUglyNumber_Mid_49_test - 2021.01.12 at 13h 13m 27s.xml">
-      <configuration name="NthUglyNumber_Mid_49.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NthUglyNumber_Mid_49_test - 2021.01.12 at 13h 13m 36s.xml">
       <configuration name="NthUglyNumber_Mid_49.test" configurationId="JUnit" />
     </history-entry>
@@ -758,9 +739,30 @@
     <history-entry file="TranslateNum_Mid_46_test - 2021.01.13 at 22h 31m 38s.xml">
       <configuration name="TranslateNum_Mid_46.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StrToInt_Mid_67_test - 2021.01.15 at 11h 54m 48s.xml">
+      <configuration name="StrToInt_Mid_67.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StrToInt_Mid_67_test - 2021.01.15 at 11h 54m 58s.xml">
+      <configuration name="StrToInt_Mid_67.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StrToInt_Mid_67_test - 2021.01.15 at 12h 06m 36s.xml">
+      <configuration name="StrToInt_Mid_67.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StrToInt_Mid_67_test - 2021.01.15 at 12h 07m 30s.xml">
+      <configuration name="StrToInt_Mid_67.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StrToInt_Mid_67_test - 2021.01.15 at 12h 09m 09s.xml">
+      <configuration name="StrToInt_Mid_67.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StrToInt_Mid_67_test - 2021.01.15 at 12h 09m 50s.xml">
+      <configuration name="StrToInt_Mid_67.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StrToInt_Mid_67_test - 2021.01.15 at 12h 10m 31s.xml">
+      <configuration name="StrToInt_Mid_67.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1416917000" />
+    <option name="totallyTimeSpent" value="1418721000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -792,7 +794,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.328279" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.25018954" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.17361638" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32903716" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32903716" />
@@ -1797,41 +1799,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/KMinNumbers_40.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/SpiralOrder_29.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/TwoSum_57.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="64" column="22" lean-forward="true" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/SingleNumbers_56.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[137]只出现一次的数字 II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 49]丑数.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -2177,6 +2144,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/string/ReverseWords_58_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/string/ReverseWords_58_I.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1246">
+          <caret line="99" column="38" lean-forward="true" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/string/ReplaceSpaces_EC_5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/MaxAreaOfIsland_Mid_695.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="973">
+          <caret line="76" column="37" lean-forward="true" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[695]岛屿的最大面积.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -2184,10 +2179,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/MaxAreaOfIsland_Mid_695.java">
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 67]把字符串转换成整数.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        <state relative-caret-position="154">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="65" selection-start-column="4" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/string/StrToInt_Mid_67.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="142" column="26" lean-forward="true" selection-start-line="116" selection-start-column="8" selection-end-line="142" selection-end-column="26" />
         </state>
       </provider>
     </entry>
