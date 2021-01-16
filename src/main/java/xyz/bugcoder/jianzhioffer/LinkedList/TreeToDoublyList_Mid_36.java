@@ -80,6 +80,8 @@ public class TreeToDoublyList_Mid_36 {
 
         dfs(cur.left);
 
+        // 前驱节点 pre 为空，说明刚开始遍历，记录头结点
+        // 节点的左指针需要指向前驱，树中节点的右指针需要指向后继
         if (pre == null) {
             head = cur;
         }
