@@ -65,6 +65,18 @@ import java.util.HashMap;
  */
 public class copyRandomList_Mid_35 {
 
+    private class Node {
+        int val;
+        Node next;
+        Node random;
+
+        public Node(int val) {
+            this.val = val;
+            this.next = null;
+            this.random = null;
+        }
+    }
+
     /**
      * 思路
      *    1.先构建 原链表 和 新链表 的对应关系，
@@ -97,14 +109,3 @@ public class copyRandomList_Mid_35 {
 
 }
 
-class Node {
-    int val;
-    Node next;
-    Node random;
-
-    public Node(int val) {
-        this.val = val;
-        this.next = null;
-        this.random = null;
-    }
-}
