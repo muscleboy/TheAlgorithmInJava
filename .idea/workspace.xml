@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/Test.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,34 +46,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/Test.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/MaxDistance_Mid_1162.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+            <state relative-caret-position="395">
+              <caret line="57" column="10" lean-forward="true" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/apache-maven-3.6.1/maven_repo/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Test.java">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[1162]地图分析.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/annotation/RetentionPolicy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="43" column="71" lean-forward="true" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
+            <state relative-caret-position="154">
+              <caret line="46" column="5" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -146,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/io/FileChannelsFileCopy.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/io/NIOByteBufferPutGet.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/io/NIOMapperByteBuffer.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/io/ScatterAndGather.java" />
@@ -197,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/tree/IsSubStructure_Mid_26.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/MaxDistance_Mid_1162.java" />
       </list>
     </option>
   </component>
@@ -241,17 +230,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TheAlgorithmInJava" type="58d84e3e:PackageViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -302,6 +281,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+              <item name="bs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
               <item name="pdai" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -315,14 +315,24 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TheAlgorithmInJava" type="58d84e3e:PackageViewProjectNode" />
+              <item name="TheAlgorithmInJava" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610704041101" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610708784357" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -458,9 +468,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.StrToInt_Mid_67.test" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
+      <item itemvalue="JUnit.StrToInt_Mid_67.test" />
       <item itemvalue="JUnit.Test.test" />
       <item itemvalue="JUnit.Test.test2" />
     </list>
@@ -732,7 +742,8 @@
       <workItem from="1610446816732" duration="8189000" />
       <workItem from="1610544068497" duration="2857000" />
       <workItem from="1610591160678" duration="727000" />
-      <workItem from="1610675861848" duration="6649000" />
+      <workItem from="1610675861848" duration="6794000" />
+      <workItem from="1610765294477" duration="1612000" />
     </task>
     <servers />
   </component>
@@ -769,7 +780,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1422490000" />
+    <option name="totallyTimeSpent" value="1424247000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -784,7 +795,7 @@
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4821835" visible="true" weight="0.22874251" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4821835" visible="true" weight="0.21756487" />
       <window_info id="Structure" order="1" sideWeight="0.51781654" side_tool="true" weight="0.17684631" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -801,7 +812,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.328279" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.17361638" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.17361638" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32903716" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32903716" />
@@ -1806,26 +1817,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/io/aio/TimeServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/io/bio/TimeClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="50" column="41" lean-forward="true" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/nio/channels/ServerSocketChannel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="689">
@@ -2159,17 +2150,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/Test.java" />
+    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/maven_repo/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="41" />
+        <state relative-caret-position="73">
+          <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/annotation/RetentionPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="43" column="71" lean-forward="true" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        <state relative-caret-position="616">
+          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#410#411#0" expanded="true" />
@@ -2178,17 +2177,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/maven_repo/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Test.java">
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[1162]地图分析.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+        <state relative-caret-position="154">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/annotation/RetentionPolicy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/MaxDistance_Mid_1162.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="43" column="71" lean-forward="true" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
+        <state relative-caret-position="395">
+          <caret line="57" column="10" lean-forward="true" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
