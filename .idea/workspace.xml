@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/pathSum_Mid_113.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/pathSum_Mid_113.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,11 +45,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/HasPathSum_EC_112.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[113]路径总和 II.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="286">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/pathSum_Mid_113.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="843">
+              <caret line="67" column="52" lean-forward="true" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/KthSmallest_Mid_378.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/FindMin_Mid_153.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/FindMid_Mid_154.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/PeakIndexInMountainArray_Mid_852.java" />
@@ -176,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/TreeToDoublyList_Mid_36.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/checkStraightLine_Ec_1232.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/HasPathSum_EC_112.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/pathSum_Mid_113.java" />
       </list>
     </option>
   </component>
@@ -262,6 +274,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xyz" type="462c0819:PsiDirectoryNode" />
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
+              <item name="back_track" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -705,7 +738,7 @@
       <workItem from="1610765294477" duration="4651000" />
       <workItem from="1610897723706" duration="573000" />
       <workItem from="1610967498326" duration="118000" />
-      <workItem from="1610981997578" duration="1036000" />
+      <workItem from="1610981997578" duration="1398000" />
     </task>
     <servers />
   </component>
@@ -742,7 +775,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1429013000" />
+    <option name="totallyTimeSpent" value="1429375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -755,6 +788,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4821835" visible="true" weight="0.2247505" />
       <window_info id="Structure" order="1" sideWeight="0.51781654" side_tool="true" weight="0.17684631" />
@@ -796,7 +830,7 @@
       <window_info anchor="right" x="0" y="0" width="350" height="700" id="Documentation" order="9" side_tool="true" weight="0.32934132" />
       <window_info anchor="right" id="Maven Projects" order="10" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32985258" />
-      <window_info active="true" anchor="right" id="leetcode" order="12" side_tool="true" visible="true" weight="0.13293414" />
+      <window_info anchor="right" id="leetcode" order="12" side_tool="true" weight="0.13293414" />
       <window_info anchor="right" id="ASM" order="13" weight="0.52854294" />
       <window_info anchor="right" id="jclasslib" order="14" weight="0.3996008" />
       <window_info anchor="right" id="Code Iris" order="15" weight="0.32974052" />
@@ -1778,20 +1812,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[401]二进制手表.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/NumberOf1Bit_15.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="51" column="44" lean-forward="true" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/MissingNumber_Ec_268.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
@@ -2144,6 +2164,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[113]路径总和 II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/pathSum_Mid_113.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="843">
+          <caret line="67" column="52" lean-forward="true" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

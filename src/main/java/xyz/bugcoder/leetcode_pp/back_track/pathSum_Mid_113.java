@@ -67,7 +67,8 @@ public class pathSum_Mid_113 {
         path.add(root.val);
         if(root.left == null && root.right == null){
             if(root.val == sum){
-                res.add(new ArrayList<>(path));
+                // new ArrayList<>(path) 效率慢？
+                res.add(new ArrayList(path));
             }
             path.remove(path.size() - 1);
             return;
