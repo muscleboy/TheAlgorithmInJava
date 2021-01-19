@@ -53,6 +53,15 @@ import xyz.bugcoder.leetcode_pp.TreeNode;
  */
 public class IsBalanced_EC_110 {
 
+    /**
+     * 思路
+     *    左右高度差 <= 1  是平衡二叉树，并且左右子树也是平衡二叉树
+     * 复杂度
+     *    时间：O(N)
+     *    空间：O(N)
+     * @param root
+     * @return
+     */
     public boolean isBalanced(TreeNode root){
 
         if (root == null){
