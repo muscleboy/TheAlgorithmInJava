@@ -25,6 +25,8 @@ package xyz.bugcoder.leetcode_pp;
 // Related Topics 数组 数学
 // 👍 254 👎 0
 
+import org.junit.Test;
+
 import java.util.Arrays;
 
 /**
@@ -49,6 +51,12 @@ public class maximumProduct_Ec_628 {
         Arrays.sort(nums);
         // max(最大3正数相乘，最小2负数*最大正数)
         return Math.max(nums[0] * nums[1] * nums[n-1], nums[n-1] * nums[n-2] * nums[n-3]);
+    }
+
+    @Test
+    public void test(){
+        int[] nums = {1, 2, 3};
+        Arrays.asList(nums);
     }
 
 }
