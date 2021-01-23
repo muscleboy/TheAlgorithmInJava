@@ -53,20 +53,20 @@ public class pathSum_Mid_113 {
      */
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
         List<List<Integer>> res = new ArrayList<>();
-        if(root == null){
+        if (root == null) {
             return res;
         }
         backtrack(res, new ArrayList<>(), root, sum);
         return res;
     }
 
-    public void backtrack(List<List<Integer>> res, List<Integer> path, TreeNode root, int sum){
-        if(root == null){
+    public void backtrack(List<List<Integer>> res, List<Integer> path, TreeNode root, int sum) {
+        if (root == null) {
             return;
         }
         path.add(root.val);
-        if(root.left == null && root.right == null){
-            if(root.val == sum){
+        if (root.left == null && root.right == null) {
+            if (root.val == sum) {
                 // new ArrayList<>(path) 效率慢？
                 res.add(new ArrayList(path));
             }
