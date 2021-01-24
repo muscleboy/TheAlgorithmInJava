@@ -74,36 +74,38 @@ public class LemonadeChange_EC_860 {
         int five = 0;
         int ten = 0;
         int twenty = 0;
-        
+
         for (int n : bills) {
             // 收到一张 5 块的
-            if (n == 5){
-                five ++;
+            if (n == 5) {
+                five++;
             }
             // 收到 10 块的
-            if (n == 10){
+            if (n == 10) {
                 // 没得领钱找了
-                if (five <= 0){
+                if (five <= 0) {
                     return false;
-                }else {
-                    five --;
-                    ten ++;
+                }
+                else {
+                    five--;
+                    ten++;
                 }
             }
             // 收到 20
-            if (n == 20){
+            if (n == 20) {
                 // 找一张 5，一张 10
                 if (five >= 1 && ten >= 1) {
-                    five --;
-                    ten --;
+                    five--;
+                    ten--;
                 }
                 // 找 3 张 5 的
                 else if (five >= 3) {
                     five -= 3;
-                }else {
+                }
+                else {
                     return false;
                 }
-                twenty ++;
+                twenty++;
             }
         }
 
