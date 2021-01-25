@@ -76,11 +76,11 @@ public class CoinChange_Mid_322 {
     //    时间：O(N * amount), N 为数组的长度，amount为面值
     //    空间：O(amount)
     public static int coinChange(int[] coins, int amount) {
-        if (amount == 0){
+        if (amount == 0) {
             return 0;
         }
 
-        int[] dp = new int[amount+1];
+        int[] dp = new int[amount + 1];
         // 凑成面值 amount，需要 amount 个 价值为 1 的硬币，
         // 这里初始化成amount + 1，是一个不可能的值，效果跟 Integer.Max_VALUE 一样
         Arrays.fill(dp, amount + 1);
@@ -88,7 +88,7 @@ public class CoinChange_Mid_322 {
 
         for (int i = 1; i < dp.length; i++) {
             for (int coin : coins) {
-                if (i - coin >= 0 && dp[i - coin] != amount + 1){
+                if (i - coin >= 0 && dp[i - coin] != amount + 1) {
                     // 这里+1：因为符合条件，所以这里+1 是本次满足
                     dp[i] = Math.min(dp[i], 1 + dp[i - coin]);
                 }
