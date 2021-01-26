@@ -53,14 +53,14 @@ public class ClimbStair_EC_70 {
         dp[2] = 2;
 
         for (int i = 3; i <= n; i++) {
-            dp[i] = dp[i-1] + dp[i-1];
+            dp[i] = dp[i-2] + dp[i-1];
         }
 
         return dp[n];
     }
 
     public static void main(String[] args) {
-        System.out.println(climbStairs(20));
+        System.out.println(climbStairs(6));
     }
 
 }
