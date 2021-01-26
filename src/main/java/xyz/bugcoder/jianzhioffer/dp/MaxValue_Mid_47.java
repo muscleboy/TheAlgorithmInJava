@@ -27,6 +27,8 @@ package xyz.bugcoder.jianzhioffer.dp;
 // Related Topics 动态规划
 // 👍 91 👎 0
 
+import org.junit.Test;
+
 /**
  * @Package: xyz.bugcoder.jianzhioffer.dp
  * @author: Weiyj
@@ -35,29 +37,64 @@ package xyz.bugcoder.jianzhioffer.dp;
  */
 public class MaxValue_Mid_47 {
 
-    // dp[i][j]: 当前位置的最大价值
-    // 时间：O(mn)
-    // 直接原地修改可将空间优化为 O(1)
+    /**
+     * 思路
+     *    dp[i][j]: 当前位置的最大价值
+     * 复杂度
+     *    时间：O(mn)
+     *    空间： O(1)
+     * @param grid
+     * @return
+     */
     public int maxValue(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
         // 计算第一行
-        for(int i = 1; i < m; i ++){
-            grid[i][0] += grid[i-1][0];
+        for (int i = 1; i < m; i++) {
+            grid[i][0] += grid[i - 1][0];
         }
 
         // 计算第一列
-        for(int i = 1; i < n; i ++){
-            grid[0][i] += grid[0][i-1];
+        for (int i = 1; i < n; i++) {
+            grid[0][i] += grid[0][i - 1];
         }
 
         // 计算
-        for(int i = 1; i < m; i ++){
-            for(int j = 1; j < n; j ++){
-                grid[i][j] += Math.max(grid[i-1][j], grid[i][j-1]);
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j < n; j++) {
+                grid[i][j] += Math.max(grid[i - 1][j], grid[i][j - 1]);
             }
         }
-        return grid[m-1][n-1];
+        return grid[m - 1][n - 1];
+    }
+
+    /**
+     * 思路
+     *    dp[i][j]: 当前位置的最大价值
+     * 复杂度
+     *    时间：O(mn)
+     *    空间： O(mn)
+     * @param grid
+     * @return
+     */
+    public int maxValue2(int[][] grid) {
+        int m = grid.length;
+        int n = grid[0].length;
+        int[][] dp = new int[m + 1][n + 1];
+
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]) + grid[i - 1][j - 1];
+            }
+        }
+        return dp[m][n];
+    }
+
+    @Test
+    public void test() {
+        int[][] grid = {{1, 3, 1}, {1, 5, 1}, {4, 2, 1}};
+        System.out.println(maxValue(grid));
+//        System.out.println(maxValue2(grid));
     }
 
 }
