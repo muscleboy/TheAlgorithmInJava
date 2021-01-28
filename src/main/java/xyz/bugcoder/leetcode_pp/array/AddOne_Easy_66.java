@@ -32,13 +32,14 @@ import java.util.Arrays;
  */
 public class AddOne_Easy_66 {
 
-    public static int[] addOne(int[] nums){
+    public static int[] addOne(int[] nums) {
 
         for (int i = nums.length - 1; i >= 0; i--) {
             // 进位，然后前一位 +1
-            if (nums[i] == 9){
+            if (nums[i] == 9) {
                 nums[i] = 0;
-            }else {
+            }
+            else {
                 nums[i] += 1;
                 return nums;
             }
@@ -52,7 +53,7 @@ public class AddOne_Easy_66 {
     }
 
     public static void main(String[] args) {
-        int[] nums = {9,9,9};
+        int[] nums = {9, 9, 9};
         System.out.println(Arrays.toString(addOne(nums)));
     }
 
