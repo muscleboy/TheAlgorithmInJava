@@ -37,15 +37,16 @@ public class FindKthLargest_Mid_215 {
     //   空间：O(N)
     public static int findKthLargest(int[] nums, int k) {
 
-        if (nums == null || nums.length == 0){
+        if (nums == null || nums.length == 0) {
             return -1;
         }
 
         Queue<Integer> queue = new PriorityQueue<>();
         for (int i : nums) {
-            if (queue.size() < k){
+            if (queue.size() < k) {
                 queue.offer(i);
-            }else if (i > queue.peek()){
+            }
+            else if (i > queue.peek()) {
                 queue.poll();
                 queue.offer(i);
             }
@@ -55,7 +56,7 @@ public class FindKthLargest_Mid_215 {
     }
 
     public static void main(String[] args) {
-        int[] nums = {3,2,1,5,6,4};
+        int[] nums = {3, 2, 1, 5, 6, 4};
         System.out.println(findKthLargest(nums, 2));
     }
 
