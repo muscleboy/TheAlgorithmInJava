@@ -42,7 +42,7 @@ public class MaxChunksToSorted_Mid_769 {
 
     public static int maxChunksToSorted(int[] nums){
 
-        if (nums == null || nums.length == 0){
+        if (nums == null || nums.length == 0) {
             return 0;
         }
 
@@ -53,8 +53,8 @@ public class MaxChunksToSorted_Mid_769 {
         // 因为这是[0,n-1]的数组，当num[i]位置为当前的最大值，并且num[i]要等于 i, 不然连接之后和原数组不一致
         for (int i = 0; i < nums.length; i++) {
             max = Math.max(max, nums[i]);
-            if (max == i){
-                count ++;
+            if (max == i) {
+                count++;
             }
         }
 
