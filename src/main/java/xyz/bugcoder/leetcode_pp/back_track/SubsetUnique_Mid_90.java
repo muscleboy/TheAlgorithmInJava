@@ -46,16 +46,16 @@ public class SubsetUnique_Mid_90 {
         return res;
     }
 
-    public void backtrack(List<Integer> track, int[] nums, int begin, boolean[] used){
+    public void backtrack(List<Integer> track, int[] nums, int begin, boolean[] used) {
         // 直接 add，因为子集包括 []，第一次会为[]
         res.add(new ArrayList<>(track));
         // 终止条件为 for 循环结束
-        for(int i = begin; i < nums.length; i ++){
+        for (int i = begin; i < nums.length; i++) {
             // 减少很多判断，beat 55.5% -> 99.5%
-            if(used[i]){
+            if (used[i]) {
                 continue;
             }
-            if(i > begin && nums[i] == nums[i - 1]){
+            if (i > begin && nums[i] == nums[i - 1]) {
                 continue;
             }
             track.add(nums[i]);
