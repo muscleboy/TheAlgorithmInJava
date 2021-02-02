@@ -43,24 +43,24 @@ public class SolveSudoku_H_37 {
         backtrack(board, 0, 0);
     }
 
-    public boolean backtrack(char[][] board, int row, int col){
-        if(row == board.length){
+    public boolean backtrack(char[][] board, int row, int col) {
+        if (row == board.length) {
             return true;
         }
         // 此时到最后一列了，再从 下一行第一列 开始
-        if(col == board.length){
-            return backtrack(board, row+1, 0);
+        if (col == board.length) {
+            return backtrack(board, row + 1, 0);
         }
         // 说明该位置已经有数字，从 下一列 开始
-        if(board[row][col] != '.'){
-            return backtrack(board, row, col+1);
+        if (board[row][col] != '.') {
+            return backtrack(board, row, col + 1);
         }
-        for(char c = '1'; c <= '9'; c++){
-            if(!isValid(board, row, col, c)){
+        for (char c = '1'; c <= '9'; c++) {
+            if (!isValid(board, row, col, c)) {
                 continue;
             }
             board[row][col] = c;
-            if(backtrack(board, row, col)){
+            if (backtrack(board, row, col)) {
                 return true;
             }
             board[row][col] = '.';
@@ -68,7 +68,7 @@ public class SolveSudoku_H_37 {
         return false;
     }
 
-    public boolean isValid(char[][] board, int row, int col, char c){
+    public boolean isValid(char[][] board, int row, int col, char c) {
         for (int i = 0; i < 9; i++) {
             // 行重复
             if (board[i][col] == c) {
@@ -79,7 +79,7 @@ public class SolveSudoku_H_37 {
                 return false;
             }
             // 3x3 小方格重复
-            if (board[3 * (row/3) + i/3][3 * (col/3) + i%3] == c) {
+            if (board[3 * (row / 3) + i / 3][3 * (col / 3) + i % 3] == c) {
                 return false;
             }
         }
