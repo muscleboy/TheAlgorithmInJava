@@ -46,20 +46,20 @@ public class LetterCasePermutation_Mid_784 {
     //   空间：O(N²)
     public List<String> letterCasePermutation(String s) {
         List<String> res = new ArrayList<>();
-        if(s == null || s.length() == 0){
+        if (s == null || s.length() == 0) {
             return res;
         }
         char[] cs = s.toCharArray();
         int begin = 0;
-        backtrack(res, cs,begin);
+        backtrack(res, cs, begin);
         return res;
     }
 
     // 'A': 65
     // 'a': 97 相差 32，也就是 1 << 5
     // 这里两个分支，所以不需要 for 循环
-    public void backtrack(List<String> res, char[] cs, int begin){
-        if(begin == cs.length){
+    public void backtrack(List<String> res, char[] cs, int begin) {
+        if (begin == cs.length) {
             res.add(new String(cs));
             return;
         }
