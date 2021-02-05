@@ -51,7 +51,6 @@ public class FindRepeatNum_03 {
             while (arr[i] != i) {
                 // 第i位置的值 不等于 第arr[i]位置的值时，交换位置
                 if (arr[i] != arr[arr[i]]) {
-
                     int temp = arr[i];
                     arr[i] = arr[temp];
                     arr[temp] = temp;
