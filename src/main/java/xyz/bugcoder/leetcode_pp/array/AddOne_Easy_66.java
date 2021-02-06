@@ -32,6 +32,15 @@ import java.util.Arrays;
  */
 public class AddOne_Easy_66 {
 
+    /**
+     * 思路
+     *    从后往前，遇到 9 的位置，变为 0，前面的位置 +1
+     * 复杂度
+     *    时间：O(N)
+     *    空间：O(1)
+     * @param nums
+     * @return
+     */
     public static int[] addOne(int[] nums) {
 
         for (int i = nums.length - 1; i >= 0; i--) {
