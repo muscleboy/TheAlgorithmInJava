@@ -56,9 +56,9 @@ public class Exist_Mid_79 {
         return false;
     }
 
-    public boolean dfs(char[][] board, String word, int i, int j, int index){
+    public boolean dfs(char[][] board, String word, int i, int j, int index) {
         // 越界处理以及判断 [i][j] 位置是否为 word[index]
-        if (i < 0 || i >= board.length || j < 0 || j >= board[0].length || board[i][j] != word.charAt(index)){
+        if (i < 0 || i >= board.length || j < 0 || j >= board[0].length || board[i][j] != word.charAt(index)) {
             return false;
         }
         // 终止条件
@@ -67,7 +67,7 @@ public class Exist_Mid_79 {
         }
         char temp = board[i][j];
         // 选择，把 [i][j]置为 '0'
-        board[i][j]   = '0';
+        board[i][j] = '0';
         boolean res = dfs(board, word, i + 1, j, index + 1)
                 || dfs(board, word, i - 1, j, index + 1)
                 || dfs(board, word, i, j + 1, index + 1)
