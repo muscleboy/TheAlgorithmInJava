@@ -1,4 +1,4 @@
-package xyz.bugcoder.leetcode_pp.array;
+package xyz.bugcoder.leetcode_pp.dp;
 
 /**
  * @Package: xyz.bugcoder.leetcode_pp.array
@@ -17,9 +17,10 @@ public class MaxProfit_EC_121 {
         int max = 0;
         int min = prices[0];
         for (int n : prices) {
-            if (n < min){
+            if (n < min) {
                 min = n;
-            }else if(n - min > max){
+            }
+            else if (n - min > max) {
                 max = n - min;
             }
         }
@@ -28,7 +29,7 @@ public class MaxProfit_EC_121 {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1,2};
+        int[] nums = {1, 2};
         System.out.println(maxProfit(nums));
     }
 
