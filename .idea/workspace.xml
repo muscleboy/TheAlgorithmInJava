@@ -46,37 +46,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/AddOne_Easy_66.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/MaxChunksToSorted_Mid_769.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/checkStraightLine_Ec_1232.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/CustomStack_Mid_1381.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="99" column="22" lean-forward="true" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+            <state relative-caret-position="1217">
+              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/MaxProfit_EC_121.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/MaximumScore_Mid_5687.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="535">
+              <caret line="38" column="84" selection-start-line="38" selection-start-column="84" selection-end-line="38" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1613879019225" expanded="true" signature="60:314" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,10 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/io/nio/TimeClientHandle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bit/ReadBinaryWatch_Mid_401.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/back_track/TranslateNum_Mid_46.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/prefixesDivBy5_Ec_1018.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/MaxAreaOfIsland_Mid_695.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/string/StrToInt_Mid_67.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/tree/IsSubStructure_Mid_26.java" />
@@ -203,6 +185,10 @@
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/Rotate_Mid_48.java" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Exist_Mid_79.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/MaxProfit_EC_121.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/prefixesDivBy5_Ec_1018.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/AliveLockDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/MaximumScore_Mid_5687.java" />
       </list>
     </option>
   </component>
@@ -231,9 +217,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="2560" />
-    <option name="height" value="1417" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -248,17 +233,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TheAlgorithmInJava" type="58d84e3e:PackageViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,29 +286,28 @@
               <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
             <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode_pp" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="TheAlgorithmInJava" type="58d84e3e:PackageViewProjectNode" />
+              <item name="TheAlgorithmInJava" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1613792501200" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1613879216403" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -393,26 +367,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeadLockDemo">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.App" />
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MaximumScore_Mid_5687.test">
     <configuration name="CustomStack_Mid_1381" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.array.CustomStack_Mid_1381" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.array.*" />
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -463,20 +424,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaximumScore_Mid_5687.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp" />
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.MaximumScore_Mid_5687" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.App" />
       <item itemvalue="Application.CustomStack_Mid_1381" />
       <item itemvalue="Application.GCTest" />
       <item itemvalue="Application.DeadLockDemo" />
       <item itemvalue="JUnit.FindNearestNum.test" />
+      <item itemvalue="JUnit.MaximumScore_Mid_5687.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MaximumScore_Mid_5687.test" />
         <item itemvalue="Application.DeadLockDemo" />
         <item itemvalue="Application.GCTest" />
         <item itemvalue="Application.CustomStack_Mid_1381" />
         <item itemvalue="JUnit.FindNearestNum.test" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -772,29 +749,21 @@
       <workItem from="1612749075455" duration="1090000" />
       <workItem from="1612836345988" duration="599000" />
       <workItem from="1613660237432" duration="618000" />
-      <workItem from="1613792289083" duration="292000" />
+      <workItem from="1613792289083" duration="1547000" />
+      <workItem from="1613816473293" duration="102000" />
+      <workItem from="1613816897606" duration="13000" />
+      <workItem from="1613816951937" duration="16000" />
+      <workItem from="1613816974525" duration="85000" />
+      <workItem from="1613817065735" duration="114000" />
+      <workItem from="1613817602497" duration="203000" />
+      <workItem from="1613818161964" duration="55000" />
+      <workItem from="1613818231049" duration="39000" />
+      <workItem from="1613818286618" duration="9000" />
+      <workItem from="1613876546281" duration="2450000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="addToArrayForm_Ec_989_test - 2021.01.22 at 09h 43m 36s.xml">
-      <configuration name="addToArrayForm_Ec_989.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="maximumTime_test - 2021.01.24 at 11h 25m 13s.xml">
-      <configuration name="maximumTime.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxValue_Mid_47_test - 2021.01.26 at 12h 42m 43s.xml">
-      <configuration name="MaxValue_Mid_47.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxValue_Mid_47_test - 2021.01.26 at 12h 43m 09s.xml">
-      <configuration name="MaxValue_Mid_47.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxValue_Mid_47_test - 2021.01.26 at 12h 43m 20s.xml">
-      <configuration name="MaxValue_Mid_47.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxValue_Mid_47_test - 2021.01.26 at 12h 43m 27s.xml">
-      <configuration name="MaxValue_Mid_47.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CountDigitOne_H_43_test - 2021.01.27 at 11h 39m 06s.xml">
       <configuration name="CountDigitOne_H_43.test" configurationId="JUnit" />
     </history-entry>
@@ -807,9 +776,27 @@
     <history-entry file="FindNearestNum_test - 2021.02.06 at 11h 34m 24s.xml">
       <configuration name="FindNearestNum.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MaximumScore_Mid_5687_test - 2021.02.21 at 11h 32m 32s.xml">
+      <configuration name="MaximumScore_Mid_5687.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumScore_Mid_5687_test - 2021.02.21 at 11h 33m 07s.xml">
+      <configuration name="MaximumScore_Mid_5687.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumScore_Mid_5687_test - 2021.02.21 at 11h 33m 34s.xml">
+      <configuration name="MaximumScore_Mid_5687.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumScore_Mid_5687_test - 2021.02.21 at 11h 37m 54s.xml">
+      <configuration name="MaximumScore_Mid_5687.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumScore_Mid_5687_test - 2021.02.21 at 11h 41m 53s.xml">
+      <configuration name="MaximumScore_Mid_5687.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumScore_Mid_5687_test - 2021.02.21 at 11h 43m 40s.xml">
+      <configuration name="MaximumScore_Mid_5687.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1467172000" />
+    <option name="totallyTimeSpent" value="1471513000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -822,9 +809,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48294163" visible="true" weight="0.23552895" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48294163" visible="true" weight="0.21836327" />
       <window_info id="Structure" order="1" sideWeight="0.51781654" side_tool="true" weight="0.17684631" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -841,7 +827,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.328279" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.45828342" weight="0.4329037" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.32903716" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32903716" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32903716" />
@@ -1847,48 +1833,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/CoinChange_Mid_518.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="81" column="36" lean-forward="true" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/CoinChange_Mid_322.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1001">
-          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[746]使用最小花费爬楼梯.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/dp/MaxValue_Mid_47.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1010">
-          <caret line="79" column="40" lean-forward="true" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/CountBits_Mid_338.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[338]比特位计数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/CountDigitOne_H_43.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="843">
@@ -1939,20 +1883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="997">
           <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/MaxChunksToSorted_Mid_769.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1217">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/FindKthLargest_Mid_215.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -2079,24 +2009,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/Rotate_Mid_48.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="72" column="45" lean-forward="true" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/atguigu/GCTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[48]旋转图像.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -2187,6 +2103,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[48]旋转图像.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/Rotate_Mid_48.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/MaxProfit_EC_121.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/AddOne_Easy_66.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -2196,22 +2133,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/checkStraightLine_Ec_1232.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+        <state relative-caret-position="891">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/CustomStack_Mid_1381.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="99" column="22" lean-forward="true" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+        <state relative-caret-position="889">
+          <caret line="100" column="22" lean-forward="true" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/MaxProfit_EC_121.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/FindKthLargest_Mid_215.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="812">
+          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/maven_repo/org/projectlombok/lombok/1.18.12/lombok-1.18.12-sources.jar!/lombok/extern/slf4j/Slf4j.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/AliveLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/prefixesDivBy5_Ec_1018.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/numEquivDominoPairs_ec_1129.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/MaxChunksToSorted_Mid_769.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1217">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/MaximumScore_Mid_5687.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="38" column="84" selection-start-line="38" selection-start-column="84" selection-end-line="38" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1613879019225" expanded="true" signature="60:314" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
