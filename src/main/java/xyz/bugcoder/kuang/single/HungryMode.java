@@ -20,4 +20,14 @@ public class HungryMode {
     public HungryMode getInstance() {
         return instance;
     }
+
+    public static void main(String[] args) {
+        // hashcode 都一样
+        for (int i = 0; i < 10; i++) {
+            new Thread(() -> {
+                System.out.println(HungryMode.instance);
+            }).start();
+        }
+    }
+
 }

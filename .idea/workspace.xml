@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TheAlgorithmInJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/kuang/single/HungryMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/kuang/single/HungryMode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,20 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Excercise_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_4_13_ReentranceLock.Excercise_1" />
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.concurrent.heima_4_13_ReentranceLock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HungryMode">
     <configuration name="Fib_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.array.Fib_10" />
       <module name="TheAlgorithmInJava" />
@@ -172,6 +157,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.rec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HungryMode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.kuang.single.HungryMode" />
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.kuang.single.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,19 +204,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Excercise_1" />
       <item itemvalue="Application.Fib_10_I" />
       <item itemvalue="Application.Fib_10" />
       <item itemvalue="Application.LazyMode" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.HungryMode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HungryMode" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.LazyMode" />
         <item itemvalue="Application.Fib_10" />
         <item itemvalue="Application.Fib_10_I" />
-        <item itemvalue="Application.Excercise_1" />
       </list>
     </recent_temporary>
   </component>
@@ -530,7 +528,7 @@
       <workItem from="1614681605779" duration="201000" />
       <workItem from="1614684528927" duration="1170000" />
       <workItem from="1614771179847" duration="2765000" />
-      <workItem from="1614774206013" duration="577000" />
+      <workItem from="1614774206013" duration="1036000" />
     </task>
     <servers />
   </component>
