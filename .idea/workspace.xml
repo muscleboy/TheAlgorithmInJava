@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/TheAlgorithmInJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,22 +44,6 @@
     <favorites_list name="TheAlgorithmInJava" />
     <favorites_list name="CodeIris Favorites" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/Test2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -70,117 +55,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>park</find>
-      <find>compareAndSetHead</find>
-      <find>hasPredcessorsQueue</find>
-      <find>state</find>
-      <find>hasQueuedPredecessors</find>
-      <find>hasQueuePredecessors</find>
-      <find>String</find>
-      <find>tryAcquire(</find>
-      <find>acquireQueued(</find>
-      <find>acquireShared(</find>
-      <find>acquire(1)</find>
-      <find>tryLock</find>
-      <find>ConditionObject</find>
-      <find>static {</find>
-      <find>addWaiter</find>
-      <find>compareAndSetNext</find>
-      <find>acquireQueued</find>
-      <find>acquire</find>
-      <find>acquire(</find>
-      <find>enq</find>
-      <find>tryAcquire</find>
-      <find>begin</find>
-      <find>resize</find>
-      <find>put</find>
-      <find>remove</find>
-      <find>size(</find>
-      <find>get(</find>
-      <find>allocate</find>
-      <find>execute</find>
-      <find>else</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>standar</replace>
-      <replace>TreeNode</replace>
-      <replace>arr</replace>
-      <replace>B</replace>
-      <replace>depend</replace>
-      <replace>parse</replace>
-      <replace>data</replace>
-      <replace>Status</replace>
-      <replace>head</replace>
-      <replace>&quot;</replace>
-      <replace>Node</replace>
-      <replace>res[i] = matrix[r][c];</replace>
-      <replace>depth</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/string/StrToInt_Mid_67.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/tree/IsSubStructure_Mid_26.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/bs/MaxDistance_Mid_1162.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/fs/bfs/MaxDistance_Mid_1162.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/copyRandomList_Mid_35.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/TreeToDoublyList_Mid_36.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/checkStraightLine_Ec_1232.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/HasPathSum_EC_112.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/IsBalanced_EC_110.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DualSync.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/maximumProduct_Ec_628.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/SyncObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/minNumber_Mid_45.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/bs/myPow_Mid_16.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/string/IsNumber_Mid_20.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/FindNthDigit_Mid_44.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/addToArrayForm_Ec_989.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/pathSum_Mid_113.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/maximumTime.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/greed/LemonadeChange_EC_860.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/greed/findLengthOfLCIS_Ec_674.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/CoinChange_Mid_322.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/numEquivDominoPairs_ec_1129.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/ClimbStair_EC_70.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/minCostClimbingStairs_EC_746.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/PutTile_Ec_NetEase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/dp/MaxValue_Mid_47.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/CountBits_Mid_338.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/CountDigitOne_H_43.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/FindKthLargest_Mid_215.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/MaxChunksToSorted_Mid_769.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/SubsetUnique_Mid_90.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/SolveSudoku_H_37.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/LetterCasePermutation_Mid_784.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/FindRepeatNum_03.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/MaxQueue_Mid_59.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/FindNearestNum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/AddOne_Easy_66.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/atguigu/GCTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/DeadLockDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/Rotate_Mid_48.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Exist_Mid_79.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/MaxProfit_EC_121.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/prefixesDivBy5_Ec_1018.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/AliveLockDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/MaximumScore_Mid_5687.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/Test2.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -195,107 +71,13 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="TheAlgorithmInJava" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
-  </component>
+  <component name="ProjectId" id="1p8k3Fe2uOtS8gntdxOtg3xY2jl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <flattenPackages ProjectPane="false" />
-      <showMembers ProjectPane="false" />
-      <showExcludedFiles Scope="false" ProjectPane="false" />
-      <hideEmptyPackages ProjectPane="false" />
-      <abbreviatePackageNames ProjectPane="true" />
-      <autoscrollToSource ProjectPane="false" />
-      <autoscrollFromSource ProjectPane="false" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TheAlgorithmInJava" type="58d84e3e:PackageViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheAlgorithmInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheAlgorithmInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xyz" type="462c0819:PsiDirectoryNode" />
-              <item name="bugcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="pdai" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/target/classes/xyz/bugcoder/kuang/single/EnumSingle.class" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614166850622" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -305,11 +87,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -357,13 +139,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test2">
-    <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.DeadLockDemo" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Excercise_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.concurrent.heima_4_13_ReentranceLock.Excercise_1" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.concurrent.*" />
+          <option name="PATTERN" value="xyz.bugcoder.concurrent.heima_4_13_ReentranceLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,13 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jvm.atguigu.GCTest" />
+    <configuration name="Fib_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.array.Fib_10" />
       <module name="TheAlgorithmInJava" />
-      <option name="VM_PARAMETERS" value="-Xms60m -Xmx60m -XX:SurvivorRatio=8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.jvm.atguigu.*" />
+          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -385,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.pdai.Test2" />
+    <configuration name="Fib_10_I" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.rec.Fib_10_I" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.pdai.*" />
+          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.rec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -398,52 +179,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumScore_Mid_5687.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LazyMode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.kuang.single.LazyMode" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.leetcode_pp.*" />
+          <option name="PATTERN" value="xyz.bugcoder.kuang.single.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xyz.bugcoder.leetcode_pp" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.leetcode_pp.MaximumScore_Mid_5687" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.kuang.single.Test" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.pdai.*" />
+          <option name="PATTERN" value="xyz.bugcoder.kuang.single.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xyz.bugcoder.pdai" />
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.pdai.Test2" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GCTest" />
-      <item itemvalue="Application.DeadLockDemo" />
-      <item itemvalue="JUnit.MaximumScore_Mid_5687.test" />
-      <item itemvalue="JUnit.Test2.test1" />
-      <item itemvalue="Application.Test2" />
+      <item itemvalue="Application.Excercise_1" />
+      <item itemvalue="Application.Fib_10_I" />
+      <item itemvalue="Application.Fib_10" />
+      <item itemvalue="Application.LazyMode" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="JUnit.Test2.test1" />
-        <item itemvalue="JUnit.MaximumScore_Mid_5687.test" />
-        <item itemvalue="Application.DeadLockDemo" />
-        <item itemvalue="Application.GCTest" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.LazyMode" />
+        <item itemvalue="Application.Fib_10" />
+        <item itemvalue="Application.Fib_10_I" />
+        <item itemvalue="Application.Excercise_1" />
       </list>
     </recent_temporary>
   </component>
@@ -751,6 +526,11 @@
       <workItem from="1613818286618" duration="9000" />
       <workItem from="1613876546281" duration="2626000" />
       <workItem from="1614084784869" duration="5402000" />
+      <workItem from="1614571906632" duration="1406000" />
+      <workItem from="1614681605779" duration="201000" />
+      <workItem from="1614684528927" duration="1170000" />
+      <workItem from="1614771179847" duration="2765000" />
+      <workItem from="1614774206013" duration="577000" />
     </task>
     <servers />
   </component>
@@ -786,9 +566,6 @@
       <configuration name="Test2.test1" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1477091000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -798,59 +575,21 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48294163" visible="true" weight="0.22075848" />
-      <window_info id="Structure" order="1" sideWeight="0.51781654" side_tool="true" weight="0.17684631" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5170584" side_tool="true" weight="0.23672655" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3176649" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="2" weight="0.32848233" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32903716" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.497006" weight="0.38665655" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" sideWeight="0.4998004" weight="0.328279" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.328279" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.45828342" visible="true" weight="0.24943139" />
-      <window_info anchor="bottom" id="TODO" order="11" weight="0.3292978" />
-      <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32903716" />
-      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32903716" />
-      <window_info anchor="bottom" id="Spring" order="14" />
-      <window_info anchor="bottom" id="Java Enterprise" order="15" />
-      <window_info anchor="bottom" id="Tail" order="16" />
-      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.502994" side_tool="true" weight="0.40561032" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="18" weight="0.30780894" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="19" />
-      <window_info anchor="bottom" id="VisualGC" order="20" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Maven" order="2" weight="0.22155689" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32945737" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.2499002" />
-      <window_info anchor="right" x="0" y="0" width="350" height="700" id="Documentation" order="9" side_tool="true" weight="0.32934132" />
-      <window_info anchor="right" id="Maven Projects" order="10" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32985258" />
-      <window_info anchor="right" id="leetcode" order="12" side_tool="true" weight="0.13293414" />
-      <window_info anchor="right" id="ASM" order="13" weight="0.52854294" />
-      <window_info anchor="right" id="jclasslib" order="14" weight="0.3996008" />
-      <window_info anchor="right" id="Code Iris" order="15" weight="0.32974052" />
-      <window_info anchor="right" id="RestServices" order="16" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -858,877 +597,731 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/TestInsertSort.java</url>
           <line>54</line>
-          <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/TestInsertSort.java</url>
           <line>67</line>
-          <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/GetAllSort.java</url>
           <line>21</line>
-          <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/interview/GetAllSort.java</url>
           <line>30</line>
-          <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/QuickSort.java</url>
           <line>46</line>
-          <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/QuickSort.java</url>
           <line>38</line>
-          <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/QuickSort.java</url>
           <line>40</line>
-          <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/QuickSort.java</url>
           <line>42</line>
-          <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/QuickSort.java</url>
           <line>43</line>
-          <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/QuickSort.java</url>
           <line>45</line>
-          <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/QuickSort.java</url>
           <line>37</line>
-          <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/QuickSort.java</url>
           <line>36</line>
-          <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/QuickSort.java</url>
           <line>35</line>
-          <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/QuickSort.java</url>
           <line>76</line>
-          <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/QuickSort.java</url>
           <line>83</line>
-          <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/QuickSort.java</url>
           <line>85</line>
-          <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/sort/QuickSort.java</url>
           <line>86</line>
-          <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/FindNearestNum.java</url>
           <line>95</line>
-          <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/FindNearestNum.java</url>
           <line>97</line>
-          <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMinAfterDelKNums.java</url>
           <line>71</line>
-          <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/BigIntAdd.java</url>
           <line>51</line>
-          <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/BigIntAdd.java</url>
           <line>60</line>
-          <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetBestGoldMining.java</url>
           <line>22</line>
-          <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetBestGoldMining.java</url>
           <line>31</line>
-          <properties />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetBestGoldMining.java</url>
           <line>26</line>
-          <properties />
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetBestGoldMining.java</url>
           <line>25</line>
-          <properties />
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetBestGoldMining.java</url>
           <line>70</line>
-          <properties />
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetBestGoldMining.java</url>
           <line>80</line>
-          <properties />
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetBestGoldMining.java</url>
           <line>71</line>
-          <properties />
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetBestGoldMining.java</url>
           <line>73</line>
-          <properties />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetBestGoldMining.java</url>
           <line>72</line>
-          <properties />
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetBestGoldMining.java</url>
           <line>74</line>
-          <properties />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMissingNum.java</url>
           <line>85</line>
-          <properties />
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMissingNum.java</url>
           <line>91</line>
-          <properties />
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMissingNum.java</url>
           <line>94</line>
-          <properties />
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMissingNum.java</url>
           <line>96</line>
-          <properties />
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMissingNum.java</url>
           <line>88</line>
-          <properties />
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/GetMissingNum.java</url>
           <line>86</line>
-          <properties />
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/my/hashmap/MyHashMap.java</url>
           <line>250</line>
-          <properties />
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/my/hashmap/MyHashMap.java</url>
           <line>231</line>
-          <properties />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/ReverseLinkedList_24.java</url>
           <line>32</line>
-          <properties />
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/ReverseLinkedList_24.java</url>
           <line>34</line>
-          <properties />
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/ReverseLinkedList_24.java</url>
           <line>35</line>
-          <properties />
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/ReverseLinkedList_24.java</url>
           <line>40</line>
-          <properties />
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/ReverseLinkedList_24.java</url>
           <line>36</line>
-          <properties />
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/ReverseLinkedList_24.java</url>
           <line>37</line>
-          <properties />
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java</url>
           <line>48</line>
-          <properties />
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java</url>
           <line>47</line>
-          <properties />
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java</url>
           <line>44</line>
-          <properties />
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java</url>
           <line>43</line>
-          <properties />
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/IsCycleLinkedList.java</url>
           <line>57</line>
-          <properties />
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/IsCycleLinkedList.java</url>
           <line>61</line>
-          <properties />
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/ReverseLinkedList_24.java</url>
           <line>38</line>
-          <properties />
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/ReverseLinkedList_24.java</url>
           <line>39</line>
-          <properties />
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/GetKthNodeFromEnd_22.java</url>
           <line>30</line>
-          <properties />
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/GetKthNodeFromEnd_22.java</url>
           <line>33</line>
-          <properties />
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/GetKthNodeFromEnd_22.java</url>
           <line>38</line>
-          <properties />
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/GetKthNodeFromEnd_22.java</url>
           <line>35</line>
-          <properties />
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/DeleteNode_18.java</url>
           <line>54</line>
-          <properties />
           <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/DeleteNode_18.java</url>
           <line>55</line>
-          <properties />
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/DeleteNode_18.java</url>
           <line>56</line>
-          <properties />
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/DeleteNode_18.java</url>
           <line>58</line>
-          <properties />
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/DeleteNode_18.java</url>
           <line>59</line>
-          <properties />
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/DeleteNode_18.java</url>
           <line>60</line>
-          <properties />
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/DeleteNode_18.java</url>
           <line>52</line>
-          <properties />
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/GetIntersectionNode_52.java</url>
           <line>81</line>
-          <properties />
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/GetIntersectionNode_52.java</url>
           <line>86</line>
-          <properties />
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/GetIntersectionNode_52.java</url>
           <line>83</line>
-          <properties />
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/GetIntersectionNode_52.java</url>
           <line>82</line>
-          <properties />
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java</url>
           <line>57</line>
-          <properties />
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java</url>
           <line>58</line>
-          <properties />
           <option name="timeStamp" value="117" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java</url>
           <line>73</line>
-          <properties />
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java</url>
           <line>70</line>
-          <properties />
           <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java</url>
           <line>66</line>
-          <properties />
           <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java</url>
           <line>61</line>
-          <properties />
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java</url>
           <line>62</line>
-          <properties />
           <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/LinkedList/mergeTwoSortedList_25.java</url>
           <line>67</line>
-          <properties />
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray_53.java</url>
           <line>43</line>
-          <properties />
           <option name="timeStamp" value="126" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray_53.java</url>
           <line>54</line>
-          <properties />
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray_53.java</url>
           <line>46</line>
-          <properties />
           <option name="timeStamp" value="147" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray_53.java</url>
           <line>48</line>
-          <properties />
           <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray_53.java</url>
           <line>49</line>
-          <properties />
           <option name="timeStamp" value="149" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray_53.java</url>
           <line>51</line>
-          <properties />
           <option name="timeStamp" value="152" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray_53.java</url>
           <line>47</line>
-          <properties />
           <option name="timeStamp" value="153" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindNumKFromSortArray_53.java</url>
           <line>44</line>
-          <properties />
           <option name="timeStamp" value="154" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/AddOne_Easy_66.java</url>
           <line>45</line>
-          <properties />
           <option name="timeStamp" value="155" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/AddOne_Easy_66.java</url>
           <line>57</line>
-          <properties />
           <option name="timeStamp" value="159" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/AddOne_Easy_66.java</url>
           <line>58</line>
-          <properties />
           <option name="timeStamp" value="160" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindContinuousSequence_57.java</url>
           <line>68</line>
-          <properties />
           <option name="timeStamp" value="161" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindContinuousSequence_57.java</url>
           <line>73</line>
-          <properties />
           <option name="timeStamp" value="162" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindContinuousSequence_57.java</url>
           <line>75</line>
-          <properties />
           <option name="timeStamp" value="163" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindContinuousSequence_57.java</url>
           <line>76</line>
-          <properties />
           <option name="timeStamp" value="164" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindContinuousSequence_57.java</url>
           <line>62</line>
-          <properties />
           <option name="timeStamp" value="165" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindContinuousSequence_57.java</url>
           <line>61</line>
-          <properties />
           <option name="timeStamp" value="166" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindContinuousSequence_57.java</url>
           <line>65</line>
-          <properties />
           <option name="timeStamp" value="167" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindContinuousSequence_57.java</url>
           <line>66</line>
-          <properties />
           <option name="timeStamp" value="168" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindContinuousSequence_57.java</url>
           <line>71</line>
-          <properties />
           <option name="timeStamp" value="169" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindContinuousSequence_57.java</url>
           <line>69</line>
-          <properties />
           <option name="timeStamp" value="170" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindContinuousSequence_57.java</url>
           <line>59</line>
-          <properties />
           <option name="timeStamp" value="171" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/array/FindContinuousSequence_57.java</url>
           <line>58</line>
-          <properties />
           <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/decoration/normal/LoginSsoDecorator.java</url>
           <line>29</line>
-          <properties />
           <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/decoration/normal/LoginSsoDecorator.java</url>
           <line>27</line>
-          <properties />
           <option name="timeStamp" value="175" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/decoration/normal/LoginSsoDecorator.java</url>
           <line>35</line>
-          <properties />
           <option name="timeStamp" value="176" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/ChainOfResponsibility/Test.java</url>
           <line>73</line>
-          <properties />
           <option name="timeStamp" value="178" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/ChainOfResponsibility/Test.java</url>
           <line>75</line>
-          <properties />
           <option name="timeStamp" value="179" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/ChainOfResponsibility/Test.java</url>
           <line>70</line>
-          <properties />
           <option name="timeStamp" value="181" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/ChainOfResponsibility/Test.java</url>
           <line>68</line>
-          <properties />
           <option name="timeStamp" value="182" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/ChainOfResponsibility/Test.java</url>
           <line>65</line>
-          <properties />
           <option name="timeStamp" value="183" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/behavior/ChainOfResponsibility/Test.java</url>
           <line>63</line>
-          <properties />
           <option name="timeStamp" value="184" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/ZigzagLevelOrder_Mid_103.java</url>
           <line>60</line>
-          <properties />
           <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/BlockStatusTest.java</url>
           <line>13</line>
-          <properties />
           <option name="timeStamp" value="193" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/BlockStatusTest.java</url>
           <line>14</line>
-          <properties />
           <option name="timeStamp" value="195" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/BlockStatusTest.java</url>
           <line>17</line>
-          <properties />
           <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerticalTraversal_Mid_987.java</url>
           <line>95</line>
-          <properties />
           <option name="timeStamp" value="210" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerticalTraversal_Mid_987.java</url>
           <line>96</line>
-          <properties />
           <option name="timeStamp" value="211" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerticalTraversal_Mid_987.java</url>
           <line>99</line>
-          <properties />
           <option name="timeStamp" value="212" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerticalTraversal_Mid_987.java</url>
           <line>97</line>
-          <properties />
           <option name="timeStamp" value="213" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerticalTraversal_Mid_987.java</url>
           <line>98</line>
-          <properties />
           <option name="timeStamp" value="214" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/VerticalTraversal_Mid_987.java</url>
           <line>91</line>
-          <properties />
           <option name="timeStamp" value="215" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/hash/TopKFrequent_Mid_347.java</url>
           <line>49</line>
-          <properties />
           <option name="timeStamp" value="217" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/hash/FirstUniqChar_EC_50.java</url>
           <line>39</line>
-          <properties />
           <option name="timeStamp" value="222" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_7/Pool.java</url>
           <line>104</line>
-          <properties />
           <option name="timeStamp" value="224" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/sliding_window/MaxSlidingWindow_Hard_239.java</url>
           <line>66</line>
-          <properties />
           <option name="timeStamp" value="225" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/sliding_window/MaxSlidingWindow_Hard_239.java</url>
           <line>67</line>
-          <properties />
           <option name="timeStamp" value="226" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/sliding_window/MaxSlidingWindow_Hard_239.java</url>
           <line>69</line>
-          <properties />
           <option name="timeStamp" value="229" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/sliding_window/MaxSlidingWindow_Hard_239.java</url>
           <line>72</line>
-          <properties />
           <option name="timeStamp" value="231" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/sliding_window/MaxSlidingWindow_Hard_239.java</url>
           <line>73</line>
-          <properties />
           <option name="timeStamp" value="232" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/sliding_window/MaxSlidingWindow_Hard_239.java</url>
           <line>75</line>
-          <properties />
           <option name="timeStamp" value="233" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/sliding_window/MaxSlidingWindow_Hard_239.java</url>
           <line>76</line>
-          <properties />
           <option name="timeStamp" value="234" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/sliding_window/MaxSlidingWindow_Hard_239.java</url>
           <line>77</line>
-          <properties />
           <option name="timeStamp" value="235" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/sliding_window/MaxSlidingWindow_Hard_239.java</url>
           <line>63</line>
-          <properties />
           <option name="timeStamp" value="240" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/tree/InOrder_Mid_94.java</url>
           <line>42</line>
-          <properties />
           <option name="timeStamp" value="245" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_4/JHSDB_TestCase.java</url>
           <line>16</line>
-          <properties />
           <option name="timeStamp" value="246" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/MyLinkedList2_Mid_707.java</url>
           <line>116</line>
-          <properties />
           <option name="timeStamp" value="247" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/MyLinkedList2_Mid_707.java</url>
           <line>115</line>
-          <properties />
           <option name="timeStamp" value="248" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/MyLinkedList2_Mid_707.java</url>
           <line>113</line>
-          <properties />
           <option name="timeStamp" value="249" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/linkedlist/MyLinkedList2_Mid_707.java</url>
           <line>114</line>
-          <properties />
           <option name="timeStamp" value="250" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/LetterCombinations_Mid_17.java</url>
           <line>65</line>
-          <properties />
           <option name="timeStamp" value="251" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/LetterCombinations_Mid_17.java</url>
           <line>64</line>
-          <properties />
           <option name="timeStamp" value="252" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/LetterCombinations_Mid_17.java</url>
           <line>60</line>
-          <properties />
           <option name="timeStamp" value="255" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/LetterCombinations_Mid_17.java</url>
           <line>61</line>
-          <properties />
           <option name="timeStamp" value="256" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/LetterCombinations_Mid_17.java</url>
           <line>57</line>
-          <properties />
           <option name="timeStamp" value="257" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/LetterCombinations_Mid_17.java</url>
           <line>56</line>
-          <properties />
           <option name="timeStamp" value="258" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/string/KMP_28.java</url>
           <line>93</line>
-          <properties />
           <option name="timeStamp" value="261" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
           <line>205</line>
-          <properties />
           <option name="timeStamp" value="262" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/io/FileChannels.java</url>
           <line>21</line>
-          <properties />
           <option name="timeStamp" value="263" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
@@ -1823,475 +1416,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/SubsetUnique_Mid_90.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="997">
-          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="247" column="45" lean-forward="true" selection-start-line="247" selection-start-column="45" selection-end-line="247" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/singleton/Singleton5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/singleton/Singleton4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/singleton/Singleton3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/singleton/Singleton2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/create/singleton/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="997">
-          <caret line="61" column="15" lean-forward="true" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
-          <folding>
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[剑指 Offer 03]数组中重复的数字.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/IsPalindromeNum_Ec_9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
-          <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/hash/CanPermutePalindrome_EC_1765.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/MaxQueue_Mid_59.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/FindNthDigit_Mid_44.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jianzhioffer/FindRepeatNum_03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1019">
-          <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/maven_repo/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[31]下一个排列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/CartoonAlgorithm/chapter_5/FindNearestNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="996">
-          <caret line="139" column="23" lean-forward="true" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/atguigu/GCTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/DeadLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/Rob_EC_198.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/Rob_Mid_213.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/GetPermutation_Hard_60.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/GenerateParenthesis_Mid_22.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/CombinationSum_Mid_39.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" lean-forward="true" selection-start-column="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gclogs/gc.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="76" lean-forward="true" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Exist_Mid_79.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/back_track/Permute_Mid_46.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/study/leetcode temp/leetcode/editor/cn/[48]旋转图像.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/Rotate_Mid_48.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/dp/MaxProfit_EC_121.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/AddOne_Easy_66.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/checkStraightLine_Ec_1232.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/CustomStack_Mid_1381.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="889">
-          <caret line="100" column="22" lean-forward="true" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/FindKthLargest_Mid_215.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/maven_repo/org/projectlombok/lombok/1.18.12/lombok-1.18.12-sources.jar!/lombok/extern/slf4j/Slf4j.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1/AliveLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/prefixesDivBy5_Ec_1018.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/numEquivDominoPairs_ec_1129.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/array/MaxChunksToSorted_Mid_769.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="909">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/leetcode_pp/MaximumScore_Mid_5687.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1613879248983" expanded="true" signature="60:314" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/maven_repo/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar!/lombok/Data.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#418#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/maven_repo/org/projectlombok/lombok/1.18.12/lombok-1.18.12-sources.jar!/lombok/ConfigurationKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="188" column="56" selection-start-line="188" selection-start-column="56" selection-end-line="188" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/maven_repo/org/projectlombok/lombok/1.18.12/lombok-1.18.12-sources.jar!/lombok/eclipse/handlers/HandleData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/apache-maven-3.6.1/maven_repo/org/projectlombok/lombok/1.18.12/lombok-1.18.12-sources.jar!/lombok/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xyz/bugcoder/pdai/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>TheAlgorithmInJava</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: junit:junit:4.12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
