@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39cff8de-9047-4a12-88e8-715885f22819" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/kuang/single/HungryMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/bugcoder/kuang/single/HungryMode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +46,9 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
@@ -81,7 +81,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/xyz/bugcoder/kuang/factory/method" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -89,12 +89,9 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="xyz.bugcoder.DesignPattern.UmlRelation.Aggregation" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="xyz.bugcoder.DesignPattern.LiskovSubstitution" />
     </key>
@@ -106,23 +103,26 @@
       <recent name="xyz.bugcoder.DesignPattern.create" />
       <recent name="xyz.bugcoder" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/decoration" />
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/bridge/pattern" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/kuang/factory/method" />
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/jvm/chapter_6" />
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_5_JMM" />
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/heima_4_13_ReentranceLock" />
       <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/concurrent/chapter_1" />
-      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/status" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xyz.bugcoder.kuang.factory.abs" />
       <recent name="xyz.bugcoder.jianzhioffer.tree" />
       <recent name="xyz.bugcoder.leetcode_pp.back_track" />
       <recent name="xyz.bugcoder.jvm.chapter_4" />
       <recent name="xyz.bugcoder.leetcode_pp.pre_sum" />
-      <recent name="xyz.bugcoder.leetcode_pp.linkedlist" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/decoration" />
-      <recent name="$PROJECT_DIR$/src/main/java/xyz/bugcoder/DesignPattern/structure/bridge/pattern" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="xyz.bugcoder.DesignPattern.UmlRelation.Aggregation" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -137,13 +137,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HungryMode">
-    <configuration name="Fib_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.array.Fib_10" />
+  <component name="RunManager" selected="Application.ObserverTest">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.kuang.factory.abs.Client" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.array.*" />
+          <option name="PATTERN" value="xyz.bugcoder.kuang.factory.abs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +151,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fib_10_I" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.jianzhioffer.rec.Fib_10_I" />
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.kuang.factory.simple.Consumer" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.jianzhioffer.rec.*" />
+          <option name="PATTERN" value="xyz.bugcoder.kuang.factory.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.kuang.factory.method.Consumer" />
+      <module name="TheAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.bugcoder.kuang.factory.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,25 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LazyMode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.kuang.single.LazyMode" />
+    <configuration name="ObserverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.kuang.observer.ObserverTest" />
       <module name="TheAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.kuang.single.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.bugcoder.kuang.single.Test" />
-      <module name="TheAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.bugcoder.kuang.single.*" />
+          <option name="PATTERN" value="xyz.bugcoder.kuang.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,19 +204,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Fib_10_I" />
-      <item itemvalue="Application.Fib_10" />
-      <item itemvalue="Application.LazyMode" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.HungryMode" />
+      <item itemvalue="Application.Consumer" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.ObserverTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObserverTest" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Consumer" />
         <item itemvalue="Application.HungryMode" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.LazyMode" />
-        <item itemvalue="Application.Fib_10" />
-        <item itemvalue="Application.Fib_10_I" />
       </list>
     </recent_temporary>
   </component>
@@ -528,7 +526,8 @@
       <workItem from="1614681605779" duration="201000" />
       <workItem from="1614684528927" duration="1170000" />
       <workItem from="1614771179847" duration="2765000" />
-      <workItem from="1614774206013" duration="1036000" />
+      <workItem from="1614774206013" duration="9676000" />
+      <workItem from="1614874956610" duration="278000" />
     </task>
     <servers />
   </component>
